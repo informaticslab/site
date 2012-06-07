@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/administrator/components/com_es_joomla_common/params">
+
+		<param name="@spacer" type="spacer" default="" label="Default patterns" description="Default patterns" />
+		<param name="dsp" type="SqlAdv" default="0" label="ES_BCSM_PROP_DSP_LABEL" description="ES_BCSM_PROP_DSP_DESC" query="SELECT id, name FROM #__es_bcs_patterns ORDER BY name" key_field="id" value_field="name" has_children="false" addelm_1_id="0" addelm_1_label="ES_BCSM_NOT_SELECTED"/>
+		<param name="dep" type="SqlAdv" default="0" label="ES_BCSM_PROP_DEP_LABEL" description="ES_BCSM_PROP_DEP_DESC" query="SELECT id, name FROM #__es_bcs_patterns ORDER BY name" key_field="id" value_field="name" has_children="false" addelm_1_id="0" addelm_1_label="ES_BCSM_NOT_SELECTED"/>
+		
+		<param name="@spacer" type="spacer" default="Content Enhancer settings" label="" description="" />
+		<param name="use_variables" type="list" default="1" label="ES_BCSM_USE_VARIABLES" description="ES_BCSM_USE_VARIABLES_DESCR">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="use_replacements" type="list" default="0" label="ES_BCSM_USE_REPLACEMENTS" description="ES_BCSM_USE_REPLACEMENTS_DESCR">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+	</params>
+</config>

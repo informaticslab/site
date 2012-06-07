@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="script" type="textarea" default="" size="" label="ES_BCSM_VALTYPE_PHP_PROP_LABEL" description="ES_BCSM_VALTYPE_PHP_PROP_DESCR" rows="15"/>
+		<param name="dynamic" type="list" default="1" label="ES_BCSM_DYNAMIC_PROP_LABEL" description="ES_BCSM_DYNAMIC_PROP_DESCR">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</config>

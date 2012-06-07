@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install version="1.5" type="component">
+	<name>ReReplacer</name>
+	<description>REREPLACER_DESC</description>
+	<version>2.13.0</version>
+	<creationDate>November 2010</creationDate>
+	<author>NoNumber! (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright (C) 2010 NoNumber! All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<!-- Installation -->
+	<uninstallfile>uninstall.rereplacer.php</uninstallfile>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.rereplacer.sql</file>
+		</sql>
+	</uninstall>
+</install>

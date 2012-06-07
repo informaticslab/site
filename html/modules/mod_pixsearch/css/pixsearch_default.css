@@ -1,0 +1,138 @@
+#ps_search_str{
+	width: 242px;
+	height:18px;
+	float: left;
+}
+#ps_results{
+	z-index: 10000;
+	position: absolute;
+	width: 351px;
+	float:right;
+	background-color: #fffFFF;
+	text-align: left;
+	visibility: hidden;
+}
+
+#ps_searchwrapper  {
+	height: 20px;
+}
+.ps_results{
+	border: 1px #000000 solid;
+	-moz-box-shadow: 1px 2px 2px #989797;
+    -webkit-box-shadow: 1px 2px 2px #989797;
+     box-shadow: 1px 2px 2px #989797;
+	
+}
+#ps_results #ps_link{
+	float: right;
+	padding-right: 15px;
+	padding-top:5px;
+	color: #f6b018; 
+	text-decoration: underline;  
+	font-size: 11px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-weight:normal;
+}
+
+
+#ps_results .ps_header{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #ffffff;
+	background-color: #2d2c2c;
+	padding: 6px;
+}
+#ps_results h3{
+	color: #000000;
+	padding-bottom: 3px;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#ps_results span{
+	line-height: 100%;
+}
+#ps_results .ps_row_1{
+	border-top: 1px #666 solid;
+	background-color: #efefef;
+	padding: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#ps_results .ps_row_2{
+	border-top: 1px #666 solid;
+	background-color: #efefef;
+	padding: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#ps_results .ps_row_btm{
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #2d2c2c;
+	padding: 8px;
+	}
+#ps_results .ps_row_btm a:link {color: #f6b018; text-decoration: underline;  font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results .ps_row_btm a:visited {color: #f6b018; text-decoration: underline;  font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results .ps_row_btm a:hover {color: #ffffff; text-decoration: underline;  font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results .ps_row_btm a:active {color: #ffffff; text-decoration: underline;  font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+
+
+
+#ps_results a:link {color: #0069ac; text-decoration: underline;  font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results a:visited {color: #0069ac; text-decoration: underline; font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results a:hover {text-decoration: underline; color: #de7f03; font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+#ps_results a:active {text-decoration: underline; color: #de7f03; font-size: 12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+
+
+.highlight {
+	background-color:#fad585;
+}
+
+
+
+
+
+
+
+
+/* Added to show icons */
+#ps_icon_background{
+	width:78px;
+	height:29px;
+	background:url(../images/Search-off.png) no-repeat;
+    border:0;	
+	position:absolute;
+    top:-4px;
+    left:253px;
+	cursor:pointer;
+	
+}
+
+
+#ps_icon_background:hover
+{ 
+    background: url(../images/Search-on.png) no-repeat 0 0;
+  }
+
+
+
+
+/*#ps_icon {
+	background:url(../images/icon_search.gif) no-repeat;
+	height:20px;
+	width:20px;
+}*/
+
+
+/*.search {
+background:url(../images/search.png) no-repeat;
+border:0;
+height:69px;
+width:488px;
+padding:0px;
+font:12px Arial, Helvetica, sans-serif;
+position:absolute;
+top:55px;
+right:-64px;
+}*/
+
+

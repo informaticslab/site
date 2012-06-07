@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="view_state" type="radio" default="1" label="RR_VIEW" description="RR_VIEW_DESC">
+			<option value="0">RR_SIMPLE</option>
+			<option value="1">RR_NORMAL</option>
+			<option value="2">RR_ADVANCED</option>
+		</param>
+		<param name="show_unpublished" type="radio" default="1" label="RR_SHOW_UNPUBLISHED_ITEMS" description="RR_SHOW_UNPUBLISHED_ITEMS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_fields" type="radio" default="0" label="RR_SHOW_SEARCH_AND_REPLACE_FIELDS" description="RR_SHOW_SEARCH_AND_REPLACE_FIELDS_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</config>

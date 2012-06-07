@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<install version="1.5" type="template">
+
+<name>firstPage</name>
+
+<creationDate>January 2011</creationDate>
+
+<author>Sara Brown</author>
+
+<copyright>GPL</copyright>
+
+<authorEmail>sara7bella@gmail.com</authorEmail>
+
+<authorUrl>www.cleanfacedesign.com</authorUrl>
+
+<version>1.0</version>
+
+<description>First page template</description>
+
+
+<files>
+
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>css/template.css</filename>
+<filename>images/branding.png</filename>
+<filename>images/top_gradient.png</filename>
+<filename>images/search.png</filename>
+<filename>images/nav_plain.png</filename>
+<filename>images/nav_highlight.png</filename>
+
+</files>
+
+
+<positions>
+
+<position>top</position>
+<position>left</position>
+<position>right</position>
+<position>bottom</position>
+<position>footer</position>
+<position>BlankModTest</position>
+<position>ProjectsMod</position>
+<position>ResourcesMod</position>
+<position>PubMod</position>
+<position>TagsMod</position>
+<position>FAQsMod</position>
+<position>mod_joeswordcloud</position>
+
+</positions>
+
+</install>
+

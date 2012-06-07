@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Core Design Login module</name>
+  <author>Daniel Rataj</author>
+  <creationDate>September 17th, 2010</creationDate>
+  <copyright>(C) 2007 - 2010 Great Joomla! All rights reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL 3</license>
+  <authorEmail>info@greatjoomla.com</authorEmail>
+  <authorUrl>www.greatjoomla.com</authorUrl>
+	<version>1.1.9</version>
+	<description>DESC_CD_LOGIN</description>
+  <files>
+    <filename module="mod_cd_login">mod_cd_login.php</filename>
+    <folder>tmpl</folder>
+    <filename>helper.php</filename>
+    <filename>index.html</filename>
+    <filename>license-gpl.txt</filename>
+  </files>
+  	<languages>
+  		<language tag="en-GB">en-GB.mod_cd_login.ini</language>
+	</languages>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="MODULE CLASS SUFFIX" description="PARAMMODULECLASSSUFFIX" />
+		<param name="pretext" type="textarea" cols="30" rows="5" default="" label="LABEL_PRETEXT" description="DESC_PRETEXT" />
+		<param name="posttext" type="textarea" cols="30" rows="5" label="LABEL_POSTTEXT" description="DESC_POSTTEXT" />
+		<param name="login" type="menuitem" default="" disable="separator" label="LABEL_LOGIN_REDIRECT" description="DESC_LOGIN_REDIRECT" state="1" />
+		<param name="logout" type="menuitem" default="" disable="separator" label="LABEL_LOGOUT_REDIRECT" description="DESC_LOGOUT_REDIRECT" state="1" />
+		<param name="greeting" type="radio" default="1" label="LABEL_GREETING" description="DESC_GREETING">
+			<option value="0">PARAM_GREETING_01</option>
+			<option value="1">PARAM_GREETING_02</option>
+		</param>
+		<param name="name" type="list" default="0" label="LABEL_NAME">
+			<option value="0">PARAM_NAME_01</option>
+			<option value="1">PARAM_NAME_02</option>
+		</param>
+		<param name="usesecure" type="radio" default="0" label="LABEL_ENCRYPT" description="DESC_ENCRYPT">
+			<option value="0">PARAM_ENCRYPT_01</option>
+			<option value="1">PARAM_ENCRYPT_02</option>
+		</param>
+    </params>
+    <params group="advanced">
+      <param name="cache" type="list" default="1" label="CACHING" description="SELECT WHETHER TO CACHE THE CONTENT OF THIS MODULE">
+			<option value="0">NEVER</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="define_links" type="list" default="0" label="LABEL_DEFINE_LINKS" description="DESC_DEFINE_LINKS">
+      <option value="0">PARAM_DEFINE_LINKS_01</option>
+      <option value="1">PARAM_DEFINE_LINKS_02</option>
+    </param>
+    <param name="display_links" type="list" default="1" label="LABEL_DISPLAY_LINKS" description="DESC_DISPLAY_LINKS">
+      <option value="1">PARAM_DISPLAY_LINKS_01</option>
+      <option value="0">PARAM_DISPLAY_LINKS_02</option>
+    </param>
+    <param name="link_new_account" type="text" default="" label="LABEL_CUSTOM_NEW_ACCOUNT" description="" />
+    <param name="link_forgot_username" type="text" default="" label="LABEL_CUSTOM_FORGOT_USERNAME" description="" />
+    <param name="link_forgot_password" type="text" default="" label="LABEL_CUSTOM_FORGOT_PASSWORD" description="" />
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="cd_login_border" type="list" default="0" label="LABEL_BORDER">
+      <option value="none">PARAM_BORDER_01</option>
+      <option value="top">PARAM_BORDER_02</option>
+      <option value="bottom">PARAM_BORDER_03</option>
+      <option value="both">PARAM_BORDER_04</option>
+    </param>
+    <param name="outlineType" type="list" default="rounded-white" label="LABEL_ROUNDED" description="DESC_ROUNDED">
+  	<option value="rounded-white">PARAM_ROUNDED_01</option>
+  	<option value="rounded-black">PARAM_ROUNDED_02</option>
+  	<option value="glossy-dark">PARAM_ROUNDED_03</option>
+  	<option value="beveled">PARAM_ROUNDED_04</option>
+  	<option value="drop-shadow">PARAM_ROUNDED_05</option>
+  	<option value="outer-glow">PARAM_ROUNDED_06</option>
+    </param>
+    <param name="anchor" type="list" default="auto" label="LABEL_ANCHOR" description="DESC_ANCHOR">
+  	<option value="auto">PARAM_ANCHOR_01</option>
+  	<option value="top">PARAM_ANCHOR_02</option>
+  	<option value="top-right">PARAM_ANCHOR_03</option>
+  	<option value="right">PARAM_ANCHOR_04</option>
+  	<option value="bottom-right">PARAM_ANCHOR_05</option>
+  	<option value="bottom">PARAM_ANCHOR_06</option>
+  	<option value="bottom-left">PARAM_ANCHOR_07</option>
+  	<option value="left">PARAM_ANCHOR_08</option>
+  	<option value="top-left">PARAM_ANCHOR_09</option>
+  </param>
+  <param name="align" type="list" default="auto" label="LABEL_ALIGN" description="DESC_ALIGN">
+  	<option value="auto">PARAM_ALIGN_01</option>
+  	<option value="center">PARAM_ALIGN_02</option>
+  </param>
+  <param name="dimmingOpacity" type="text" default="0" label="LABEL_DIMMING_OPACITY" description="DESC_DIMMING_OPACITY" />
+	</params>
+</install>

@@ -1,0 +1,126 @@
+/**
+ * NoNumber! Elements general stylesheet
+ *
+ * @package     NoNumber! Elements
+ * @version     2.0.0
+ *
+ * @author      Peter van Westen <peter@nonumber.nl>
+ * @link        http://www.nonumber.nl
+ * @copyright   Copyright (C) 2010 NoNumber! All Rights Reserved
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+div#view_state_div {
+	margin: 0 auto;
+}
+.button_view_state {
+	background-image: url(../images/button_left.png) !important;
+}
+.button_view_state,
+.button_view_state div {
+	float: left !important;
+	height: 26px !important;
+}
+.button_view_state div {
+	background: url(../images/button_blank.png) no-repeat 100% 0;
+}
+.button_view_state div a {
+	background: url(../images/state_simple.png) no-repeat 100% -21px;
+	padding-right: 22px !important;
+	margin-right: 12px;
+}
+.button_view_state.normal a {
+	background-image: url(../images/state_normal.png);
+}
+.button_view_state.advanced a {
+	background-image: url(../images/state_advanced.png);
+}
+.view_state_0 .button_view_state.simple,
+.view_state_1 .button_view_state.normal,
+.view_state_2 .button_view_state.advanced {
+	background-position: 0 100%;
+}
+.view_state_0 .button_view_state.simple div,
+.view_state_1 .button_view_state.normal div,
+.view_state_2 .button_view_state.advanced div {
+	background-position: 100% 100%;
+}
+.button_view_state div a:hover,
+.view_state_0 .button_view_state.simple a,
+.view_state_1 .button_view_state.normal a,
+.view_state_2 .button_view_state.advanced a {
+	color: #0B55C4;
+	background-position: 100% 1px;
+}
+
+.icon-48-contenttemplater {
+	background: transparent url(../images/contenttemplater.png) no-repeat 10px 9px;
+	padding-left: 205px !important; /* width + 20 */
+}
+.icon-32-export {
+	background-image: url(../images/icon-32-export.png);
+}
+.icon-32-import {
+	background-image: url(../images/icon-32-import.png);
+}
+.icon-32-save-apply {
+	background-image: url(../images/icon-32-save-apply.png);
+}
+.icon-32-save-new {
+	background-image: url(../images/icon-32-save-new.png);
+}
+.icon-32-save-close {
+	background-image: url(../images/icon-32-save-close.png);
+}
+
+/* AP template */
+#ap-wrapper .icon-32-export {
+	background-image: url(../images/icon-32-export2.png);
+}
+#ap-wrapper .icon-32-import {
+	background-image: url(../images/icon-32-import2.png);
+}
+#ap-wrapper .icon-32-save-apply {
+	background-image: url(../images/icon-32-save-apply2.png);
+}
+#ap-wrapper .icon-32-save-new {
+	background-image: url(../images/icon-32-save-new2.png);
+}
+#ap-wrapper .icon-32-save-close {
+	background-image: url(../images/icon-32-save-close2.png);
+}
+
+/* APLite template */
+.ap-main .icon-32-publish,
+.ap-main .icon-32-unpublish,
+.ap-main .icon-32-export,
+.ap-main .icon-32-import,
+.ap-main .icon-32-save-apply,
+.ap-main .icon-32-save-new,
+.ap-main .icon-32-save-close {
+	display: block;
+	float: left;
+	height: 20px;
+	width: 20px;
+	background: transparent url(../../../../administrator/templates/aplite/images/menu/yellow/star_16x16.png) no-repeat 0 0;
+}
+.ap-main .icon-32-publish {
+}
+.ap-main .icon-32-unpublish {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/red/cancel_16x16.png);
+}
+.ap-main .icon-32-export {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/green/save_16x16.png);
+}
+.ap-main .icon-32-import {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/blue/save_16x16.png);
+}
+.ap-main .icon-32-save-apply {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/green/save_16x16.png);
+}
+.ap-main .icon-32-save-new {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/blue/save_16x16.png);
+}
+.ap-main .icon-32-save-close {
+	background-image: url(../../../../administrator/templates/aplite/images/menu/blue/save_16x16.png);
+}

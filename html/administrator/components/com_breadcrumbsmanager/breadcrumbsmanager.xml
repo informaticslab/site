@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Breadcrumbs Manager</name>
+	<creationDate>December 2009</creationDate>
+	<author>Enless Soft Ltd.</author>
+	<authorEmail>joomla@enless-soft.com</authorEmail>
+	<authorUrl>http://enless-soft.com</authorUrl>
+	<copyright>(C) 2008-2010 Enless Soft Ltd. All rights reserved.</copyright>
+	<license>http://enless-soft.com/license-joomla</license>
+	<version>1.1</version>
+	<description>Breadcrumbs Manager</description>
+	
+	<installfile>install/install.breadcrumbsmanager.php</installfile>
+	<uninstallfile>install/uninstall.breadcrumbsmanager.php</uninstallfile>
+	
+	<install>
+        <sql>
+            <file driver="mysql" charset="utf8">install.sql</file>
+        </sql>
+    </install>
+	<uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">uninstall.sql</file>
+        </sql>
+    </uninstall>
+
+	<administration>
+		<menu task="displayPatterns">Breadcrumbs Manager</menu>
+		<submenu>
+        	<menu task="displayPatterns">Breadcrumbs Patterns</menu>
+			<menu task="displayItems">Breadcrumbs Items</menu>
+			<menu task="displaySIs">Static Items</menu>
+		</submenu>
+	
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB.com_breadcrumbsmanager.ini</language>
+		</languages>
+		<files folder="admin">
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>tables</folder>
+			<folder>plugins</folder>
+			<folder>language</folder>
+			<folder>ioncube</folder>
+			<folder>install</folder>
+			<filename>index.html</filename>
+			<filename>interfaces.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>admin.breadcrumbsmanager.php</filename>
+			<filename>controller.php</filename>
+			<filename>helper.php</filename>
+			<filename>config.xml</filename>
+			<filename>ioncube_error.php</filename>
+		</files>
+	</administration>
+</install>

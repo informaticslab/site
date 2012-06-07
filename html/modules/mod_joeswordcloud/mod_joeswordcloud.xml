@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.22">
+	<name>Joes Word Cloud</name>
+	<creationDate>January 2011</creationDate>
+	<author>JoelLipman.Com</author>
+	<authorEmail>info@joellipman.com</authorEmail>
+	<authorUrl>http://joellipman.com</authorUrl>
+	<copyright>Copyright 2010 by Joel Lipman / www.joellipman.com All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>1.5.1</version>
+	<description>EXTENSIONDESC</description>
+	<files>
+		<filename module="mod_joeswordcloud">mod_joeswordcloud.php</filename>
+        <filename>mod_joeswordcloud.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="PARAMMODULECLASSSUFFIXLABEL" description="PARAMMODULECLASSSUFFIXDESC" />
+		<param name="@spacer" type="spacer" default="" label="Version 1.2" description="" />
+		<param name="paramSCANCONTENT" type="radio" default="2" label="PARAMMODULESCANCONTENTLABEL" description="PARAMMODULESCANCONTENTDESC">
+			<option value="0">PARAMMODULEOPTIONSCANCONTENT1</option>
+			<option value="1">PARAMMODULEOPTIONSCANCONTENT2</option>
+			<option value="2">PARAMMODULEOPTIONSCANCONTENT3</option>
+		</param>
+		<param name="paramSEARCHURL" type="text" size="50" default="?option=com_search&amp;searchword=" label="PARAMMODULESEARCHURLLABEL" description="PARAMMODULESEARCHURLDESC" />
+		<param name="paramWORDCOUNT" type="text" size="50" default="50" label="PARAMMODULEWORDCOUNTLABEL" description="PARAMMODULEWORDCOUNTDESC" />
+		<param name="paramMINWORDLENGTH" type="text" size="50" default="4" label="PARAMMODULEMINWORDLENGTHLABEL" description="PARAMMODULEMINWORDLENGTHDESC" />
+		<param name="paramMINFONTSIZE" type="text" size="50" default="8" label="PARAMMODULEMINFONTSIZELABEL" description="PARAMMODULEMINFONTSIZEDESC" />
+		<param name="paramMAXFONTSIZE" type="text" size="50" default="30" label="PARAMMODULEMAXFONTSIZELABEL" description="PARAMMODULEMAXFONTSIZEDESC" />
+		<param name="paramTEXTALIGNMENT" type="list" default="left" label="PARAMMODULETEXTALIGNMENTLABEL" description="PARAMMODULETEXTALIGNMENTDESC">
+			<option value="0">PARAMMODULEOPTIONTEXTALIGNMENT1</option>
+			<option value="1">PARAMMODULEOPTIONTEXTALIGNMENT2</option>
+			<option value="2">PARAMMODULEOPTIONTEXTALIGNMENT3</option>
+			<option value="3">PARAMMODULEOPTIONTEXTALIGNMENT4</option>
+		</param>
+		<param name="paramWORDUNDERLINES" type="radio" default="0" label="PARAMMODULESCANWORDUNDERLINESLABEL" description="PARAMMODULESCANWORDUNDERLINESDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="paramSCANK2" type="radio" default="0" label="PARAMMODULESCANK2LABEL" description="PARAMMODULESCANK2DESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="paramSCANHOTPROPERTY" type="radio" default="0" label="PARAMMODULESCANHOTPROPERTYLABEL" description="PARAMMODULESCANHOTPROPERTYDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="paramSCANPHOCADOWNLOAD" type="radio" default="0" label="PARAMMODULESCANPHOCADOWNLOADLABEL" description="PARAMMODULESCANPHOCADOWNLOADDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="paramINCLUDEKEYWORDS" type="textarea" cols="30" rows="4" default="" label="PARAMMODULEINCLUDEKEYWORDSLABEL" description="PARAMMODULEINCLUDEKEYWORDSDESC" />
+		<param name="paramEXCLUDEKEYWORDS" type="textarea" cols="30" rows="4" default="" label="PARAMMODULEEXCLUDEKEYWORDSLABEL" description="PARAMMODULEEXCLUDEKEYWORDSDESC" />
+		<param name="paramCASESENSITIVE" type="radio" default="0" label="PARAMMODULESUPPORTCYRILLICLABEL" description="PARAMMODULESUPPORTCYRILLICDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="paramSHOWSQL" type="radio" default="0" label="PARAMMODULESHOWSQLLABEL" description="PARAMMODULESHOWSQLDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+		<param name="paramPOWEREDBY" type="radio" default="1" label="PARAMMODULEPOWEREDBYLABEL" description="PARAMMODULEPOWEREDBYDESC">
+			<option value="1">BOOLEANYES</option>
+			<option value="0">BOOLEANNO</option>
+		</param>
+	</params>
+	<languages>
+		<language tag="en-GB">en-GB.mod_joeswordcloud.ini</language>
+    </languages>
+</install>

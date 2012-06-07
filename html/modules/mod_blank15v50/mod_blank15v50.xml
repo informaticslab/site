@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Blank Module 15v50</name>
+    <author>Bob Galway</author>
+    <creationDate>October 2010</creationDate>
+    <copyright>Bob Galway</copyright>
+    <license>http://www.gnu.org/licenses/</license>
+    <version>v5.0</version>
+     <description>BLANK_MODULE50_SUCCESSFULLY_INSTALLED</description>
+     
+    <languages>
+    <language tag="en-GB">language/en-GB/en-GB.mod_blank15v50.ini</language>
+	<language tag="fr-FR">language/fr-FR/fr-FR.mod_blank15v50.ini</language>
+	<language tag="de-DE">language/de-DE/de-DE.mod_blank15v50.ini</language>
+    </languages>
+	
+   
+    
+    <files>
+        <filename module="mod_blank15v50">mod_blank15v50.php</filename>
+        <filename>index.html</filename>
+        <filename>gpl-3.0.txt</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<folder>tmpl/images</folder>
+    </files>
+    
+	
+    <params>
+    
+    <param  label="BM50_SECTION1_DESC" type="radio"></param>
+        
+	
+        <param name="itemid" type="text" default="" label="BM50_ARTICLE_CONTENT_ITEM_ID" description="BM50_ARTICLE_CONTENT_ID">
+				
+				
+        </param>
+
+        <param name="contenttitleuse" type="list" default="1" label="BM50_ARTICLE_TITLE" description="BM50_ARTICLE_TITLE">
+            <option value="1">BM50_ARTICLE_TITLE_OPT1</option>
+            <option value="2">BM50_ARTICLE_TITLE_OPT2</option>
+				
+        </param>
+        <param name="contentuse" type="list" default="1" label="BM50_ARTICLE_CONTENT" description="BM50_ARTICLE_CONTENT">
+            <option value="1">BM50_ARTICLE_CONTENT_OPT1</option>
+            <option value="2">BM50_ARTICLE_CONTENT_OPT2</option>
+				
+        </param>
+	
+        <param name="Code Snippet Items" type="radio" default="" label="" description="BM50_CODE_SNIPPET_CONTROLS_INPUT">
+				
+				
+        </param>
+        <param name="mode" type="list" default="1" label="BM50_TEXT_AREA_MODE" description="BM50_TEXT_AREA_MODE_DESC">
+            <option value="1">BM50_TEXT_AREA_MODE_OPT1</option>
+            <option value="2">BM50_TEXT_AREA_MODE_OPT2</option>
+				
+        </param>
+        <param name="code" type="textarea" default="" label="BM50_PLACE_CODE_LABEL" description="BM50_PLACE_CODE_DESC" cols="50" rows="12">
+
+        </param>
+        <param name="textareause" type="list" default="1" label="BM50_TEXT_AREA_USE_LABEL" description="BM50_TEXT_AREA_USE_DESC">
+            <option value="1">BM50_TEXT_AREA_USE_OPT1</option>
+            <option value="2">BM50_TEXT_AREA_USE_OPT2</option>
+				
+        </param>
+			
+	   <param name="reverse" type="list" default="1" label="BM50_CONTENT_ORDER_LABEL" description="BM50_CONTENT_ORDER_DESC">
+            <option value="1">BM50_CONTENT_ORDER_OPT1</option>
+            <option value="2">BM50_CONTENT_ORDER_OPT2</option>
+				
+        </param>
+        </params>
+        
+        
+        
+     	<params group="advanced"> 
+  <param  label="BM50_SECTION2_DESC" type="radio"></param>
+		<param name="graphics" type="list" default="2" label="BM50_GRAPHICS_LABEL" description="BM50_GRAPHICS_DESC">
+            <option value="1">BM50_GRAPHICS_USE_OPT1</option>
+            <option value="2">BM50_GRAPHICS_USE_OPT2</option>
+				
+        </param>
+
+
+        <param name="keycolour" type="list" default="grey" label="BM50_MODULE_KEY_COLOUR" description="BM50_MODULE_KEY_COLOUR_DESC">
+
+        <option value="grey">BM50_KEYCOLOUR_OPT7</option>
+        <option value="red">BM50_KEYCOLOUR_OPT1</option>
+        <option value="orange">BM50_KEYCOLOUR_OPT2</option>
+        <option value="yellow">BM50_KEYCOLOUR_OPT3</option>
+        <option value="green">BM50_KEYCOLOUR_OPT4</option>
+        <option value="blue">BM50_KEYCOLOUR_OPT5</option>
+        <option value="purple">BM50_KEYCOLOUR_OPT6</option>
+
+    </param>
+
+
+
+
+    <param name="surroundstyle" type="list" default="plain" label="BM50_SURROUNDSTYLE_LABEL" description="BM50_SURROUNDSTYLE_DESC">
+
+        <option value="00none0">BM50_SURROUNDSTYLE_OPTA</option>
+        <option value="custom">BM50_SURROUNDSTYLE_OPTB</option>
+
+        <option value=""> ---Integral------------- </option>
+
+        <option value="06plain5">BM50_SURROUNDSTYLE_OPT1</option>
+        <option value="06roundcorner5">BM50_SURROUNDSTYLE_OPT2</option>
+        <option value="06bevel5">BM50_SURROUNDSTYLE_OPT3</option>
+        <option value="06double5">BM50_SURROUNDSTYLE_OPT4</option>
+        <option value="06tubular5">BM50_SURROUNDSTYLE_OPT5</option>
+        <option value="06shadow5">BM50_SURROUNDSTYLE_OPT6</option>
+
+        <option value=""> ---Media Addon------------ </option>
+
+        <option value="20curve11">BM50_PREMSURROUNDSTYLE_OPT39</option>
+        <option value="16curve11">BM50_PREMSURROUNDSTYLE_OPT1</option>
+        <option value="12curve11">BM50_PREMSURROUNDSTYLE_OPT20</option>
+        <option value="20deco1">BM50_PREMSURROUNDSTYLE_OPT40</option>
+        <option value="16deco1">BM50_PREMSURROUNDSTYLE_OPT2</option>
+        <option value="20glass21">BM50_PREMSURROUNDSTYLE_OPT41</option>
+        <option value="16glass21">BM50_PREMSURROUNDSTYLE_OPT3</option>
+        <option value="12glass21">BM50_PREMSURROUNDSTYLE_OPT22</option>
+        <option value="20glass31">BM50_PREMSURROUNDSTYLE_OPT42</option>
+        <option value="16glass31">BM50_PREMSURROUNDSTYLE_OPT4</option>
+        <option value="12glass31">BM50_PREMSURROUNDSTYLE_OPT23</option>
+        <option value="20picframes1">BM50_PREMSURROUNDSTYLE_OPT43</option>
+        <option value="16picframes1">BM50_PREMSURROUNDSTYLE_OPT5</option>
+        <option value="12picframes1">BM50_PREMSURROUNDSTYLE_OPT24</option>
+        <option value="20plain1">BM50_PREMSURROUNDSTYLE_OPT44</option>
+        <option value="16plain1">BM50_PREMSURROUNDSTYLE_OPT6</option>
+        <option value="12plain1">BM50_PREMSURROUNDSTYLE_OPT25</option>
+        <option value="20plain-curve1">BM50_PREMSURROUNDSTYLE_OPT45</option>
+        <option value="16plain-curve1">BM50_PREMSURROUNDSTYLE_OPT7</option>
+        <option value="12plain-curve1">BM50_PREMSURROUNDSTYLE_OPT26</option>
+        <option value="20plastick1">BM50_PREMSURROUNDSTYLE_OPT46</option>
+        <option value="16plastick1">BM50_PREMSURROUNDSTYLE_OPT8</option>  
+        <option value="12plastick1">BM50_PREMSURROUNDSTYLE_OPT27</option>
+        <option value="20plastick21">BM50_PREMSURROUNDSTYLE_OPT47</option>
+        <option value="16plastick21">BM50_PREMSURROUNDSTYLE_OPT9</option>
+        <option value="12plastick21">BM50_PREMSURROUNDSTYLE_OPT28</option>
+        <option value="20roman3">BM50_PREMSURROUNDSTYLE_OPT48</option>
+        <option value="16roman2">BM50_PREMSURROUNDSTYLE_OPT10</option>
+        <option value="12roman2">BM50_PREMSURROUNDSTYLE_OPT29</option>
+        <option value="20sharp-fade3">BM50_PREMSURROUNDSTYLE_OPT49</option>
+        <option value="16sharp-fade2">BM50_PREMSURROUNDSTYLE_OPT11</option>
+        <option value="12sharp-fade2">BM50_PREMSURROUNDSTYLE_OPT30</option>
+        <option value="20soft-fade3">BM50_PREMSURROUNDSTYLE_OPT50</option>
+        
+        <option value="16soft-fade3">BM50_PREMSURROUNDSTYLE_OPT12</option>
+        <option value="12soft-fade2">BM50_PREMSURROUNDSTYLE_OPT31</option>
+        <option value="20speckled3">BM50_PREMSURROUNDSTYLE_OPT51</option>
+        <option value="16speckled3">BM50_PREMSURROUNDSTYLE_OPT13</option>
+        <option value="12speckled2">BM50_PREMSURROUNDSTYLE_OPT32</option>
+        <option value="20speckled23">BM50_PREMSURROUNDSTYLE_OPT52</option>
+        <option value="16speckled23">BM50_PREMSURROUNDSTYLE_OPT14</option>
+        <option value="12speckled22">BM50_PREMSURROUNDSTYLE_OPT33</option>
+        
+        <option value="20tubular3">BM50_PREMSURROUNDSTYLE_OPT53</option>
+        <option value="16tubular3">BM50_PREMSURROUNDSTYLE_OPT15</option>
+        <option value="12tubular2">BM50_PREMSURROUNDSTYLE_OPT34</option>
+        <option value="32hacked3">BM50_PREMSURROUNDSTYLE_OPT54</option>
+       
+        <option value="16contour2">BM50_PREMSURROUNDSTYLE_OPT17</option>
+        <option value="12contour2">BM50_PREMSURROUNDSTYLE_OPT36</option>
+
+        <option value="16contour22">BM50_PREMSURROUNDSTYLE_OPT18</option>
+        <option value="12contour22">BM50_PREMSURROUNDSTYLE_OPT37</option>
+      
+        <option value="20soft3">BM50_PREMSURROUNDSTYLE_OPT58</option>
+        <option value="20webtwo3">BM50_PREMSURROUNDSTYLE_OPT59</option>
+
+    </param>
+
+
+    <param name="bgpattern" type="list" default="herring" label="BM50_BG_PATTERN" description="BM50_BG_PATTERN_DESC">
+		<option value="none0">BM50_BG_PATTERN_OPTA</option>
+        <option value="custom">BM50_BG_PATTERN_OPTB</option>
+        
+        <option value=""> ---Integral------------- </option>
+        <option value="herring">BM50_BG_PATTERN_OPT1</option>
+        <option value="twisted">BM50_BG_PATTERN_OPT2</option>
+        <option value="metal">BM50_BG_PATTERN_OPT3</option>
+        <option value="mosaic">BM50_BG_PATTERN_OPT4</option>
+        <option value="mesh">BM50_BG_PATTERN_OPT7</option>
+        <option value="snowflake2">BM50_BG_PATTERN_OPT9</option>
+        <option value="pipes">BM50_BG_PATTERN_OPT10</option>
+        <option value="linen">BM50_BG_PATTERN_OPT11</option>
+        <option value="bgstripe18">BM50_BG_PATTERN_OPT12</option>
+        <option value="marble">BM50_BG_PATTERN_OPT13</option>
+
+        <option value=""> ---Media Addon------------- </option>
+
+        <option value="dashes">BM50_BG_PATTERN_OPT14</option>
+        <option value="bubbles">BM50_BG_PATTERN_OPT15</option>
+        <option value="metalherring">BM50_BG_PATTERN_OPT16</option>
+        <option value="brushed">BM50_BG_PATTERN_OPT17</option>
+        <option value="canvas">BM50_BG_PATTERN_OPT18</option>
+        <option value="cube">BM50_BG_PATTERN_OPT19</option>
+        <option value="diamond">BM50_BG_PATTERN_OPT20</option>
+        <option value="hex2">BM50_BG_PATTERN_OPT21</option>
+        <option value="crossword">BM50_BG_PATTERN_OPT22</option>
+        <option value="crossword2">BM50_BG_PATTERN_OPT23</option>
+        <option value="brick">BM50_BG_PATTERN_OPT24</option>
+        <option value="barcode2">BM50_BG_PATTERN_OPT25</option>
+        <option value="square2">BM50_BG_PATTERN_OPT26</option>
+    
+  
+        <option value="halftone">BM50_BG_PATTERN_OPT27</option>
+        <option value="grunge2">BM50_BG_PATTERN_OPT28</option>
+        <option value="dot4">BM50_BG_PATTERN_OPT29</option>
+        <option value="enamel">BM50_BG_PATTERN_OPT30</option>
+        <option value="finestripe">BM50_BG_PATTERN_OPT31</option>
+        <option value="vertical">BM50_BG_PATTERN_OPT32</option>
+        <option value="horizontal">BM50_BG_PATTERN_OPT33</option>
+    </param>
+
+    <param name="bgautocolour" type="list" default="1" label="BM50_BG_AUTOCOLOUR_LABEL" description="BM50_BG_AUTOCOLOUR_DESC">
+
+        <option value="1">BM50_BG_AUTOCOLOUR_OPT1</option>
+        <option value="2">BM50_BG_AUTOCOLOUR_OPT2</option>
+
+    </param>
+
+    <param name="bgcustomcolour" type="text" default="#ffffff" label="BM50_BG_CUSTOMCOLOUR_LABEL" description="BM50_BG_CUSTOMCOLOUR_DESC"/>
+     <param name="colour2" type="text" default="" label="BM50_MODULE_INTERIOR_COLOUR_BACKGROUND_LABEL" description="BM50_MODULE_INTERIOR_COLOUR_BACKGROUND_DESC">
+        </param>   
+    
+    
+    <param name="custompx" label="BM50_CUSTOM_LABEL" description="BM50_CUSTOM_DESC" type="text" default="20"></param> 
+	 	</params>
+	 	
+	 	
+	 	
+	 	
+	<params group="other">
+	   <param  label="BM50_SECTION3_DESC" type="radio"></param>
+	
+      <param name="modno_bm" type="list" default="IBM" label="BM50_MODNO_LABEL" description="BM50_MODNO_DESC">
+					<option value="1BM">1</option>
+            		<option value="2BM">2</option>
+            		<option value="3BM">3</option>
+            		<option value="4BM">4</option>
+            		<option value="5BM">5</option>
+            		<option value="6BM">6</option>
+            		<option value="7BM">7</option>
+            		<option value="8BM">8</option>
+            		<option value="9BM">9</option>
+            		<option value="10BM">10</option>
+            		<option value="11BM">11</option>
+            		<option value="12BM">12</option>
+            		<option value="13BM">13</option>
+            		<option value="14BM">14</option>
+            		<option value="15BM">15</option>
+            		<option value="16BM">16</option>
+            		<option value="17BM">17</option>
+            		<option value="18BM">18</option>
+            		<option value="19BM">19</option>
+            		<option value="20BM">20</option>
+            		
+				
+        </param>
+		
+        <param name="margin-leftmodule" type="text" default="0" label="BM50_LEFT_MARGIN_LABEL" description="BM50_LEFT_MARGIN_DESC">
+				
+				
+        </param>
+		
+		
+        <param name="paddingleft" type="text" default="0" label="BM50_PADDING_LEFT" description="BM50_PADDING_LEFT_DESC">
+        </param>
+			
+        <param name="paddingright" type="text" default="0" label="BM50_PADDING_RIGHT" description="BM50_PADDING_RIGHT_DESC">
+        </param>
+			
+        <param name="paddingtop" type="text" default="0" label="BM50_PADDING_TOP" description="BM50_PADDING_TOP_DESC">
+        </param>
+			
+        <param name="paddingbottom" type="text" default="0" label="BM50_PADDING_BOTTOM" description="BM50_PADDING_BOTTOM_DESC">
+        </param>
+	
+        <param name="margin-top" type="text" default="0" label="BM50_TOP_MARGIN" description="BM50_TOP_MARGIN_DESC">
+			
+        </param>
+		
+        <param name="margin-bottom" type="text" default="0" label="BM50_BOTTOM_MARGIN" description="BM50_BOTTOM_MARGIN_DESC">
+		
+				
+        </param>
+		
+		
+        <param name="width" type="text" default="100" label="BM50_WIDTH" description="BM50_MODULE_WIDTH">
+        </param>
+		
+        <param name="widthunit" type="list" default="%" label="BM50_WIDTH_UNIT" description="BM50_WIDTH_UNIT">
+            
+			<option value="px">BM50_WIDTH_UNIT_OPT1</option>
+            <option value="%">BM50_WIDTH_UNIT_OPT2</option>
+				
+        </param>
+		
+		
+        <param name="colour1" type="text" default="" label="BM50_MODULE COLOUR BACKGROUND" description="BM50_MODULE COLOUR BACKGROUND">
+        </param>
+		
+        <param name="moduleclass_sfx" type="text" default="" label="BM50_MODULE_CLASS_SUFFIX_LABEL" description="BM50_MODULE_CLASS_SUFFIX_DESC" >
+		</param>
+		
+    </params>
+
+</install>

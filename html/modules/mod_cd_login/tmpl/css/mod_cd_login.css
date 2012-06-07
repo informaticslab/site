@@ -1,0 +1,270 @@
+/* CSS style - Core Design Login module for Joomla! 1.5  */
+
+/* Highslide CSS style */
+
+
+
+
+
+
+.mod_cd_login .highslide-html {
+    background-color: white;
+}
+.mod_cd_login .highslide-html-blur {
+	
+}
+.mod_cd_login .highslide-html-content-header {
+	height: 15px;
+	padding: 2px;
+	
+}
+.mod_cd_login .highslide-html-content {
+	position: absolute;
+   display: none;
+	width: 350px;
+}
+.mod_cd_login .highslide-body {
+	padding: 10px;
+
+	
+}
+.mod_cd_login .highslide-display-block {
+    display: block;
+	
+}
+.mod_cd_login .highslide-display-none {
+    display: none;
+}
+.mod_cd_login .highslide-move {
+    cursor: move;
+	 border: 0;
+	 height: 18px;
+	 padding: 2px;
+}
+
+/*close link*/
+.mod_cd_login .highslide-move a.control {
+	float: right;
+	cursor: pointer;
+	display: block;
+	/*position: relative;*/
+	margin: 0 5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+    color: #0069ac !important;
+	background: transparent;
+}
+.mod_cd_login a.control:hover {
+	color: #d57f03 !important;
+	text-decoration:underline;
+}
+/* End */
+
+/* Module style */
+div.cd_login_clear {
+	clear: both;
+}
+
+/* Link to window open, login and logout link */
+div.cd_moduletitle_logo {
+	background-image: url(../images/login_blank2.png) !important;
+	background-repeat: no-repeat !important;
+	height: 25px;
+	line-height: 25px;
+	text-align: left !important;
+	position: relative;
+	bottom:325px;
+	left:380px;
+}
+div.cd_moduletitle_logo a {
+	margin-left: 19px;
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size: 12px;
+	text-decoration: none;
+	color: #0069ac;
+	background-color: transparent;
+}
+div.cd_moduletitle_logo a:visited, div.cd_moduletitle_logo a:active {
+	color: #0069ac;
+}
+
+div.cd_moduletitle_logo a:hover {color: #d57f03; 
+
+}
+
+
+div.cd_login_border-top {
+	border-top: 1px dotted #9A9A9A;
+	margin-bottom: 5px;
+	clear: both;
+}
+div.cd_login_border-bottom {
+	border-bottom: 1px dotted #9A9A9A;
+	margin-top: 5px;
+	clear: both;
+}
+
+/* Login box */
+form#cd_login_form_login {
+	text-align: left;
+	font-size: 12px;
+	color: gray;
+	
+}
+
+/*bottom links*/
+form#cd_login_form_login a, form#cd_login_form_login a:hover, form#cd_login_form_login a:visited, form#cd_login_form_login a:active {
+	color: gray;
+	font-size: 12px;
+	background: transparent;
+}
+
+form#cd_login_form_login fieldset.input {
+	background: transparent url(../images/cd_login.png) no-repeat scroll 95% 20%;
+	border-left: 1px solid silver;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid #e6e6fa;
+	border-top: 1px solid #e6e6fa;
+	padding: 5px;
+}
+form#cd_login_form_login fieldset.input div {
+	width: 150px;
+}
+form#cd_login_form_login fieldset {
+	margin: 0;
+	padding: 0;
+}
+form#cd_login_form_login fieldset.input p {
+	margin-top: 5px;
+	margin-left:10px;
+	margin-bottom: 7px;
+}
+form#cd_login_form_login fieldset.input p#form-login-username input#modlgn_username, form#cd_login_form_login fieldset.input p#form-login-password input#modlgn_passwd {
+	background-position:2px;
+	background-repeat:no-repeat;
+	border:1px solid #808080;
+	color:#808080;
+	font-size:14px;
+	padding:2px 2px 2px 18px;
+	width:130px;
+	height: auto;
+	margin-bottom: 2px;
+}
+form#cd_login_form_login fieldset.input p#form-login-username input#modlgn_username {
+	background-image: url(../images/cd_login-input-username.png);
+}
+form#cd_login_form_login fieldset.input p#form-login-password input#modlgn_passwd {
+	background-image: url(../images/cd_login-input-password.png);
+}
+form#cd_login_form_login fieldset.input p#form-login-remember, form#cd_login_form_login fieldset.input p#form-login-submit {
+	float: left;
+	width: auto;
+}
+form#cd_login_form_login fieldset.input p#form-login-submit {
+	float: right;
+}
+form#cd_login_form_login fieldset.input p#form-login-remember input#modlgn_remember {
+	/* Style for Remember button */
+}
+form#cd_login_form_login fieldset.input p#form-login-submit input#cd_login_loginbutton {
+	background: url(../images/cd_login-login.png);
+	background-repeat: no-repeat;
+	border: none;
+	width: 65px;
+	height: 26px;
+	position:relative;
+	left: 12px;
+	bottom:4px;
+	cursor: pointer;
+}
+form#cd_login_form_login ul {
+	margin: 8px 0 0 0;
+	padding-top: 10px;
+}
+form#cd_login_form_login ul li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0pt;
+	padding-left:22px;
+	background-repeat: no-repeat;
+	background-position: 6px 4px;
+	background-attachment: scroll;
+	background-color: transparent;
+	
+}
+
+
+
+
+form#cd_login_form_login ul li {
+	background-image: url(../images/bullet_default.png);
+}
+
+/* Logout box */
+div.cd_login-logout-greeting {
+	background-image: url(../images/logged_in.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	line-height: 25px;
+	position: relative;
+	bottom:253px;
+	left:24px;
+	text-align:left !important;
+	text-indent: 100px;
+	color:#3e3e3d;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	
+}
+div.cd_login-logout-greeting a {
+	background-image: url(../images/cd_login-logout.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width:84px;
+	height: 20px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 3px;
+	right:73px;
+}
+
+div.cd_login-logoutform form {
+	text-align: center;
+}
+div.cd_login-logoutform input.cd_login-logoutbutton {
+	background-image: url(../images/cd_login-button-bg.png);
+	background-repeat: repeat-x;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 1px;
+	font-size: 11px;
+	border: 3px double #cccccc;
+	cursor: pointer;
+}
+
+p.cd_login-bold {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+	font-size: 12px;
+}
+div.cd_login-logoutform {
+	text-align: center;
+}
+div.cd_login_message_to_users {
+	text-align: center;
+	background-color: #ffffe0;
+	border-top: 2px solid #ffdab9;
+	border-bottom: 2px solid #ffdab9;
+	margin: 10px 5px 5px 10px;
+	padding: 5px 10px;
+}
+
+div.cd_login_message_to_users span {
+	color: #cd5c5c;
+}

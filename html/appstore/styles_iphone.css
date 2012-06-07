@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align:center; /*center hack*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:0px;
+	width:320px;}
+
+
+a:link {
+	text-decoration:underline;
+	color:#0069ac;
+		    	}
+
+a:visited {
+	text-decoration:underline;
+	color:#0069ac;
+		}
+
+a:hover{
+	text-decoration:underline;
+	color:#cd6d02;
+		}
+
+
+
+#wrap {
+max-width:320px;
+margin:0 auto; /*center hack*/
+text-align:left;
+
+}
+
+
+#header {height:130px;}
+
+#disclaimer_iphone {position:relative; float:right; padding-right:10px; padding-bottom:10px; font-size:10px; top:7px; font-family:Verdana, Geneva, sans-serif; z-index: 99}
+#back_to_iphone {position:relative; float:left; padding-left:10px; padding-bottom:10px; font-size:10px; top:12px; font-family:Verdana, Geneva, sans-serif; z-index: 100}
+
+#iphone_header_small {position:relative; padding-left:12px; padding-top:23px;}
+
+#iphone_disclaimer {position:relative; padding-left:12px; padding-top:45px;}
+
+#iphone_detail_icons {float:left; margin-right:17px; padding-left:12px; padding-top:24px;}
+
+#detail_text_iphone {padding-left:12px; position:relative; padding-right:12px; margin-top:5px; font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+#disclaimer_text_iphone {padding-left:10px; position:relative; padding-right:10px; font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+
+#dotted_line2_iphone {background-image:url(images_iphone/line_iphone.png); background-repeat:no-repeat; postion:relative; height:17px; margin-top:12px;}
+#dotted_line3_iphone {background-image:url(images_iphone/line_iphone.png); background-repeat:no-repeat; postion:relative; height:17px; margin-top:5px; margin-left:12px;}
+#dotted_line4_iphone {background-image:url(images_iphone/line_iphone.png); background-repeat:no-repeat; postion:relative; height:17px; margin-top:15px; }
+
+#block_row {padding-right:13px; padding-left:13px; margin-top:5px;}
+
+#screen_row_iphone {position:relative; margin-top:12px;}
+
+#block_row_next {padding-right:13px; padding-left:13px; position:relative; top:12px; }
+
+#block_row_next3 {padding-right:13px; padding-left:13px; position:relative; top:24px; }
+
+#block_row_next4 {padding-right:13px; padding-left:13px; position:relative; top:36px; }
+
+#block_row_next5 {padding-right:13px; padding-left:13px; position:relative; top:48px; }
+
+.block_border {width:288px; height:173px; -moz-border-radius: 6px;
+	border-radius: 6px; background:#bebebe; position:relative; float:left;}
+
+.block_border {width:288px; height:173px; -moz-border-radius: 6px;
+	border-radius: 0px\9; background:#bebebe; position:relative; float:left;}
+	
+	
+	
+.block {
+background-color:#f0f0f0;
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e9');
+
+		background: -moz-linear-gradient(center top, #ffffff, #e8e8e9);
+
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e8e8e9)); 
+	
+filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9'); /* IE6 & IE7 */
+ 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9')"; /*IE8 */ 
+ width:282px; height:167px; position:relative; float:left; border: 2px solid #ffffff;  margin-left:1px; margin-top:1px;
+			-moz-border-radius: 5px; 
+			border-radius: 5px;}
+			
+.block {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e9');
+
+		background: -moz-linear-gradient(center top, #ffffff, #e8e8e9);
+
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e8e8e9)); 
+	
+filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9'); /* IE6 & IE7 */
+ 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9')"; /*IE8 */ 
+ width:282px; height:167px; position:relative; float:left; border: 2px solid #ffffff;  margin-left:1px; margin-top:1px;
+			-moz-border-radius: 5px; 
+			border-radius: 0px\9;}			
+
+
+
+.block_border2 {width:288px; height:153px; -moz-border-radius: 6px;
+	border-radius: 6px; background:#bebebe; position:relative; float:left;}
+
+.block_border2 {width:288px; height:153px; -moz-border-radius: 6px;
+	border-radius: 0px\9; background:#bebebe; position:relative; float:left;}
+	
+	
+	
+.block2 {
+background-color:#f0f0f0;
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e9');
+
+		background: -moz-linear-gradient(center top, #ffffff, #e8e8e9);
+
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e8e8e9)); 
+	
+filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9'); /* IE6 & IE7 */
+ 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9')"; /*IE8 */ 
+ width:282px; height:147px; position:relative; float:left; border: 2px solid #ffffff;  margin-left:1px; margin-top:1px;
+			-moz-border-radius: 5px; 
+			border-radius: 5px;}
+			
+.block2 {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e9');
+
+		background: -moz-linear-gradient(center top, #ffffff, #e8e8e9);
+
+background: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#e8e8e9)); 
+	
+filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9'); /* IE6 & IE7 */
+ 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#e8e8e9')"; /*IE8 */ 
+ width:282px; height:147px; position:relative; float:left; border: 2px solid #ffffff;  margin-left:1px; margin-top:1px;
+			-moz-border-radius: 5px; 
+			border-radius: 0px\9;}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons {position:relative; top:7px; left:10px;}
+
+.icons2 {float:left; margin-right:23px; margin-bottom:9px; left:10px; top:14px; position:relative;}
+
+#app_title {position:relative; margin-left:85px; bottom:50px;}
+
+#app_title a:link {text-decoration:none;
+	color:#0069ac; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;}
+
+#app_title a:visited {text-decoration:none;
+	color:#0069ac; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+	
+#app_title a:hover {text-decoration:underline;
+	color:#cd6d02; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+
+
+#app_title2 {position:relative; margin-left:84px; top:10px; }
+
+#app_title2 a:link {text-decoration:none;
+	color:#0069ac; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;}
+
+#app_title2 a:visited {text-decoration:none;
+	color:#0069ac; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+	
+#app_title2 a:hover {text-decoration:underline;
+	color:#cd6d02; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+	
+#app_title3 {position:relative; margin-left:83px; top:10px; }
+
+#app_title3 a:link {text-decoration:none;
+	color:#0069ac; font-size:15px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;}
+
+#app_title3 a:visited {text-decoration:none;
+	color:#0069ac; font-size:15px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+	
+#app_title3 a:hover {text-decoration:underline;
+	color:#cd6d02; font-size:15px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }	
+
+
+
+
+
+#text {position:relative; margin-left:85px; margin-right:10px; bottom:62px; font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;}
+	
+#text2 {position:relative; margin-left:10px; margin-right:10px; font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;}
+
+#released {position:relative; margin-left:85px; margin-right:15px; bottom:70px; color: #7c7b7b; font-size:10px; font-family:Verdana, Geneva, sans-serif;}
+
+#released2 {position:relative; margin-left:10px; margin-right:15px; top:10px; color: #7c7b7b; font-size:10px; font-family:Verdana, Geneva, sans-serif;}
+
+#early2 {position:relative; margin-left:10px; margin-right:15px; top:10px; color: #7c7b7b; font-size:10px; font-family:Verdana, Geneva, sans-serif;}
+
+.early_text2 {position:relative; bottom:8px;}
+
+#early {position:relative; margin-left:83px; margin-right:15px; bottom:74px; color: #7c7b7b; font-size:10px; font-family:Verdana, Geneva, sans-serif;}
+
+
+.early_text {position:relative; bottom:8px;}
+
+#download {position:relative; bottom:113px; margin-left:7px;}
+
+#view_ipad {position:relative; width:287px; height:31px; position:relative; clear:both; background:#8897a4; margin-left:14px; top:67px; border-radius:3px; text-align:center;}	
+
+#view_ipad a:link {text-decoration:underline;
+	color:#ffffff; font-size:11px; font-family:Verdana, Geneva, sans-serif;}
+
+#view_ipad a:visited {text-decoration:underline;
+	color:#ffffff; font-size:11px; font-family:Verdana, Geneva, sans-serif; }
+	
+#view_ipad a:hover {text-decoration:underline;
+	color:#f9d98c; font-size:11px; font-family:Verdana, Geneva, sans-serif; } 
+
+#footer {height:100px; background-color:#fad585; margin-top:91px; padding-top:10px; clear:both; text-align:center; }
+#bottom_line {height:4px; background-color:#333232;}
+
+#stats_iphone {position:relative; color:#606060; font-size:11px; margin-left:97px; margin-top:17px; font-family:Verdana, Geneva, sans-serif; }
+#stats_iphone_2lines {position:relative; color:#606060; font-size:11px; margin-top:17px; margin-left:97px; font-family:Verdana, Geneva, sans-serif; }
+
+#wrap_requirements {position:relative; margin-right:35px;}
+#requirements_iphone {position:relative; left:32px; color:#606060; margin-left:65px; font-size:11px; font-family:Verdana, Geneva, sans-serif; 
+ }
+
+#app_name_iphone {font-family:Verdana, Geneva, sans-serif;
+	font-size:20px; top:24px; position:relative; padding-bottom:10px;}
+	
+#app_name_iphone2 {font-family:Verdana, Geneva, sans-serif;
+	font-size:19px; top:24px; position:relative; padding-bottom:10px;}	
+	
+#subtitle_iphone {font-family:Verdana, Geneva, sans-serif;
+	font-size:16px; font-weight:bold; padding-bottom:2px;}	
+
+#download_detail_iphone {float:left; padding-top:0px; position:relative; z-index: 101; left:13px;}
+#download_detail_iphone_2lines {float:left; bottom:25px; position:relative; z-index: 101; left:13px;}
+
+
+#other_links_iphone {position:relative; text-align:right;  top:10px; padding-left:100px; padding-right:12px; line-height:1.6em; z-index: 99}
+
+#other_links_iphone a:link {text-decoration:none;
+	color:#0069ac; font-size:12px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;}
+
+#other_links_iphone a:visited {text-decoration:none;
+	color:#0069ac; font-size:12px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+	
+#other_links_iphone a:hover  {text-decoration:underline;
+	color:#cd6d02; font-size:12px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
+
+
+
+

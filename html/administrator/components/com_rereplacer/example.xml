@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<replacements>
+	<name>Example XML file for ReReplacer</name>
+	<description>This is an example file to show you how to build up an xml file with multiple replacements for ReReplacer.</description>
+	<version>2.13.0</version>
+	<creationDate>November 2010</creationDate>
+	<author>NoNumber! (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright (C) 2010 NoNumber! All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<items>
+		<item>
+			<search>word1,word2,word3</search>
+			<replace>replace1,replace2,replace3</replace>
+		</item>
+		<item>
+			<search>replace something with <strong>HTML</strong></search>
+			<replace>with <u>something</u> else</replace>
+		</item>
+		<item>
+			<search>Some replacement</search>
+			<replace>with extra overruling parameters</replace>
+			<params>
+				<param name="area" value="everywhere" />
+				<param name="enable_tags" value="1" />
+			</params>
+		</item>
+		<item>
+			<search>A ([r|R])egular [e|E]xpression search</search>
+			<replace>And \1eplacement</replace>
+			<params>
+				<param name="regex" value="1" />
+				<param name="casesensitive" value="1" />
+			</params>
+		</item>
+	</items>
+</replacements>

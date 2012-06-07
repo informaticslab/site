@@ -1,0 +1,11 @@
+<p id="form-login-remember"><input<?php if (!JPluginHelper::isEnabled('system', 'remember')): ?> disabled="disabled" <?php endif; ?> id="modlgn_remember"type="checkbox"
+	name="remember" class="inputbox" value="yes"
+	title="<?php echo
+           JText::_('CDLOGIN_REMEMBER_ME') ?>"
+	alt="<?php echo JText::_('CDLOGIN_REMEMBER_ME') ?>" /> <label
+	for="modlgn_remember"><?php echo
+	JText::_('CDLOGIN_REMEMBER_ME') ?></label></p>
+	
+
+
+(goes at line 155 on default.php)

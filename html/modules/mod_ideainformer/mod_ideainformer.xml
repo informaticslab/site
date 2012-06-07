@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Idea Informer</name>
+    <author>Dima Horror</author>
+    <version>1.1</version>
+	<creationDate>20.08.2010</creationDate>
+    <description>REFORMALDISC</description>
+    <files>
+	<folder>css/</folder>
+	<folder>joomla/</folder>
+	<folder>tmpl/</folder>
+    <filename>mod_ideainformer.xml</filename>
+    <filename module="mod_ideainformer">mod_ideainformer.php</filename>
+    <filename>index.html</filename>
+	<filename>helper.php</filename>
+    </files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB.mod_ideainformer.ini</language>
+    </languages>
+    <params addpath="/modules/mod_ideainformer/joomla/elements">
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" class="text-medium" />
+	<param name="domain" type="domain" default="" class="text-medium" label="DOMAIN" description="DOMAINDISC" />
+	<param name="subdomaincheck" type="subdomaincheck"  default="2" label="SUBDOMAIN" description="">
+    	  <option value="2" onclick="return checkPriceType(this.value)" >NO</option>
+      	  <option value="0" onclick="return checkPriceType(this.value)">YES</option>
+     </param>
+	 <param name="price-container" type="texturl" class="text-long"  label=" " />
+	<param name="title" type="text" default="" class="text-long" label="PROJECTNAME" description="PROJECTNAMEDISC" />
+	<param name="verific" type="verific" default=""  label=" " description="VERIFICDISC" />
+	<param name="type" type="radio" default="0" label="VIDJETSTYPE" description="">
+    	  <option value="0" >ZAKLADKA</option>
+      	  <option value="1">TEXTVIDJET</option>
+		  <option value="5">INPUTVIDJET</option>
+    </param> 
+	<!--param name="vid" type="radio" default="classific" label="VIDVIDJETA" description="">
+    	  <option value="classific" >CLASSICTYPE</option>
+      	  <option value="options">CUSTOMTYPE</option>
+    </param-->
+	<param name="position" type="radio" default="left" label="POLOJZAKL" description="">
+    	  <option value="left">FROMLEFT</option>
+    	  <option value="right">FROMRIGHT</option>
+    </param>
+	<param name="image" type="image" default="2" label="PICTURE" description="">
+    	  <option value="2" onclick="return checkImageType(this.value)">TEXTING</option>
+    	  <option value="0" onclick="return checkImageType(this.value)">CUSTOM</option>
+    </param>
+	<param name="imageurl" type="imageurl" default="" class="text-long" label=" " description="" />
+	<param name="colorzakl" type="colorchooser" default="#FFA000" label="COLORTEXT" description="" />
+	<param name="text" type="text" default="Leave feedback" label="TEXT" description=""  class="text-long" />
+	<param name="povedenie" type="radio" default="0" label="POVEDENIE" description="">
+    	  <option value="0">TOP5</option>
+    	  <option value="1">ONTOP</option>
+    </param>
+	<param name="font" type="selectbox" default="1" label="FONT" >
+		<option value="1">Verdana, Geneva, sans-serif</option>
+		<option value="2">Georgia, 'Times New Roman', Times, serif</option>
+	    <option value="3">'Courier New', Courier, monospace</option>
+	    <option value="4">Arial, Helvetica, sans-serif</option>
+	    <option value="5">Tahoma, Geneva, sans-serif</option>
+	    <option value="6">'Trebuchet MS', Arial, Helvetica, sans-serif</option>
+		<option value="7">'Arial Black', Gadget, sans-serif</option>
+		<option value="8">'Times New Roman', Times, serif</option>
+		<option value="9">'MS Serif', 'New York', serif</option>
+	</param>
+	<param name="size" type="size" default="11" label="FONTSIZE" description=""   />
+	<param name="height" type="px" default="450" label="HEIGHT" description="HEIGHTDISK"   />
+	<param name="width" type="px" default="713" label="WIDTH" description="WIDTHDISK"   />
+	<param name="tcolor" type="colorchooser" default="#FFFFFF" label="COLOR1" description="" />
+	<param name="bcolor" type="colorchooser" default="#516683" label="COLOR2" description="" />
+	<param name="vcolor" type="colorchooser" default="#9FCE54" label="COLOR3" description="" />
+	<param name="tbcolor" type="colorchooser" default="#FFFFFF" label="COLOR4" description="" />
+	<param name="glcolor" type="colorchooser" default="#105895" label="COLOR5" description="" />
+	<param name="cmline" type="colorchooser" default="#E0E0E0" label="COLOR6" description="" />  
+</params>

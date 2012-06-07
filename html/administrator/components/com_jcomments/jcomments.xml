@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>JComments</name>
+	<creationDate>12/09/2010</creationDate>
+	<author>smart</author>
+	<authorEmail>smart@joomlatune.ru</authorEmail>
+	<authorUrl>http://www.joomlatune.ru</authorUrl>
+	<copyright>Copyright 2006-2010 JoomlaTune.ru All rights reserved!</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>2.2.0.2</version>
+	<description><![CDATA[JComments lets your users comment on content items.]]></description>
+
+	<installfile>install.jcomments.php</installfile>
+	<uninstallfile>uninstall.jcomments.php</uninstallfile>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/sql/install.mysql.utf8.sql</file>
+			<file driver="mysql">install/sql/install.mysql.nonutf8.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<queries />
+	</uninstall>
+
+	<files>
+		<filename>index.html</filename>
+		<filename>jcomments.php</filename>
+		<filename>jcomments.ajax.php</filename>
+		<filename>jcomments.captcha.php</filename>
+		<filename>jcomments.class.php</filename>
+		<filename>jcomments.config.php</filename>
+		<filename>jcomments.legacy.php</filename>
+		<filename>jcomments.rss.php</filename>
+		<filename>jcomments.subscription.php</filename>
+		<filename>router.php</filename>
+
+		<filename>images/email.png</filename>
+		<filename>images/no_avatar.png</filename>
+		<filename>images/smiles/rolleyes.gif</filename>
+		<filename>images/smiles/confused.gif</filename>
+		<filename>images/smiles/cool.gif</filename>
+		<filename>images/smiles/cry.gif</filename>
+		<filename>images/smiles/laugh.gif</filename>
+		<filename>images/smiles/lol.gif</filename>
+		<filename>images/smiles/normal.gif</filename>
+		<filename>images/smiles/redface.gif</filename>
+		<filename>images/smiles/sad.gif</filename>
+		<filename>images/smiles/shocked.gif</filename>
+		<filename>images/smiles/sick.gif</filename>
+		<filename>images/smiles/sleeping.gif</filename>
+		<filename>images/smiles/smile.gif</filename>
+		<filename>images/smiles/surprised.gif</filename>
+		<filename>images/smiles/tongue.gif</filename>
+		<filename>images/smiles/unsure.gif</filename>
+		<filename>images/smiles/whistling.gif</filename>
+		<filename>images/smiles/wink.gif</filename>
+		
+		<folder>js</folder>
+		<folder>helpers</folder>
+		<folder>languages</folder>
+		<folder>libraries</folder>
+		<folder>model</folder>
+		<folder>plugins</folder>
+		<folder>tpl</folder>
+	</files>
+ 
+	<languages folder="languages">
+		<language tag="be-BY">be-BY.com_jcomments.ini</language>
+		<language tag="be-BY">be-BY.plg_search_jcomments.ini</language>
+		<language tag="bg-BG">bg-BG.com_jcomments.ini</language>
+		<language tag="bg-BG">bg-BG.plg_search_jcomments.ini</language>
+		<language tag="ca-ES">ca-ES.com_jcomments.ini</language>
+		<language tag="ca-ES">ca-ES.plg_search_jcomments.ini</language>
+		<language tag="cs-CZ">cs-CZ.com_jcomments.ini</language>
+		<language tag="cs-CZ">cs-CZ.plg_search_jcomments.ini</language>
+		<language tag="da-DK">da-DK.com_jcomments.ini</language>
+		<language tag="da-DK">da-DK.plg_search_jcomments.ini</language>
+		<language tag="de-DE">de-DE.com_jcomments.ini</language>
+		<language tag="de-DE">de-DE.plg_search_jcomments.ini</language>
+		<language tag="en-GB">en-GB.com_jcomments.ini</language>
+		<language tag="en-GB">en-GB.plg_search_jcomments.ini</language>
+		<language tag="el-GR">el-GR.com_jcomments.ini</language>
+		<language tag="el-GR">el-GR.plg_search_jcomments.ini</language>
+		<language tag="es-ES">es-ES.com_jcomments.ini</language>
+		<language tag="es-ES">es-ES.plg_search_jcomments.ini</language>
+		<language tag="fr-FR">fr-FR.com_jcomments.ini</language>
+		<language tag="fr-FR">fr-FR.plg_search_jcomments.ini</language>
+		<language tag="gl-ES">gl-ES.com_jcomments.ini</language>
+		<language tag="gl-ES">gl-ES.plg_search_jcomments.ini</language>
+		<language tag="hr-HR">hr-HR.com_jcomments.ini</language>
+		<language tag="hr-HR">hr-HR.plg_search_jcomments.ini</language>
+		<language tag="hu-HU">hu-HU.com_jcomments.ini</language>
+		<language tag="hu-HU">hu-HU.plg_search_jcomments.ini</language>
+		<language tag="it-IT">it-IT.com_jcomments.ini</language>
+		<language tag="it-IT">it-IT.plg_search_jcomments.ini</language>
+		<language tag="lv-LV">lv-LV.com_jcomments.ini</language>
+		<language tag="lv-LV">lv-LV.plg_search_jcomments.ini</language>
+		<language tag="nb-NO">nb-NO.com_jcomments.ini</language>
+		<language tag="nb-NO">nb-NO.plg_search_jcomments.ini</language>
+		<language tag="nl-NL">nl-NL.com_jcomments.ini</language>
+		<language tag="nl-NL">nl-NL.plg_search_jcomments.ini</language>
+		<language tag="pl-PL">pl-PL.com_jcomments.ini</language>
+		<language tag="pl-PL">pl-PL.plg_search_jcomments.ini</language>
+		<language tag="pt-PT">pt-PT.com_jcomments.ini</language>
+		<language tag="pt-BR">pt-BR.com_jcomments.ini</language>
+		<language tag="pt-BR">pt-BR.plg_search_jcomments.ini</language>
+		<language tag="ro-RO">ro-RO.com_jcomments.ini</language>
+		<language tag="ro-RO">ro-RO.plg_search_jcomments.ini</language>
+		<language tag="ru-RU">ru-RU.com_jcomments.ini</language>
+		<language tag="ru-RU">ru-RU.plg_search_jcomments.ini</language>
+		<language tag="sk-SK">sk-SK.com_jcomments.ini</language>
+		<language tag="sk-SK">sk-SK.plg_search_jcomments.ini</language>
+		<language tag="sl-SI">sl-SI.com_jcomments.ini</language>
+		<language tag="sl-SI">sl-SI.plg_search_jcomments.ini</language>
+		<language tag="sr-YU">sr-YU.com_jcomments.ini</language>
+		<language tag="sr-YU">sr-YU.plg_search_jcomments.ini</language>
+		<language tag="sv-SE">sv-SE.com_jcomments.ini</language>
+		<language tag="sv-SE">sv-SE.plg_search_jcomments.ini</language>
+		<language tag="th-TH">th-TH.com_jcomments.ini</language>
+		<language tag="th-TH">th-TH.plg_search_jcomments.ini</language>
+		<language tag="tr-TR">tr-TR.com_jcomments.ini</language>
+		<language tag="tr-TR">tr-TR.plg_search_jcomments.ini</language>
+		<language tag="uk-UA">uk-UA.com_jcomments.ini</language>
+		<language tag="uk-UA">uk-UA.plg_search_jcomments.ini</language>
+	</languages>
+
+	<administration>
+		<menu>JComments</menu>
+		<submenu>
+			<menu task="comments">Manage comments</menu>
+			<menu task="settings">Settings</menu>
+			<menu task="smiles">Smiles</menu>
+			<menu task="subscriptions">Subscriptions</menu>
+			<menu task="custombbcodes">Custom BBCode</menu>
+			<menu task="import">Import</menu>
+			<menu task="about">About</menu>
+		</submenu>
+		<files>
+			<filename>admin.jcomments.html.php</filename>
+			<filename>admin.jcomments.php</filename>
+			<filename>admin.jcomments.installer.php</filename>
+			<filename>admin.jcomments.migration.php</filename>
+			<filename>admin.jcomments.subcription.php</filename>
+			<filename>admin.jcomments.custombbcodes.php</filename>
+			<filename>install.jcomments.php</filename>
+			<filename>uninstall.jcomments.php</filename>
+			<filename>toolbar.jcomments.html.php</filename>
+			<filename>toolbar.jcomments.php</filename>
+
+			<filename>assets/jcomments-backend-v2.1.js</filename>
+			<filename>assets/style.css</filename>
+			<filename>assets/icon.css</filename>
+			<filename>assets/tabpane.css</filename>
+			<filename>assets/tab.gif</filename>
+			<filename>assets/delete.gif</filename>
+			<filename>assets/down.gif</filename>
+			<filename>assets/up.gif</filename>
+			<filename>assets/mail.gif</filename>
+			<filename>assets/subscribed.gif</filename>
+			<filename>assets/comments16x16.png</filename>
+			<filename>assets/smiles16x16.png</filename>
+			<filename>assets/smiles48x48.png</filename>
+			<filename>assets/jcomments16x16.png</filename>
+			<filename>assets/jcomments48x48.png</filename>
+			<filename>assets/import16x16.png</filename>
+			<filename>assets/import48x48.png</filename>
+			<filename>assets/settings16x16.png</filename>
+			<filename>assets/settings48x48.png</filename>
+			<filename>assets/subscriptions16x16.png</filename>
+			<filename>assets/subscriptions48x48.png</filename>
+			<filename>assets/custombbcodes16x16.png</filename>
+			<filename>assets/custombbcodes48x48.png</filename>
+			<filename>assets/info.gif</filename>
+			<filename>assets/error.gif</filename>
+			<filename>assets/warning.png</filename>
+			<filename>assets/j_border.png</filename>
+			<filename>assets/j_button1_left.png</filename>
+			<filename>assets/j_button1_next.png</filename>
+			<filename>assets/j_crn_bl_light.png</filename>
+			<filename>assets/j_crn_br_light.png</filename>
+			<filename>assets/j_crn_tl_light.png</filename>
+			<filename>assets/j_crn_tr_light.png</filename>
+			
+			<folder>install</folder>
+		</files>
+		<languages folder="languages/administrator">
+			<language tag="be-BY">be-BY.com_jcomments.menu.ini</language>
+			<language tag="bg-BG">bg-BG.com_jcomments.menu.ini</language>
+			<language tag="ca-ES">ca-ES.com_jcomments.menu.ini</language>
+			<language tag="ca-ES">ca-ES.plg_content_jcomments.ini</language>
+			<language tag="cs-CZ">cs-CZ.com_jcomments.menu.ini</language>
+			<language tag="da-DK">da-DK.com_jcomments.menu.ini</language>
+			<language tag="de-DE">de-DE.com_jcomments.menu.ini</language>
+			<language tag="de-DE">de-DE.plg_content_jcomments.ini</language>
+			<language tag="en-GB">en-GB.com_jcomments.menu.ini</language>
+			<language tag="el-GR">el-GR.com_jcomments.menu.ini</language>
+			<language tag="el-GR">el-GR.plg_content_jcomments.ini</language>
+			<language tag="es-ES">es-ES.com_jcomments.menu.ini</language>
+			<language tag="es-ES">es-ES.plg_content_jcomments.ini</language>
+			<language tag="fr-FR">fr-FR.com_jcomments.menu.ini</language>
+			<language tag="gl-ES">gl-ES.com_jcomments.menu.ini</language>
+			<language tag="gl-ES">gl-ES.plg_content_jcomments.ini</language>
+			<language tag="hr-HR">hr-HR.com_jcomments.menu.ini</language>
+			<language tag="hr-HR">hr-HR.plg_content_jcomments.ini</language>
+			<language tag="hu-HU">hu-HU.com_jcomments.menu.ini</language>
+			<language tag="hu-HU">hu-HU.plg_content_jcomments.ini</language>
+			<language tag="it-IT">it-IT.com_jcomments.menu.ini</language>
+			<language tag="lv-LV">lv-LV.com_jcomments.menu.ini</language>
+			<language tag="lv-LV">lv-LV.plg_content_jcomments.ini</language>
+			<language tag="nb-NO">nb-NO.com_jcomments.menu.ini</language>
+			<language tag="nb-NO">nb-NO.plg_content_jcomments.ini</language>
+			<language tag="nl-NL">nl-NL.com_jcomments.menu.ini</language>
+			<language tag="nl-NL">nl-NL.plg_content_jcomments.ini</language>
+			<language tag="pl-PL">pl-PL.com_jcomments.menu.ini</language>
+			<language tag="pt-PT">pt-PT.com_jcomments.menu.ini</language>
+			<language tag="pt-BR">pt-BR.com_jcomments.menu.ini</language>
+			<language tag="pt-BR">pt-BR.plg_content_jcomments.ini</language>
+			<language tag="ro-RO">ro-RO.com_jcomments.menu.ini</language>
+			<language tag="ro-RO">ro-RO.plg_content_jcomments.ini</language>
+			<language tag="ru-RU">ru-RU.com_jcomments.menu.ini</language>
+			<language tag="ru-RU">ru-RU.plg_content_jcomments.ini</language>
+			<language tag="sk-SK">sk-SK.com_jcomments.menu.ini</language>
+			<language tag="sl-SI">sl-SI.com_jcomments.menu.ini</language>
+			<language tag="sl-SI">sl-SI.plg_content_jcomments.ini</language>
+			<language tag="sr-YU">sr-YU.com_jcomments.menu.ini</language>
+			<language tag="sv-SE">sv-SE.com_jcomments.menu.ini</language>
+			<language tag="th-TH">th-TH.com_jcomments.menu.ini</language>
+			<language tag="th-TH">th-TH.plg_content_jcomments.ini</language>
+			<language tag="tr-TR">tr-TR.com_jcomments.menu.ini</language>
+			<language tag="uk-UA">uk-UA.com_jcomments.menu.ini</language>
+			<language tag="uk-UA">uk-UA.plg_content_jcomments.ini</language>
+		</languages>
+	</administration>
+	<params>
+		<param name="object_group" type="text" size="25" default="com_jcomments" label="Component" description="" />
+		<param name="object_id" type="text" size="25" default="1" label="Object Id" description="" />
+		<param name="@spacer" type="spacer" default="" label="Meta" description="" />
+		<param name="description" type="textarea" rows="5" cols="30" default="" label="Description" description="" />
+		<param name="keywords" type="textarea" rows="5" cols="30" default="" label="Keywords" description="" />
+	</params>
+</install>

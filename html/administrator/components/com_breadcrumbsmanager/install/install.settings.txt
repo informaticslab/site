@@ -1,0 +1,4 @@
+action=install-archive,file=plg_es_adv_bcs_mgr.zip,type=plugin,name=es_abcsm_handler,uninstall=true
+action=move,type=folder,existing=update,src={CURRENT}/com_es_joomla_common,dest=JPATH_ADMINISTRATOR/components/com_es_joomla_common
+action=enable-plugin,name=es_abcsm_handler
+action=remove-site-link,name=com_es_adv_bcs_mgr

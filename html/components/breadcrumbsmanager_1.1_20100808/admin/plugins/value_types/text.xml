@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="text" type="textarea" default="" size="" label="ES_BCSM_VALTYPE_TEXT_PROP_LABEL" description="ES_BCSM_VALTYPE_TEXT_PROP_DESCR" multiline="multiline" rows="5"/>
+		<param name="separator" type="text" default="," size="3" label="ES_BCSM_VALTYPE_SEP_PROP_LABEL" description="ES_BCSM_VALTYPE_SEP_PROP_DESCR"/>
+	</params>
+</config>

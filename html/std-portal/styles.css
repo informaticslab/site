@@ -1,0 +1,297 @@
+
+
+
+body {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	background: #b9b8b8;
+	
+	
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	
+}
+
+/* ~~ Element/tag selectors ~~ */
+ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	list-style-image: url(images/bullet.png);
+
+	padding-top:0px;
+	padding-left:20px;
+	padding-right:10px;
+
+	
+		}
+
+li {
+	padding-top:4px;
+	
+}
+
+.divider {
+	margin-top:0px;
+	margin-bottom:10px;
+	margin-left:50px;
+	height:1px;
+	background:#e9e8e8; 
+	width:88%;
+}
+
+.date {color:#757272;
+padding-top:5px;
+font-size:9px;}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+#container {
+	width: 90%;
+	max-width: 1160px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 1160px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	border: 1px solid #000000;
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+#header {
+	background: #020202;
+	background-image:url('images/header_slice.png');
+}
+
+
+.banner {padding:0px;}
+
+
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+#content {
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: #dad7d7;
+}
+
+
+
+	
+
+.instructions {padding:5px;}
+
+#instructions_wrap {	
+	float: right;
+	width:47.5%;
+	padding:7px;
+	height: 415px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}
+	
+
+
+.help {padding:5px;}
+
+#help_wrap {	
+	float: right;
+	width:47.5%;
+	padding:7px;
+	height: 170px;
+	margin-top:5px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}	
+
+
+	
+	
+	
+.resources_tools {padding:5px;}
+
+#resources_tools_wrap {	
+	width:47.5%;
+	padding:7px;
+	height: 170px;
+	margin-top:5px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}	
+	
+	
+	
+
+
+
+
+.pilot {padding:5px;}
+
+#pilot_wrap{	
+	height: 260px;
+	width:47.5%;
+	padding:7px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}
+.about2 {padding:5px;}
+
+.about_text {padding-left:10px;}
+
+
+#about_wrap2 {	
+	
+	height: 240px;
+	float: right;
+	width:47.5%;
+	padding:7px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}
+
+.about {padding:5px;}
+
+#about_wrap {	
+	height:120px;
+	width:47.5%;
+	padding:7px;
+	margin-top:5px;
+			
+	border: 1px solid #a4b7bc;
+		-moz-border-radius: 5px;
+	border-radius: 5px;
+		background: #ffffff;
+	
+	
+	/*dropshadow*/
+	-moz-box-shadow: 2px 2px 2px #c3c0c0;
+    -webkit-box-shadow: 2px 2px 2px #c3c0c0;
+     box-shadow: 2px 2px 2px #c3c0c0;
+	
+	}
+
+
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+ul, ol { 
+	padding: 0px 15px 15px 50px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+
+
+/* ~~ The footer ~~ */
+#footer {
+	
+	background: #020202;
+	
+}
+
+
+a:link {color: #07739b; text-decoration: none;}
+a:visited {color: #07739b; text-decoration: none;}
+a:hover {color: #07739b; text-decoration: underline;}
+a:active {color: #07739b; text-decoration: underline;}
+
+.gold {padding:0px; background: #ffaa16; height:5px;}
+
+.bottomlinks {padding:5px; text-align: center; position:relative; background: #020202; color: #faebae; font-size:11px;}
+
+.bottomlinks a:link {color: #faebae; text-decoration: none; font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+.bottomlinks a:visited {color: #faebae; text-decoration: none; font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+.bottomlinks a:hover {text-decoration: underline; color: #faebae; font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+.bottomlinks a:active {text-decoration: underline; color: #faebae; font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:normal; }
+
+.more_news {position: relative; padding-bottom: 10px; float: right;}
+
+
+.more_about {position: relative; padding-bottom: 10px; padding-top: 58px; float: right;}
+
+.more_tools {position: relative; padding-bottom: 10px; padding-top:29px; float: right;}
+
+.more_resources {position: relative; padding-bottom: 10px;  padding-top:57px; float: right;}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+

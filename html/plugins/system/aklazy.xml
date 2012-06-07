@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>Akeeba Backup Lazy Scheduling</name>
+	<author>Nicholas K. Dionysopoulos</author>
+	<authorEmail>nicholas@dionysopoulos.me</authorEmail>
+	<authorUrl>http://www.akeebabackup.com</authorUrl>
+	<copyright>Copyright (c)2010 Nicholas K. Dionysopoulos</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<creationDate>2010-11-23</creationDate>
+	<version>3.1.5</version>
+	<description>
+		Automate your Akeeba Backup installation without using CRON, taking
+		advantage of your site's visitor activity. Important: Read the
+		documentation before proceeding.
+	</description>
+	<files>
+		<filename plugin="aklazy">aklazy.php</filename>
+		<folder>aklazy</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_aklazy.ini</language>
+		<language tag="da-DK">da-DK.plg_system_aklazy.ini</language>
+		<language tag="de-DE">de-DE.plg_system_aklazy.ini</language>
+		<language tag="el-GR">el-GR.plg_system_aklazy.ini</language>
+		<language tag="es-ES">es-ES.plg_system_aklazy.ini</language>
+		<language tag="it-IT">it-IT.plg_system_aklazy.ini</language>
+		<language tag="fr-FR">fr-FR.plg_system_aklazy.ini</language>
+		<language tag="nb-NO">nb-NO.plg_system_aklazy.ini</language>
+	</languages>
+	<params>
+		<param name="daysfreq" type="text" default="1" size="5" label="AKLAZY_DAYSFREQ_LABEL" description="AKLAZY_DAYSFREQ_DESC" />
+		<param name="backuptime" type="text" default="00:00" size="5" label="AKLAZY_BACKUPTIME_LABEL" description="AKLAZY_BACKUPTIME_DESC" />
+		<param name="profile" type="sql" default="1" label="AKLAZY_PROFILE_LABEL" description="AKLAZY_PROFILE_DESCRIPTION" query="SELECT `id`, CONCAT(`id`,' - ',`description`) as `desc` FROM `#__ak_profiles`" key_field="id" value_field="desc" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="test" type="radio" default="0" label="AKLAZY_TEST_LABEL" description="AKLAZY_TEST_DESCRIPTION">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="resetpw" type="password" default="" label="AKLAZY_RESETPW_LABEL" description="AKLAZY_RESETPW_DESCRIPTION" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="daysfreq" type="text" default="1" size="5" label="AKLAZY_DAYSFREQ_LABEL" description="AKLAZY_DAYSFREQ_DESC" />
+				<field name="backuptime" type="text" default="00:00" size="5" label="AKLAZY_BACKUPTIME_LABEL" description="AKLAZY_BACKUPTIME_DESC" />
+				<field name="profile" type="sql" default="1" label="AKLAZY_PROFILE_LABEL" description="AKLAZY_PROFILE_DESCRIPTION" query="SELECT `id`, CONCAT(`id`,' - ',`description`) as `desc` FROM `#__ak_profiles`" key_field="id" value_field="desc" />
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="test" type="radio" default="0" label="AKLAZY_TEST_LABEL" description="AKLAZY_TEST_DESCRIPTION">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="resetpw" type="password" default="" label="AKLAZY_RESETPW_LABEL" description="AKLAZY_RESETPW_DESCRIPTION" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

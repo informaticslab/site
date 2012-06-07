@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Core Design Scriptegrator plugin</name>
+  	<author>Daniel Rataj</author>
+  	<creationDate>January 5th, 2011</creationDate>
+  	<copyright>(C) 2007 - 2011 Great Joomla! All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL 3</license>
+  	<authorEmail>info@greatjoomla.com</authorEmail>
+  	<authorUrl>www.greatjoomla.com</authorUrl>
+	<version>1.5.5</version>
+	<description>DESC_CDSCRIPTEGRATOR</description>
+	<files>
+		<filename plugin="cdscriptegrator">cdscriptegrator.php</filename>
+		<folder>cdscriptegrator</folder>
+	</files>
+	<languages>
+    <language tag="en-GB">en-GB.plg_system_cdscriptegrator.ini</language>
+	</languages>
+	<params addpath="/plugins/system/cdscriptegrator/elements">
+	<param name="@helplink" type="helplink" label="LABEL_HELP" help_text="HELP_TEXT" help_title="HELP_TITLE" help_title_link="HELP_TITLE_LINK" url="http://www.greatjoomla.com" />
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param type="title" default="TITLE_JQUERY_JS" />
+	<param name="jquery" type="list" default="0" label="LABEL_JQUERY" description="DESC_JQUERY">
+  		<option value="0">PARAM_JQUERY_NOWHERE</option>
+  		<option value="1">PARAM_JQUERY_SITE</option>
+  		<option value="2">PARAM_JQUERY_ADMIN</option>
+  		<option value="3">PARAM_JQUERY_BOTH</option>
+  	</param>
+  	<param type="title" default="TITLE_HIGHSLIDE_JS" />
+	<param name="highslide" type="list" default="0" label="LABEL_HIGHSLIDE" description="DESC_HIGHSLIDE">
+  		<option value="0">PARAM_HIGHSLIDE_NOWHERE</option>
+  		<option value="1">PARAM_HIGHSLIDE_SITE</option>
+  		<option value="2">PARAM_HIGHSLIDE_ADMIN</option>
+  		<option value="3">PARAM_HIGHSLIDE_BOTH</option>
+  	</param>
+  <param type="title" default="TITLE_GENERAL_SETTINGS" />
+   <param name="compression" type="list" default="0" label="LABEL_COMPRESSION" description="DESC_COMPRESSION">
+  	<option value="0">PARAM_COMPRESSION_NO</option>
+  	<option value="1">PARAM_COMPRESSION_YES</option>
+  </param>
+  </params>
+  <params group="advanced">
+  <param type="title" default="TITLE_HIGHSLIDE_SETTINGS" />
+  <param name="outlineType" type="list" default="rounded-white" label="LABEL_OUTLINE_TYPE" description="DESC_OUTLINE_TYPE">
+  	<option value="rounded-white">PARAM_OUTLINE_TYPE_ROUNDEDWHITE</option>
+  	<option value="rounded-black">PARAM_OUTLINE_TYPE_ROUNDEDBLACK</option>
+  	<option value="glossy-dark">PARAM_OUTLINE_TYPE_GLOSSYDARK</option>
+  	<option value="beveled">PARAM_OUTLINE_TYPE_BEVELED</option>
+  	<option value="drop-shadow">PARAM_OUTLINE_TYPE_DROPSHADOW</option>
+  	<option value="outer-glow">PARAM_OUTLINE_TYPE_OUTERGLOW</option>
+  </param>
+  <param name="outlineWhileAnimating" type="list" default="1" label="LABEL_OUTLINE_WHILE_ANIMATING" description="DESC_OUTLINE_WHILE_ANIMATING">
+  <option value="1">PARAM_OUTLINE_WHILE_ANIMATING_YES</option>
+  <option value="0">PARAM_OUTLINE_WHILE_ANIMATING_NO</option>
+  </param>
+  <param name="showCredits" type="list" default="1" label="LABEL_SHOW_CREDITS" description="DESC_SHOW_CREDITS">
+  <option value="0">PARAM_SHOW_CREDITS_NO</option>
+  <option value="1">PARAM_SHOW_CREDITS_YES</option>
+  </param>
+  <param name="expandDuration" type="text" default="250" label="LABEL_EXPAND_DURATION" description="DESC_EXPAND_DURATION" />
+  <param name="anchor" type="list" default="auto" label="LABEL_ANCHOR" description="DESC_ANCHOR">
+  	<option value="auto">PARAM_ANCHOR_AUTO</option>
+  	<option value="top">PARAM_ANCHOR_TOP</option>
+  	<option value="top-right">PARAM_ANCHOR_TOPRIGHT</option>
+  	<option value="right">PARAM_ANCHOR_RIGHT</option>
+  	<option value="bottom-right">PARAM_ANCHOR_BOTTOMRIGHT</option>
+  	<option value="bottom">PARAM_ANCHOR_BOTTOM</option>
+  	<option value="bottom-left">PARAM_ANCHOR_BOTTOMLEFT</option>
+  	<option value="left">PARAM_ANCHOR_LEFT</option>
+  	<option value="top-left">PARAM_ANCHOR_TOPLEFT</option>
+  </param>
+  <param name="align" type="list" default="auto" label="LABEL_ALIGN" description="DESC_ALIGN">
+  	<option value="auto">PARAM_ALIGN_AUTO</option>
+  	<option value="center">PARAM_ALIGN_CENTER</option>
+  </param>
+  <param name="transitions" type="list" default="auto" label="LABEL_TRANSITION" description="DESC_TRANSITION">
+  	<option value="expand">PARAM_TRANSITION_EXPAND</option>
+  	<option value="fade">PARAM_TRANSITION_FADE</option>
+  	<option value="expand+fade">PARAM_TRANSITION_EXPANDFADE</option>
+  	<option value="fade+expand">PARAM_TRANSITION_FADEEXPAND</option>
+  </param>
+  <param name="dimmingOpacity" type="text" default="0" label="LABEL_DIMMING_OPACITY" description="DESC_DIMMING_OPACITY" />
+  </params>
+</install>

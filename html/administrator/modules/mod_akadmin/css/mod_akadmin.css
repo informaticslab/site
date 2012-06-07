@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+div.akcpanel div.icon16 {
+	background-color: white;
+}
+
+div.akcpanel div.icon {
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+div.akcpanel div.icon a {
+	display: block;
+	float: left;
+	border: 1px solid #f0f0f0;
+	height: 97px;
+	width: 108px;
+	color: #666;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+div.akcpanel div.icon a:hover {
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f9f9f9;
+	color: #0B55C4;
+}
+
+div.akcpanel img {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+div.akcpanel span {
+	display: block;
+	text-align: center;
+}

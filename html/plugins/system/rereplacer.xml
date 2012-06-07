@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install type="plugin" group="system" version="1.5">
+	<name>System - ReReplacer</name>
+	<description>REREPLACER_DESC</description>
+	<version>2.13.0</version>
+	<creationDate>November 2010</creationDate>
+	<author>NoNumber! (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright (C) 2010 NoNumber! All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<files>
+		<filename plugin="rereplacer">rereplacer.php</filename>
+		<folder>rereplacer</folder>
+	</files>
+
+	<!-- Parameters -->
+	<params addpath="/plugins/system/nonumberelements/elements">
+		<param name="@loadlanguage" type="loadlanguage" extension="plg_system_rereplacer" />
+		<param name="@license" type="license" extension="ReReplacer" />
+		<param name="@version" type="version" extension="ReReplacer" xml="/plugins/system/rereplacer.xml" />
+		<param name="@dependency" type="dependency"
+			label="RR_THE_COMPONENT"
+			file="/administrator/components/com_rereplacer/admin.rereplacer.php" />
+		<param name="@title" type="title"
+			label="REREPLACER"
+			description="REREPLACER_DESC_LONG"
+			xml="/plugins/system/rereplacer.xml"
+			image="/plugins/system/rereplacer/images/logo.png"
+			image_w="60" image_h="80"
+			url="http://www.nonumber.nl/rereplacer"
+			help_url="http://www.nonumber.nl/rereplacer" />
+	</params>
+</install>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<install version="1.5" type="template">
+
+<name>wiki</name>
+
+<creationDate>November 2010</creationDate>
+
+<author>Sara Brown</author>
+
+<copyright>GPL</copyright>
+
+<authorEmail>sara7bella@gmail.com</authorEmail>
+
+
+
+<version>1.0</version>
+
+<description>Template for wiki</description>
+
+
+<files>
+
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>css/template.css</filename>
+<filename>images/branding.png</filename>
+<filename>images/top_gradient.png</filename>
+<filename>images/search.png</filename>
+<filename>images/nav_plain.png</filename>
+<filename>images/nav_highlight.png</filename>
+
+</files>
+
+
+<positions>
+
+<position>top</position>
+<position>left</position>
+<position>right</position>
+<position>bottom</position>
+<position>footer</position>
+<position>SearchTop</position>
+<position>CenterIdea</position>
+<position>breadcrumbs</position>
+<position>log</position>
+
+</positions>
+
+</install>
+

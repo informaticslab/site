@@ -1,0 +1,17 @@
+/** menu icons **/
+.icon-16-jcomments-logo { background-image: url(jcomments16x16.png); } 
+.icon-16-jcomments-edit { background-image: url(comments16x16.png); } 
+.icon-16-jcomments-import { background-image: url(import16x16.png); } 
+.icon-16-jcomments-smiles { background-image: url(smiles16x16.png); } 
+.icon-16-jcomments-settings { background-image: url(settings16x16.png); }
+.icon-16-jcomments-subscriptions { background-image: url(subscriptions16x16.png); }
+.icon-16-jcomments-custombbcodes { background-image: url(custombbcodes16x16.png); }
+
+/** toolbar icons **/
+.icon-48-jcomments-logo { background-image: url(jcomments48x48.png); } 
+.icon-48-jcomments-edit { background-image: url(jcomments48x48.png); } 
+.icon-48-jcomments-import { background-image: url(import48x48.png); } 
+.icon-48-jcomments-smiles { background-image: url(smiles48x48.png); } 
+.icon-48-jcomments-settings { background-image: url(settings48x48.png); } 
+.icon-48-jcomments-subscriptions { background-image: url(subscriptions48x48.png); }
+.icon-48-jcomments-custombbcodes { background-image: url(custombbcodes48x48.png); }

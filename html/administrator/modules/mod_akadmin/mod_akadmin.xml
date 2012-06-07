@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install version="1.5.0" type="module" client="administrator"
+	method="upgrade">
+	<name>Akeeba Backup Notification Module</name>
+	<author>Nicholas K. Dionysopoulos</author>
+	<authorEmail>nicholas@dionysopoulos.me</authorEmail>
+	<authorUrl>http://www.akeebabackup.com</authorUrl>
+	<creationDate>2010-11-23</creationDate>
+	<copyright>Copyright (c)2009-2010 Nicholas K. Dionysopoulos</copyright>
+	<license>GNU GPL v3</license>
+	<version>3.1.5</version>
+	<description><![CDATA[
+	<h1>Akeeba Backup Notification Module</h1>
+	<p>This is a handy  module to display a Akeeba icon on your administrator
+	back-end's Control Panel page. The icon displays a warning site if the last
+	backup is failed, or if you haven't backed up your site for a period of time
+	(user-defined). Clicking it brings you to the Akeeba Backup &quot;Backup Now&quot;
+	page.</p>
+	]]></description>
+	<files>
+		<filename module="mod_akadmin">mod_akadmin.php</filename>
+		<folder>css</folder>
+	</files>
+	<languages folder="translations">
+		<language tag="en-GB">en-GB.mod_akadmin.ini</language>
+		<language tag="de-DE">da-DK.mod_akadmin.ini</language>
+		<language tag="de-DE">de-DE.mod_akadmin.ini</language>
+		<language tag="el-GR">el-GR.mod_akadmin.ini</language>
+		<language tag="es-ES">es-ES.mod_akadmin.ini</language>
+		<language tag="fr-FR">fr-FR.mod_akadmin.ini</language>
+		<language tag="fr-FR">it-IT.mod_akadmin.ini</language>
+		<language tag="nb-NO">nb-NO.mod_akadmin.ini</language>
+		<language tag="pt-BR">pt-BR.mod_akadmin.ini</language>
+		<language tag="pt-BR">sv-SE.mod_akadmin.ini</language>
+	</languages>
+	<params>
+		<param name="enablewarning" type="radio" label="LBL_WARNINGS"
+			description="DESC_WARNINGS">
+			<option value="0">LBL_YES</option>
+			<option value="1">LBL_NO</option>
+		</param>
+		<param name="warnfailed" type="radio" label="LBL_WARNFAILED"
+			description="DESC_WARNFAILED">
+			<option value="0">LBL_YES</option>
+			<option value="1">LBL_NO</option>
+		</param>
+		<param name="maxbackupperiod" type="text" label="LBL_PERIOD"
+			description="DESC_PERIOD" size="5" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="enablewarning" type="radio" label="LBL_WARNINGS"
+					description="DESC_WARNINGS">
+					<option value="0">LBL_YES</option>
+					<option value="1">LBL_NO</option>
+				</field>
+				<field name="warnfailed" type="radio" label="LBL_WARNFAILED"
+					description="DESC_WARNFAILED">
+					<option value="0">LBL_YES</option>
+					<option value="1">LBL_NO</option>
+				</field>
+				<field name="maxbackupperiod" type="text" label="LBL_PERIOD"
+					description="DESC_PERIOD" size="5" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?php 
+if(strstr($_SERVER['HTTP_USER_AGENT'],'iPad'))
+{
+	header('Location: index_ipad.html');
+	exit();
+}
+?>
+
+<?php 
+if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone'))
+{
+	header('Location: index_iphone.html');
+	exit();
+}
+?>
+
+
+<title>Public Health Prototypes | App Store | Informatics R&D Lab</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-23539639-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+
+
+
+
+</head>
+
+<body onload="MM_preloadImages('images/view_itunes_both_hover.png','images/view_itunes_hover.png','images/view_itunes_smaller_hover.png')">
+
+<div id="wrap">
+<div id="topper">
+</div><!--end of topper-->
+<div id="line">
+</div><!--end of line-->
+
+
+<div id="header">
+<span class="branding"><a href="http://www.phiresearchlab.org"><img src="images/branding.png" title="Informatics R&D Laboratory" alt="Informatics R&D Laboratory" border="0" width="248px" height"60px" /></a></span>
+<span class="prototypes"><img src="images/prototypes.png" title="Public Health Prototypes | App Store" alt="Public Health Prototypes | App Store" border="0" width="294px" height"60px" /></span>
+<span class="flourish"><img src="images/flourish.png" alt="Decorative illustration of email and internet-related icons" border="0" width="206px" height"77px" /></span>
+
+</div><!--end of header-->
+
+
+<div id="tagline">
+<span class="tagtext">
+<img src="images/tagline.png" title="A tool for the Lab, CDC, and its community partners to test and collaborate on innovative mobile apps" alt="A tool for the Lab, CDC, and its community partners to test and collaborate on innovative mobile apps" border="0" width="621px" height"17px" />
+</span>
+</div><!--end of tagline-->
+<div id="disclaimer">
+<span class="disclaimer_link">
+<a href="disclaimer.html">Disclaimer</a>
+</span>
+</div><!--end of disclaimer-->
+<div id="iphone_apps">
+<span class="iphone_icon">
+<img src="images/iphone_header.png" alt="iPhone Prototypes" title="iPhone Prototypes" /></span>
+</div><!--end of iphone apps header-->
+
+<div id="first_row">
+<div class="block_border_left">
+<div class="PTT_advisor">
+<span class="icons"><a href="ptt.html"><img src="images/ptt_icon.png" title="PTT Advisor" alt="PTT Advisor" border="0" /></a></span>
+<div id="app_title"><a href="ptt.html">PTT Advisor</a></div><br/>
+<div id="text">Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). 
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/ptt-advisor/1.0.3.001/PTTAdvisor.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+
+<div id="released">Released: 6/1/12</div>
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_left-->
+
+<div class="block_border_right">
+<div class="NIOSH_facepiece">
+
+<span class="icons"><a href="facepiece.html"><img src="images/niosh_face_icon.png" title="NIOSH Facepiece Respirator Guide" alt="NIOSH Facepiece Respirator Guide" border="0" /></a></span>
+<div id="app_title"><a href="facepiece.html">NIOSH Facepiece Respirator Guide</a></div><br/>
+<div id="text">Built in collaboration with The National Institute for 
+Occupational Safety and Health (NIOSH). For quickly exploring the database of NIOSH-approved 
+particulate filtering facepiece respirators.
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/respguide/1.2.8.001/Respirator%20Guide.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image33','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image33" width="91" height="20" border="0" id="Image33" title="View in iTunes" /></a></div>
+<div id="released">Released: 6/4/12</div>
+
+</div><!--end of NIOSH_facepiece-->
+</div>
+
+</div><!--end of first_row-->
+
+
+<div id="first_row">
+<div class="block_border_left">
+<div class="PTT_advisor">
+<span class="icons"><a href="toxguide.html"><img src="images/tox_icon.png" title="ATSDR ToxGuide" alt="ATSDR ToxGuide" border="0" /></a></span>
+<div id="app_title"><a href="toxguide.html">ATSDR ToxGuide</a></div><br/>
+<div id="text">Quick reference guide provides information such as 
+chemical and physical properties, sources of exposure, 
+minimal risk levels, children's health, and health 
+effects.
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/toxguide/0.6.2.001/mToxGuide.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image34','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image34" width="91" height="20" border="0" id="Image34" title="View in iTunes" /></a></div>
+<div id="released">Released: 6/4/12</div>
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_left-->
+
+<div class="block_border_right">
+<div class="NIOSH_facepiece">
+
+<span class="icons"><a href="std_guide1.html"><img src="images/std1_icon.png" title="STD Guide, Version 1" alt="STD Guide, Version 1" border="0" /></a></span>
+<div id="app_title"><a href="std_guide1.html">STD Guide, Version 1</a></div><br/>
+<div id="text">Early mobile application prototype for CDC's 2010 STD Treatment Guidelines. 
+A Reference for clinicians on the identification of and treatment regimen for STDs. 
+
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/stdguide/0.4.4.001/Std-Guide.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image36" width="91" height="20" border="0" id="Image36" title="View in iTunes" /></a></div>
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+</div><!--end of NIOSH_facepiece-->
+</div>
+
+</div><!--end of first(2)_row-->
+
+
+<div id="first_row">
+<div class="block_border_left">
+<div class="PTT_advisor">
+<span class="icons"><a href="std_guide2.html"><img src="images/std2_icon.png" title="STD Guide, Version 2" alt="STD Guide, Version 2" border="0" /></a></span>
+<div id="app_title"><a href="std_guide2.html">STD Guide, Version 2</a></div><br/>
+<div id="text">Enhanced prototype for CDC's 2010 STD Treatment Guidelines. 
+A Reference for clinicians on the identification of and treatment regimen for STDs. Version 2 has a more "portal" feel than v1.
+
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/std2/0.9.3.001/STD%20Guide%202.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_left-->
+
+
+
+</div><!--end of first(3)_row-->
+
+<!--<div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div>-->
+
+<div id="dotted_line"></div>
+
+<div id="ipad_apps">
+<span class="ipad_icon">
+<img src="images/ipad_header.png" alt="iPad Prototypes" title="iPad Prototypes" /></span>
+</div><!--end of ipad apps header-->
+
+<div id="first_row">
+
+
+
+
+
+<div class="block_border_left">
+<div class="PTT_advisor">
+
+<span class="icons"><a href="clip.html"><img src="images/clip_icon.png" title="NHSN CLIP" alt="NHSN CLIP" border="0" /></a></span>
+<div id="app_title"><a href="clip.html">NHSN CLIP</a></div><br/>
+<div id="text">Created in collaboration with National Healthcare 
+Safety Network (NHSN), this app brings the Central 
+Line Insertion Practices Adherence Monitoring form to 
+the iPad. 
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/clip/0.5.12.001/clipam.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image28','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image28" width="91" height="20" border="0" id="Image28" /></a></div>
+<div id="released">Released: 6/4/12</div>
+
+</div><!--end of NIOSH_facepiece-->
+</div>
+
+
+
+<div class="block_border_right">
+<div class="NIOSH_facepiece">
+<span class="icons"><a href="minesafety.html"><img src="images/mine_safety_icon.png" title="NIOSH Mine Safety Training" alt="NIOSH Mine Safety Training" border="0" /></a></span>
+<div id="app_title"><a href="minesafety.html">NIOSH Mine Safety Training</a></div><br/>
+<div id="text">Designed in collaboration with NIOSH (CDC's National 
+Institute for Occupational Safety and Health), this 
+proof-of-concept prototype trains mine workers on 
+safety issues.
+
+</div>
+
+<div id="download"><img src="images/coming_soon.png" width="91" height="20" alt="Coming Soon" title="Coming Soon" /></div>
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+
+</div><!--end of NIOSH facepiece-->
+</div><!--end of block_border_right-->
+</div><!--end of first_row-->
+
+
+<div id="first_row">
+
+<div class="block_border_left">
+<div class="PTT_advisor">
+
+<span class="icons"><a href="mmwrnav.html"><img src="images/mmwr_nav_icon.png" title="MMWR Navigator" alt="MMWR Navigator" border="0" /></a></span>
+<div id="app_title"><a href="mmwrnav.html">MMWR Navigator</a></div><br/>
+<div id="text">Utilizes the iPad's split screen interface to display 
+MMWR content in a user-friendly way. Articles are 
+organized into intuitive categories, making them easy 
+to find. 
+
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/mmwr-navigator/0.8.6.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image30" width="91" height="20" border="0" id="Image30" /></a></div>
+<div id="released">Released: 6/4/12</div>
+
+</div><!--end of PTT_advisor-->
+</div>
+
+
+
+
+
+<div class="block_border_right">
+<div class="NIOSH_facepiece">
+<span class="icons"><a href="mmwrmap.html"><img src="images/mmwr_map_icon.png" title="MMWR Map Navigator" alt="MMWR Map Navigator" border="0" /></a></span>
+<div id="app_title"><a href="mmwrmap.html">MMWR Map Navigator</a></div><br/>
+<div id="text">The MMWR brought to the iPad via a map-based navigation interface. The geographic areas relating to MMWR articles are indicated. There are a variety of filtering options.
+
+</div>
+
+<div id="download"><a href="http://www.phiresearchlab.org/appstore/downloads/mapapp/1.2.7.001/MapApp.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="released">Released: 6/4/12</div>
+
+</div><!--end of NIOSH facepiece-->
+</div><!--end of block_border_right-->
+
+
+
+</div><!--end of row-->
+<!--<div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div>-->
+
+
+<div id="footer"><span class="footer_text"><img src="images/footer.png" border="0" alt="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" title="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" /></span></div>
+<div id="bottom_line"></div>
+
+
+</div><!--end of wrap-->
+
+</body>
+</html>

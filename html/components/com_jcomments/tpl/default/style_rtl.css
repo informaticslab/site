@@ -1,0 +1,13 @@
+.jcomments-links, #jc h4, #comments, #comments blockquote, #comments .hidden, #comments code, #comments pre {text-align: right}
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {text-align: right}
+#comments-form .grippie {background: #eee url(images/resize.gif) no-repeat left -10px}
+#comments-form .grippie span, #comments-form .btn, #comments-report-form .btn {float: right}
+#comments-footer {text-align: left}
+#comments-footer a {float: left}
+#jc span.comments-vote {float: left}
+#jc span.comments-vote a{float: right}
+#jc span.comments-vote .busy{float: left}
+#jc .bbcode a, #jc .bbcode a:focus, #jc .bbcode a:active, #jc .bbcode a:hover, .rbox div {text-align: right}
+#comments .comments-buttons {float: left}
+#comments .comment-avatar {float: right}
+#comments .avatar-indent {padding: 0 40px 0 0}

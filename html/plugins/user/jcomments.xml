@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="user" method="upgrade">
+	<name>User - JComments</name>
+	<creationDate>02/01/2010</creationDate>
+	<author>smart</author>
+	<copyright>Copyright 2006-2010 JoomlaTune.ru All rights reserved!</copyright>
+	<authorEmail>smart@joomlatune.ru</authorEmail>
+	<authorUrl>http://www.joomlatune.ru</authorUrl>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.0</version>
+	<description>User plugin for updating user info in comments</description>
+	<files>
+		<filename plugin="jcomments">jcomments.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

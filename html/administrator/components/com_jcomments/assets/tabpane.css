@@ -1,0 +1,68 @@
+.dynamic-tab-pane-control.tab-pane {
+position:relative;
+}
+
+.dynamic-tab-pane-control .tab-row .tab {
+height:19px;
+background-image:url(tab.gif);
+position:relative;
+top:0;
+display:inline;
+float:left;
+overflow:hidden;
+cursor:pointer;
+border:0;
+border-left:1px solid #9DB1BA;
+background-position:100% 0;
+z-index:1;
+font:11px Tahoma, Helvetica, sans-serif;
+white-space:nowrap;
+text-align:center;
+margin:1px -1px 1px 0;
+padding:3px 15px 0;
+}
+
+.dynamic-tab-pane-control .tab-row .tab.selected {
+height:21px!important;
+background-image:url(tab.gif)!important;
+background-repeat:no-repeat;
+background-position:100% -50px;
+border-bottom-width:0;
+z-index:3;
+top:-2px;
+font:11px Tahoma, Helvetica, sans-serif;
+margin:1px -3px -3px 0;
+}
+
+.dynamic-tab-pane-control .tab-row .tab a {
+font:11px Tahoma, Helvetica, sans-serif;
+color:#333;
+text-decoration:none;
+cursor:pointer;
+}
+
+.dynamic-tab-pane-control .tab-row .tab.hover {
+font:11px Tahoma, Helvetica, sans-serif;
+height:19px;
+background-image:url(tab.gif);
+background-repeat:no-repeat;
+background-position:100% -50px;
+}
+
+.dynamic-tab-pane-control .tab-page {
+border:1px solid #919b9c;
+background:#fcfcfe;
+z-index:2;
+position:relative;
+top:-2px;
+font:11px Tahoma, Helvetica, sans-serif;
+color:#333;
+width:97%;
+float:left;
+padding:5px;
+}
+
+.dynamic-tab-pane-control .tab-row {
+z-index:1;
+white-space:nowrap;
+}

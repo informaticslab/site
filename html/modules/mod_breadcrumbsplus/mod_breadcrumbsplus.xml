@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.1">
+	<name>Breadcrumbs Plus</name>
+	<author>James Brice - Based on Joomla! Project Code</author>
+	<creationDate>March 2008</creationDate>
+	<copyright>Released under the GNU/GPL License</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>wsj.brice@gmail.com</authorEmail>
+	<authorUrl>http://www.jba-is.co.uk</authorUrl>
+	<version>1.5.1</version>
+	<description>This module displays breadcrumb trail (a.k.a. pathway) with more options than the original module included with Joomla! 1.5.x.</description>
+	<files>
+		<filename module="mod_breadcrumbsplus">mod_breadcrumbsplus.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_breadcrumbsplus.ini</language>
+	</languages>
+	<params>
+		<param name="showHome" type="radio" default="1" label="Show Home" description="PARAMSHOWHOME">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="homeText" type="text" default="Home" label="Text for Home entry" description="PARAMHOMETEXT" />
+		<param name="separator" type="text" default="" label="Text Separator" description="A text separator" />
+		<param name="showComponent" type="radio" default="1" label="Show Component" description="PARAMSHOWCOMPONENT">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

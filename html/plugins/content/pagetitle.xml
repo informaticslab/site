@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Custom Page Title</name>
+	<author>Arlifax</author>
+	<creationDate>February 2008</creationDate>
+	<copyright>(C) 2005 - 2009 Arlifax. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>sales@arlifax.com</authorEmail>
+	<authorUrl>www.arlifax.com.au</authorUrl>
+	<version>1.1</version>
+	<description><![CDATA[Allows you to enter custom page titles to enhance SEO. Simply add the text you want displayed in the 'Key Reference' section in the Advanced Paramaters for your article. If left blank the Article Title will be used instead.]]></description>
+	<files>
+		<filename plugin="pagetitle">pagetitle.php</filename>
+	</files>
+	<params>
+	</params>
+</install> 

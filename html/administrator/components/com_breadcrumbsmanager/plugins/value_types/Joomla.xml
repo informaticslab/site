@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/administrator/components/com_es_joomla_common/params">
+		<param name="label_type" type="EsCustom" default="" label="ES_BCSM_VALTYPE_LABEL_TYPE_PROP_LABEL" description="ES_BCSM_VALTYPE_LABEL_TYPE_PROP_DESCR" class="BcValueTypeProviderJoomla" method="getItemsCombo" />
+		<param name="link" type="text" default="" label="ES_BCSM_VALTYPE_LINK_PROP_LABEL" description="ES_BCSM_VALTYPE_LINK_PROP_DESCR"/>
+	</params>
+</config>

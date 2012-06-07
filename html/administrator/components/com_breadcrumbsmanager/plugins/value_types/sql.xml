@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="link_source" type="list" default="0" label="ES_BCSM_LINK_SOURCE_PROP_LABEL" description="ES_BCSM_LINK_SOURCE_PROP_DESCR">
+			<option value="0">ES_BCSM_LS_FROM_QUERY</option>
+			<option value="1">ES_BCSM_LS_FROM_LINKS</option>
+			<option value="2">ES_BCSM_LS_FROM_LINKS_SINGLE</option>
+		</param>
+		<param name="sql_query" type="textarea" default="" size="" label="ES_BCSM_VALTYPE_SQL_PROP_LABEL" description="ES_BCSM_VALTYPE_SQL_PROP_DESCR" rows="5"/>
+		<param name="add" type="textarea" default="" size="" label="ES_BCSM_ADD_PROP_LABEL" description="ES_BCSM_ADD_PROP_DESCR" rows="5"/>
+		<param name="dynamic" type="list" default="2" label="ES_BCSM_DYNAMIC_PROP_LABEL" description="ES_BCSM_SQL_DYNAMIC_PROP_DESCR">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+			<option value="2">Auto</option>
+		</param>
+	</params>
+</config>

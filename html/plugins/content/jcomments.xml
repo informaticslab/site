@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - JComments</name>
+	<creationDate>03/05/2010</creationDate>
+	<author>smart</author>
+	<copyright>Copyright 2006-2010 JoomlaTune.ru All rights reserved!</copyright>
+	<authorEmail>smart@joomlatune.ru</authorEmail>
+	<authorUrl>http://www.joomlatune.ru</authorUrl>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.0</version>
+	<description>Plugin to integrate JComments into Joomla! articles</description>
+	<files>
+		<filename plugin="jcomments">jcomments.php</filename>
+	</files>
+	<params>
+		<param name="show_frontpage" type="radio" default="1" label="Show on Frontpage" description="Show links Add comment on Frontpage">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enable_for_archived" type="radio" default="0" label="Comments for archived article" description="By default, adding new comments to articles is disabled once they are moved to archives. You can override that and keep commenting enabled even for archived material.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="comments_count" type="list" default="1" label="Comments Link" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="add_comments" type="list" default="1" label="Add comments Link" description="">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="links_position" type="list" default="1" label="Links Position" description="">
+			<option value="0">Before article</option>
+			<option value="1">After article</option>
+		</param>
+		<param name="readmore_link" type="list" default="1" label="Readmore Style" description="">
+			<option value="0">Joomla</option>
+			<option value="1">JComments</option>
+		</param>
+		<param name="readmore_css_class" type="text" default="readmore-link" label="Readmore Link CSS" description="" />
+		<param name="comments_css_class" type="text" default="comments-link" label="Comments Link CSS" description="" />
+		<param name="show_hits" type="list" default="0" label="Show Hits" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_comments_event" type="list" default="onAfterDisplayContent" label="Content Event" description="">
+			<option value="onPrepareContent">onPrepareContent</option>
+			<option value="onAfterDisplayContent">onAfterDisplayContent</option>
+		</param>
+	</params>
+</install>
