@@ -1,6 +1,6 @@
 # PHIResearchLab.org Joomla Collaboration App
 
-Joomla 1.5 based web site that hosts the collaboration tools used by the CDC R&D Lab to collaborate with the public health informatics community.
+Joomla based web site that hosts the collaboration tools used by the CDC R&D Lab to collaborate with the public health informatics community.
 
 ## Goals
 To develop and share the source used to power PHIResearchLab.org.
@@ -21,13 +21,13 @@ Anyone is encouraged to contribute to the project by [forking](https://help.gith
 
 By contributing to this project, you grant a world-wide, royalty-free, perpetual, irrevocable, non-exclusive, transferable license to all users under the terms of the [Apache Software License v2](http://www.apache.org/licenses/LICENSE-2.0.html) or later.
 
-All comments, messages, pull requests, and other submissions received through official White House pages including this GitHub page are subject to the Presidential Records Act and may be archived. Learn more http://WhiteHouse.gov/privacy
+All comments, messages, pull requests, and other submissions received through CDC and PHIResearchLab.org pages including this GitHub page are subject to the Presidential Records Act and may be archived. Learn more http://cdc.gov/privacy
 
 ## License
 
 This project constitutes a work of the United States Government and is not subject to domestic copyright protection under 17 USC § 105.
 
-The project utilizes code licensed under the terms of the GNU General Public License and therefore is licensed under ASL v2 or later.
+The project utilizes code licensed under the terms of the Apache Software License and therefore is licensed under ASL v2 or later.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the Apache Software License version 2, or (at your option) any later version.
 
