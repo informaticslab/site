@@ -1,0 +1,10 @@
+﻿Olá,
+
+Um novo usuário, com o endereço IP [ip address], foi banido pelo seguinte motivo:
+[ban reasoning]
+
+E este é o link para seu Painel de Administração:
+[admin link]
+
+Obrigado,
+

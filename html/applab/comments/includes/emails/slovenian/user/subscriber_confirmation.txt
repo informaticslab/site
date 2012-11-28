@@ -1,0 +1,13 @@
+﻿Pozdravljeni [name],
+
+zahtevali ste naročnino na stran [page reference], ki se nahaja na naslovu:
+[page url]
+
+Prosimo potrdite naročnino s klikom na spodnji link:
+[confirmation link]
+
+Če se niste naročili in ste obvestilo prejeli po pomoti, vam za preklic naročnine ni treba storiti ničesar.
+E-pošte z obvestili tega tipa ne boste več prejemali.
+
+Lep pozdrav,
+

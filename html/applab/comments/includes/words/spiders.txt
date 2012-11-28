@@ -1,0 +1,125 @@
+abachobot
+accoona-ai-agent
+anyapexbot
+arachmo
+b-l-i-t-z-b-o-t
+baiduspider
+becomebot
+bimbot
+blitzbot
+boitho.com-dc
+boitho.com-robot
+btbot
+cerberian drtrs
+charlotte
+converacrawler
+cosmos
+dataparksearch
+diamondbot
+discobot
+emeraldshield.com webbot
+envolk[its]spider
+esperanzabot
+exabot
+fast enterprise crawler
+fast-webcrawler
+fdse robot
+findlinks
+furlbot
+fyberspider
+g2crawler
+gaisbot
+galaxybot
+geniebot
+gigabot
+girafabot
+googlebot
+googlebot-image
+hl_ftien_spider
+htdig
+ia_archiver
+ichiro
+irlbot
+issuecrawler
+jyxobot
+lapozzbot
+larbin
+linkwalker
+lmspider
+lwp-trivial
+mabontland
+magpie-crawler
+mediapartners-google
+mj12bot
+mnogosearch
+mogimogi
+mojeekbot
+morning paper
+msnbot
+msrbot
+mvaclient
+netresearchserver
+ng-search
+nicebot
+noxtrumbot
+nusearch spider
+nutchcvs
+obot
+oegp
+omniexplorer_bot
+oozbot
+orbiter
+pagebiteshyperbot
+polybot
+pompos
+psbot
+pycurl
+rampybot
+rufusbot
+sandcrawler
+sbider
+scrubby
+searchsight
+seekbot
+semanticdiscovery
+sensis web crawler
+seochat::bot
+shim-crawler
+shopwiki
+shoula robot
+silk
+snappy
+sogou spider
+speedy spider
+sqworm
+stackrambler
+surveybot
+synoobot
+teoma
+terrawizbot
+thesubot
+thumbnail.cz robot
+tineye
+turnitinbot
+updated
+vagabondo
+voilabot
+vortex
+voyager
+vyu2
+webcollage
+websquash.com
+wf84
+wofindeich robot
+xaldon_webspider
+yacy
+yahoo! slurp
+yahoo! slurp china
+yahooseeker
+yahooseeker-testing
+yandex
+yooglifetchagent
+zao
+zealbot
+zspider
+zyborg

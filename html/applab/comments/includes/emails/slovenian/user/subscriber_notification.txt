@@ -1,0 +1,21 @@
+﻿Pozdravljeni [name],
+
+za stran [page reference] je bil dodan nov komentar, ki se nahaja na naslovu:
+[page url]
+
+Komentar je dodal [poster] , vsebina komentarja pa je:
+
+************************
+
+[comment]
+
+************************
+
+POMEMBNO: če želite še naprej prejemati opozorila, morate ponovno aktivirati vašo naročnino s klikom na spodnji link:
+[activation link]
+
+Če želite preklicati prejemanje obvestil, to lahko storite s klikom na naslednjo povezavo:
+[unsubscribe link]
+
+Lep pozdrav,
+

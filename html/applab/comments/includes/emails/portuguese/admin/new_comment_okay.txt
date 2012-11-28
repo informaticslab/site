@@ -1,0 +1,20 @@
+﻿Olá,
+
+Um novo comentário foi postado na página [page reference], localizada no seguinte endereço:
+[page url]
+
+O comentário foi feito por [poster] e é o seguinte:
+
+************************
+
+[comment]
+
+************************
+
+Este comentário não requer aprovação.
+
+E este é o link para seu Painel de Administração:
+[admin link]
+
+Obrigado,
+

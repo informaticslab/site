@@ -1,0 +1,26 @@
+﻿Pozdravljeni,
+
+Jedan od komentara na stranici [page reference] je označen kao neprikladan, nalazi se na sljedeći adresi:
+[page url]
+
+Komentar, kojeg je označio [poster] , ima sljedeći sadržaj:
+
+************************
+
+[comment]
+
+************************
+
+Ovaj komentar je označen zbog sljedećih razloga:
+[flag reasoning]
+
+Ako odlučite zadržati ovaj komentar, molimo da ga uredite, a zatim procjenite jesu li razlozi pravi.
+To će ukloniti oznaku nepodobnosti komentara (flag).
+
+Ovaj komentar više neće biti moguće potvrditi, ako je to onemogućeno u postavkama.
+
+Ovdje je link do vašeg admin panela:
+[admin link]
+
+pozdrav,
+

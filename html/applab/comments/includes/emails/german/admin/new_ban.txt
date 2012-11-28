@@ -1,0 +1,10 @@
+﻿Hallo,
+
+Es wurde ein neuer Besucher, mit der IP-Adresse [ip address], aus folgendem Grund ausgeschlossen:
+[ban reasoning]
+
+Hier der direkte Link zum Admin-Panel:
+[admin link]
+
+Aufrichtig,
+

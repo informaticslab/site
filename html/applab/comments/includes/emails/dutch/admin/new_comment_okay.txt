@@ -1,0 +1,20 @@
+﻿Hallo,
+
+Een nieuw bericht is geplaats op de volgende pagina [page reference], gevonden op het volgende adres:
+[page url]
+
+Het bericht is geplaatst door [poster] en bevat het volgende:
+
+************************
+
+[comment]
+
+************************
+
+Dit bericht heeft geen goedkeuring nodig.
+
+Hier is de link naar uw admin panel:
+[admin link]
+
+met vriendelijke groet,
+

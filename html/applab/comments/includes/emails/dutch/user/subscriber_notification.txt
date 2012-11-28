@@ -1,0 +1,21 @@
+﻿Hallo [name],
+
+Een nieuw bericht is geplaatst op de pagina [page reference], gevonden op volgend adres:
+[page url]
+
+Het bericht is gemaakt door [poster] en bevat het volgende:
+
+************************
+
+[comment]
+
+************************
+
+BELANGRIJK: Om verder berichten te ontvangen moet je je inschrijving her activeren door op volgende link te klikken:
+[activation link]
+
+Om uw inschrijving te beeindigen klik op onderstaande link om u uit te schrijven:
+[unsubscribe link]
+
+Met vriendelijke groet,
+

@@ -1,0 +1,26 @@
+﻿Hallo,
+
+Een bericht is gerapporteerd op de pagina [page reference], gevonden op het volgende adres:
+[page url]
+
+Het gerapporteerde bericht was gemaakt door [poster] en bevat het volgende:
+
+************************
+
+[comment]
+
+************************
+
+Dit bericht is gerapporteerd om volgende reden:
+[flag reasoning]
+
+Als je het berciht wilt houden, bewerk het en geef aan of de meldings redenen geldig waren.
+Dit beeindigd de rapportering van het bericht.
+
+Dit bericht wordt afhankelijk van je instellingen niet meer getoond in je website.
+
+Hier is de link naar je admin panel:
+[admin link]
+
+Met vriendelijke groet,
+

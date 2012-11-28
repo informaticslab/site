@@ -1,0 +1,20 @@
+﻿Hallo,
+
+Es wurde ein neuer Kommentar auf der Seite [page reference], mit folgender Adresse:
+[page url]
+
+Der Kommentar wurde von [poster] mit folgendem Inhalt erstellt:
+
+************************
+
+[comment]
+
+************************
+
+Dieser Kommentar bedarf keiner Prüfung.
+
+Hier der direkte Link zum Admin-Panel:
+[admin link]
+
+Aufrichtig,
+

@@ -1,0 +1,10 @@
+﻿Bonjour,
+
+Un nouvel utilisateur, avec [ip address], a été interdite pour la raison suivante:
+[ban reasoning]
+
+Voici le lien à votre panneau d'administration:
+[admin link]
+
+Cordialement,
+

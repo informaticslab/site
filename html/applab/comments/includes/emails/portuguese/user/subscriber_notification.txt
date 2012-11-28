@@ -1,0 +1,21 @@
+﻿Olá [name],
+
+Um novo comentário foi postado na página [page reference], localizada no seguinte endereço:
+[page url]
+
+O comentário foi feito por [poster] e é o seguinte:
+
+************************
+
+[comment]
+
+************************
+
+IMPORTANTE: Para receber futuras notificações, você precisa reativar sua inscrição clicando no link abaixo:
+[activation link]
+
+Alternativamente, você pode cancelar sua inscrição, clicando no seguinte link:
+[unsubscribe link]
+
+Obrigado,
+

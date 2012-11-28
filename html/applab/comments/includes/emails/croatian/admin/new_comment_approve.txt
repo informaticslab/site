@@ -1,0 +1,21 @@
+﻿Pozdravljeni,
+
+Novi komentar je objavljen na stranici [page reference] , nalazi se na sljedeći adresi:
+[page url]
+
+Komentar je dodao [poster] i bio kako slijedi:
+
+************************
+
+[comment]
+
+************************
+
+Ovaj komentar zahtijeva odobrenje zbog sljedećih razloga:
+[approval reasoning]
+
+Ovdje je link do vašeg admin panela:
+[admin link]
+
+pozdrav,
+

@@ -58,5 +58,8 @@ class JConfig {
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
 	var $legacy = '0';
 	var $debug_db = '0';
+	var $app_comments_user = '';#TODO-CONFIGURE
+	var $app_comments_pass = '';#TODO-CONFIGURE
+	var $app_lab_pass = '';#TODO-CONFIGURE
 }
 ?>

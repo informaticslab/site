@@ -1,0 +1,26 @@
+﻿Hallo,
+
+Ein neuer Kommentar wurde auf der Seite ausgeflaggt [page reference], mit folgender Adresse:
+[page url]
+
+Die Flagge Kommentar wurde erstellt von [poster] mit folgendem Inhalt erstellt:
+
+************************
+
+[comment]
+
+************************
+
+Dieser Kommentar wurde markiert durch den folgenden Gründen:
+[flag reasoning]
+
+Wenn Sie sich entscheiden, diesen Kommentar zu halten, editieren Sie bitte darauf und wählen Sie, ob die Gründe echt sind.
+Dies wird der Kommentar Kennzeichnung aufheben.
+
+Dieser Kommentar kann nicht mehr genehmigt werden, abhängig von Ihren Einstellungen.
+
+Hier der direkte Link zum Admin-Panel:
+[admin link]
+
+Aufrichtig,
+

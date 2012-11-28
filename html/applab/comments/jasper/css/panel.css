@@ -1,0 +1,436 @@
+body {
+font: 12px/1.5em Arial,Helvetica,sans-serif;
+}
+
+.logo {
+padding-bottom: 10px;
+}
+
+h3 {
+color: #FB5E00;
+font-size: 1.25em;
+margin-bottom: 2px;
+}
+
+hr.title {
+color: #DFDFDF;
+background-color: #DFDFDF;
+height: 5px;
+border: 0;
+margin-top: 0px;
+}
+
+hr.separator {
+color: #DFDFDF;
+background-color: #DFDFDF;
+height: 2px;
+width: 40px;
+border: 0;
+margin-top: 0px;
+float: left;
+}
+
+.sub-heading {
+color: #8F8F8F;
+font-size: 1.2em;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+label {
+float: left;
+}
+
+label.edit_comment {
+width: 80px;
+}
+
+label.edit_page {
+width: 90px;
+}
+
+label.edit_question {
+width: 60px;
+}
+
+label.edit_subscriber {
+width: 70px;
+}
+
+label.layout_comments_enabled {
+width: 70px;
+}
+
+label.layout_comments_general {
+width: 90px;
+}
+
+label.layout_comments_sort_by {
+width: 60px;
+}
+
+label.layout_comments_pagination {
+width: 65px;
+}
+
+label.layout_comments_replies {
+width: 85px;
+}
+
+label.layout_comments_social {
+width: 65px;
+}
+
+label.layout_comments_gravatar {
+width: 60px;
+}
+
+label.layout_form_enabled {
+width: 60px;
+}
+
+label.layout_form_required {
+width: 60px;
+}
+
+label.layout_form_defaults {
+width: 80px;
+}
+
+label.layout_form_general {
+width: 120px;
+}
+
+label.layout_form_bb_code {
+width: 40px;
+}
+
+label.layout_form_smilies {
+width: 45px;
+}
+
+label.layout_powered {
+width: 60px;
+}
+
+label.settings_administrator_1 {
+width: 110px;
+}
+
+label.settings_administrator_2 {
+width: 150px;
+}
+
+label.edit_administrator {
+width: 110px;
+}
+
+label.settings_admin_detection {
+width: 80px;
+}
+
+label.settings_akismet {
+width: 60px;
+}
+
+label.settings_approval {
+width: 125px;
+}
+
+label.settings_email_method {
+width: 50px;
+}
+
+label.settings_email_editor_user_subscriber_confirmation {
+width: 80px;
+}
+
+label.settings_email_editor_user_subscriber_notification {
+width: 80px;
+}
+
+label.settings_email_editor_admin_new_ban {
+width: 80px;
+}
+
+label.settings_email_editor_admin_new_comment_approve {
+width: 80px;
+}
+
+label.settings_email_editor_admin_new_comment_okay {
+width: 80px;
+}
+
+label.settings_email_editor_admin_new_flag {
+width: 80px;
+}
+
+label.settings_email_editor_admin_reset_password {
+width: 80px;
+}
+
+label.settings_error_reporting {
+width: 70px;
+}
+
+label.settings_flagging {
+width: 90px;
+}
+
+label.settings_flooding {
+width: 70px;
+}
+
+label.settings_language {
+width: 65px;
+}
+
+label.settings_maintenance {
+width: 65px;
+}
+
+label.settings_processor_name {
+width: 110px;
+}
+
+label.settings_processor_email {
+width: 105px;
+}
+
+label.settings_processor_town {
+width: 110px;
+}
+
+label.settings_processor_website {
+width: 115px;
+}
+
+label.settings_processor_comment {
+width: 125px;
+}
+
+label.settings_rich_snippets {
+width: 65px;
+}
+
+label.settings_rss {
+width: 90px;
+}
+
+label.settings_security {
+width: 95px;
+}
+
+label.settings_system {
+width: 120px;
+}
+
+label.settings_viewers {
+width: 60px;
+}
+
+label.task_del_bans {
+width: 55px;
+}
+
+label.task_del_reports {
+width: 55px;
+}
+
+label.task_del_voters {
+width: 55px;
+}
+
+label.task_del_comment_ips {
+width: 55px;
+}
+
+label.task_del_unconfirmed_subs {
+width: 55px;
+}
+
+label.task_del_inactive_subs {
+width: 55px;
+}
+
+.approve_comments {
+color: #FF0000;
+font-weight: bold;
+}
+
+.flagged_comments {
+color: #FF0000;
+font-weight: bold;
+}
+
+.button_edit {
+width: 15px;
+height: 15px;
+}
+
+.button_delete {
+width: 15px;
+height: 15px;
+}
+
+.viewer {
+width: 25px;
+height: 20px;
+}
+
+.flag {
+width: 30px;
+height: 17px;
+}
+
+.page_help_block {
+float: right;
+}
+
+.page_help_text {
+font-size: 0.9em;
+text-decoration: none;
+}
+
+.hide_trap_text {
+font-size: 0.9em;
+text-decoration: none;
+}
+
+.readonly {
+color: #838B8B;
+cursor: default;
+}
+
+ul.parts {
+cursor: default;
+}
+
+ul.fields {
+cursor: default;
+}
+
+ul.buttons {
+cursor: default;
+}
+
+span.note {
+color: #838B8B;
+font-size: 0.9em;
+font-style: italic;
+}
+
+span.report_good {
+color: #006600;
+font-weight: bold;
+}
+
+span.report_fair {
+color: #FF8C00;
+font-weight: bold;
+}
+
+span.report_bad {
+color: #CC0000;
+font-weight: bold;
+}
+
+.info, .success, .warning, .error {
+border: 1px solid;
+margin: 10px 0px;
+padding: 5px 5px 5px 25px;
+background-repeat: no-repeat;
+background-position: 5px center;
+position: relative;
+float: left;
+}
+
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url('../images/messages/information.png');
+}
+
+.success {
+color: #4F8A10;
+background-color: #E8FCDC;
+background-image: url('../images/messages/success.gif');
+}
+
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url('../images/messages/warning.png');
+}
+
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('../images/messages/error.gif');
+}
+
+.dashboard_left {
+float: left;
+width: 49%;
+margin-right: 2%;
+}
+
+.dashboard_right {
+float: left;
+width: 49%;
+}
+
+.dashboard_block {
+background-color: #FAFAFA;
+width: 100%;
+border-style: solid;
+border-color: #d6d6d6;
+border-width: 1px;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+
+.news {
+height: 125px;
+overflow: scroll;
+}
+
+.dashboard_title {
+padding-top: 0.1em;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #707070;
+padding-left: 5px;
+height: 18px;
+margin-bottom: 5px;
+}
+
+.notes {
+margin-bottom: 0px;
+width: 100%;
+}
+
+.dashboard_content {
+padding-left: 5px;
+}
+
+#hintbox{ /* CSS for pop up hint box */
+position: absolute;
+top: 0;
+background-color: #FFFFE0;
+width: 200px; /*Default width of hint.*/ 
+padding: 3px;
+border: 1px solid black;
+font: normal 11px Verdana;
+line-height: 18px;
+z-index: 100;
+border-right: 3px solid black;
+border-bottom: 3px solid black;
+visibility: hidden;
+}
+
+.hintanchor{ /* CSS for link that shows hint onmouseover */
+color: navy;
+margin: 3px 8px;
+text-decoration: none;
+}

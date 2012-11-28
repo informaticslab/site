@@ -1,0 +1,26 @@
+﻿Olá,
+
+Um novo comentário foi relatado na página [page reference], localizada no seguinte endereço:
+[page url]
+
+O comentário relatado foi feito por [poster] e é o seguinte:
+
+************************
+
+[comment]
+
+************************
+
+Este comentário foi relatado pelo(s) seguinte(s) motivo(s):
+[flag reasoning]
+
+Se você decidir manter este comentário, por favor edite-o e selecione quais as razões são verdadeiras.
+Isto irá desmarcar o comentário.
+
+Este comentário poderá não ser mais aprovado, dependendo das suas configurações.
+
+E este é o link para seu Painel de Administração:
+[admin link]
+
+Obrigado,
+

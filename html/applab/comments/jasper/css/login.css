@@ -1,0 +1,32 @@
+span.logout {
+color: #006600;
+font-weight: bold;
+}
+
+span.attempt {
+color: #CC0000;
+font-weight: bold;
+}
+
+span.lost_details {
+font-size: 0.7em;
+}
+
+span.demo {
+color: #CC0000;
+font-weight: bold;
+}
+
+span.email_sent {
+color: #006600;
+font-weight: bold;
+}
+
+span.email_not_found {
+color: #CC0000;
+font-weight: bold;
+}
+
+span.return_login {
+font-size: 0.7em;
+}

@@ -147,7 +147,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 <br/>
 <div class="inside6">
 <a href="http://www.facebook.com" target="_blank"><img src="images/stories/fb_icon.png" border="0" alt="Follow us on Facebook" title="Follow us on Facebook" /></a>&nbsp;&nbsp;
-<a href="http://www.twitter.com" target="_blank"><img src="images/stories/twitter_icon.png" border="0" alt="Follow us on Twitter" title="Follow us on Twitter" /></a>&nbsp;&nbsp;
+<a href="https://twitter.com/CDC_PHIRDL" target="_blank"><img src="images/stories/twitter_icon.png" border="0" alt="Follow us on Twitter" title="Follow us on Twitter" /></a>&nbsp;&nbsp;
 <a href="index.php?option=com_content&view=article&id=83&Itemid=19"><img src="images/stories/rss_icon.png" border="0" alt="Subscribe to our RSS feed" title="Subscribe to our RSS feed" /></a>&nbsp;&nbsp;
 <a href="http://youtube.com" target="_blank"><img src="images/stories/youtube_icon.png" border="0" alt="Check us out on You Tube" title="Check us out on You Tube" /></a>
 &nbsp;&nbsp;

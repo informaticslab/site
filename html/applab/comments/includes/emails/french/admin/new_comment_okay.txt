@@ -1,0 +1,20 @@
+﻿Bonjour,
+
+Un nouveau commentaire a été posté sur la page [page reference], situé à l'adresse suivante:
+[page url]
+
+Le commentaire a été faite par [poster] et se présente comme suit:
+
+************************
+
+[comment]
+
+************************
+
+Ce commentaire ne nécessitent pas l'approbation.
+
+Voici le lien à votre panneau d'administration:
+[admin link]
+
+Cordialement,
+

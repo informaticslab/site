@@ -1,0 +1,26 @@
+﻿Pozdravljeni,
+
+en izmed komentarjev na strani [page reference] je bil z zastavico označen kot neprimeren:
+[page url]
+
+Označeni komentar je dodal [poster] in ima sledečo vsebino:
+
+************************
+
+[comment]
+
+************************
+
+Komentar je bil označen z zastavico iz naslednjih razlogov:
+[flag reasoning]
+
+Če se odločite obdržati ta komentar, ga uredite in ponovno presodite, ali so razlogi za objavo upravičeni.
+To bo s komentarja odstranilo označbo neprimernosti (zastavico).
+
+Tega komentarja ne bo več mogoče potrditi, če je to onemogočeno v vaših nastavitvah.
+
+Link do vaše nadzorne plošče:
+[admin link]
+
+Lep pozdrav,
+

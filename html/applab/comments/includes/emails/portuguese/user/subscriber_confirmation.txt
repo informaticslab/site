@@ -1,0 +1,13 @@
+﻿Olá [name],
+
+Você requisitou uma inscrição para a página [page reference], localizada no seguinte endereço:
+[page url]
+
+Por favor, confirme sua inscrição clicando no link abaixo:
+[confirmation link]
+
+Se você não requisitou esta incrição, não há nada que você precise fazer.
+Você não receberá mais emails deste tipo.
+
+Obrigado,
+

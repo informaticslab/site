@@ -1,0 +1,13 @@
+﻿Hola [name],
+
+Ha solicitado suscibirse a la página [page reference], localizada en la siguiente dirección web:
+[page url]
+
+Por favor, confirme la suscripción haciendo clic en el enlace de abajo:
+[confirmation link]
+
+Si usted no ha solicitado la suscripción, simplemente olvide este correo.
+No recibirá más mensajes de este tipo.
+
+Saludos,
+

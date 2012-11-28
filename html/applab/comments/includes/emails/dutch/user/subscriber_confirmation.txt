@@ -1,0 +1,13 @@
+﻿Hallo [name],
+
+U heeft zich ingeschreven op de pagina [page reference], gevonden op volgend adres:
+[page url]
+
+Bevestig aub uw inschrijving door op onderstaande link te klikken:
+[confirmation link]
+
+Als u zich niet heeft ingeschreven hoeft u niets te doen.
+U ontvangt geen verdere berichten meer.
+
+Met vriendelijke groet,
+

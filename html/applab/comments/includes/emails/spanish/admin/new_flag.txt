@@ -1,0 +1,26 @@
+﻿Hola,
+
+Un nuevo comentario ha sido remarcado en la página [page reference], localizada en la siguiente dirección web:
+[page url]
+
+El comentario remarcado ha sido publicado por [poster] y dice lo siguiente:
+
+************************
+
+[comment]
+
+************************
+
+Este comentario ha sido remarcado por las siguientes razones:
+[flag reasoning]
+
+Si decide dejar el comentario, por favor edítelo y compruebe que las razones son auténticas.
+Esto desmarcará el comentario.
+
+Este comentario, dependiendo de su configuración, ya no puede ser aprobado.
+
+Este es el enlace a su panel de administración:
+[admin link]
+
+Saludos,
+

@@ -1,0 +1,10 @@
+﻿Hallo,
+
+Een nieuwe gebruiker met volgend IP Adres [ip address], is geblokkeerd/banned om volgende redenen:
+[ban reasoning]
+
+Hier is de link naar uw admin panel:
+[admin link]
+
+Met vriendelijke groet,
+

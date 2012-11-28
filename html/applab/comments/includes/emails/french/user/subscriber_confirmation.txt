@@ -1,0 +1,13 @@
+﻿Bonjour [name],
+
+Vous avez demandé un abonnement à la page [page reference], situé à l'adresse suivante:
+[page url]
+
+S'il vous plaît confirmer cet abonnement en cliquant sur le lien ci-dessous:
+[confirmation link]
+
+Si vous n'avez pas demandé cet abonnement, il n'y a rien que vous devez faire.
+Vous ne recevrez plus les mails de ce type.
+
+Cordialement,
+

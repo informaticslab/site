@@ -1,0 +1,21 @@
+﻿Hello,
+
+A new comment has been posted on the page [page reference], located at the following address:
+[page url]
+
+The comment was made by [poster] and was as follows:
+
+************************
+
+[comment]
+
+************************
+
+This comment requires approval due to the following reason(s):
+[approval reasoning]
+
+Here is the link to your admin panel:
+[admin link]
+
+Regards,
+

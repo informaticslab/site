@@ -1,0 +1,33 @@
+The comment boxes can have alternate CSS styling.
+Check the forum regularly for solutions to reported bugs.
+Secure your admin folder with .htpasswd for extra protection.
+If using the RSS feature check the FAQ about RSS Auto-Discovery.
+When modifying the code you can put the script in maintenance mode.
+Use robots.txt to help prevent the comments folder from being indexed.
+Customize the terms & privacy text in the 'comments/agreement' folder.
+Add-ons can help make the experience of you and your users better.
+See who is viewing your pages in Tools -> Viewers.
+Customize the emails you send and receive using the Settings menu.
+Back up your database regularly using Tools -> Database Backup.
+Add your own captcha questions in Layout -> Form -> Questions.
+If something is not working turn on Error Reporting in Settings.
+You can disable the form of a specific page in Manage -> Pages.
+You can add other administrators to help with the workload.
+Add the UTF-8 charset to your head tag for international support.
+Optimize your tables now and again using Tools -> Optimize Tables.
+It is always important to upgrade to the latest version of Commentics.
+Add some notes below to keep track of admin related tasks.
+You can share ideas and submit feature requests on the forum.
+Leaving the image captcha enabled helps prevent robotic submission.
+Don't forget to check for comments that require approval.
+Modify the frontend text in the 'comments/includes/language' folder.
+You can customize the time and date format in the Layout menu.
+Click on the 'Get help for this page' link at the top right of pages.
+Select which emails you receive in Settings -> Administrator.
+Check frequently for any pending reports in Manage -> Comments.
+Keep track of admin panel usage in Reports -> Access.
+Customize the 'Sort By' links in Layout -> Comments -> Sort By.
+Enable the Akismet service in Settings -> Akismet to check for spam.
+You can change the default Gravatar in Layout -> Comments -> Gravatar.
+Sticky the important comments so that they always appear at the top.
+Lock replies for a particular comment using the Edit Comment page.

@@ -1,0 +1,10 @@
+﻿Hola,
+
+Un nuevo usuario, con la dirección IP [ip address], ha sido bloqueado por la siguiente razón:
+[ban reasoning]
+
+Este es el enlace a su panel de administración:
+[admin link]
+
+Saludos,
+

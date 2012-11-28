@@ -1,0 +1,14 @@
+admin
+admins
+administrator
+administrators
+author
+authors
+developer
+developers
+moderator
+moderators
+owner
+owners
+support
+team

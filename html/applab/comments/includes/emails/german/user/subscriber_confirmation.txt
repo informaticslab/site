@@ -1,0 +1,13 @@
+﻿Hallo [name],
+
+Sie haben die Seite [page reference], mit folgender Adresse:
+[page url]
+
+Bitte bestätigen Sie das Abo in dem Sie auf folgenden Link klicken:
+[confirmation link]
+
+Falls Sie nichts abonniert haben brauchen Sie nichts weiter tun.
+Sie werden keine weitere eMail dieser Art erhalten.
+
+Aufrichtig,
+

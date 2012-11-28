@@ -1,0 +1,10 @@
+﻿Pozdravljeni,
+
+Novi korisnik, s IP adresom [ip address] , bio je blokiran zbog sljedećih razloga:
+[ban reasoning]
+
+Ovdje je link do vašeg admin panela:
+[admin link]
+
+pozdrav,
+

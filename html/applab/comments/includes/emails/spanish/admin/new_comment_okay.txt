@@ -1,0 +1,20 @@
+﻿Hola,
+
+Se ha añadido un comentario en la página [page reference], localizada en la siguiente dirección web:
+[page url]
+
+El comentario ha sido publicado por [poster] y dice lo siguiente:
+
+************************
+
+[comment]
+
+************************
+
+Este comentario no requiere aprobación.
+
+Este es el enlace a su panel de administración:
+[admin link]
+
+Saludos,
+

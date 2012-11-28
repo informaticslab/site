@@ -1,0 +1,4 @@
+[22-Jun-2012 17:33:51] PHP Notice:  Undefined index: smtp_encryption in /var/www/html/applab/comments/includes/classes/settings.php on line 40
+[22-Jun-2012 19:15:03] PHP Notice:  Undefined index: smtp_encryption in /var/www/html/applab/comments/includes/classes/settings.php on line 40
+[22-Jun-2012 19:15:54] PHP Notice:  Undefined index: smtp_encryption in /var/www/html/applab/comments/includes/classes/settings.php on line 40
+[25-Jun-2012 09:28:06] PHP Notice:  Undefined index: smtp_encryption in /var/www/html/applab/comments/includes/classes/settings.php on line 40

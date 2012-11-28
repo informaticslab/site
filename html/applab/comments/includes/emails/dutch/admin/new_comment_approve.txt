@@ -1,0 +1,21 @@
+﻿Hallo,
+
+Een nieuw bericht is geplaatst op [page reference], gevonden op het volgende adres:
+[page url]
+
+Het bericht is geplaatst door [poster] en bevat het volgende:
+
+************************
+
+[comment]
+
+************************
+
+Dit bericht wacht op goedkeuring om volgende redenen:
+[approval reasoning]
+
+Hier is de link naar uw admin panel:
+[admin link]
+
+Met vriendelijke groet,
+

@@ -1,0 +1,13 @@
+﻿Hello [name],
+
+You have requested a subscription to the page [page reference], located at the following address:
+[page url]
+
+Please confirm this subscription by clicking the link below:
+[confirmation link]
+
+If you did not request this subscription, there is nothing that you need to do.
+You will not receive anymore emails of this type.
+
+Regards,
+

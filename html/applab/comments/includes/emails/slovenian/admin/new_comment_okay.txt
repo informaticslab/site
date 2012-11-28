@@ -1,0 +1,21 @@
+﻿Pozdravljeni,
+
+na stran [page reference] je bil dodan nov komentar, ki se nahaja na sledečem naslovu:
+[page url]
+
+Komentar s spodaj navedeno vsebino je dodal [poster] :
+
+************************
+
+[comment]
+
+************************
+
+Komentar ne potrebuje potrditve.
+
+Link do vaše nadzorne plošče:
+
+[admin link]
+
+Lep pozdrav,
+

@@ -1,0 +1,654 @@
+# ************************************************************
+# Sequel Pro SQL dump
+# Version 3408
+#
+# http://www.sequelpro.com/
+# http://code.google.com/p/sequel-pro/
+#
+# Database: AppComments
+# Generation Time: 2012-06-14 14:46:04 +0000
+# ************************************************************
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+# Dump of table apps_access
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_access`;
+
+CREATE TABLE `apps_access` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `admin_id` int(10) unsigned NOT NULL default '1',
+  `username` varchar(250) NOT NULL default '',
+  `ip_address` varchar(39) NOT NULL default '',
+  `page` varchar(250) NOT NULL default '',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_access` WRITE;
+/*!40000 ALTER TABLE `apps_access` DISABLE KEYS */;
+
+/*TODO-CONFIGURE add in apps_access*/
+
+/*!40000 ALTER TABLE `apps_access` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_admins
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_admins`;
+
+CREATE TABLE `apps_admins` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `username` varchar(250) NOT NULL default '',
+  `password` varchar(250) NOT NULL default '',
+  `email` varchar(250) NOT NULL default '',
+  `ip_address` varchar(39) NOT NULL default '',
+  `cookie_key` varchar(250) NOT NULL default '',
+  `detect_admin` tinyint(1) unsigned NOT NULL default '1',
+  `detect_method` varchar(250) NOT NULL default 'both',
+  `receive_email_new_ban` tinyint(1) unsigned NOT NULL default '1',
+  `receive_email_new_comment_approve` tinyint(1) unsigned NOT NULL default '1',
+  `receive_email_new_comment_okay` tinyint(1) unsigned NOT NULL default '1',
+  `receive_email_new_flag` tinyint(1) unsigned NOT NULL default '1',
+  `last_login` datetime NOT NULL default '0000-00-00 00:00:00',
+  `is_super` tinyint(1) unsigned NOT NULL default '0',
+  `is_enabled` tinyint(1) unsigned NOT NULL default '1',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_admins` WRITE;
+/*!40000 ALTER TABLE `apps_admins` DISABLE KEYS */;
+/*TODO-CONFIGURE add in apps_admins*/
+
+
+/*!40000 ALTER TABLE `apps_admins` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_bans
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_bans`;
+
+CREATE TABLE `apps_bans` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `ip_address` varchar(39) NOT NULL default '',
+  `reason` varchar(250) NOT NULL default '',
+  `unban` tinyint(1) unsigned NOT NULL default '0',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table apps_comments
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_comments`;
+
+CREATE TABLE `apps_comments` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `name` varchar(250) NOT NULL default '',
+  `email` varchar(250) NOT NULL default '',
+  `website` varchar(250) NOT NULL default '',
+  `town` varchar(250) NOT NULL default '',
+  `country` varchar(250) NOT NULL default '',
+  `rating` tinyint(1) unsigned NOT NULL default '0',
+  `reply_to` int(10) unsigned NOT NULL default '0',
+  `comment` text NOT NULL,
+  `reply` text NOT NULL,
+  `ip_address` varchar(39) NOT NULL default '',
+  `page_id` int(10) NOT NULL default '0',
+  `is_approved` tinyint(1) unsigned NOT NULL default '1',
+  `approval_reasoning` text NOT NULL,
+  `is_admin` tinyint(1) unsigned NOT NULL default '0',
+  `is_sent` tinyint(1) unsigned NOT NULL default '0',
+  `sent_to` int(10) unsigned NOT NULL default '0',
+  `vote_up` int(10) unsigned NOT NULL default '0',
+  `vote_down` int(10) unsigned NOT NULL default '0',
+  `is_flagged` tinyint(1) unsigned NOT NULL default '0',
+  `is_sticky` tinyint(1) unsigned NOT NULL default '0',
+  `is_locked` tinyint(1) unsigned NOT NULL default '0',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_comments` WRITE;
+/*!40000 ALTER TABLE `apps_comments` DISABLE KEYS */;
+
+
+/*!40000 ALTER TABLE `apps_comments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_logins
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_logins`;
+
+CREATE TABLE `apps_logins` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_logins` WRITE;
+/*!40000 ALTER TABLE `apps_logins` DISABLE KEYS */;
+
+INSERT INTO `apps_logins` (`id`, `dated`)
+VALUES
+	(1,'2012-06-07 10:36:23'),
+	(2,'2012-06-07 08:02:14');
+
+/*!40000 ALTER TABLE `apps_logins` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_pages
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_pages`;
+
+CREATE TABLE `apps_pages` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `custom_id` varchar(250) NOT NULL default '',
+  `reference` varchar(250) NOT NULL default '',
+  `url` varchar(250) NOT NULL default '',
+  `is_form_enabled` tinyint(1) unsigned NOT NULL default '1',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_pages` WRITE;
+/*!40000 ALTER TABLE `apps_pages` DISABLE KEYS */;
+
+INSERT INTO `apps_pages` (`id`, `custom_id`, `reference`, `url`, `is_form_enabled`, `dated`)
+VALUES
+	(1,'pttadvisor','PTT Advisor','http://idemo.phiresearchlab.org/appstore/ptt.php',1,'2012-06-06 17:04:06'),
+	(2,'respirator_guide','NIOSH Respirator Guide','http://idemo.phiresearchlab.org/appstore/facepiece.php',1,'2012-06-07 09:51:43');
+
+/*!40000 ALTER TABLE `apps_pages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_questions
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_questions`;
+
+CREATE TABLE `apps_questions` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `question` varchar(250) NOT NULL default '',
+  `answer` varchar(250) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_questions` WRITE;
+/*!40000 ALTER TABLE `apps_questions` DISABLE KEYS */;
+
+INSERT INTO `apps_questions` (`id`, `question`, `answer`)
+VALUES
+	(1,'Enter the third letter of the word <i>castle</i>.','s'),
+	(2,'Enter the word <i>shark</i> backwards.','krahs'),
+	(3,'What is the opposite word of <i>weak</i>?','strong'),
+	(4,'Is it true or false that green is a number?','false'),
+	(5,'Which word <b>in</b> this sentence is bold?','in'),
+	(6,'Which is darker: black or white?','black'),
+	(7,'Enter the last letter of the word <i>satellite</i>.','e'),
+	(8,'What is the opposite word of <i>small</i>?','big'),
+	(9,'Out of 56, 14 or 27, which is the smallest?','14'),
+	(10,'Enter the word <i>hand</i> backwards.','dnah'),
+	(11,'Type the numbers for four hundred seventy-two.','472'),
+	(12,'Enter the fifth word of this sentence.','of'),
+	(13,'Enter the third word of this sentence.','third'),
+	(14,'What is the sum of 1 + 2 + 3?','6'),
+	(15,'Enter the word <i>table</i> backwards.','elbat'),
+	(16,'What is the day after Friday?','saturday'),
+	(17,'Is ice cream hot or cold?','cold'),
+	(18,'What is the next number: 10, 12, 14, ..?','16'),
+	(19,'What is the fifth month of the year?','may'),
+	(20,'Type the word for the number 9.','nine');
+
+/*!40000 ALTER TABLE `apps_questions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_reports
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_reports`;
+
+CREATE TABLE `apps_reports` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `comment_id` int(10) unsigned NOT NULL default '0',
+  `ip_address` varchar(39) NOT NULL default '',
+  `status` varchar(250) NOT NULL default '',
+  `reason` varchar(250) NOT NULL default '',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table apps_settings
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_settings`;
+
+CREATE TABLE `apps_settings` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `category` varchar(250) NOT NULL default '',
+  `title` varchar(250) NOT NULL default '',
+  `value` varchar(250) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_settings` WRITE;
+/*!40000 ALTER TABLE `apps_settings` DISABLE KEYS */;
+
+INSERT INTO `apps_settings` (`id`, `category`, `title`, `value`)
+VALUES
+	(1,'admin_panel','checklist_complete','1'),
+	(2,'approval','approve_comments','1'),
+	(3,'approval','approve_notifications','0'),
+	(4,'commentics','powered_by','off'),
+	(5,'commentics','powered_by_new_window','1'),
+	(6,'comments','show_average_rating','1'),
+	(7,'comments','newest_first','1'),
+	(8,'comments','show_website','1'),
+	(9,'comments','show_town','1'),
+	(10,'comments','show_country','1'),
+	(11,'comments','show_says','1'),
+	(12,'comments','show_rating','1'),
+	(13,'comments','show_date','1'),
+	(14,'comments','show_like','0'),
+	(15,'comments','show_dislike','0'),
+	(16,'comments','show_flag','0'),
+	(17,'comments','show_reply','1'),
+	(18,'comments','show_rss_this_page','0'),
+	(19,'comments','show_rss_all_pages','0'),
+	(20,'comments','show_comments_info','1'),
+	(21,'comments','time_format','g:ia'),
+	(22,'comments','date_time_format','jS F Y g:ia'),
+	(23,'comments','enabled_pagination','1'),
+	(24,'comments','show_pagination_top','1'),
+	(25,'comments','show_pagination_bottom','1'),
+	(26,'comments','comments_per_page','5'),
+	(27,'comments','range_of_pages','2'),
+	(28,'comments','js_vote_ok','1'),
+	(29,'comments','flag_max_per_user','3'),
+	(30,'comments','flag_min_per_comment','2'),
+	(31,'comments','flag_disapprove','1'),
+	(32,'comments','rich_snippets','0'),
+	(33,'comments','scroll_reply','1'),
+	(34,'comments','reply_depth','5'),
+	(35,'comments','reply_arrow','1'),
+	(36,'comments','enabled_sort_by','0'),
+	(37,'comments','enabled_sort_by_1','1'),
+	(38,'comments','enabled_sort_by_2','1'),
+	(39,'comments','enabled_sort_by_3','0'),
+	(40,'comments','enabled_sort_by_4','0'),
+	(41,'comments','enabled_sort_by_5','0'),
+	(42,'comments','enabled_sort_by_6','0'),
+	(43,'comments','enabled_gravatar','0'),
+	(44,'comments','gravatar_default','mm'),
+	(45,'comments','gravatar_rating','g'),
+	(46,'email','transport_method','php'),
+	(47,'email','smtp_host','smtp.example.com'),
+	(48,'email','smtp_port','25'),
+	(49,'email','smtp_encrypt','off'),
+	(50,'email','smtp_auth','0'),
+	(51,'email','smtp_username',''),
+	(52,'email','smtp_password',''),
+	(53,'email','sendmail_path','/usr/sbin/sendmail'),
+	(54,'email','subscriber_confirmation_subject','Comments: Confirmation Required'),
+	(55,'email','subscriber_confirmation_from_name','App Store Feedback'),
+	(56,'email','subscriber_confirmation_from_email','comments@phiresearchlab.org/appstore/'),
+	(57,'email','subscriber_confirmation_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(58,'email','subscriber_notification_subject','Comments: Notification'),
+	(59,'email','subscriber_notification_from_name','App Store Feedback'),
+	(60,'email','subscriber_notification_from_email','comments@phiresearchlab.org/appstore/'),
+	(61,'email','subscriber_notification_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(62,'email','admin_new_ban_subject','Comments: New Ban'),
+	(63,'email','admin_new_ban_from_name','App Store Feedback'),
+	(64,'email','admin_new_ban_from_email','comments@phiresearchlab.org/appstore/'),
+	(65,'email','admin_new_ban_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(66,'email','admin_new_comment_approve_subject','New Comment: Approval'),
+	(67,'email','admin_new_comment_approve_from_name','App Store Feedback'),
+	(68,'email','admin_new_comment_approve_from_email','sara7bella@gmail.com'),
+	(69,'email','admin_new_comment_approve_reply_to','no-reply@sara7bella@gmail.com'),
+	(70,'email','admin_new_comment_okay_subject','New Comment'),
+	(71,'email','admin_new_comment_okay_from_name','App Store Feedback'),
+	(72,'email','admin_new_comment_okay_from_email','comments@phiresearchlab.org/appstore/'),
+	(73,'email','admin_new_comment_okay_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(74,'email','admin_reset_password_subject','Comments: Password Reset'),
+	(75,'email','admin_reset_password_from_name','App Store Feedback'),
+	(76,'email','admin_reset_password_from_email','comments@phiresearchlab.org/appstore/'),
+	(77,'email','admin_reset_password_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(78,'email','admin_new_flag_subject','Comments: New Flag'),
+	(79,'email','admin_new_flag_from_name','App Store Feedback'),
+	(80,'email','admin_new_flag_from_email','comments@phiresearchlab.org/appstore/'),
+	(81,'email','admin_new_flag_reply_to','no-reply@phiresearchlab.org/appstore/'),
+	(82,'error_reporting','error_reporting_admin','0'),
+	(83,'error_reporting','error_reporting_frontend','0'),
+	(84,'error_reporting','error_reporting_method','log'),
+	(85,'form','enabled_form','1'),
+	(86,'form','display_javascript_disabled','1'),
+	(87,'form','enabled_email','1'),
+	(88,'form','enabled_website','0'),
+	(89,'form','enabled_town','0'),
+	(90,'form','enabled_country','0'),
+	(91,'form','enabled_rating','1'),
+	(92,'form','enabled_question','0'),
+	(93,'form','enabled_captcha','0'),
+	(94,'form','enabled_notify','0'),
+	(95,'form','enabled_privacy','0'),
+	(96,'form','enabled_terms','0'),
+	(97,'form','required_email','1'),
+	(98,'form','required_website','0'),
+	(99,'form','required_town','0'),
+	(100,'form','required_country','0'),
+	(101,'form','required_rating','0'),
+	(102,'form','display_required_symbol','1'),
+	(103,'form','display_required_symbol_message','1'),
+	(104,'form','display_email_note','1'),
+	(105,'form','default_name',''),
+	(106,'form','default_email',''),
+	(107,'form','default_website','http://'),
+	(108,'form','default_town',''),
+	(109,'form','default_country',''),
+	(110,'form','default_rating',''),
+	(111,'form','default_comment',''),
+	(112,'form','default_notify','1'),
+	(113,'form','default_privacy','0'),
+	(114,'form','default_terms','0'),
+	(115,'form','field_size_name','33'),
+	(116,'form','field_size_email','33'),
+	(117,'form','field_size_website','33'),
+	(118,'form','field_size_town','33'),
+	(119,'form','field_size_comment_columns','41'),
+	(120,'form','field_size_comment_rows','6'),
+	(121,'form','field_size_question','6'),
+	(122,'form','field_size_captcha','3'),
+	(123,'form','field_maximum_name','30'),
+	(124,'form','field_maximum_email','100'),
+	(125,'form','field_maximum_website','100'),
+	(126,'form','field_maximum_town','30'),
+	(127,'form','field_maximum_question','30'),
+	(128,'form','field_maximum_captcha','4'),
+	(129,'form','enabled_bb_code','1'),
+	(130,'form','enabled_bb_code_bold','1'),
+	(131,'form','enabled_bb_code_italic','1'),
+	(132,'form','enabled_bb_code_underline','0'),
+	(133,'form','enabled_bb_code_strike','0'),
+	(134,'form','enabled_bb_code_superscript','0'),
+	(135,'form','enabled_bb_code_subscript','0'),
+	(136,'form','enabled_bb_code_code','0'),
+	(137,'form','enabled_bb_code_php_code','0'),
+	(138,'form','enabled_bb_code_quote','1'),
+	(139,'form','enabled_bb_code_line','1'),
+	(140,'form','enabled_bb_code_list_bullet','1'),
+	(141,'form','enabled_bb_code_list_numeric','1'),
+	(142,'form','enabled_bb_code_url','1'),
+	(143,'form','enabled_bb_code_email','1'),
+	(144,'form','enabled_bb_code_image','1'),
+	(145,'form','enabled_bb_code_video','0'),
+	(146,'form','enabled_smilies','0'),
+	(147,'form','enabled_smilies_smile','1'),
+	(148,'form','enabled_smilies_sad','1'),
+	(149,'form','enabled_smilies_huh','1'),
+	(150,'form','enabled_smilies_laugh','1'),
+	(151,'form','enabled_smilies_mad','1'),
+	(152,'form','enabled_smilies_tongue','1'),
+	(153,'form','enabled_smilies_crying','1'),
+	(154,'form','enabled_smilies_grin','1'),
+	(155,'form','enabled_smilies_wink','1'),
+	(156,'form','enabled_smilies_scared','1'),
+	(157,'form','enabled_smilies_cool','1'),
+	(158,'form','enabled_smilies_sleep','1'),
+	(159,'form','enabled_smilies_blush','1'),
+	(160,'form','enabled_smilies_unsure','1'),
+	(161,'form','enabled_smilies_shocked','1'),
+	(162,'form','enabled_counter','0'),
+	(163,'form','enabled_preview','1'),
+	(164,'form','agree_to_preview','0'),
+	(165,'form','repeat_ratings','disable'),
+	(166,'language','language_frontend','english'),
+	(167,'language','language_backend','english'),
+	(168,'maintenance','maintenance_mode','0'),
+	(169,'maintenance','maintenance_message','Currently under general maintenance.<p />Please check back shortly.'),
+	(170,'notice','notice_limit_comments','1'),
+	(171,'order','sort_order_parts','1,2'),
+	(172,'order','sort_order_fields','1,2,3,4,5,6'),
+	(173,'order','sort_order_buttons','1,2'),
+	(174,'processor','one_name_enabled','0'),
+	(175,'processor','fix_name_enabled','0'),
+	(176,'processor','detect_link_in_name_enabled','1'),
+	(177,'processor','link_in_name_action','reject'),
+	(178,'processor','reserved_names_enabled','1'),
+	(179,'processor','reserved_names_action','reject'),
+	(180,'processor','dummy_names_enabled','1'),
+	(181,'processor','dummy_names_action','reject'),
+	(182,'processor','banned_names_enabled','1'),
+	(183,'processor','banned_names_action','ban'),
+	(184,'processor','reserved_emails_enabled','1'),
+	(185,'processor','reserved_emails_action','reject'),
+	(186,'processor','dummy_emails_enabled','1'),
+	(187,'processor','dummy_emails_action','reject'),
+	(188,'processor','banned_emails_enabled','1'),
+	(189,'processor','banned_emails_action','ban'),
+	(190,'processor','approve_websites','0'),
+	(191,'processor','validate_website_ping','0'),
+	(192,'processor','website_new_window','1'),
+	(193,'processor','website_nofollow','1'),
+	(194,'processor','reserved_websites_enabled','1'),
+	(195,'processor','reserved_websites_action','reject'),
+	(196,'processor','dummy_websites_enabled','1'),
+	(197,'processor','dummy_websites_action','reject'),
+	(198,'processor','banned_websites_as_website_enabled','1'),
+	(199,'processor','banned_websites_as_website_action','ban'),
+	(200,'processor','banned_websites_as_comment_enabled','1'),
+	(201,'processor','banned_websites_as_comment_action','approve'),
+	(202,'processor','reserved_towns_enabled','1'),
+	(203,'processor','reserved_towns_action','reject'),
+	(204,'processor','dummy_towns_enabled','1'),
+	(205,'processor','dummy_towns_action','reject'),
+	(206,'processor','banned_towns_enabled','1'),
+	(207,'processor','banned_towns_action','ban'),
+	(208,'processor','fix_town_enabled','1'),
+	(209,'processor','detect_link_in_town_enabled','1'),
+	(210,'processor','link_in_town_action','ban'),
+	(211,'processor','comment_minimum_characters','5'),
+	(212,'processor','comment_minimum_words','2'),
+	(213,'processor','comment_maximum_characters','1000'),
+	(214,'processor','comment_maximum_lines','50'),
+	(215,'processor','comment_maximum_smilies','5'),
+	(216,'processor','comment_parser_convert_links','1'),
+	(217,'processor','comment_parser_convert_emails','1'),
+	(218,'processor','comment_links_new_window','1'),
+	(219,'processor','comment_links_nofollow','1'),
+	(220,'processor','comment_line_breaks','1'),
+	(221,'processor','long_word_length_to_deny','100'),
+	(222,'processor','swear_word_masking','*****'),
+	(223,'processor','check_capitals_enabled','0'),
+	(224,'processor','check_capitals_percentage','50'),
+	(225,'processor','check_capitals_action','reject'),
+	(226,'processor','mild_swear_words_enabled','1'),
+	(227,'processor','mild_swear_words_action','mask'),
+	(228,'processor','strong_swear_words_enabled','1'),
+	(229,'processor','strong_swear_words_action','mask_approve'),
+	(230,'processor','spam_words_enabled','1'),
+	(231,'processor','spam_words_action','approve'),
+	(232,'processor','detect_link_in_comment_enabled','1'),
+	(233,'processor','link_in_comment_action','approve'),
+	(234,'processor','approve_images','1'),
+	(235,'processor','approve_videos','1'),
+	(236,'processor','check_repeats_enabled','0'),
+	(237,'processor','check_repeats_action','reject'),
+	(238,'processor','flood_control_delay_enabled','1'),
+	(239,'processor','flood_control_delay_time','600'),
+	(240,'processor','flood_control_delay_all_pages','1'),
+	(241,'processor','flood_control_maximum_enabled','1'),
+	(242,'processor','flood_control_maximum_amount','3'),
+	(243,'processor','flood_control_maximum_period','1'),
+	(244,'processor','flood_control_maximum_all_pages','1'),
+	(245,'processor','akismet_enabled','0'),
+	(246,'processor','akismet_key',''),
+	(247,'rss','rss_enabled','1'),
+	(248,'rss','rss_title','App Store Feedback'),
+	(249,'rss','rss_link','http://www.phiresearchlab.org/appstore/'),
+	(250,'rss','rss_description','Comments'),
+	(251,'rss','rss_language','en'),
+	(252,'rss','rss_image_enabled','1'),
+	(253,'rss','rss_image_url','http://www.phiresearchlab.org/appstore//favicon.ico'),
+	(254,'rss','rss_image_width','16'),
+	(255,'rss','rss_image_height','16'),
+	(256,'rss','rss_most_recent_enabled','1'),
+	(257,'rss','rss_most_recent_amount','30'),
+	(258,'security','banning_cookie_days','30'),
+	(259,'security','security_key','k917vp4wg6gukoldghqv'),
+	(260,'security','session_key','unrx3d4nwi36bygpxmfn'),
+	(261,'security','check_referrer','1'),
+	(262,'security','check_db_file','1'),
+	(263,'social','enabled_social','0'),
+	(264,'social','social_new_window','1'),
+	(265,'social','enabled_social_facebook','1'),
+	(266,'social','enabled_social_delicious','1'),
+	(267,'social','enabled_social_stumbleupon','1'),
+	(268,'social','enabled_social_digg','1'),
+	(269,'social','enabled_social_technorati','0'),
+	(270,'social','enabled_social_google','1'),
+	(271,'social','enabled_social_reddit','0'),
+	(272,'social','enabled_social_myspace','0'),
+	(273,'social','enabled_social_twitter','1'),
+	(274,'social','enabled_social_linkedin','0'),
+	(275,'system','admin_folder','jasper'),
+	(276,'system','mysqldump_path',''),
+	(277,'system','time_zone','America/New_York'),
+	(278,'system','url_to_comments_folder','/appstore/comments/'),
+	(279,'system','enabled_wysiwyg','1'),
+	(280,'system','is_demo','0'),
+	(281,'system','limit_comments','50'),
+	(282,'tasks','task_enabled_delete_bans','1'),
+	(283,'tasks','days_to_delete_bans','30'),
+	(284,'tasks','task_enabled_delete_reports','1'),
+	(285,'tasks','days_to_delete_reports','30'),
+	(286,'tasks','task_enabled_delete_voters','1'),
+	(287,'tasks','days_to_delete_voters','30'),
+	(288,'tasks','task_enabled_delete_comment_ips','1'),
+	(289,'tasks','days_to_delete_comment_ips','30'),
+	(290,'tasks','task_enabled_delete_unconfirmed_subscribers','1'),
+	(291,'tasks','days_to_delete_unconfirmed_subscribers','7'),
+	(292,'tasks','task_enabled_delete_inactive_subscribers','1'),
+	(293,'tasks','days_to_delete_inactive_subscribers','30'),
+	(294,'viewers','viewers_enabled','1'),
+	(295,'viewers','viewers_timeout','1200'),
+	(296,'viewers','viewers_refresh_enabled','1'),
+	(297,'viewers','viewers_refresh_time','60');
+
+/*!40000 ALTER TABLE `apps_settings` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_subscribers
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_subscribers`;
+
+CREATE TABLE `apps_subscribers` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `name` varchar(250) NOT NULL default '',
+  `email` varchar(250) NOT NULL default '',
+  `page_id` int(10) NOT NULL default '0',
+  `token` varchar(20) NOT NULL default '',
+  `is_confirmed` tinyint(1) unsigned NOT NULL default '0',
+  `is_active` tinyint(1) unsigned NOT NULL default '0',
+  `last_action` datetime NOT NULL default '0000-00-00 00:00:00',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+# Dump of table apps_version
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_version`;
+
+CREATE TABLE `apps_version` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `version` varchar(10) NOT NULL default '',
+  `type` varchar(250) NOT NULL default '',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_version` WRITE;
+/*!40000 ALTER TABLE `apps_version` DISABLE KEYS */;
+
+INSERT INTO `apps_version` (`id`, `version`, `type`, `dated`)
+VALUES
+	(1,'1.8','Installation','2012-06-06 10:06:19');
+
+/*!40000 ALTER TABLE `apps_version` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_viewers
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_viewers`;
+
+CREATE TABLE `apps_viewers` (
+  `user_agent` varchar(250) NOT NULL default '',
+  `ip_address` varchar(39) NOT NULL default '',
+  `page_reference` varchar(250) NOT NULL default '',
+  `page_url` varchar(250) NOT NULL default '',
+  `timestamp` int(50) unsigned NOT NULL default '0'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `apps_viewers` WRITE;
+/*!40000 ALTER TABLE `apps_viewers` DISABLE KEYS */;
+
+INSERT INTO `apps_viewers` (`user_agent`, `ip_address`, `page_reference`, `page_url`, `timestamp`)
+VALUES
+	('Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22','172.16.6.101','NIOSH Respirator Guide','http://idemo.phiresearchlab.org/appstore/facepiece.php',1339521512);
+
+/*!40000 ALTER TABLE `apps_viewers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table apps_voters
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `apps_voters`;
+
+CREATE TABLE `apps_voters` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `comment_id` int(10) unsigned NOT NULL default '0',
+  `ip_address` varchar(39) NOT NULL default '',
+  `dated` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
