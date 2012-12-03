@@ -50,8 +50,8 @@ ob_start();
 <div id="download_detail_largest"><a id="std3-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std3/ios/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android download</a></span></div><!--end of download_detail-->
 <div id="stats_android">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 10/30/2012<br/>
-<strong>Version:</strong> 0.5.2.18<br/>
+<strong>Released:</strong> 11/16/2012<br/>
+<strong>Version:</strong> 0.5.9.6<br/>
 <strong>Size:</strong> 8.1MB<br/>
 <strong>Cost:</strong> Free
 
