@@ -85,16 +85,16 @@ iPhone, iPod Touch,</div>
 <p>These limited prototype apps demonstrate the feature functionality of specific cross-platform mobile development tools. Although we tested 4 tools, we are able to provide links to 3 tools. The iOS versions are currently available below. The Android versions will be available in the near future.<br /><br />
   <ol>
   <li> <strong>jQueryMobile</strong>: uses the jQueryMobile JavaScript library created using Adobe Dreamweaver tools, and deployed for iOS and Android using PhoneGap.<br/>
-  <span style="position:relative; top:5px;"><a id="jQuery-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/jQueryMobilePhoneGap/">Get source code</a> | <a id="jQuery-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/jQueryMobilePhoneGap/manifest.plist">iOS Download</a></span></li><br/><br/>
+  <span style="position:relative; top:5px;"><a id="jQuery-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/jQueryMobilePhoneGap">Get source code</a> | <a id="jQuery-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/jQueryMobilePhoneGap/manifest.plist">iOS Download</a></span></li><br/><br/>
   
   
 
   
   
   <li> <strong>Sencha</strong>: developed using the Sencha JavaScript library created using the Sencha Architect IDE, and deployed for iOS and Android using PhoneGap.<br/>
- <span style="position:relative; top:5px;"><a id="Sencha-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/Sencha/">Get source code</a> | <a id="Sencha-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/Sencha/manifest.plist">iOS Download</a></span></li><br/><br/>
+ <span style="position:relative; top:5px;"><a id="Sencha-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/Sencha">Get source code</a> | <a id="Sencha-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/Sencha/manifest.plist">iOS Download</a></span></li><br/><br/>
   <li> <strong>Appcelerator</strong>: developed and created using the Appcelerator Titanium SDK, and deployed for iOS using xCode and the Android SDK.<br/>
-  <span style="position:relative; top:5px;"><a id="Appcelerator-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/Appcelerator/">Get source code</a> | <a id="Appcelerator-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/Appcelerator/manifest.plist">iOS Download</a></span></li></ol><br/>
+  <span style="position:relative; top:5px;"><a id="Appcelerator-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/Appcelerator">Get source code</a> | <a id="Appcelerator-test-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/Appcelerator/manifest.plist">iOS Download</a></span></li></ol><br/>
 <br/>Please send any feedback to <a href="mailto:informaticslab@cdc.gov">InformaticsLab@cdc.gov</a>
 
 

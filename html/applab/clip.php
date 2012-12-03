@@ -79,7 +79,7 @@ iPad with iOS 5.0 <br/>or later<br/>
 <div id="second_column">
 <div id="top_right_links">
 <a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="http://code.phiresearchlab.org/viewvc/informaticslab/clipam/">Get source code ></a>
+<a href="https://github.com/informaticslab/clip">Get source code ></a>
 </div><!--end of top_right_links-->
 
 <div id="text_block">

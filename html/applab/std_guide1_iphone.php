@@ -42,7 +42,7 @@ ob_start();
 
 
 <div id="other_links_iphone"><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="http://code.phiresearchlab.org/viewvc/informaticslab/std-guide/">Get source code ></a>
+<a href="https://github.com/informaticslab/std1">Get source code ></a>
 
 </div>
 

@@ -43,7 +43,7 @@ ob_start();
 
 
 <div id="other_links_iphone"><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="http://code.phiresearchlab.org/viewvc/informaticslab/mmwrmockup/">Get source code ></a>
+<a href="https://github.com/informaticslab/mmwr-nav">Get source code ></a>
 
 </div>
 

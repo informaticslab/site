@@ -47,36 +47,6 @@ ob_start();
 <img src="images/limited_prototypes_large_icon.png" alt="Limited Prototypes" title="Limited Prototypes" />
 
 </div><!--end of large_icon-->
-<!--
-<div id="download_detail"><a id="std2-applab-download" href="../applab/downloads/std2/0.9.3.001/STD%20Guide%202.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
-<div id="stats">
-<strong>Category:</strong> Tool-testing<br/>
-<strong>Released:</strong> 8/9/2012<br/>
-<strong>Cost:</strong> Free
-
-</div><!--end of stats-->
-
-<div id="small_line">
-
-</div>
-
-<div id="requirements">
-<strong>Requirements:</strong><br/>
-iPhone, iPod Touch, <br/>
-iPad with iOS 4.3  <br/>
-or later<br/>
-
-</div>
-
-
-</div><!--end of first_column-->
-
-
-
-<div id="second_column">
-<div id="top_right_links">
-<br/><br/><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<!--<a href="http://code.phiresearchlab.org/viewvc/informaticslab/std2/">Get source code ></a>-->
 </div><!--end of top_right_links-->
 
 <div id="text_block"><br/><br/>
@@ -85,11 +55,11 @@ or later<br/>
 <p>These limited prototype apps demonstrate the feature functionality of specific cross-platform mobile development tools. Although we tested 4 tools, we are able to provide links to 3 tools. The iOS versions are currently available below. The Android versions will be available in the near future.<br /><br />
   <ol>
   <li> <strong>jQueryMobile</strong>: uses the jQueryMobile JavaScript library created using Adobe Dreamweaver tools, and deployed for iOS and Android using PhoneGap.<br/>
-  <span style="position:relative; top:5px;"><a id="jQuery-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/jQueryMobilePhoneGap/">Get source code</a> | <a id="jQuery-test-applab-download" href="../applab/downloads/jQueryMobilePhoneGap/DwJmPg.ipa">iOS Download</a></span></li><br/><br/>
+  <span style="position:relative; top:5px;"><a id="jQuery-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/jQueryMobilePhoneGap">Get source code</a> | <a id="jQuery-test-applab-download" href="../applab/downloads/jQueryMobilePhoneGap/DwJmPg.ipa">iOS Download</a></span></li><br/><br/>
   <li> <strong>Sencha</strong>: developed using the Sencha JavaScript library created using the Sencha Architect IDE, and deployed for iOS and Android using PhoneGap.<br/>
- <span style="position:relative; top:5px;"> <a id="Sencha-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/Sencha/">Get source code</a> | <a id="Sencha-test-applab-download" href="../applab/downloads/Sencha/IrdaEval.ipa">iOS Download</a></span></li><br/><br/>
+ <span style="position:relative; top:5px;"> <a id="Sencha-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/Sencha">Get source code</a> | <a id="Sencha-test-applab-download" href="../applab/downloads/Sencha/IrdaEval.ipa">iOS Download</a></span></li><br/><br/>
   <li> <strong>Appcelerator</strong>: developed and created using the Appcelerator Titanium SDK, and deployed for iOS using xCode and the Android SDK.<br/>
-  <span style="position:relative; top:5px;"><a id="Appcelerator-test-applab-sourcecode" href="http://code.phiresearchlab.org/viewvc/informaticslab/MobileFrameworkTestApps/Appcelerator/">Get source code</a> | <a id="Appcelerator-test-applab-download" href="../applab/downloads/Appcelerator/KitchenSink.ipa">iOS Download</a></span></li></ol><br/>
+  <span style="position:relative; top:5px;"><a id="Appcelerator-test-applab-sourcecode" href="https://github.com/informaticslab/mobile-framework-testing-apps/tree/master/Appcelerator">Get source code</a> | <a id="Appcelerator-test-applab-download" href="../applab/downloads/Appcelerator/KitchenSink.ipa">iOS Download</a></span></li></ol><br/>
 <br/>Please send any feedback to <a href="mailto:informaticslab@cdc.gov">InformaticsLab@cdc.gov</a>
 
 </div><!--end of text_block-->
