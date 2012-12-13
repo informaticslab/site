@@ -47,6 +47,33 @@ ob_start();
 <img src="images/limited_prototypes_large_icon.png" alt="Limited Prototypes" title="Limited Prototypes" />
 
 </div><!--end of large_icon-->
+<div id="stats">
+<strong>Category:</strong> Tool-testing<br/>
+<strong>Released:</strong> 8/9/2012<br/>
+<strong>Cost:</strong> Free
+
+</div><!--end of stats-->
+
+<div id="small_line">
+
+</div>
+
+<div id="requirements">
+<strong>Requirements:</strong><br/>
+iPhone, iPod Touch, <br/>
+iPad with iOS 4.3  <br/>
+or later<br/>
+
+</div>
+
+
+</div><!--end of first_column-->
+
+
+
+<div id="second_column">
+<div id="top_right_links">
+<br/><br/><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
 </div><!--end of top_right_links-->
 
 <div id="text_block"><br/><br/>
