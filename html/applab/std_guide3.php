@@ -50,8 +50,8 @@ ob_start();
 <div id="download_detail"><a id="std3-applab-download" href="../applab/downloads/std3/ios/StdGuide3.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android download</a></span></div><!--end of download_detail-->
 <div id="stats_android">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 11/16/2012<br/>
-<strong>Version:</strong> 0.5.9.6<br/>
+<strong>Released:</strong> 2/12/2013<br/>
+<strong>Version:</strong> 0.5.14.1<br/>
 <strong>Size:</strong> 8.1MB<br/>
 <strong>Cost:</strong> Free
 
