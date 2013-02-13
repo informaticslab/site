@@ -43,12 +43,11 @@ s.parentNode.insertBefore(ga, s);
 
 <div id="header">
 <a href="http://www.cdc.gov"><img src="images/cdc_logo.png" title="CDC logo" alt="CDC logo" border="0" width="141px" height"88px" /></a>
-<span style="float:right; padding-right:2%; "><a href="http://www.cdc.gov/osels/lspppo/index.html"><img src="images/head_branding.png" title="A product of Laboratory Science, Policy and Practice Program Office" alt="A product of Laboratory Science, Policy and Practice Program Office" border="0" width="388px" height"88px"/></a><a href="http://www.phiresearchlab.org"><img src="images/head2_branding.png" title="powered by Informatics R&D Laboratory" alt="powered by Informatics R&D Laboratory" border="0" width="286px" height"88px"/></a></span>
+<span style="float:right; padding-right:2%; "><img src="images/head_branding_std.png" title="A product of CDC's Division of STD Prevention, powered by Informatics R&D Laboratory" alt="A product of CDC's Division of STD Prevention, powered by Informatics R&D Laboratory" border="0" width="674px" height"88px"/></span>
 </div><!--end of header-->
 
 <div id="page_title">
-<!--<img src="images/page_title.png" title="STD Guidelines Support" alt="STD Guidelines Support" border="0" width="309px" height"74px" />-->
-<h2> STD Guidelines Support
+<img src="images/page_title.png" title="STD Guidelines Support" alt="STD Guidelines Support" border="0" width="309px" height"74px" />
 
 </div><!--end of page title-->
 
@@ -62,34 +61,15 @@ s.parentNode.insertBefore(ga, s);
 
 <div id="about_content">
 <p>
-<!--<img src="images/screen.png" title="PTT Advisor screen shot" alt="PTT Advisor screen shot" border="0" width="318px" height="431px" align="right" />-->
-CDC's PTT Advisor offers clinicians a tool to quickly select the appropriate 
-follow-up tests to evaluate patients with a prolonged partial thromboplastin 
-time (PTT) laboratory result and a normal prothrombin time (PT) 
-laboratory result. PTT Advisor will run on your iPhone, iPod touch or iPad. 
-PTT Advisor has been created by CDC in collaboration with experts in 
-diagnostic coagulation with a collective experience of more than 50 years 
-in the field.
+<img src="images/screen.png" title="STD Guidelines screen shot" alt="STD Guidelines screen shot" border="0" width="318px" height="431px" align="right" />
+This mobile prototype application, CDC STD Treatment Guidelines for iOS/Android, serves as a reference for doctors and related parties on the identification of and treatment regimen for STDs. 
+<br/><br/>
+These guidelines for the treatment of persons who have or are at risk for sexually transmitted diseases (STDs) were updated by CDC after consultation with a group of professionals knowledgeable in the field of STDs who met in Atlanta on April 18-30, 2009. The information in this report updates the 2006 Guidelines for Treatment of Sexually Transmitted Diseases (MMWR 2006;55[No. RR-11]). 
 
 <br/><br/>
-CDC works 24/7 keeping America safe from health, safety and security 
-threats, both foreign and domestic. Whether diseases start at home or 
-abroad, are chronic or acute, curable or preventable, human error or 
-deliberate attack, CDC fights it and supports communities and citizens to 
-prevent it. CDC is the nation's health protection agency — saving lives, 
-protecting people from health threats, and saving money through 
-prevention.
-<br/><br/>
-FEATURES:
-<ul style="list-style-image: url(images/bullet.png)">
-<li>Simple and easy-to-use interface</li>
-<li>Quickly navigate through the decision tree</li>
-<li>Additional information / footnotes provided at key decision points</li>
-<li>Quickly modify your answers and review all your selections at any point</li>
-<li>Can be used for both pediatric and adult populations</li>
-<li>No registration or login required</li>
-<li>No data is collected or stored</li>
-</ul>
+This application is a result of a collaboration between CDC's Division of STD Prevention (DSTDP), Behavioral Interventions & Research Branch (BIRB) and the Public Health Surveillance and Informatics Program Office's Informatics Research & Development Activity, and is based on the 2010 STD Treatment Guidelines.  
+
+
 </p>
 </div><!--end of about_content-->
 <!--<div id="screen"><img src="images/screen.png" title="PTT Advisor screen shot" alt="PTT Advisor screen shot" border="0" width="199px" height="431px" />
@@ -100,8 +80,10 @@ FEATURES:
 </div><!--end of contact-->
 
 <div id="contact_content">
-<p>If you have a question or issue not covered here, please feel free to contact us at <a href="mailto:informaticslab@cdc.gov">InformaticsLab@cdc.gov</a></p>
-
+<p>For content-related questions, please visit the CDC site:  <a href="http://www.cdc.gov/std">www.cdc.gov/std</a>
+<br/><br/>
+For questions regarding the application (design, new features, etc.), please contact the staff at <a href="mailto:informaticslab@cdc.gov">InformaticsLab@cdc.gov</a>. <br/><br/>For more information on the Informatics R&D Lab: <a href="http://www.phiresearchlab.org">www.phiresearchlab.org</a>
+</p>
 
 
 </div><!--end of contact_content-->
@@ -113,72 +95,29 @@ FEATURES:
 
 <div id="faqs_content">
 <br/>
-<span class="hang"><span class="qa">Q:</span> How do I get PTT Advisor?</span>
+<span class="hang"><span class="qa">Q:</span> How do I get the Mobile STD Treatment Guidelines app?</span>
 <br/>
-<span class="hang"><span class="qa">A:</span> You can download PTT Advisor for your iPhone, iPod touch, or iPad from Apple's App Store — free of charge.</span>
-<br/><br/><br/>
-<span class="hang"><span class="qa">Q:</span> How do I navigate through the application?</span><br/>
-<span class="hang"><span class="qa">A:</span> The toolbar at the bottom of the screen has three navigation buttons:</span>
-<br/><span style="padding-left:27px;"><img src="images/buttons.png" title="Navigation buttons" alt="Navigation buttons" border="0" width="174px" height"90px" /></span>
-<br/><span class="indent"><strong>(1)  Back:</strong> Go back one step.</span>
-<br/><span class="indent"><strong>(2)  Next:</strong> Go forward one step.</span>
-<br/><span class="indent"><strong>(3)  Go to Last:</strong> Go to the last step you were presented, but haven't yet responded to.</span>
+<span class="hang"><span class="qa">A:</span> You can download the app for your iPhone, iPod touch, or iPad from Apple's App Store — free of charge. You can also download it, free of charge, to your Android device from <a href="https://play.google.com/store">Google Play Store</a>. </span>
+<br/><br/>
+<span class="hang"><span class="qa">Q:</span> Is any information about me collected or stored on the app?</span><br/>
+<span class="hang"><span class="qa">A:</span>  No</span>
 
-<br/><br/><br/>
-<span class="hang"><span class="qa">Q:</span> Each screen is labeled at the bottom with <strong><i>Step #</i></strong>. How many total steps are in an evaluation?</span><br/> 
-<span class="hang"><span class="qa">A:</span> The number of steps per evaluation is determined by your responses. Certain responses will lead to additional 
-steps, so there is no fixed total number of steps.</span>
-<br/><br/><br/>
-<span class="hang"><span class="qa">Q:</span> How do I change my response to a question?</span><br/> 
-<span class="hang"><span class="qa">A:</span> You can either:</span>
-<br/><br/><span class="indent">(1)  tap the <strong>Back</strong> button <img src="images/back_button.png" align="absmiddle" title="Back button" alt="Back button" border="0" width="39px" height"25px"/> to navigate to the desired question, then change your response -OR-</span>
-<br/><br/><span class="indent">(2)  tap the <strong>Evaluation Review</strong> button <img src="images/eval_button.png" align="absmiddle" title="Evaluation Review button" alt="Evaluation Review button" border="0" width="39px" height"25px"/>, then tap the desired question listed under <strong><i>Completed Steps</i></strong>.<br/> <span class="indent2">You will be returned to the selected question, where you can change your response.</span>
+<br/><br/>
+<span class="hang"><span class="qa">Q:</span> How is "Condition Quick Pick" different from "Full STD Guidelines"?</span><br/> 
+<span class="hang"><span class="qa">A:</span> "Condition Quick Pick" is a feature designed to allow fast access to the specific treatment regimes provided within the full guidelines. Conditions are listed in alphabetical order.  "Full STD Guidelines" is structured the same way as the original guidelines, optimized for rapid navigation on a mobile device.</span>
+<br/><br/>
+<span class="hang"><span class="qa">Q:</span> Do you plan to put photos in the application?</span><br/> 
+<span class="hang"><span class="qa">A:</span> Yes, in future releases.
 </span>
 
-<br/><br/><br/>
-<span class="hang"><span class="qa">Q:</span> When I navigate back to previous steps, why are some buttons green with a checkmark?</span><br/> 
-<span class="hang"><span class="qa">A:</span> The button that you tapped as your response will be green with a white checkmark.</span>
-<br/><br/><br/>
-
-<span class="hang"><span class="qa">Q:</span> I changed a response, and a <strong><i>Change Decision Warning</i></strong> alert appears. What does this mean?</span><br/> 
-<span class="hang"><span class="qa">A:</span> If you change your response to a previously answered question, all the responses you gave at steps beyond the
-question will be discarded. You will receive new questions and information from that point forward. For example, 
-if you are at Step 5, but change the response for Step 2, your responses for Steps 3 through 5 will be discarded. 
-You will get new questions/information at Step 3 and onward.</span>
-<br/><br/><br/>
-
-<span class="hang"><span class="qa">Q:</span> What does the <strong>Footnotes</strong> button <img src="images/footnotes_button.png" align="absmiddle" title="Footnotes button" alt="Footnotes button" border="0" width="75px" height"27px"/> do?</span><br/> 
-<span class="hang"><span class="qa">A:</span> The <strong>Footnotes</strong> button will be enabled on a step if footnotes are associated with the information presented. This 
-will be indicated by a note at the end of the question/information that reads: <strong><i>[see footnotes]</i></strong>. Touching the <strong>Footnotes</strong> button launches the <strong><i>Footnotes</i></strong> screen, where any associated footnotes will be listed.
-</span>
-<br/><br/><br/>
-
-<span class="hang"><span class="qa">Q:</span> What is the <strong><i>Evaluation Review</i></strong> screen?</span><br/> 
-<span class="hang"><span class="qa">A:</span> The <strong><i>Evaluation Review</i></strong> screen is launched by touching the <strong>Evaluation Review</strong> button <img src="images/eval_button.png" align="absmiddle" title="Evaluation Review button" alt="Evaluation Review button" border="0" width="39px" height"25px"/> on the toolbar. This screen lists the steps you have completed thus far, as well as the current step (or recommendation, if you've reached the Recommendation step). From here, you can tap any step and return to it (to change your answer, for example), or just review the steps and responses thus far in the evaluation.
-</span>
-<br/><br/><br/>
-
-<span class="hang"><span class="qa">Q:</span> If I restart the patient evaluation with the <strong>Restart</strong> button <img src="images/restart_button.png" align="absmiddle" title="Restart button" alt="Restart button" border="0" width="38px" height"24px"/>, will my previous responses be lost?</span><br/> 
-<span class="hang"><span class="qa">A:</span> Yes, when you restart the patient evaluation, any previously entered responses will be discarded.
-</span>
-<br/><br/><br/>
-
-<span class="hang"><span class="qa">Q:</span> I've made it to the <strong><i>Recommendation</i></strong> screen. What do I do now? </span><br/> 
-<span class="hang"><span class="qa">A:</span> Once you have reached the <strong><i>Recommendation</i></strong> screen and read the recommendation, you can:
-</span>
-<br/><br/><span class="indent">(1) start a new patient evaluation by tapping the <strong>Done</strong> button <img src="images/done_button.png" align="absmiddle" title="Done button" alt="Done button" border="0" width="44px" height"59px"/> or the <strong>Restart</strong> button <img src="images/restart_button.png" align="absmiddle" title="Restart button" alt="Restart button" border="0" width="38px" height"24px"/>.</span>
-<br/><br/><span class="indent">(2) review the evaluation and your responses by navigating backward with the <strong>Back</strong> button <img src="images/back_button.png" align="absmiddle" title="Back button" alt="Back button" border="0" width="39px" height"25px"/>, or launching the <br/> <span class="indent2"><strong><i>Evaluation Review</i></strong> screen with the <strong>Evaluation Review</strong> button <img src="images/eval_button.png" align="absmiddle" title="Evaluation Review button" alt="Evaluation Review button" border="0" width="39px" height"25px"/>.</span></span>
+<br/><br/>
+<span class="hang"><span class="qa">Q:</span> How do i know if I'm using the most updated treatment guideline information?</span><br/> 
+<span class="hang"><span class="qa">A:</span> View the "STD data date" in the "About Us" section of app, and compare it to the dates provided in the "Updates, Errata, Etc." section of the STD Treatment Guidelines website: <a href="http://www.cdc.gov/std/treatment/2010/">http://www.cdc.gov/std/treatment/2010/</a></span>
+<br/><br/>
 
 
-<br/><br/><span class="indent">(3) suspend or close PTT Advisor.</span>
 
 
-<br/><br/><br/>
-<span class="hang"><span class="qa">Q:</span> Is the response data collected or stored?</span><br/> 
-<span class="hang"><span class="qa">A:</span> No, your responses are discarded once you either (1) close the application, or (2) start a new patient evaluation.
-
-</span>
-<br/><br/><br/>
 
 </div><!--end of faqs_content-->
 
