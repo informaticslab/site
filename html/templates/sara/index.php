@@ -155,7 +155,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 </div>
 
 <div class="supported">
-<img src="images/supported.png" border="0" height="60px" width="694px" alt="An initiative for the public health community, supported by: Public Health Informatics and Technology Program Office, Office of Surveillance, Epidemiology and Laboratory Services, Centers for Disease Control and Prevention, Department of Health and Human Services" title="An initiative for the public health community, supported by: Public Health Informatics and Technology Program Office, Office of Surveillance, Epidemiology and Laboratory Services, Centers for Disease Control and Prevention, Department of Health and Human Services" />
+<img src="images/supported.png" border="0" height="60px" width="694px" alt="An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office, Office of Surveillance, Epidemiology and Laboratory Services, Centers for Disease Control and Prevention, Department of Health and Human Services" title="An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office, Office of Surveillance, Epidemiology and Laboratory Services, Centers for Disease Control and Prevention, Department of Health and Human Services" />
 </div>
 
 
