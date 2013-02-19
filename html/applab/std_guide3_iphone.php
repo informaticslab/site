@@ -102,8 +102,8 @@ iPad with iOS 4.3 or later
 <br/>
 
 <strong>Screenshots:</strong> 
-<div id="screen_row_iphone"><img src="images_iphone/std3_screen1_iphone.png" alt="screenshot of Condition Quick Pick" title="screenshot of Condition Quick Pick"/></div> 
-<div id="screen_row_iphone"><img src="images_iphone/std3_screen2_iphone.png" alt="screenshot of main menu" title="screenshot of main menu"/></div> 
+<div id="screen_row_iphone"><img src="images_iphone/std3_screen1_iphone.png" alt="screenshot of main menu" title="screenshot of main menu"/></div> 
+<div id="screen_row_iphone"><img src="images_iphone/std3_screen2_iphone.png" alt="screenshot of Condition Quick Pick" title="screenshot of Condition Quick Pick"/></div> 
 <div id="screen_row_iphone"><img src="images_iphone/std3_screen3_iphone.png" alt="screenshot of condition treatments" title="screenshot of condition treatments"/></div> 
 <div id="screen_row_iphone"><img src="images_iphone/std3_screen4_iphone.png" alt="screenshot of condition information" title="screenshot of condition information"/></div> 
 

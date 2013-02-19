@@ -100,7 +100,7 @@ or later<br/>
 
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img src="images/std3_row1.png" alt="screenshots of Condition Quick Pick and Main Menu" title="screenshots of Condition Quick Pick and Main Menu"/></div> 
+<div id="screen_row"><img src="images/std3_row1.png" alt="screenshots of Main Menu and Condition Quick Pick" title="screenshots of Main Menu and Condition Quick Pick"/></div> 
 <div id="screen_row2"><img src="images/std3_row2.png" alt="screenshots of condition treatments and more info about condition" title="screenshots of condition treatments and more info about condition"/></div> 
 </div><!--end of screenshots-->
 
