@@ -169,7 +169,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 <div class="inside4">
 <a href="index.php" class="txtmenu">Home</a>&nbsp; | &nbsp;<a href="index.php?option=com_content&view=category&layout=blog&id=11&Itemid=2" class="txtmenu">Projects</a>&nbsp; | &nbsp;<a href="index.php?option=com_content&view=category&layout=blog&id=4&Itemid=6" class="txtmenu">News</a>&nbsp; |&nbsp; <a href="index.php?option=com_content&view=category&layout=blog&id=5&Itemid=7" class="txtmenu">Publications</a>&nbsp; | &nbsp;<a href="index.php?option=com_content&view=section&layout=blog&id=4&Itemid=8" class="txtmenu">Popular Links</a>&nbsp; | &nbsp;<a href="index.php?option=com_content&view=category&layout=blog&id=12&Itemid=9" class="txtmenu">Resources</a>&nbsp; | &nbsp;<a href="index.php?option=com_content&view=section&layout=blog&id=6&Itemid=13" class="txtmenu">FAQS: Our Team & the Lab</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span style="font-size: xx-small; color:#9b9b9b">
 <?php
 $app =& JFactory::getApplication();
