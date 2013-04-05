@@ -23,6 +23,7 @@ mixpanel.track_links('#clip-applab-download', 'downloaded clip ipad app from app
 mixpanel.track_links('#niosh-mine-applab-download', 'downloaded niosh mine app from applab');
 mixpanel.track_links('#mmwr-nav-applab-download', 'downloaded MMWR Navigator ipad app from applab');
 mixpanel.track_links('#mmwr-map-applab-download', 'downloaded MMWR Map ipad app from applab');
+mixpanel.track_links('#epi-applab-download', 'downloaded StatCalc Epi Info ipad app from applab');
 mixpanel.track_links('#jQuery-test-applab-download', 'downloaded jQuery mobile framework iOS app from applab');
 mixpanel.track_links('#jQuery-test-applab-sourcecode', 'downloaded jQuery mobile framework sourcecode iOS app from applab');
 mixpanel.track_links('#Sencha-test-applab-download', 'downloaded Sencha mobile framework iOS app from applab');

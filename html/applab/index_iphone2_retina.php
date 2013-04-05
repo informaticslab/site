@@ -123,6 +123,23 @@ to find.
 </div><!--end of block_border2-->
 </div><!--end of block_row_next4-->
 
+<div id="block_row_next5">
+<div class="block_border2">
+
+
+<div class="block2">
+
+<span class="icons2"><a href="stat_calc_iphone.php"><img src="images_iphone/epi_iphone_icon.png" title="Epi Info" alt="Epi Info" border="0" /></a></span>
+<div id="app_title2"><a href="stat_calc_iphone_retina.php">StatCalc by Epi Info<sup style="font-size:9px;">TM</sup></a></div><br/>
+<div id="text2">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad. <br/>
+</div>
+<div id="released2"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
+
+</div><!--end of block2-->
+
+
+</div><!--end of block_border2-->
+</div><!--end of block_row_next5-->
 
 
 

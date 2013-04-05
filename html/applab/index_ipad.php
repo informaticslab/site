@@ -274,6 +274,25 @@ to find.
 </div><!--end of first(2)_row-->
 
 
+<div id="first_row">
+<div class="block_border_left">
+<div class="PTT_advisor">
+<span class="icons"><a href="stat_calc_ipad.php"><img src="images/epi_icon.png" title="Epi Info iPad app" alt="Epi Info iPad app" border="0" /></a></span>
+<div id="app_title"><a href="stat_calc_ipad.php">StatCalc by Epi Info<sup style="font-size:9px;">TM</sup></a></div><br/>
+<div id="text">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad. <br/><br/>
+
+</div>
+
+
+<div id="download"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
+<div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
+
+
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_left-->
+</div><!--end of row-->
+
 
 <!--<div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div>-->
 
