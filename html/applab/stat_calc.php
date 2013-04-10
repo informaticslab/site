@@ -51,7 +51,7 @@ ob_start();
 <img src="images/epi_large_icon.png" alt="Epi Info" title="Epi Info" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/epi.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/EpiInfo.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Epidemiology<br/>
 <strong>Version:</strong> 0.9<br/>

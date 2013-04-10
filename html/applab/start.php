@@ -297,7 +297,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/epi.ipa" onmouseout="MM_swapImgRestore()" onmouseover=
+<div id="download"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/EpiInfo.ipa" onmouseout="MM_swapImgRestore()" onmouseover=
 "MM_swapImage('Image35','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
