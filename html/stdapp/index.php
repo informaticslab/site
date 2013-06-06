@@ -97,7 +97,7 @@ For questions regarding the application (design, new features, etc.), please con
 <br/>
 <span class="hang"><span class="qa">Q:</span> How do I get the Mobile STD Treatment Guidelines app?</span>
 <br/>
-<span class="hang"><span class="qa">A:</span> You can download the app for your iPhone, iPod touch, or iPad from Apple's App Store — free of charge. You can also download it, free of charge, to your Android device from <a href="https://play.google.com/store">Google Play Store</a>. </span>
+<span class="hang"><span class="qa">A:</span> You can <a href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8">download the app</a> for your iPhone, iPod touch, or iPad from Apple's App Store — free of charge. You can also download it, free of charge, to your Android device from <a href="https://play.google.com/store">Google Play Store</a>. </span>
 <br/><br/>
 <span class="hang"><span class="qa">Q:</span> Is any information about me collected or stored on the app?</span><br/>
 <span class="hang"><span class="qa">A:</span>  No</span>
