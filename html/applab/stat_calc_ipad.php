@@ -51,7 +51,7 @@ ob_start();
 <div id="stats">
 <strong>Category:</strong> Epidemiology<br/>
 
-<strong>Version:</strong> 0.9<br/>
+<strong>Version:</strong> 0.9.2.1<br/>
 
 <strong>Cost:</strong> Free
 <br/><br/>
