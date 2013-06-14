@@ -186,11 +186,9 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
-</div><!--end of row-->
 
-<div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div>
+<!-- <div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div> -->
 
-<div id="first_row">
 <div class="block_border_right">
 <div class="PTT_advisor">
 <span class="icons"><a href="stat_calc.php"><img src="images/epi_icon.png" title="Epi Info iPhone app" alt="Epi Info iPhone app" border="0" /></a></span>
@@ -204,7 +202,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
 </div><!--end of PTT advisor-->
-</div><!--end of block_border_left-->
+</div><!--end of block_border_right-->
 </div><!--end of row-->
 
 
@@ -302,7 +300,7 @@ to find.
 
 
 </div><!--end of row-->
-<div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div>
+<!-- <div id="note"><img src="images/note.png" title="the plus symbol indicates an app is designed for both iPhone and iPad" alt="the plus symbol indicates an app is designed for both iPhone and iPad"/></div> -->
 
 <div id="first_row">
 <div class="block_border_left">
