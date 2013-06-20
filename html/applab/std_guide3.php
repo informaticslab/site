@@ -47,11 +47,11 @@ ob_start();
 <img src="images/std3_large_icon.png" alt="STD Guide, Version 3" title="STD Guide, Version 3" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="std3-applab-download" href="../applab/downloads/std3/ios/StdGuide3.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android download</a></span></div><!--end of download_detail-->
+<div id="download_detail"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide">View in Google Play</a></span></div><!--end of download_detail-->
 <div id="stats_android">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 2/12/2013<br/>
-<strong>Version:</strong> 0.5.14.1<br/>
+<strong>Released:</strong> 6/5/2013<br/>
+<strong>Version:</strong> 1.0.9<br/>
 <strong>Size:</strong> 8.1MB<br/>
 <strong>Cost:</strong> Free
 
@@ -85,12 +85,11 @@ or later<br/>
 <div id="subtitle">Description</div> 
 <p>The goal of this unique prototype has been to collaborate with CDC's STD team to design mobile apps for the iOS and Android operating systems (OS) based on the 2010 STD Treatment Guidelines. The applications serve as a reference for doctors and related parties on the identification of and treatment regimen for STDs.
 
-<p>These guidelines for the treatment of persons who have or are at risk for sexually transmitted diseases (STDs) were updated by CDC after consultation with a group of professionals knowledgeable in the field of STDs who met in Atlanta on April 18–30, 2009. The information in this report updates the 2006 Guidelines for Treatment of Sexually Transmitted Diseases (MMWR 2006;55[No. RR–11]).</p> 
+<p>These guidelines for the treatment of persons who have or are at risk for sexually transmitted diseases (STDs) were updated by CDC after consultation with a group of professionals knowledgeable in the field of STDs who met in Atlanta on April 18â€“30, 2009. The information in this report updates the 2006 Guidelines for Treatment of Sexually Transmitted Diseases (MMWR 2006;55[No. RRâ€“11]).</p> 
 
 <p>The current features that are functional in this version of the prototype include:</p>
 <ul>
 <li><strong>Condition Quick Pick:</strong> allows doctors and clinicians to quickly look up conditions and their treatments. Easy access to condition descriptions is also provided. </li><br/>
-<li><strong>Slide-in Main Menu:</strong> provides the main options of the application in a highly accessible slide-in menu. No matter where the user is within the application, the main menu is only one tap away. </li><br/>
 <li><strong>Full STD Guidelines:</strong> the full STD guidelines presented in an easily navigable format. The user may drill down to any section of the 2010 STD Treatment Guidelines. </li><br/>
 <li><strong>PDF of STD Guidelines:</strong> the user may access the PDF document via his/her mobile Safari browser. </li>
 </ul>

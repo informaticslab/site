@@ -175,8 +175,8 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="app_title"><a href="std_guide3_iphone_retina.php">STD Guide, Version 3</a></div><br/>
 <div id="text">Our goal has been to collaborate with CDC's STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.
 </div>
-<div id="download"><a id="std3-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std3/ios/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover.png',1)"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
-<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span><br/><span class="android_front"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android download</a></span></div>
+<div id="download"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">In App Store & Google Play</span></div>
 
 </div><!--end of block-->
 
@@ -186,10 +186,10 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 
 <div id="block_row_next8">
-<div class="block_border">
+<div class="block_border_android">
 
 
-<div class="block">
+<div class="block_android">
 
 <span class="icons"><a href="stat_calc_iphone_retina.php"><img src="images_iphone/epi_iphone_retina_icon.png" width="59px" height="60px" title="Epi Info for iPhone and iPad" alt="Epi Info for iPhone and iPad" border="0" /></a></span>
 <div id="app_title"><a href="stat_calc_iphone_retina.php">Epi Info for iPhone and iPad</a></div><br/>

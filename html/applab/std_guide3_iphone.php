@@ -56,13 +56,13 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 2/12/2013<br/>
-<strong>Version:</strong> 0.5.14.1<br/>
+<strong>Released:</strong> 6/5/2013<br/>
+<strong>Version:</strong> 1.0.9<br/>
 <strong>Size:</strong> 8.1MB<br/>
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="std3-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std3/ios/manifest.plist"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android<br/>download</a></span></div>
+<div id="download_detail_iphone"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide">View in Google Play</a></span></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">
@@ -94,7 +94,6 @@ iPad with iOS 4.3 or later
 <p>The current features that are functional in this version of the prototype include:</p>
 <ul>
 <li><strong>Condition Quick Pick:</strong> allows doctors and clinicians to quickly look up conditions and their treatments. Easy access to condition descriptions is also provided. </li><br/>
-<li><strong>Slide-in Main Menu:</strong> provides the main options of the application in a highly accessible slide-in menu. No matter where the user is within the application, the main menu is only one tap away. </li><br/>
 <li><strong>Full STD Guidelines:</strong> the full STD guidelines presented in an easily navigable format. The user may drill down to any section of the 2010 STD Treatment Guidelines. </li><br/>
 <li><strong>PDF of STD Guidelines:</strong> the user may access the PDF document via his/her mobile Safari browser. </li>
 </ul>
