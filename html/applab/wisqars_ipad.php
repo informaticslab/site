@@ -83,7 +83,7 @@ or later<br/>
 <div id="text_block">
 <div id="app_name">WISQARS Mobile</div>
 <div id="subtitle">Description</div> 
-<p>The WISQARS Mobile app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. 
+<p><strong>WISQARS<sup>TM</sup> </strong>(Web-based Injury Statistics Query and Reporting System) is an interactive database that provides customized reports of injury-related&nbsp;data. The WISQARS Mobile App allows  for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. The app also enhances the user-friendliness of WISQARS and ready access to injury-related death data. 
 </p>
 </div>
 

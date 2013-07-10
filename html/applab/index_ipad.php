@@ -295,7 +295,7 @@ to find.
 <div class="NIOSH_facepiece">
 <span class="icons"><a href="wisqars.php"><img src="images/WISQARSMobileApp72.png" title="WISQARS Mobile" alt="WISQARS Mobile" border="0" /></a></span>
 <div id="app_title"><a href="wisqars.php">WISQARS Mobile</a></div><br/>
-<div id="text">The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates.
+<div id="text">The WISQARS Mobile app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates.
 
 </div>
 
