@@ -64,9 +64,9 @@ ob_start();
 
 <div id="requirements">
 <strong>Requirements:</strong><br/>
-iPhone, iPod Touch, <br/>
-iPad with iOS 4.3  <br/>
+iPad with iOS 5.0  <br/>
 or later<br/>
+
 
 </div>
 
@@ -78,19 +78,18 @@ or later<br/>
 <div id="second_column">
 <div id="top_right_links">
 <a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="https://github.com/informaticslab/ptt-advisor">Get source code ></a>
 </div><!--end of top_right_links-->
 
 <div id="text_block">
-<div id="app_name">PTT Advisor</div>
+<div id="app_name">WISQARS Mobile</div>
 <div id="subtitle">Description</div> 
 <p>The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. The app also enhances the user-friendliness of WISQARS and ready access to injury-related death data.
 </p>
 </div>
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img alt="app screenshot" src="images/wisqars-IMG_0205.PNG" width="600" height="480"></div>
-<div id="screen_row2"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images/wisqars-IMG_0215.PNG" width="600">	
+<div id="screen_row"><img alt="app screenshot" src="images/wisqars-IMG_0205.PNG"></div>
+<div id="screen_row2"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images/wisqars-IMG_0215.PNG"></div>
 </div><!--end of screenshots-->
 
 
