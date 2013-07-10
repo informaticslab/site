@@ -83,16 +83,17 @@ or later<br/>
 <div id="text_block">
 <div id="app_name">WISQARS Mobile</div>
 <div id="subtitle">Description</div> 
-<p>The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. The app also enhances the user-friendliness of WISQARS and ready access to injury-related death data.
+<p>The WISQARS Mobile app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. 
 </p>
 </div>
+
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img alt="app screenshot" src="images/wisqars-IMG_0205.PNG"></div>
-<div id="screen_row2"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images/wisqars-IMG_0215.PNG"></div>
+<div id="screen_row"><img alt="app screenshot" src="images/wisqars-IMG_0205.png"></div>
+<div id="screen_row2"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images/wisqars-IMG_0215.png"></div>
 </div><!--end of screenshots-->
 
-
+	
 <div id="section_divider">
 </div><!--end of section_divider-->
 
