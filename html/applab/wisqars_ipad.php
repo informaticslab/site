@@ -89,8 +89,8 @@ or later<br/>
 </div>
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img src="images/screens_row1.png" alt="screenshots of beginning questions and Evaluation Review" title="screenshots of beginning questions and Evaluation Review"/></div> 
-<div id="screen_row2"><img src="images/screens_row2.png" alt="screenshots of Recommendation and Help screens" title="screenshots of Recommendation and Help screens"/></div> 
+<div id="screen_row"><img alt="app screenshot" src="images/wisqars-IMG_0205.PNG" width="600" height="480"></div>
+<div id="screen_row2"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images/wisqars-IMG_0215.PNG" width="600">	
 </div><!--end of screenshots-->
 
 
