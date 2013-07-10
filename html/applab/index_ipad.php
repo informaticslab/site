@@ -291,6 +291,19 @@ to find.
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
+<div class="block_border_right">
+<div class="NIOSH_facepiece">
+<span class="icons"><a href="wisqars.php"><img src="images/WISQARSMobileApp72.png" title="WISQARS Mobile" alt="WISQARS Mobile" border="0" /></a></span>
+<div id="app_title"><a href="wisqars.php">WISQARS Mobile</a></div><br/>
+<div id="text">The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates.
+
+</div>
+
+<div id="download"><a id="wisqars-applab-download" href="../applab/downloads/wisqars/0.2.5001/WisqarsMobile_v25.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="released">Released: 7/1/12</div>
+
+</div><!--end of NIOSH facepiece-->
+
 </div><!--end of row-->
 
 

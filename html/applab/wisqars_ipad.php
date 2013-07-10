@@ -9,7 +9,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PTT Advisor | Public Health Prototypes | App Lab | Informatics R&D Lab</title>
+<title>WISQARS Mobile | Public Health Prototypes | App Lab | Informatics R&D Lab</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="comments/css/stylesheet.css"/>
 <script type="text/javascript" src="common.js"></script>
@@ -45,10 +45,10 @@ ob_start();
 
 <div id="first_column">
 <div id="large_icon">
-<img src="images/ptt_large_icon.png" alt="PTT Advisor" title="PTT Advisor" />
+<img src="images/WISQARSMobileApp144.png" alt="" title="WISQARS Mobile" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="wisqars-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/wisqars/0.2.5001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Medical<br/>
 <strong>Released:</strong> 7/6/12<br/>
@@ -84,13 +84,10 @@ or later<br/>
 <div id="text_block">
 <div id="app_name">PTT Advisor</div>
 <div id="subtitle">Description</div> 
-<p>Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). The application has been created to easily navigate through the detailed laboratory testing algorithms. The algorithms may help to reduce inappropriate coagulation testing as well as possible adverse patient outcomes from, for example, a delay in diagnosis.</p>
-
-<p>This application leverages coagulation testing algorithms, which were developed by a group of volunteer laboratory experts working together on a CDC-sponsored team as part of the Clinical Laboratory Integration into Healthcare Collaborative (CLIHC)™ project. The prototype leverages the algorithms as documented in flow charts and turns them into electronic, interactive, decision support tools for clinical provider use.</p>
-
-<p>The algorithms are organized digitally to allow the user to easily walk through a complicated flow diagram by answering one question at a time in an interactive format. The prototype also includes the ability to obtain real-time information about the effectiveness and use of the application.</p> 
-</div><!--end of text_block-->
-
+<p>
+<strong >WISQARS<sup>TM</sup> </strong> (Web-based Injury Statistics Query and Reporting System) is an interactive database that provides customized reports of injury-related data. The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. The app also enhances the user-friendliness of WISQARS and ready access to injury-related death data.
+</p>
+</div>
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
 <div id="screen_row"><img src="images/screens_row1.png" alt="screenshots of beginning questions and Evaluation Review" title="screenshots of beginning questions and Evaluation Review"/></div> 
@@ -106,8 +103,8 @@ or later<br/>
 
 <?php
 
-$page_id = "pttadvisor";
-$reference = "PTT Advisor";
+$page_id = "wisqars";
+$reference = "WISQARS";
 $path_to_comments_folder = "comments/";
 define ('IN_COMMENTICS', 'true'); //no need to edit this line
 require $path_to_comments_folder . "includes/commentics.php"; //no need to edit this line

@@ -87,19 +87,14 @@ or later<br/>
 
 <span style="font-size:11px;"><strong>Description:</strong></span>
 
-<p>Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). The application has been created to easily navigate through the detailed laboratory testing algorithms. The algorithms may help to reduce inappropriate coagulation testing as well as possible adverse patient outcomes from, for example, a delay in diagnosis.</p>
-
-<p>This application leverages coagulation testing algorithms, which were developed by a group of volunteer laboratory experts working together on a CDC-sponsored team as part of the Clinical Laboratory Integration into Healthcare Collaborative (CLIHC)™ project. The prototype leverages the algorithms as documented in flow charts and turns them into electronic, interactive, decision support tools for clinical provider use.</p>
-
-<p>The algorithms are organized digitally to allow the user to easily walk through a complicated flow diagram by answering one question at a time in an interactive format. The prototype also includes the ability to obtain real-time information about the effectiveness and use of the application.</p> 
-
+<p>
+<strong >WISQARS<sup>TM</sup> </strong> (Web-based Injury Statistics Query and Reporting System) is an interactive database that provides customized reports of injury-related data. The WISQARS Mobile App allows for sharing injury-related information on a tablet. The app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates. The app also enhances the user-friendliness of WISQARS and ready access to injury-related death data.
+</p>
 <br/>
 
 <strong>Screenshots:</strong> 
-<div id="screen_row_iphone"><img src="images_iphone/ptt_screen1.png" alt="screenshot of beginning questions" title="screenshot of beginning questions"/></div> 
-<div id="screen_row_iphone"><img src="images_iphone/ptt_screen2.png" alt="screenshot of Evaluation Review" title="screenshot of Evaluation Review"/></div> 
-<div id="screen_row_iphone"><img src="images_iphone/ptt_screen3.png" alt="screenshot Recommendation screen" title="screenshot of Recommendation screen"/></div>
-<div id="screen_row_iphone"><img src="images_iphone/ptt_screen4.png" alt="screenshot of Help screen" title="screenshot of Help screen"/></div>
+<div id="screen_row_iphone"><img alt="app screenshot" src="images_iphone/wisqars-IMG_0205.PNG"></div>
+<div id="screen_row_iphone"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images_iphone/wisqars-IMG_0215.PNG">	
 
 
 
