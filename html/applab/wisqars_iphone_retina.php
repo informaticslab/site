@@ -113,8 +113,8 @@ or later<br/>
 
 <?php
 
-$page_id = "pttadvisor";
-$reference = "PTT Advisor";
+$page_id = "wisqars";
+$reference = "WISQARS";
 $path_to_comments_folder = "comments/";
 define ('IN_COMMENTICS', 'true'); //no need to edit this line
 require $path_to_comments_folder . "includes/commentics.php"; //no need to edit this line
