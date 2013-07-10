@@ -299,7 +299,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="wisqars-applab-download" href="../applab/downloads/wisqars/0.2.5001/WisqarsMobile_v25.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="download"><a id="wisqars-applab-download" href="../applab/downloads/wisqars/0.2.5001/WisqarsMobile_v25.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
 <div id="released">Released: 7/1/12</div>
 
 </div><!--end of NIOSH facepiece-->
