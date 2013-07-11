@@ -303,6 +303,7 @@ to find.
 <div id="released">Released: 7/1/12</div>
 
 </div><!--end of NIOSH facepiece-->
+</div><!--end of block_border_right-->
 
 </div><!--end of row-->
 
