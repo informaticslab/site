@@ -142,6 +142,22 @@ to find.
 </div><!--end of block_row_next5-->
 
 
+<div id="block_row_next6">
+<div class="block_border2">
+
+<div class="block2">
+
+<span class="icons2"><a href="wisqars_iphone.php"><img src="images_iphone/WISQARSMobileApp58.png" title="WISQARS Mobile" alt="WISQARS Mobile" border="0" /></a></span>
+<div id="app_title2"><a href="wisqars_iphone_retina.php">WISQARS Mobile<sup style="font-size:9px;">TM</sup></a></div><br/>
+<div id="text2">The WISQARS Mobile app dynamically-displays selected leading causes of injury death data using maps and charts of national and state-level death counts and rates.
+</div>
+<div id="released2"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
+
+</div><!--end of block2-->
+
+
+</div><!--end of block_border2-->
+</div><!--end of block_row_next6-->
 
 
 
