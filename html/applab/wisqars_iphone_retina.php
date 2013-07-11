@@ -93,8 +93,8 @@ or later<br/>
 <br/>
 
 <strong>Screenshots:</strong> 
-<div id="screen_row_iphone"><img alt="app screenshot" src="images_iphone/wisqars-IMG_0205.PNG"></div>
-<div id="screen_row_iphone"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images_iphone/wisqars-IMG_0215.PNG">	
+<div id="screen_row_iphone"><img alt="app screenshot" src="images_iphone/wisqars-IMG_0205.png"></div>
+<div id="screen_row_iphone"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images_iphone/wisqars-IMG_0215.png">	
 
 
 
