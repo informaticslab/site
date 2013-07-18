@@ -13,6 +13,7 @@ mixpanel.init("3ffb32a694c5473084a71bcefae11737");
 
 mixpanel.track_links('#download a', 'downloaded app from applab');
 mixpanel.track_links('#ptt-applab-download', 'downloaded ptt app from applab');
+mixpanel.track_links('#wisqars-applab-download', 'downloaded wisqars app from applab');
 mixpanel.track_links('#niosh-face-applab-download', 'downloaded niosh facepiece app from applab');
 mixpanel.track_links('#tox-applab-download', 'downloaded tox guide app from applab');
 mixpanel.track_links('#std1-applab-download', 'downloaded std1 app from applab');
