@@ -48,12 +48,12 @@ ob_start();
 <img src="images/WISQARSMobileApp144.png" alt="" title="WISQARS Mobile" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="wisqars-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/wisqars/0.2.5001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="wisqars-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/wisqars/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Medical<br/>
-<strong>Released:</strong> 7/6/12<br/>
-<strong>Version:</strong> 1.0<br/>
-<strong>Size:</strong> 1.3MB<br/>
+<strong>Released:</strong> 7/18/13<br/>
+<strong>Version:</strong> 0.2.6<br/>
+<strong>Size:</strong> 18.5MB<br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

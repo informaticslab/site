@@ -49,7 +49,7 @@ ob_start();
 </div>
 
 
-<div id="iphone_detail_icons"><img src="images/WISQARSMobileApp72.png" alt="WISQARS"/>
+<div id="iphone_detail_icons"><img src="images/WISQARSMobileApp72.png" alt="WISQARS Mobile"/>
 </div>
 
 
@@ -58,9 +58,9 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Medical<br/>
-<strong>Released:</strong> 7/1/13<br/>
-<strong>Version:</strong> 0.2.5001<br/>
-<strong>Size:</strong> 17.9MB<br/>
+<strong>Released:</strong> 7/18/13<br/>
+<strong>Version:</strong> 0.2.6<br/>
+<strong>Size:</strong> 18.5MB<br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->
