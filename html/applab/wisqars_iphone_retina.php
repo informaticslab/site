@@ -35,7 +35,7 @@ ob_start();
 
 </div><!--end of header-->
 
-<div id="back_to_iphone"><span style="color:#0069ac;"><</span> <a href="index_iphone_retina.php">All prototypes</a>
+<div id="back_to_iphone"><span style="color:#0069ac;"><</span> <a href="index_iphone_retina.php">All iPad prototypes</a>
 </div><!--end of disclaimer_iphone-->
 
 
@@ -50,7 +50,7 @@ ob_start();
 
 
 
-<div id="app_name_iphone">WISQARS Mobile</div>
+<div id="app_name_iphone2">WISQARS Mobile</div>
 
 <div id="stats_iphone">
 <strong>Category:</strong> Medical<br/>
@@ -62,16 +62,14 @@ ob_start();
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">
-<strong>Cost:</strong> Free<br/>
 <strong>Requirements:</strong><br/>
 iPad with iOS 5.0  <br/>
 or later<br/>
 
-
+</div>
 </div>
 
 
@@ -94,7 +92,7 @@ or later<br/>
 
 <strong>Screenshots:</strong> 
 <div id="screen_row_iphone"><img alt="app screenshot" src="images_iphone/wisqars-IMG_0205.png"></div>
-<div id="screen_row_iphone"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images_iphone/wisqars-IMG_0215.png">	
+<div id="screen_row_iphone"><img title="screenshots of form, page 2" alt="screenshots of form, page 2" src="images_iphone/wisqars-IMG_0215.png"></div>
 
 
 
