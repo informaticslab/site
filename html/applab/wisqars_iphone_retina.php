@@ -35,7 +35,7 @@ ob_start();
 
 </div><!--end of header-->
 
-<div id="back_to_iphone"><span style="color:#0069ac;"><</span> <a href="index_iphone_retina.php">All iPad prototypes</a>
+<div id="back_to_iphone"><span style="color:#0069ac;"><</span> <a href="index_iphone2_retina.php">All iPad prototypes</a>
 </div><!--end of disclaimer_iphone-->
 
 
