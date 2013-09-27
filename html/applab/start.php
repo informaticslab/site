@@ -339,15 +339,15 @@ to find.
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a href="retro.php"><img src="images/epi_icon.png" title="HIV Risk Assessment" alt="HIV Risk Assessment Tool" border="0" /></a></span>
+<span class="icons"><a href="retro.php"><img src="images/retro_icon.png" title="HIV Risk Assessment" alt="HIV Risk Assessment Tool" border="0" /></a></span>
 <div id="app_title"><a href="retro.php">HIV Risk Assessment Tool</a></div><br/>
 <div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, elit sed ut labore.<br/>
 
 </div>
 
-<div id="download"><a id="retro-applab-download" href="../applab/downloads/retro/1.2.1/retro.ipa" onmouseout="MM_swapImgRestore()" onmouseover=
+<div id="download"><a id="retro-applab-download" href="../applab/downloads/betas/retro/retro.ipa" onmouseout="MM_swapImgRestore()" onmouseover=
 "MM_swapImage('Image35','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
-<div id="released">Released: ?/?/13</div>
+<div id="released">Released: 9/17/13</div>
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
