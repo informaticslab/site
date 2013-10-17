@@ -167,7 +167,8 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 </div>
 
 <div id="download"><a id="std3-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std3/ios/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
-<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span><span class="android_front"><a id="std3-android-applab-download" href="../applab/downloads/std3/android/StdGuide.apk">Android download</a></span></div>
+
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to Apple App Store and Google Play</span></div>
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
