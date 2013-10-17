@@ -49,7 +49,7 @@ ob_start();
 </div><!--end of large_icon-->
 <div id="download_detail_largest"><a id="retro-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/betas/retro/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
-<strong>Category:</strong> ?<br/>
+<strong>Category:</strong> Medical<br/>
 <strong>Released:</strong> 9/17/13<br/>
 <strong>Version:</strong> 0.1.6.1<br/>
 <strong>Size:</strong> 957KB<br/>
@@ -75,7 +75,7 @@ iPad with iOS 6.1 <br/>or later<br/>
 <div id="second_column">
 <div id="top_right_links">
 <a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="http://epiinfoios.codeplex.com">Get source code ></a>
+<a href=" https://github.com/informaticslab/retro">Get source code ></a>
 </div><!--end of top_right_links-->
 
 <div id="text_block">

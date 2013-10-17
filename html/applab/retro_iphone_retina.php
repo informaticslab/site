@@ -43,7 +43,7 @@ ob_start();
 
 
 <div id="other_links_iphone"><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="https://github.com/informaticslab/mmwr-nav">Get source code ></a>
+<a href=" https://github.com/informaticslab/retro">Get source code ></a>
 
 </div>
 
@@ -56,7 +56,7 @@ ob_start();
 <div id="app_name_iphone">HIV Risk Assessment Tool</div>
 
 <div id="stats_iphone">
-<strong>Category:</strong> ?<br/>
+<strong>Category:</strong> Medical<br/>
 <strong>Released:</strong> 9/17/2013<br/>
 <strong>Version:</strong> 0.1.6.1<br/>
 <strong>Size:</strong> 957KB<br/>
