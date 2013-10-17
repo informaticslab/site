@@ -79,9 +79,9 @@ iPad with iOS 6.1 <br/>or later<br/>
 </div><!--end of top_right_links-->
 
 <div id="text_block">
-<div id="app_name">HIV Risk Assessment Tool</div>
+<div id="app_name">ARCH-Couples</div>
 <div id="subtitle">Description</div> 
-<p>This mobile app focuses on the area of HIV Risk Assessment &#8212; or specifically, Assessing your Risk of Contracting HIV (ARCH). This tool, <strong>ARCH-Couples</strong>, is the first in the ARCH suite to be delivered on a mobile platform.  </p> 
+<p>This mobile app focuses on the area of HIV Risk Assessment &#8212; or specifically, Assessing your Risk of Contracting HIV (ARCH). This tool, ARCH-Couples, is the first in the ARCH suite to be delivered on a mobile platform.  </p> 
 <p>Among HIV-discordant couples, where one partner is infected with HIV while the other is not, long-term HIV transmission risk to the negative partner can be high. Those at risk for HIV may have difficulty personalizing and quantifying their HIV risk.</p> 
 <p>Also, HIV risk reduction strategies now include antiretroviral therapy for prevention, pre-exposure prophylaxis, and male circumcision; and those in HIV-discordant relationships may wonder if and how to best use these new HIV risk reduction strategies individually or along with condom use and other existing measures in order to get their HIV risk down to a level that is acceptable to them. </p>
 <p>The ARCH-Couples iPad app assists persons in HIV-discordant relationships with their choice of HIV risk reduction strategies by generating a number that represents their personalized risk of contracting HIV over time given their choices related to condom usage, type of sex act, and various preventative measures. </p>

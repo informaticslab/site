@@ -166,7 +166,7 @@ to find.
 <div class="block2">
 
 <span class="icons2"><a href="retro_iphone_retina.php"><img src="images_iphone/retro_iphone_icon_retina.png" width="59px" height="60px" title="HIV Risk Assessment Tool" alt="HIV Risk Assessment Tool" border="0" /></a></span>
-<div id="app_title3"><a href="retro_iphone_retina.php">HIV Risk Assessment Tool</a></div><br/>
+<div id="app_title2"><a href="retro_iphone_retina.php">ARCH-Couples</a></div><br/>
 <div id="text2">Focuses on HIV Risk Assessment &#8212; specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.  
  </div>
 <div id="released2">Released: 9/17/13</div>
