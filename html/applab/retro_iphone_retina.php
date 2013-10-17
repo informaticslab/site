@@ -87,8 +87,10 @@ iPad with iOS 6.1 <br/>or later
 
 <span style="font-size:11px;"><strong>Description:</strong></span>
 
-<p>The goal of this prototype has been to examine existing MMWR (Morbidity and Mortality Weekly Report) content, and structure the content to best fit the iOS iPad platform. This app utilizes the iPad's split screen interface to display MMWR content in a user-friendly way. Articles are organized into intuitive categories, making them easier to find. Users can also set their reading and notification preferences. </p> 
-
+<p>This mobile app focuses on the area of HIV Risk Assessment &#8212; or specifically, Assessing your Risk of Contracting HIV (ARCH). This tool, <strong>ARCH-Couples</strong>, is the first in the ARCH suite to be delivered on a mobile platform.  </p> 
+<p>Among HIV-discordant couples, where one partner is infected with HIV while the other is not, long-term HIV transmission risk to the negative partner can be high. Those at risk for HIV may have difficulty personalizing and quantifying their HIV risk.</p> 
+<p>Also, HIV risk reduction strategies now include antiretroviral therapy for prevention, pre-exposure prophylaxis, and male circumcision; and those in HIV-discordant relationships may wonder if and how to best use these new HIV risk reduction strategies individually or along with condom use and other existing measures in order to get their HIV risk down to a level that is acceptable to them. </p>
+<p>The ARCH-Couples iPad app assists persons in HIV-discordant relationships with their choice of HIV risk reduction strategies by generating a number that represents their personalized risk of contracting HIV over time given their choices related to condom usage, type of sex act, and various preventative measures. </p>
 <br/>
 
 <strong>Screenshots:</strong> 

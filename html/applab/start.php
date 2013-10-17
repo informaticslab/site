@@ -341,7 +341,7 @@ to find.
 <div class="PTT_advisor">
 <span class="icons"><a href="retro.php"><img src="images/retro_icon.png" title="HIV Risk Assessment" alt="HIV Risk Assessment Tool" border="0" /></a></span>
 <div id="app_title"><a href="retro.php">HIV Risk Assessment Tool</a></div><br/>
-<div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, elit sed ut labore.<br/>
+<div id="text">Focuses on HIV Risk Assessment &#8212; specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.<br/>
 
 </div>
 

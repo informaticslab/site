@@ -87,31 +87,11 @@ iPad with iOS 6.1 <br/>or later<br/>
 <div id="text_block">
 <div id="app_name">HIV Risk Assessment Tool</div>
 <div id="subtitle">Description</div> 
-<p>StatCalc statistical calculators have long been a feature of CDC's Epi Info desktop software. Each calculator has been adapted for iOS and is included in this app. The app controls and facilitates user inputs by taking advantage of the iPad's touchscreen interface and using input devices such as sliders and steppers.</p> 
-<p>Included calculators are:
+<p>This mobile app focuses on the area of HIV Risk Assessment &#8212; or specifically, Assessing your Risk of Contracting HIV (ARCH). This tool, <strong>ARCH-Couples</strong>, is the first in the ARCH suite to be delivered on a mobile platform.  </p> 
+<p>Among HIV-discordant couples, where one partner is infected with HIV while the other is not, long-term HIV transmission risk to the negative partner can be high. Those at risk for HIV may have difficulty personalizing and quantifying their HIV risk.</p> 
+<p>Also, HIV risk reduction strategies now include antiretroviral therapy for prevention, pre-exposure prophylaxis, and male circumcision; and those in HIV-discordant relationships may wonder if and how to best use these new HIV risk reduction strategies individually or along with condom use and other existing measures in order to get their HIV risk down to a level that is acceptable to them. </p>
+<p>The ARCH-Couples iPad app assists persons in HIV-discordant relationships with their choice of HIV risk reduction strategies by generating a number that represents their personalized risk of contracting HIV over time given their choices related to condom usage, type of sex act, and various preventative measures. </p>
 
-<ul><li>2x2xn calculator with associated confidence intervals and statistical tests</li>
-
-<li>Pair-matched case control 2x2 calculator with associated confidence intervals and statistical tests</li>
-
-<li>Chi-square calculator for trend detection</li>
-
-<li>Binomial calculator for determining the probability of an observed proportion</li>
-
-<li>Poisson calculator for determining the probability of an observed number of successes</li>
-
-<li>Sample size calculators:
-<ul>
-<li>For unmatched case-control studies</li>
-
-<li>For cohort studies</li>
-
-<li>For population surveys</li>
-</ul>
-</li>
- </ul>
-
-Future development plans include adding other Epi Info desktop features such as data analysis, graphing, mapping, form design, and data collection.</p>
 
 
 </div><!--end of text_block-->

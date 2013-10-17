@@ -315,8 +315,7 @@ to find.
 
 <span class="icons"><a href="retro_ipad.php"><img src="images/retro_icon.png" title="HIV Risk Assessment Tool" alt="HIV Risk Assessment Tool" border="0" /></a></span>
 <div id="app_title"><a href="retro_ipad.php">HIV Risk Assessment Tool</a></div><br/>
-<div id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, elit sed ut labore. 
-
+<div id="text">Focuses on HIV Risk Assessment &#8212; specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.
 </div>
 
 <div id="download"><a id="retro-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/betas/retro/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image35" width="79" height="20" border="0" id="Image35" title="Download app" /></a></div>
