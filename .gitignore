@@ -1,0 +1,27 @@
+#########################
+# .gitignore file for OS X Source projects with Jetbrains Apps 
+#
+# NB: if you are storing "built" products, this WILL NOT WORK,
+#   and you should use a different .gitignore (or none at all)
+# This file is for SOURCE projects, where there are many extra
+#   files that we want to exclude
+#
+# For updates, see: http://stackoverflow.com/questions/49478/git-ignore-file-for-xcode-projects
+#########################
+
+#####
+# OS X temporary files that should never be committed
+
+.DS_Store
+*.swp
+*.lock
+profile
+
+
+####
+# Jetbrains project files -
+#
+# NB: slash on the end, so we only remove the FOLDER, not any files that were badly named ".idea"
+
+.idea/
+
