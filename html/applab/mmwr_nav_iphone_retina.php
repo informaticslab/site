@@ -57,9 +57,9 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/2012<br/>
-<strong>Version:</strong> 0.8.6.001<br/>
-<strong>Size:</strong> 10.3MB<br/>
+<strong>Released:</strong> 10/23/2013<br/>
+<strong>Version:</strong> 0.8.9.001<br/>
+<strong>Size:</strong> 10.9MB<br/>
 </div><!--end of stats-->
 
 

@@ -272,7 +272,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-nav-applab-download" href="../applab/downloads/mmwr-navigator/0.8.6.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image30" width="91" height="20" border="0" id="Image30" /></a></div>
+<div id="download"><a id="mmwr-nav-applab-download" href="../applab/downloads/mmwr-navigator/0.8.9.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image30" width="91" height="20" border="0" id="Image30" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of PTT_advisor-->
@@ -290,7 +290,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-map-applab-download" href="../applab/downloads/mapapp/1.2.7.001/MapApp.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="download"><a id="mmwr-map-applab-download" href="../applab/downloads/mapapp/1.3.2.001/MapApp.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of NIOSH facepiece-->

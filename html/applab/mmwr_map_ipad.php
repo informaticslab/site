@@ -49,12 +49,12 @@ ob_start();
 <img src="images/mmwr_map_large_icon.png" alt="MMWR Map Navigator" title="MMWR Map Navigator" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="mmwr-map-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mapapp/1.2.7.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="mmwr-map-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mapapp/1.3.2.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/12<br/>
-<strong>Version:</strong> 1.2.7.001<br/>
-<strong>Size:</strong> 251KB<br/>
+<strong>Released:</strong> 10/23/13<br/>
+<strong>Version:</strong> 1.3.2.001<br/>
+<strong>Size:</strong> 328KB<br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

@@ -52,12 +52,12 @@ ob_start();
 <img src="images/mmwr_nav_large_icon.png" alt="MMWR Navigator" title="MMWR Navigator" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="mmwr-nav-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mmwr-navigator/0.8.6.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="mmwr-nav-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mmwr-navigator/0.8.9.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/2012<br/>
-<strong>Version:</strong> 0.8.6.001<br/>
-<strong>Size:</strong> 10.3MB<br/>
+<strong>Released:</strong> 10/23/2013<br/>
+<strong>Version:</strong> 0.8.9.001<br/>
+<strong>Size:</strong> 10.9MB<br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

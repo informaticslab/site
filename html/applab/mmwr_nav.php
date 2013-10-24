@@ -50,12 +50,12 @@ ob_start();
 <img src="images/mmwr_nav_large_icon.png" alt="MMWR Navigator" title="MMWR Navigator" />
 
 </div><!--end of larg_icon-->
-<div id="download_detail"><a id="mmwr-nav-applab-download" href="../applab/downloads/mmwr-navigator/0.8.6.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image11" width="91" height="20" border="0" id="Image11" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="mmwr-nav-applab-download" href="../applab/downloads/mmwr-navigator/0.8.9.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image11" width="91" height="20" border="0" id="Image11" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/2012<br/>
-<strong>Version:</strong> 0.8.6.001<br/>
-<strong>Size:</strong> 10.3MB<br/>
+<strong>Released:</strong> 10/23/2013<br/>
+<strong>Version:</strong> 0.8.9.001<br/>
+<strong>Size:</strong> 10.9MB<br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->
