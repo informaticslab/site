@@ -32,7 +32,7 @@ mixpanel.track_links('#Sencha-test-applab-download', 'downloaded Sencha mobile f
 mixpanel.track_links('#Sencha-test-applab-sourcecode', 'downloaded Sencha mobile framework sourcecode iOS app from applab');
 mixpanel.track_links('#Appcelerator-test-applab-download', 'downloaded Appcelerator mobile framework iOS app from applab');
 mixpanel.track_links('#Appcelerator-test-applab-sourcecode', 'downloaded Appcelerator mobile framework sourcecode iOS app from applab');
-
+mixpanel.track_links('#mmwrexpress-applab-download', 'downloaded MMWR Express iOS app from applab');
 
 /*end mixpanel*/
 
