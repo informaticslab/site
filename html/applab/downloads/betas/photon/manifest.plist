@@ -19,7 +19,7 @@
 				<key>bundle-identifier</key>
 				<string>gov.cdc.photon</string>
 				<key>bundle-version</key>
-				<string>0.1.32 (1)</string>
+				<string>0.1.33 (1)</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
