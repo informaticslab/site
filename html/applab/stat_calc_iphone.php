@@ -59,7 +59,7 @@ ob_start();
 <div id="stats_iphone">
 <strong>Category:</strong> Epidemiology<br/>
 
-<strong>Version:</strong> 0.9.2.1<br/>
+<strong>Version:</strong> 0.9.4.1<br/>
 <strong>Cost:</strong> Free<br/>
 
 </div><!--end of stats-->
