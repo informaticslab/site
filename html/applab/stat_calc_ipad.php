@@ -113,10 +113,10 @@ Future development plans include adding other Epi Info desktop features such as 
 
 <div id="screenshots">
 <div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img src="images/epi_screen1.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div> 
-<div id="screen_row2"><img src="images/epi_screen2.png" alt="screenshot of Epi Info 2x2 calculator" title="screenshot of Epi Info 2x2 calculator"/></div>
-<div id="screen_row2"><img src="images/epi_screen3.png" alt="screenshot of Epi Info 2x2 calculator, summary results" title="screenshot of Epi Info 2x2 calculator, summary results"/></div>
-<div id="screen_row2"><img src="images/epi_screen4.png" alt="screenshot of Epi Info Sample Size Calculation" title="screenshot of Epi Info Sample Size Calculation"/></div>  
+<div id="screen_row"><img src="images/epi_screen1.png" height="683" width="512" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div> 
+<div id="screen_row2"><img src="images/epi_screen2.png"  height="683" width="512" alt="screenshot of Epi Info 2x2 calculator" title="screenshot of Epi Info 2x2 calculator"/></div>
+<div id="screen_row2"><img src="images/epi_screen3.png"  height="683" width="512" alt="screenshot of Epi Info 2x2 calculator, summary results" title="screenshot of Epi Info 2x2 calculator, summary results"/></div>
+<div id="screen_row2"><img src="images/epi_screen4.png"  height="683" width="512" alt="screenshot of Epi Info Sample Size Calculation" title="screenshot of Epi Info Sample Size Calculation"/></div>  
 </div><!--end of screenshots-->
 
 
