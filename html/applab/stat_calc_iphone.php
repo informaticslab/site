@@ -64,6 +64,8 @@ ob_start();
 
 </div><!--end of stats-->
 
+<div id="download_detail_iphone"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+
 <div id="wrap_requirements">
 <div id="requirements_iphone">
 
