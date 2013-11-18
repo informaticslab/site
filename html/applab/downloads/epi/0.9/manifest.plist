@@ -17,9 +17,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>gov.cdc.EpiInfo</string>
+				<string>NC3A2TTMZ4.gov.cdc.csels.EpiInfo</string>
 				<key>bundle-version</key>
-				<string>0.9.4</string>
+				<string>0.9.4.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
