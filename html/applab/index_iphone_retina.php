@@ -212,7 +212,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.1.36.manifest.plist"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<span class="icons"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.1.36/manifest.plist"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
 <div id="app_title"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.1.36/manifest.plist">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific issue, or by specific subject (e.g., salmonella). For iOS devices. <br/>
 </div>
