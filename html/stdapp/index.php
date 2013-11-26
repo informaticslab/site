@@ -111,7 +111,7 @@ For questions regarding the application (design, new features, etc.), please con
 </span>
 
 <br/><br/>
-<span class="hang"><span class="qa">Q:</span> How do i know if I'm using the most updated treatment guideline information?</span><br/> 
+<span class="hang"><span class="qa">Q:</span> How do I know if I'm using the most updated treatment guideline information?</span><br/> 
 <span class="hang"><span class="qa">A:</span> View the "STD data date" in the "About Us" section of app, and compare it to the dates provided in the "Updates, Errata, Etc." section of the STD Treatment Guidelines website: <a href="http://www.cdc.gov/std/treatment/2010/">http://www.cdc.gov/std/treatment/2010/</a></span>
 <br/><br/>
 

@@ -66,7 +66,7 @@ This mobile prototype application, MMWR Express, provides fast access to the blu
  <br/><br/>
 The Morbidity and Mortality Weekly Report (MMWR) series is prepared by the Centers for Disease Control and Prevention (CDC). Often called “the voice of CDC,” the MMWR series is the agency’s primary vehicle for scientific publication of timely, reliable, authoritative, accurate, objective, and useful public health information and recommendations. 
  <br/><br/>
-Summaries are searchable by specific issue, or by specific subject (e.g., salmonella).  
+Summaries are searchable by specific MMWR issue, or by specific subject (e.g., salmonella).  
 <br/><br/>
 This application is a result of a collaboration between CDC's MMWR staff and the Informatics Innovation Unit staff within the Office of Public Health Scientific Services.  
 
@@ -105,15 +105,15 @@ For questions regarding the application (design, new features, etc.), please con
 
 <br/><br/>
 <span class="hang"><span class="qa">Q:</span> How is "View by Issue" different from "View by Subject"?</span><br/> 
-<span class="hang"><span class="qa">A:</span> "View by Issue" allows access to an article's blue summary box information by specific MMWR weekly issue. Issues are listed in sequential order (most recent publication date first).  Conditions are listed in alphabetical order.  "Full STD Guidelines" is structured the same way as the original guidelines, optimized for rapid navigation on a mobile device.</span>
+<span class="hang"><span class="qa">A:</span> The "View by Issue" tab allows access to an article's blue summary box information by specific MMWR issue. Issues are listed in sequential order (most recent publication date first). The "View by Subject" tab allows users to view blue summary box information by subject (e.g., influenza).</span>
 <br/><br/>
-<span class="hang"><span class="qa">Q:</span> Do you plan to put photos in the application?</span><br/> 
-<span class="hang"><span class="qa">A:</span> Yes, in future releases.
+<span class="hang"><span class="qa">Q:</span> What if I want to view the full article, not just the blue summary box information?</span><br/> 
+<span class="hang"><span class="qa">A:</span> Once you have navigated to the blue summary box detailed information, there is a "View Full Article" button which will present the full article text.
 </span>
 
 <br/><br/>
-<span class="hang"><span class="qa">Q:</span> How do i know if I'm using the most updated treatment guideline information?</span><br/> 
-<span class="hang"><span class="qa">A:</span> View the "STD data date" in the "About Us" section of app, and compare it to the dates provided in the "Updates, Errata, Etc." section of the STD Treatment Guidelines website: <a href="http://www.cdc.gov/std/treatment/2010/">http://www.cdc.gov/std/treatment/2010/</a></span>
+<span class="hang"><span class="qa">Q:</span> How do I get the most recent MMWR issue(s) and subject information?</span><br/> 
+<span class="hang"><span class="qa">A:</span> On the "View by Issue" and "View by Subject" list screens, pull down (with your finger) to refresh the content. You will see a spinning graphic while the new content is loading. </span>
 <br/><br/>
 
 
