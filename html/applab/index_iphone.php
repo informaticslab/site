@@ -198,14 +198,14 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 </div><!--end of block_row_next7-->
 
 <div id="block_row_next8">
-<div class="block_border_android">
+<div class="block_border">
 
 
 <div class="block">
 
 <span class="icons"><a href="stat_calc_iphone.php"><img src="images_iphone/epi_iphone_icon.png" title="Epi Info for iPad and iPhone" alt="Epi Info for iPad and iPhone" border="0" /></a></span>
 <div id="app_title"><a href="stat_calc_iphone.php">Epi Info for iPad and iPhone</a></div><br/>
-<div id="text">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad and iPhone. <br/><br/>
+<div id="text">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad and iPhone. 
 </div>
 <div id="download"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover.png',1)"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
@@ -218,6 +218,27 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 </div><!--end of block_row_next8-->
 
 
+
+<div id="block_row_next9">
+<div class="block_border">
+
+
+<div class="block">
+
+<span class="icons"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist">MMWR Express</a></div><br/>
+<div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific issue, or by specific subject (e.g., salmonella). For iOS devices. <br/>
+</div>
+<div id="download"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+</div><!--end of block-->
+
+
+</div><!--end of block_border-->
+</div><!--end of block_row_next5-->
+<div><br/>
+</div>
 
 
 
@@ -234,11 +255,15 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 
 <div id="view_ipad">
-<span style="position:relative; top:7px;"><a href="index_iphone2.php">View prototypes available for the iPad</a> <span style="color:#ffffff;"></span> 
+<span style="position:relative; top:7px;"><a href="index_iphone2.php">View prototypes available for the iPad</a> <span style="color:#ffffff;"></span> </span>
 
 
 </div><!--end of view_ipad-->
 <br/>
+
+
+
+
 
 <div id="footer"><span class="footer_text"><img src="images_iphone/footer_iphone.png" border="0" alt="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" title="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" /></span></div>
 <div id="bottom_line"></div>

@@ -299,6 +299,8 @@ filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr
 
 
 #app_title2 {position:relative; margin-left:84px; top:10px; }
+#app_titlenolink {position:relative; margin-left:84px; top:10px; text-decoration:none;
+	font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif; }
 
 #app_title2 a:link {text-decoration:none;
 	color:#0069ac; font-size:18px; font-family:Trebuchet MS, Arial, Helvetica, sans-serif;}
@@ -345,7 +347,7 @@ filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr
 
 #download {position:relative; bottom:113px; margin-left:7px;}
 
-#view_ipad {position:relative; width:287px; height:31px; position:relative; clear:both; background:#8897a4; margin-left:14px; top:87px; border-radius:3px; text-align:center;}	
+#view_ipad {position:relative; width:287px; height:31px; position:relative; clear:both; background:#8897a4; margin-left:14px; top:97px; border-radius:3px; text-align:center;}	
 
 #view_ipad a:link {text-decoration:underline;
 	color:#ffffff; font-size:11px; font-family:Verdana, Geneva, sans-serif;}
@@ -357,7 +359,7 @@ filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr
 	color:#f9d98c; font-size:11px; font-family:Verdana, Geneva, sans-serif; } 
 	
 	
-#view_iphone {position:relative; width:287px; height:31px; position:relative; clear:both; background:#8897a4; margin-left:14px; top:107px; border-radius:3px; text-align:center;}	
+#view_iphone {width:287px; height:31px; position:relative; clear:both; background:#8897a4; margin-left:14px; top:85px; border-radius:3px; text-align:center;}	
 
 #view_iphone a:link {text-decoration:underline;
 	color:#ffffff; font-size:11px; font-family:Verdana, Geneva, sans-serif;}
@@ -368,7 +370,7 @@ filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr
 #view_iphone a:hover {text-decoration:underline;
 	color:#f9d98c; font-size:11px; font-family:Verdana, Geneva, sans-serif; } 	
 
-#footer {height:100px; background-color:#fad585; margin-top:91px; padding-top:10px; clear:both; text-align:center; }
+#footer {height:100px; background-color:#fad585; margin-top:101px; padding-top:10px; clear:both; text-align:center; }
 #bottom_line {height:4px; background-color:#333232;}
 
 #stats_iphone {position:relative; color:#606060; font-size:11px; margin-left:97px; margin-top:17px; font-family:Verdana, Geneva, sans-serif; }
