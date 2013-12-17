@@ -178,13 +178,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div class="block_border_right">
 <div class="NIOSH_facepiece">
 
-<span class="icons"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist">MMWR Express</a></div><br/>
+<span class="icons"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.3.1.30/manifest.plist"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.3.1.30/manifest.plist">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific issue, or by specific subject (e.g., salmonella). For iOS devices.
 
 </div>
 
-<div id="download"><a a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.2.15.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
+<div id="download"><a a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.3.1.30/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
