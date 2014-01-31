@@ -116,8 +116,8 @@ effects.
 <div class="block_border_right">
 <div class="NIOSH_facepiece">
 
-<span class="icons"><a href="std_guide1.php"><img src="images/std1_icon.png" title="STD Guide, sion 1" alt="STD Guide, sion 1" border="0" /></a></span>
-<div id="app_title"><a href="std_guide1.php">STD Guide, sion 1</a></div><br/>
+<span class="icons"><a href="std_guide1.php"><img src="images/std1_icon.png" title="STD Guide, Version 1" alt="STD Guide, Version 1" border="0" /></a></span>
+<div id="app_title"><a href="std_guide1.php">STD Guide, Version 1</a></div><br/>
 <div id="text">Early mobile application prototype for CDC's 2010 STD Treatment Guidelines. 
 A Reference for clinicians on the identification of and treatment regimen for STDs. 
 
@@ -139,10 +139,10 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a href="std_guide2.php"><img src="images/std2_icon.png" title="STD Guide, sion 2" alt="STD Guide, sion 2" border="0" /></a></span>
-<div id="app_title"><a href="std_guide2.php">STD Guide, sion 2</a></div><br/>
+<span class="icons"><a href="std_guide2.php"><img src="images/std2_icon.png" title="STD Guide, Version 2" alt="STD Guide, Version 2" border="0" /></a></span>
+<div id="app_title"><a href="std_guide2.php">STD Guide, Version 2</a></div><br/>
 <div id="text">Enhanced prototype for CDC's 2010 STD Treatment Guidelines. 
-A Reference for clinicians on the identification of and treatment regimen for STDs. sion 2 has a more "portal" feel than v1.
+A Reference for clinicians on the identification of and treatment regimen for STDs. Version 2 has a more "portal" feel than v1.
 
 </div>
 
@@ -174,8 +174,8 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a href="std_guide3.php"><img src="images/std3_icon.png" title="STD Guide, sion 3" alt="STD Guide, sion 3" border="0" /></a></span>
-<div id="app_title"><a href="std_guide3.php">STD Guide, sion 3</a></div><br/>
+<span class="icons"><a href="std_guide3.php"><img src="images/std3_icon.png" title="STD Guide, Version 3" alt="STD Guide, Version 3" border="0" /></a></span>
+<div id="app_title"><a href="std_guide3.php">STD Guide, Version 3</a></div><br/>
 <div id="text">The goal of this unique prototype has been to collaborate with CDC's STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.
 
 </div>
