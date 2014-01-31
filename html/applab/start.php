@@ -207,13 +207,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.5.1.20/photon.ipa"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.5.1.20/photon.ipa">MMWR Express</a></div><br/>
-<div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific issue, or by specific subject (e.g., salmonella). For iOS devices.
+<span class="icons"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa">MMWR Express</a></div><br/>
+<div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices.
 
 </div>
 
-<div id="download"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.5.1.20/photon.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+<div id="download"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
 
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
