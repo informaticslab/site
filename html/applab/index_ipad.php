@@ -184,13 +184,31 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
+<div id="download"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
 
-
+</div>
 </div><!--end of first(2)_row-->
+
+<div id="first_row">
+<div class="block_border_left">
+<div class="PTT_advisor">
+<span class="icons"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist"><img src="images/family_hx_icon.png" title="STD Guide, Version 3" alt="STD Guide, Version 3" border="0" /></a></span>
+<div id="app_title"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist">Family Health History</a></div><br/>
+<div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone.
+
+</div>
+
+<div id="download"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
+
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_left-->
+
+
 
 
 

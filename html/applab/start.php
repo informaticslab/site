@@ -221,6 +221,28 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
+
+
+<div class="block_border_right">
+<div class="PTT_advisor">
+<span class="icons"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.3.1/#.ipa"><img src="images/family_hx_icon.png" title="Family History iPhone app" alt="Family History iPhone app" border="0" /></a></span>
+<div id="app_title"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.3.1/#.ipa">Family Heath History</a></div><br/>
+<div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone. <br/>
+
+</div>
+
+<div id="download"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.3.1/#.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+
+<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+
+</div><!--end of PTT advisor-->
+</div><!--end of block_border_right-->
+
+
+
+
+
+
 </div><!--end of row-->
 
 
