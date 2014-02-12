@@ -232,11 +232,11 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist"><img src="images_iphone/family_hx_iphone_icon_retina.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
-<div id="app_title"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist">Family Health History</a></div><br/>
+<span class="icons"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist"><img src="images_iphone/family_hx_iphone_icon_retina.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
+<div id="app_title"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist">Family Health History</a></div><br/>
 <div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone.<br/>
 </div>
-<div id="download"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
