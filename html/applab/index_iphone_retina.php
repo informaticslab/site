@@ -232,7 +232,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist"><img src="images_iphone/family_hx_iphone_icon.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
+<span class="icons"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist"><img src="images_iphone/family_hx_iphone_icon_retina.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
 <div id="app_title"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/pedigree/0.4.3.1/manifest.plist">Family Health History</a></div><br/>
 <div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone.<br/>
 </div>
