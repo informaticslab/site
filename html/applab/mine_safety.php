@@ -51,7 +51,7 @@ ob_start();
 <img src="images/mine_large_icon.png" alt="NIOSH Mine Safety Training" title="NIOSH Mine Safety Training" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="niosh-mine-applab-download" href="<? php echo $minesim_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="niosh-mine-applab-download" href="<?php echo $minesim_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
     <strong>Released:</strong> <?php echo $minesim_release_date ?><br/>
