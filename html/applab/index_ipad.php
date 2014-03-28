@@ -1,5 +1,7 @@
 <?php require("login/login3_ipad.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -50,12 +52,7 @@
 <div id="text">Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). 
 </div>
 
-<div id="download"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image28','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image28" width="79" height="20" border="0" id="Image28" title="Download app" /></a></div>
-
-
-
-
-
+<div id="download"><a id="ptt-applab-download" href="<?php echo $ptt_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image28','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image28" width="79" height="20" border="0" id="Image28" title="Download app" /></a></div>
 
 
 
@@ -74,7 +71,7 @@ Occupational Safety and Health (NIOSH). For quickly exploring the database of NI
 particulate filtering facepiece respirators.
 </div>
 
-<div id="download"><a id="niosh-face-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/respguide/1.2.8.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image29','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image29" width="79" height="20" border="0" id="Image29" title="Download app" /></a></div>
+<div id="download"><a id="niosh-face-applab-download" href="<?php echo $respguide_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image29','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image29" width="79" height="20" border="0" id="Image29" title="Download app" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -94,7 +91,7 @@ minimal risk levels, children's health, and health
 effects.
 </div>
 
-<div id="download"><a id="tox-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/toxguide/0.6.2.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image30" width="79" height="20" border="0" id="Image30" title="Download app" /></a></div>
+<div id="download"><a id="tox-applab-download" href="<?php echo $tox_guide_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image30','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image30" width="79" height="20" border="0" id="Image30" title="Download app" /></a></div>
 <div id="released">Released: 6/1/12</div>
 
 </div><!--end of PTT advisor-->
@@ -110,7 +107,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download_alt"><a id="std1-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/stdguide/0.4.4.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
+<div id="download_alt"><a id="std1-applab-download" href="<?php echo $std1_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -129,7 +126,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std2-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std2/0.9.3.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
+<div id="download"><a id="std2-applab-download" href="<?php echo $std2_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of PTT advisor-->
@@ -166,7 +163,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std3-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std3/ios/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
+<div id="download"><a id="std3-applab-download" href="<?php echo $std3_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
 
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to Apple App Store and Google Play</span></div>
 
@@ -178,13 +175,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div class="block_border_right">
 <div class="NIOSH_facepiece">
 
-<span class="icons"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist">MMWR Express</a></div><br/>
+<span class="icons"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link ?>"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link ?>">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices.
 
 </div>
 
-<div id="download"><a id="mmwrexpress-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
+<div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -195,13 +192,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist"><img src="images/family_hx_icon.png" title="STD Guide, Version 3" alt="STD Guide, Version 3" border="0" /></a></span>
-<div id="app_title"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist">Family Health History</a></div><br/>
+<span class="icons"><a id="familyhx-applab-download" href="<?php echo $pedigree_manifest_link ?>"><img src="images/family_hx_icon.png" title="STD Guide, Version 3" alt="STD Guide, Version 3" border="0" /></a></span>
+<div id="app_title"><a id="familyhx-applab-download" href="<?php echo $pedigree_manifest_link ?>">Family Health History</a></div><br/>
 <div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone.
 
 </div>
 
-<div id="download"><a id="familyhx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
+<div id="download"><a id="familyhx-applab-download" href="<?php echo $pedigree_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
 
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 

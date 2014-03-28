@@ -6,6 +6,8 @@ ob_start();
 
 <?php require("login/login3_iphone.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -59,12 +61,14 @@ ob_start();
 <div id="stats_iphone">
 <strong>Category:</strong> Epidemiology<br/>
 
-<strong>Version:</strong> 0.9.4.1<br/>
+    <strong>Released:</strong> <?php echo $epi_info_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $epi_info_version ?><br/>
+    <strong>Size:</strong> <?php echo $epi_info_size ?><br/>
 <strong>Cost:</strong> Free<br/>
 
 </div><!--end of stats-->
 
-<div id="download_detail_iphone"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download_detail_iphone"><a id="epi-applab-download" href="<?php echo $epi_info_manifest_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">

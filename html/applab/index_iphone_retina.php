@@ -1,5 +1,7 @@
 <?php require("login/login3_iphone_retina.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -41,7 +43,7 @@
 <div id="app_title"><a href="ptt_iphone_retina.php">PTT Advisor</a></div><br/>
 <div id="text">Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). 
 </div>
-<div id="download"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="ptt-applab-download" href="<?php echo $ptt_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to App Store</span></div>
 
@@ -68,7 +70,7 @@
 Occupational Safety and Health (NIOSH). Explore NIOSH-approved facepiece respirators.
 </div>
 
-<div id="download"><a id="niosh-face-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/respguide/1.2.8.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="niosh-face-applab-download" href="<?php echo $respguide_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 
@@ -92,7 +94,7 @@ effects.
 </div>
 
 
-<div id="download"><a id="tox-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/toxguide/0.6.2.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="tox-applab-download" href="<?php echo $tox_guide_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="released">Released: 6/1/12</div>
 
 
@@ -115,7 +117,7 @@ effects.
 <div id="text">Early mobile application prototype for CDC's 2010 STD Treatment Guidelines. 
 A Reference for clinicians on the identification of and treatment regimen for STDs. 
 </div>
-<div id="download"><a id="std1-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/stdguide/0.4.4.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="std1-applab-download" href="<?php echo $std1_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
@@ -136,7 +138,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="text">Enhanced prototype for CDC's 2010 STD Treatment Guidelines. 
 A Reference for clinicians on the identification of and treatment regimen for STDs. Version 2 has a more "portal" feel than v1.
 </div>
-<div id="download"><a id="std2-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/std2/0.9.3.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="std2-applab-download" href="<?php echo $std2_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
@@ -175,7 +177,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="app_title"><a href="std_guide3_iphone_retina.php">STD Guide, Version 3</a></div><br/>
 <div id="text">Our goal has been to collaborate with CDC's STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.
 </div>
-<div id="download"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="std3-applab-download" href="<?php echo $std3_itunes_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">In App Store & Google Play</span></div>
 
 </div><!--end of block-->
@@ -195,7 +197,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="app_title"><a href="stat_calc_iphone_retina.php">Epi Info for iPhone and iPad</a></div><br/>
 <div id="text">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad and iPhone. <br/><br/>
 </div>
-<div id="download"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="epi-applab-download" href="<?php echo $epi_info_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
@@ -212,11 +214,11 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4./manifest.plist">MMWR Express</a></div><br/>
+<span class="icons"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices. <br/>
 </div>
-<div id="download"><a id="mmwr-express-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/photon/0.6.4.4/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
@@ -232,11 +234,11 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist"><img src="images_iphone/family_hx_iphone_icon_retina.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
-<div id="app_title"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist">Family Health History</a></div><br/>
+<span class="icons"><a id="family_hx-applab-download" href="<?php echo $pedigree_manifest_link ?>"><img src="images_iphone/family_hx_iphone_icon_retina.png" width="59px" height="60px" title="Family History" alt="Family History" border="0" /></a></span>
+<div id="app_title"><a id="family_hx-applab-download" href="<?php echo $pedigree_manifest_link ?>">Family Health History</a></div><br/>
 <div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone.<br/>
 </div>
-<div id="download"><a id="family_hx-applab-download" href="itms-services://?action=download-manifest&url=http://edemo.phiresearchlab.org/applab/downloads/pedigree/0.4.4.1/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="family_hx-applab-download" href="<?php echo $pedigree_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->

@@ -6,6 +6,8 @@ ob_start();
 
 <?php require("login/login3_iphone.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -57,9 +59,9 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Medical<br/>
-<strong>Released:</strong> 9/17/13<br/>
-<strong>Version:</strong> 0.1.6.1<br/>
-<strong>Size:</strong> 957KB<br/>
+    <strong>Released:</strong> <?php echo $retro_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $retro_version ?><br/>
+    <strong>Size:</strong> <?php echo $retro_size ?><br/>
 </div><!--end of stats-->
 
 

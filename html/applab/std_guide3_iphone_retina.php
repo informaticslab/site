@@ -5,6 +5,8 @@ ob_start();
 
 <?php require("login/login3_iphone_retina.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -55,13 +57,13 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/5/2013<br/>
-<strong>Version:</strong> 1.0.9<br/>
-<strong>Size:</strong> 8.1MB<br/>
+    <strong>Released:</strong> <?php echo $std3_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $std3_version ?><br/>
+    <strong>Size:</strong> <?php echo $std3_size ?><br/>
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide">View in Google Play</span></div>
+<div id="download_detail_iphone"><a id="std3-applab-download" href="<?php echo $std3_itunes_link ?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a><br/><span class="android_inner"><a id="std3-android-applab-download" href="https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide">View in Google Play</span></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">

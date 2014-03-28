@@ -7,6 +7,8 @@ ob_start();
 
 <?php require("login/login3_ipad.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -49,12 +51,12 @@ ob_start();
 <img src="images/mmwr_map_large_icon.png" alt="MMWR Map Navigator" title="MMWR Map Navigator" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="mmwr-map-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mapapp/1.3.2.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="mmwr-map-applab-download" href="$mmwr_map_manifest_link" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image11" width="119" height="27" border="0" id="Image11" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 10/23/13<br/>
-<strong>Version:</strong> 1.3.2.001<br/>
-<strong>Size:</strong> 328KB<br/>
+    <strong>Released:</strong> <?php echo $mmwr_map_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $mmwr_map_version ?><br/>
+    <strong>Size:</strong> <?php echo $mmwr_map_size ?><br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

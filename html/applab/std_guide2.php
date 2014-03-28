@@ -5,7 +5,9 @@ ob_start();
 
 
 <?php require("login/login3.php"); ?> 
-<?php require("bsniff.php"); ?> 
+<?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -46,12 +48,12 @@ ob_start();
 <img src="images/std2_large_icon.png" alt="STD Guide, Version 2" title="STD Guide, Version 2" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="std2-applab-download" href="../applab/downloads/std2/0.9.3.001/STD%20Guide%202.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="std2-applab-download" href="<?php echo $std2_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/2012<br/>
-<strong>Version:</strong> 0.9.3.001<br/>
-<strong>Size:</strong> 2.36MB<br/>
+<strong>Released:</strong> <?php echo $std2_release_date ?><br/>
+<strong>Version:</strong> <?php echo $std2_version ?><br/>
+<strong>Size:</strong> <?php echo $std2_size ?><br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

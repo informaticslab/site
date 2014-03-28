@@ -1,5 +1,7 @@
 <?php require("login/login3.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -71,7 +73,7 @@ if(strstr($_SER['HTTP_USER_AGENT'],'iPhone'))
 <div id="text">Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time). 
 </div>
 
-<div id="download"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+<div id="download"><a id="ptt-applab-download" href="<?php echo $ptt_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to the Apple App Store: 7/6/12</span></div>
 
 </div><!--end of PTT advisor-->
@@ -87,7 +89,7 @@ Occupational Safety and Health (NIOSH). For quickly exploring the database of NI
 particulate filtering facepiece respirators.
 </div>
 
-<div id="download"><a id="niosh-face-applab-download" href="../applab/downloads/respguide/1.2.8.001/Respirator%20Guide.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image33','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image33" width="91" height="20" border="0" id="Image33" title="View in iTunes" /></a></div>
+<div id="download"><a id="niosh-face-applab-download" href="<?php echo $respguide_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image33','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image33" width="91" height="20" border="0" id="Image33" title="View in iTunes" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -107,7 +109,7 @@ minimal risk levels, children's health, and health
 effects.
 </div>
 
-<div id="download"><a id="tox-applab-download" href="../applab/downloads/toxguide/0.6.2.001/mToxGuide.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image34','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image34" width="91" height="20" border="0" id="Image34" title="View in iTunes" /></a></div>
+<div id="download"><a id="tox-applab-download" href="<?php echo $tox_guide_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image34','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image34" width="91" height="20" border="0" id="Image34" title="View in iTunes" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of PTT advisor-->
@@ -123,7 +125,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std1-applab-download" href="../applab/downloads/stdguide/0.4.4.001/Std-Guide.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image36','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image36" width="91" height="20" border="0" id="Image36" title="View in iTunes" /></a></div>
+<div id="download"><a id="std1-applab-download" href="<?php echo $std1_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image36','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image36" width="91" height="20" border="0" id="Image36" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -146,7 +148,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std2-applab-download" href="../applab/downloads/std2/0.9.3.001/STD%20Guide%202.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image35','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
+<div id="download"><a id="std2-applab-download" href="<?php echo $std2_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image35','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of PTT advisor-->
@@ -180,7 +182,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std3-applab-download" href="https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+<div id="download"><a id="std3-applab-download" href="<?php echo $std3_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to Apple App Store and Google Play</span></div>
 
 </div><!--end of PTT advisor-->
@@ -196,7 +198,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/EpiInfo.ipa" onmouseout="MM_swapImgRestore()" onmouseo=
+<div id="download"><a id="epi-applab-download" href="<?php echo $epi_info_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo=
 "MM_swapImage('Image35','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
@@ -207,13 +209,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="first_row">
 <div class="block_border_left">
 <div class="PTT_advisor">
-<span class="icons"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa">MMWR Express</a></div><br/>
+<span class="icons"><a id="mmwrexpress-applab-download" href="<?php echo $photon_ipa_path?>"><img src="images/mmwr_express_icon.png" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a id="mmwrexpress-applab-download" href="<?php echo $photon_ipa_path?>">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices.
 
 </div>
 
-<div id="download"><a id="mmwrexpress-applab-download" href="../applab/downloads/photon/0.6.4.4/photon.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+<div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
 
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
@@ -225,13 +227,13 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block_border_right">
 <div class="PTT_advisor">
-<span class="icons"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.4.1/FamilyHistory.ipa"><img src="images/family_hx_icon.png" title="Family History iPhone app" alt="Family History iPhone app" border="0" /></a></span>
-<div id="app_title"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.4.1/FamilyHistory.ipa">Family Heath History</a></div><br/>
+<span class="icons"><a id="familyhx-applab-download" href="<?php echo $pedigree_ipa_path?>"><img src="images/family_hx_icon.png" title="Family History iPhone app" alt="Family History iPhone app" border="0" /></a></span>
+<div id="app_title"><a id="familyhx-applab-download" href="<?php echo $pedigree_ipa_path?>">Family Heath History</a></div><br/>
 <div id="text">Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one's family health history with a clinician. For iPhone. <br/>
 
 </div>
 
-<div id="download"><a id="familyhx-applab-download" href="../applab/downloads/pedigree/0.4.4.1/FamilyHistory.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
+<div id="download"><a id="familyhx-applab-download" href="<?php echo $pedigree_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
 
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
@@ -271,7 +273,7 @@ Line Insertion Practices Adherence Monitoring form to
 the iPad. 
 </div>
 
-<div id="download"><a id="clip-applab-download" href="../applab/downloads/clip/0.5.12.001/clipam.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image28','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image28" width="91" height="20" border="0" id="Image28" /></a></div>
+<div id="download"><a id="clip-applab-download" href="<?php echo $clip_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image28','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image28" width="91" height="20" border="0" id="Image28" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of NIOSH_facepiece-->
@@ -290,7 +292,7 @@ safety issues.
 
 </div>
 
-<div id="download"><a id="niosh-mine-applab-download" href="../applab/downloads/minesim/0.7301.276/mine_sim.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image29','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image29" width="91" height="20" border="0" id="Image29" /></a></div>
+<div id="download"><a id="niosh-mine-applab-download" href="<?php echo $minesim_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image29','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image29" width="91" height="20" border="0" id="Image29" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 
@@ -313,7 +315,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-nav-applab-download" href="../applab/downloads/mmwr-navigator/0.8.9.001/mmwr-navigator.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image30','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image30" width="91" height="20" border="0" id="Image30" /></a></div>
+<div id="download"><a id="mmwr-nav-applab-download" href="<?php echo $mmwr_nav_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image30','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image30" width="91" height="20" border="0" id="Image30" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of PTT_advisor-->
@@ -331,7 +333,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-map-applab-download" href="../applab/downloads/mapapp/1.3.2.001/MapApp.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image31','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="download"><a id="mmwr-map-applab-download" href="<?php echo $mmwr_map_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image31','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
 <div id="released">Released: 6/4/12</div>
 
 </div><!--end of NIOSH facepiece-->
@@ -351,7 +353,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="epi-applab-download" href="../applab/downloads/epi/0.9/EpiInfo.ipa" onmouseout="MM_swapImgRestore()" onmouseo=
+<div id="download"><a id="epi-applab-download" href="<?php echo $epi_info_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo=
 "MM_swapImage('Image35','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
@@ -368,7 +370,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="wisqars-applab-download" href="../applab/downloads/wisqars/WisqarsMobile.ipa" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image31','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
+<div id="download"><a id="wisqars-applab-download" href="<?php echo $wisqars_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image31','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image31" width="91" height="20" border="0" id="Image31" /></a></div>
 <div id="released">Released: 9/13/13</div>
 
 </div><!--end of NIOSH facepiece-->
@@ -386,7 +388,7 @@ to find.
 
 </div>
 
-<div id="download"><a id="retro-applab-download" href="../applab/downloads/betas/retro/retro.ipa" onmouseout="MM_swapImgRestore()" onmouseo=
+<div id="download"><a id="retro-applab-download" href="<?php echo $retro_ipa_path ?>" onmouseout="MM_swapImgRestore()" onmouseo=
 "MM_swapImage('Image35','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image35" width="91" height="20" border="0" id="Image35" title="View in iTunes" /></a></div>
 <div id="released">Released: 9/17/13</div>
 

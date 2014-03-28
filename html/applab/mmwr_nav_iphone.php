@@ -5,6 +5,8 @@ ob_start();
 
 <?php require("login/login3_iphone.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -56,9 +58,9 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 10/23/2013<br/>
-<strong>Version:</strong> 0.8.9.001<br/>
-<strong>Size:</strong> 10.9MB<br/>
+    <strong>Released:</strong> <?php echo $mmwr_nav_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $mmwr_nav_version ?><br/>
+    <strong>Size:</strong> <?php echo $mmwr_nav_size ?><br/>
 </div><!--end of stats-->
 
 
@@ -72,10 +74,6 @@ iPad with iOS 4.3 <br/>or later
 </div>
 
 </div>
-
-
-
-
 
 
 <div id="dotted_line3_iphone"></div>
@@ -94,10 +92,6 @@ iPad with iOS 4.3 <br/>or later
 <div id="screen_row_iphone"><img src="images_iphone/mmwr_nav_screen1.png" alt="Welcome screenshot" title="Welcome screenshot"/></div> 
 <div id="screen_row_iphone"><img src="images_iphone/mmwr_nav_screen2.png" alt="Reading Preferences screenshot" title="Reading Preferences screenshot"/></div> 
 <div id="screen_row_iphone"><img src="images_iphone/mmwr_nav_screen3.png" alt="MMWR article screenshot" title="MMWR article screenshot"/></div> 
-
-
-
-
 
 
 <div id="dotted_line4_iphone"></div>

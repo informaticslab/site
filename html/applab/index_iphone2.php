@@ -1,4 +1,6 @@
-<?php require("login/login3_iphone.php"); ?> 
+<?php require("login/login3_iphone.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -50,7 +52,7 @@ Safety Network (NHSN), this app brings the Central
 Line Insertion Practices Adherence Monitoring form to 
 the iPad.  
 </div>
-<div id="released2">Released: 6/4/12</div>
+<div id="released2">Released: <?php echo $clip_release_date?></div>
 
 </div><!--end of block2-->
 
@@ -98,7 +100,7 @@ MMWR content in a user-friendly way. Articles are
 organized into intuitive categories, making them easy 
 to find. 
 </div>
-<div id="released2">Released: 6/4/12</div>
+<div id="released2">Released: <?php echo $mmwr_nav_release_date?></div>
 
 </div><!--end of block2-->
 
@@ -117,7 +119,7 @@ to find.
 <div id="app_title2"><a href="mmwr_map_iphone.php">MMWR Map Navigator</a></div><br/>
 <div id="text2">The MMWR brought to the iPad via a map-based navigation interface. The geographic areas relating to MMWR articles are indicated. There are a variety of filtering options.
 </div>
-<div id="released2">Released: 6/4/12</div>
+<div id="released2">Released: <?php echo $mmwr_map_release_date?></div>
 
 </div><!--end of block2-->
 
@@ -173,7 +175,7 @@ to find.
 <span class="icons2"><a href="retro_iphone.php"><img src="images_iphone/retro_iphone_icon.png" title="HIV Risk Assessment Tool" alt="HIV Risk Assessment Tool" width="59px" height="60px" border="0" /></a></span>
 <div id="app_title2"><a href="retro_iphone.php">ARCH-Couples</a></div><br/>
 <div id="text2">Focuses on HIV Risk Assessment &#8212; specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.  </div>
-<div id="released2">Released: 9/17/13</div>
+<div id="released2">Released: <?php echo $retro_release_date?></div>
 
 </div><!--end of block2-->
 

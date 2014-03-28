@@ -6,6 +6,8 @@ ob_start();
 
 <?php require("login/login3_iphone_retina.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -57,9 +59,9 @@ ob_start();
 
 <div id="stats_iphone">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 10/23/2013<br/>
-<strong>Version:</strong> 0.8.9.001<br/>
-<strong>Size:</strong> 10.9MB<br/>
+    <strong>Released:</strong> <?php echo $mmwr_nav_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $mmwr_nav_version ?><br/>
+    <strong>Size:</strong> <?php echo $mmwr_nav_size ?><br/>
 </div><!--end of stats-->
 
 

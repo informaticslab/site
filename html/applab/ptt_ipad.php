@@ -5,6 +5,8 @@ ob_start();
 
 <?php require("login/login3_ipad.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -48,12 +50,12 @@ ob_start();
 <img src="images/ptt_large_icon.png" alt="PTT Advisor" title="PTT Advisor" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="ptt-applab-download" href="http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="ptt-applab-download" href="<?php echo $ptt_itunes_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Medical<br/>
-<strong>Released:</strong> 7/6/12<br/>
-<strong>Version:</strong> 1.0<br/>
-<strong>Size:</strong> 1.3MB<br/>
+    <strong>Released:</strong> <?php echo $ptt_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $ptt_version ?><br/>
+    <strong>Size:</strong> <?php echo $ptt_size ?><br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

@@ -6,6 +6,7 @@ ob_start();
 ?>
 <?php require("login/login3.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
 
 
 
@@ -52,7 +53,7 @@ ob_start();
 <img src="images/niosh_large_icon.png" alt="NIOSH Facepiece Respirator Guide" title="NIOSH Facepiece Respirator Guide" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="niosh-face-applab-download" href="../applab/downloads/respguide/1.2.8.001/Respirator%20Guide.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="niosh-face-applab-download" href="$respguide_ipa_path" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
 <strong>Released:</strong> 6/4/2012<br/>

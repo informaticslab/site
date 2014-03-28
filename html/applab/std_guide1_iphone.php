@@ -7,6 +7,8 @@ ob_start();
 
 <?php require("login/login3_iphone.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -55,14 +57,14 @@ ob_start();
 <div id="app_name_iphone2">STD Guide, Version 1</div>
 
 <div id="stats_iphone">
-<strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/4/2012<br/>
-<strong>Version:</strong> 0.4.4.001<br/>
-<strong>Size:</strong> 1.73MB<br/>
+    <strong>Category:</strong> Reference<br/>
+    <strong>Released:</strong> <?php echo $std1_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $std1_version ?><br/>
+    <strong>Size:</strong> <?php echo $std1_size ?><br/>
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="std1-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/stdguide/0.4.4.001/manifest.plist"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download_detail_iphone"><a id="std1-applab-download" href="<?php echo $std1_manifest_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">

@@ -5,6 +5,7 @@ ob_start();
 
 <?php require("login/login3.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -47,12 +48,12 @@ ob_start();
 <img src="images/toxguide_large_icon.png" alt="ATSDR ToxGuide" title="ATSDR ToxGuide" />
 
 </div><!--end of larg_icon-->
-<div id="download_detail"><a id="tox-applab-download" href="../applab/downloads/toxguide/0.6.2.001/mToxGuide.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="tox-applab-download" href="<?php echo $tox_guide_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 6/1/2012<br/>
-<strong>Version:</strong> 0.6.2.001<br/>
-<strong>Size:</strong> 254KB<br/>
+    <strong>Released:</strong> <?php echo $tox_guide_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $tox_guide_version ?><br/>
+    <strong>Size:</strong> <?php echo $tox_guide_size ?><br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->

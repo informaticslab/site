@@ -5,6 +5,7 @@ ob_start();
 
 <?php require("login/login3.php"); ?> 
 <?php require("bsniff.php"); ?>
+<?php require("mobile_apps.php"); ?>
 
 
 
@@ -52,12 +53,12 @@ ob_start();
 <img src="images/mmwr_map_large_icon.png" alt="MMWR Map Navigator" title="MMWR Map Navigator" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="mmwr-map-applab-download" href="../applab/downloads/mapapp/1.3.2.001/MapApp.ipa" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image11" width="91" height="20" border="0" id="Image11" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="mmwr-map-applab-download" href="$mmwr_map_ipa_path" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image11" width="91" height="20" border="0" id="Image11" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Reference<br/>
-<strong>Released:</strong> 10/23/13<br/>
-<strong>Version:</strong> 1.3.2.001<br/>
-<strong>Size:</strong> 328KB<br/>
+    <strong>Released:</strong> <?php echo $mmwr_map_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $mmwr_map_version ?><br/>
+    <strong>Size:</strong> <?php echo $mmwr_map_size ?><br/>
 <strong>Cost:</strong> Free
 
 </div><!--end of stats-->
