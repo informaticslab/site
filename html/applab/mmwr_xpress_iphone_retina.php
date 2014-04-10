@@ -48,7 +48,7 @@ ob_start();
 </div>
 
 
-<div id="iphone_detail_icons"><img src="images/mmwr_express_icon.png" alt="MMWR Express"/>
+<div id="iphone_detail_icons"><img src="images_iphone/mmwr_xpress_retina_icon.png" width="69px" height="69px" alt="MMWR Express"/>
 </div>
 
 
