@@ -214,8 +214,8 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 <div class="block">
 
-<span class="icons"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
-<div id="app_title"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>">MMWR Express</a></div><br/>
+<span class="icons"><a href="mmwr_xpress_iphone_retina.php"><img src="images_iphone/mmwr_express_iphone_icon_retina.png" width="59px" height="60px" title="MMWR Express" alt="MMWR Express" border="0" /></a></span>
+<div id="app_title"><a href="mmwr_xpress_iphone_retina.php">MMWR Express</a></div><br/>
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices. <br/>
 </div>
 <div id="download"><a id="mmwr-express-applab-download" href="<?php echo $photon_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>

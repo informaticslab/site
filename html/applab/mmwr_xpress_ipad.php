@@ -3,10 +3,9 @@ session_start();
 ob_start();
 ?>
 
-<?php require("login/login3.php"); ?> 
+<?php require("login/login3_ipad.php"); ?> 
 <?php require("bsniff.php"); ?>
 <?php require("mobile_apps.php"); ?>
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,10 +19,9 @@ ob_start();
 
 
 
-
 </head>
 
-<body onload="MM_preloadImages('images/all_prototypes_hover.png','images/view_itunes_smaller_hover.png')">
+<body onload="MM_preloadImages('images/all_prototypes_hover.png','images/download_largest_hover.png')">
 
 <div id="wrap">
 <div id="topper">
@@ -45,16 +43,15 @@ ob_start();
 <img src="images/tagline.png" title="A tool for the Lab, CDC, and its community partners to test and collaborate on innovative mobile apps" alt="A tool for the Lab, CDC, and its community partners to test and collaborate on innovative mobile apps" border="0" width="621px" height"17px" />
 </span>
 </div><!--end of tagline-->
-<div id="back_button"><a href="start.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('all_prototypes','','images/all_prototypes_hover.png',1)"><img src="images/all_prototypes.png" alt="All prototypes" title="All prototypes" name="all_prototypes" width="130" height="27" border="0" id="all_prototypes" /></a></div><!--end of back_button-->
+<div id="back_button"><a href="index_ipad.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('all_prototypes','','images/all_prototypes_hover.png',1)"><img src="images/all_prototypes.png" alt="All prototypes" title="All prototypes" name="all_prototypes" width="130" height="27" border="0" id="all_prototypes" /></a></div><!--end of back_button-->
 
 <div id="first_column">
 <div id="large_icon">
 <img src="images/large_mmwr_x_icon.png" alt="MMWR Express" title="MMWR Express" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="mmwrexpress-applab-download" href="<?php echo $photon_itunes_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
-
 <strong>Category:</strong> Medical<br/>
     <strong>Released:</strong> <?php echo $photon_release_date ?><br/>
     <strong>Version:</strong> <?php echo $photon_version ?><br/>
@@ -73,7 +70,6 @@ iPhone, iPod Touch, <br/>
 iPad with iOS 7.0  <br/>
 or later<br/>
 
-
 </div>
 
 
@@ -90,6 +86,7 @@ or later<br/>
 <div id="text_block">
 <div id="app_name">MMWR Express</div>
 <div id="subtitle">Description</div> 
+
 <p>This mobile prototype application, MMWR Express, provides fast access to the blue summary boxes in MMWR's Weekly Report.</p>
 
 <p>The Morbidity and Mortality Weekly Report (MMWR) series is prepared by the Centers for Disease Control and Prevention (CDC). Often called “the voice of CDC,” the MMWR series is the agency’s primary vehicle for scientific publication of timely, reliable, authoritative, accurate, objective, and useful public health information and recommendations.</p>
@@ -106,7 +103,6 @@ or later<br/>
     <li>Enables the sharing of articles via email, text message, Facebook, and Twitter.</li><br/>
     <li>Provides easy access to full articles on the main MWWR site, if the user wants more information.</li>
 </ul>
-
 </div><!--end of text_block-->
 
 <div id="screenshots">
@@ -134,11 +130,19 @@ require $path_to_comments_folder . "includes/commentics.php"; //no need to edit 
 
 </div><!--end of feedback-->
 
+
 </div><!--end of second_column-->
 
 
 
-<div id="footer"><span class="footer_text"><img src="images/footer.png" border="0" alt="Informatics R&D Lab | An initiative for the public health community, supported by: Center for Surveillance, Epidemiology, and Laboratory Services -- Office of Public Health Scientific Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" title="Informatics R&D Lab | An initiative for the public health community, supported by: Center for Surveillance, Epidemiology, and Laboratory Services -- Office of Public Health Scientific Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" /></span></div>
+
+
+
+
+
+
+
+<div id="footer"><span class="footer_text"><img src="images/footer.png" border="0" alt="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" title="Informatics R&D Lab | An initiative for the public health community, supported by: Public Health Surveillance and Informatics Program Office (proposed) -- Office of Surveillance, Epidemiology, and Laboratory Services -- Centers for Disease Control and Prevention -- Department of Health and Human Services" /></span></div>
 <div id="bottom_line"></div>
 
 
