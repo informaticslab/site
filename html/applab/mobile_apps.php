@@ -7,7 +7,10 @@
  */
 
 # server setting
-$server = 'edemo';
+#$server = 'edemo';
+$server = 'www';  # live
+
+$manifest_file = "manifest.plist";
 $server_domain = "$server.phiresearchlab.org";
 
 # common iOS settings
