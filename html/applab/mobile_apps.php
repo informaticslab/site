@@ -77,8 +77,8 @@ $pedigree_manifest_link = "$ios_manifest_prefix$server_domain/$pedigree_app_path
 $pedigree_ipa_path = "../$pedigree_app_path/$pedigree_ipa";
 
 # Photon Universal App  settings
-$photon_version = '0.10.14.6';
-$photon_release_date = '4/11/14';
+$photon_version = '0.10.15.6';
+$photon_release_date = '4/15/14';
 $photon_size = '2.7MB';
 $photon_ipa = 'photon.ipa';
 $photon_app_path = "applab/downloads/photon/$photon_version";
