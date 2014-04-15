@@ -67,8 +67,8 @@ $mmwr_nav_manifest_link = "$ios_manifest_prefix$server_domain/$mmwr_nav_app_path
 $mmwr_nav_ipa_path = "../$mmwr_nav_app_path/$mmwr_nav_ipa";
 
 # Pedigree (Family History )iPhone App settings
-$pedigree_version = '0.4.7.1';
-$pedigree_release_date = '';
+$pedigree_version = '0.4.10.1';
+$pedigree_release_date = '04/15/14';
 $pedigree_size = '';
 $pedigree_ipa = 'FamilyHistory.ipa';
 $pedigree_app_path = "applab/downloads/pedigree/$pedigree_version";
