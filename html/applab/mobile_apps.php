@@ -47,8 +47,8 @@ $minesim_manifest_link = "$ios_manifest_prefix$server_domain/$minesim_app_path/m
 $minesim_ipa_path = "../$minesim_app_path/$minesim_ipa";
 
 # MMWR Map App
-$mmwr_map_version = '1.3.2.001';
-$mmwr_map_release_date = '10/23/13';
+$mmwr_map_version = '1.3.4.1';
+$mmwr_map_release_date = '5/5/14';
 $mmwr_map_size = '328KB';
 $mmwr_map_ipa = 'MapApp.ipa';
 $mmwr_map_app_path = "applab/downloads/mapapp/$mmwr_map_version";
@@ -57,8 +57,8 @@ $mmwr_map_manifest_link = "$ios_manifest_prefix$server_domain/$mmwr_map_app_path
 $mmwr_map_ipa_path = "../$mmwr_map_app_path/$mmwr_map_ipa";
 
 # MMWR Navigator App
-$mmwr_nav_version = '0.8.9.001';
-$mmwr_nav_release_date = '10/23/13';
+$mmwr_nav_version = '0.8.11.1';
+$mmwr_nav_release_date = '5/5/14';
 $mmwr_nav_size = '10.9MB';
 $mmwr_nav_ipa = 'mmwr-navigator.ipa';
 $mmwr_nav_app_path = "applab/downloads/mmwr-navigator/$mmwr_nav_version";
@@ -110,11 +110,11 @@ $respguide_ipa_path = "../$respguide_app_path/$respguide_ipa";
 
 
 # Retro iPad App
-$retro_version = '0.1.6.1';
-$retro_release_date = '9/17/13';
+$retro_version = '0.2.1.1';
+$retro_release_date = '5/5/14';
 $retro_size = '957KB';
 $retro_ipa = 'retro.ipa';
-$retro_app_path = "applab/downloads/betas/retro/$retro_version";
+$retro_app_path = "applab/downloads/retro/$retro_version";
 
 $retro_manifest_link = "$ios_manifest_prefix$server_domain/$retro_app_path/manifest.plist";
 $retro_ipa_path = "../$retro_app_path/$retro_ipa";
