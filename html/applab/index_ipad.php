@@ -72,7 +72,7 @@ particulate filtering facepiece respirators.
 </div>
 
 <div id="download"><a id="niosh-face-applab-download" href="<?php echo $respguide_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image29','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image29" width="79" height="20" border="0" id="Image29" title="Download app" /></a></div>
-<div id="released">Released: 6/4/12</div>
+<div id="released">Released: <?php echo $respguide_release_date ?></div>
 
 </div><!--end of NIOSH_facepiece-->
 </div>
@@ -246,8 +246,8 @@ Line Insertion Practices Adherence Monitoring form to
 the iPad. 
 </div>
 
-<div id="download"><a id="clip-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/clip/0.5.12.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image33','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image33" width="79" height="20" border="0" id="Image33" title="Download app" /></a></div>
-<div id="released">Released: 6/4/12</div>
+<div id="download"><a id="clip-applab-download" href="<?php echo $clip_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image33','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image33" width="79" height="20" border="0" id="Image33" title="Download app" /></a></div>
+<div id="released">Released: <?php echo $clip_release_date ?></div>
 
 </div><!--end of PTT_advisor-->
 </div><!--end of block_border_left-->
@@ -263,7 +263,7 @@ safety issues. &nbsp;<span style="font-size:10px"><i>*Download could take a few 
 
 </div>
 
-<div id="download"><a id="niosh-mine-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/minesim/0.7301.276/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image34','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" title="Download app" name="Image34" width="79" height="20" border="0" id="Image34" /></a></div>
+<div id="download"><a id="niosh-mine-applab-download" href="<?php echo $minesim_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image34','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" title="Download app" name="Image34" width="79" height="20" border="0" id="Image34" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 
@@ -288,8 +288,8 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-nav-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mmwr-navigator/0.8.6.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image35" width="79" height="20" border="0" id="Image35" title="Download app" /></a></div>
-<div id="released">Released: 6/4/12</div>
+<div id="download"><a id="mmwr-nav-applab-download" href="<?php echo $mmwr_nav_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image35" width="79" height="20" border="0" id="Image35" title="Download app" /></a></div>
+<div id="released">Released: <?php echo $mmwr_nav_release_date ?></div>
 
 </div><!--end of PTT_advisor-->
 </div><!--end of block_border_left-->
@@ -303,8 +303,8 @@ to find.
 
 </div>
 
-<div id="download"><a id="mmwr-map-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/mapapp/1.2.7.001/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
-<div id="released">Released: 6/4/12</div>
+<div id="download"><a id="mmwr-map-applab-download" href="<?php echo $mmwr_map_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
+<div id="released">Released: <?php echo $mmwr_map_release_date ?></div>
 
 </div><!--end of NIOSH_facepiece-->
 </div><!--end of block_border_right-->
@@ -323,7 +323,7 @@ to find.
 </div>
 
 
-<div id="download"><a id="epi-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/epi/0.9/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
+<div id="download"><a id="epi-applab-download" href="<?php echo $mmwr_nav_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
 
@@ -338,8 +338,8 @@ to find.
 
 </div>
 
-<div id="download"><a id="wisqars-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/wisqars/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
-<div id="released">Released: 7/18/13</div>
+<div id="download"><a id="wisqars-applab-download" href="<?php echo $wisqars_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
+<div id="released">Released: <?php echo $wisqars_release_date ?></div>
 
 </div><!--end of NIOSH facepiece-->
 </div><!--end of block_border_right-->
@@ -357,8 +357,8 @@ to find.
 <div id="text">Focuses on HIV Risk Assessment &#8212; specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.
 </div>
 
-<div id="download"><a id="retro-applab-download" href="itms-services://?action=download-manifest&url=http://www.phiresearchlab.org/applab/downloads/betas/retro/manifest.plist" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image35" width="79" height="20" border="0" id="Image35" title="Download app" /></a></div>
-<div id="released">Released: 9/17/2013</div>
+<div id="download"><a id="retro-applab-download" href="<?php echo $retro_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image35" width="79" height="20" border="0" id="Image35" title="Download app" /></a></div>
+<div id="released">Released: <?php echo $retro_release_date ?></div>
 
 </div><!--end of PTT_advisor-->
 </div><!--end of block_border_left-->
