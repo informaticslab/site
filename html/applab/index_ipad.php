@@ -323,7 +323,7 @@ to find.
 </div>
 
 
-<div id="download"><a id="epi-applab-download" href="<?php echo $mmwr_nav_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
+<div id="download"><a id="epi-applab-download" href="<?php echo $epi_info_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image36" width="79" height="20" border="0" id="Image36" title="Download app" /></a></div>
 <div id="early"><img src="images/hosted_by.png" alt="Hosted by Informatics R&D Lab" title="Hosted by Informatics R&D Lab" /> </div>
 
 
