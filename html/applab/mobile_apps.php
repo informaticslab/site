@@ -27,11 +27,11 @@ $clip_manifest_link = "$ios_manifest_prefix$server_domain/$clip_app_path/manifes
 $clip_ipa_path = "../$clip_app_path/$clip_ipa";
 
 # Epi Info (Stat Calc) iPad App
-$epi_info_version = '0.9';
-$epi_info_release_date = '';
-$epi_info_size = '';
+$epi_info_version = '1.9';
+$epi_info_release_date = '5/14/14';
+$epi_info_size = '12.8MB';
 $epi_info_ipa = 'EpiInfo.ipa';
-$epi_info_app_path = "applab/downloads/betas/epi/$epi_info_version";
+$epi_info_app_path = "applab/downloads/epi/$epi_info_version";
 
 $epi_info_manifest_link = "$ios_manifest_prefix$server_domain/$epi_info_app_path/manifest.plist";
 $epi_info_ipa_path = "../$epi_info_app_path/$epi_info_ipa";
