@@ -8,7 +8,7 @@ ob_start();
 <?php require("bsniff.php"); ?>
 <?php require("mobile_apps.php"); ?>
 
- 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -85,9 +85,28 @@ ob_start();
 </div><!--end of top_right_links-->
 
 <div id="text_block">
-<div id="app_name">StatCalc by Epi Info<sup style="font-size:9px;">TM</sup></div>
-<div id="subtitle">Description</div> 
-<p>StatCalc statistical calculators have long been a feature of CDC's Epi Info desktop software. Each calculator has been adapted for iOS and is included in this app. The app controls and facilitates user inputs by taking advantage of the iPad's touchscreen interface and using input devices such as sliders and steppers.</p> 
+<div id="app_name">Epi Info</div>
+<div id="subtitle">Description</div>
+
+
+    <p>The Epi Info app has two many features: Data Entry and StatCalc.</p>
+
+    <div id="subtitle2">Data Entry</div>
+
+    <p>Allows the user to collect data on the mobile device using a form created with Epi Info 7 on a desktop PC.  Features include:</p>
+
+    <ul><li>Importing a collection form via the device’s native email app</li>
+    <li>Opening saved forms</li>
+    <li>Entering new records to be stored on the device</li>
+    <li>Recalling and updating or deleting existing records</li>
+    <li>Packaging and encrypting local datasets for import to PC Epi Info 7 projects</li>
+        </ul>
+
+
+        <div id="subtitle2">StatCalc</div>
+
+
+<p>StatCalc statistical calculators have long been a feature of CDC's Epi Info desktop software. Each calculator has been adapted for iOS and is included in this app. The app controls and facilitates user inputs by taking advantage of the iPad's touchscreen interface and using input devices such as sliders and steppers.</p>
 <p>Included calculators are:
 
 <ul><li>2x2xn calculator with associated confidence intervals and statistical tests</li>
@@ -117,12 +136,12 @@ Future development plans include adding other Epi Info desktop features such as 
 </div><!--end of text_block-->
 
 <div id="screenshots">
-<div id="subtitle">Screenshots</div> 
-<div id="screen_row"><img src="images/epi_screen1.png" height="70%" width="70%" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div> 
+<div id="subtitle">Screenshots</div>
+<div id="screen_row"><img src="images/epi_screen1.png" height="70%" width="70%" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
 <div id="screen_row2"><img src="images/epi_screen2.png" height="70%" width="70%" alt="screenshot of Epi Info 2x2 calculator" title="screenshot of Epi Info 2x2 calculator"/></div>
 <div id="screen_row2"><img src="images/epi_screen3.png" height="70%" width="70%" alt="screenshot of Epi Info 2x2 calculator, summary results" title="screenshot of Epi Info 2x2 calculator, summary results"/></div>
-<div id="screen_row2"><img src="images/epi_screen4.png" height="70%" width="70%" alt="screenshot of Epi Info Sample Size Calculation" title="screenshot of Epi Info Sample Size Calculation"/></div>  
- 
+<div id="screen_row2"><img src="images/epi_screen4.png" height="70%" width="70%" alt="screenshot of Epi Info Sample Size Calculation" title="screenshot of Epi Info Sample Size Calculation"/></div>
+
 </div><!--end of screenshots-->
 
 

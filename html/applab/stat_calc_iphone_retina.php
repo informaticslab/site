@@ -60,7 +60,7 @@ ob_start();
 
 
 
-<div id="app_name_iphone">StatCalc by Epi Info<sup style="font-size:5px;">TM</sup></div>
+<div id="app_name_iphone">Epi Info</div>
 
 <div id="stats_iphone">
 <strong>Category:</strong> Epidemiology<br/>
@@ -96,7 +96,26 @@ ob_start();
 
 <span style="font-size:11px;"><strong>Description:</strong></span>
 
-<p>StatCalc statistical calculators have long been a feature of CDC's Epi Info desktop software. Each calculator has been adapted for iOS and is included in this app. The app controls and facilitates user inputs by taking advantage of the iPad's touchscreen interface and using input devices such as sliders and steppers.</p> 
+    <p>The Epi Info app has two many features: Data Entry and StatCalc.</p>
+
+    <div id="subtitle2">Data Entry</div>
+
+    <p>Allows the user to collect data on the mobile device using a form created with Epi Info 7 on a desktop PC.  Features include:</p>
+
+    <ul><li>Importing a collection form via the device’s native email app</li>
+        <li>Opening saved forms</li>
+        <li>Entering new records to be stored on the device</li>
+        <li>Recalling and updating or deleting existing records</li>
+        <li>Packaging and encrypting local datasets for import to PC Epi Info 7 projects</li>
+    </ul>
+
+
+    <div id="subtitle2">StatCalc</div>
+
+
+
+
+    <p>StatCalc statistical calculators have long been a feature of CDC's Epi Info desktop software. Each calculator has been adapted for iOS and is included in this app. The app controls and facilitates user inputs by taking advantage of the iPad's touchscreen interface and using input devices such as sliders and steppers.</p>
 <p>Included calculators are:
 
 <ul><li>2x2xn calculator with associated confidence intervals and statistical tests</li>

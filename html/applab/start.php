@@ -193,7 +193,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div class="block_border_right">
 <div class="PTT_advisor">
 <span class="icons"><a href="stat_calc.php"><img src="images/epi_icon.png" title="Epi Info iPhone app" alt="Epi Info iPhone app" border="0" /></a></span>
-<div id="app_title"><a href="stat_calc.php">StatCalc by Epi Info<sup style="font-size:9px;">TM</sup></a></div><br/>
+<div id="app_title"><a href="stat_calc.php">Epi Info<sup style="font-size:9px;">TM</sup></a></div><br/>
 <div id="text">Created by CDC's Epi Info<sup style="font-size:7px;">TM</sup> team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad and iPhone. <br/><br/>
 
 </div>
