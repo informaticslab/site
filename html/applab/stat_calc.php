@@ -145,7 +145,6 @@ Future development plans include adding other Epi Info desktop features such as 
     <div id="screen_row"><img src="images/epi-iphone-large-7.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
     <div id="screen_row"><img src="images/epi_screen1.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
 
-    http://edemo.phiresearchlab.org/applab/images/epi_screen1.png
 </div><!--end of screenshots-->
 
 
