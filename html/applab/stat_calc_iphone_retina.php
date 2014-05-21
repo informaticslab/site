@@ -96,7 +96,7 @@ ob_start();
 
 <span style="font-size:11px;"><strong>Description:</strong></span>
 
-    <p>The Epi Info app has two many features: Data Entry and StatCalc.</p>
+    <p>The Epi Info app has two main features: Data Entry and StatCalc.</p>
 
     <div id="subtitle2">Data Entry</div>
 
