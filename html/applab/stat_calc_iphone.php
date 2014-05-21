@@ -139,13 +139,13 @@ Future development plans include adding other Epi Info desktop features such as 
 
 <br/>
 
-<strong>Screenshots:</strong> 
-<div id="screen_row_iphone"><img src="images_iphone/epi_screen1.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div> 
-<div id="screen_row_iphone"><img src="images_iphone/epi_screen2.png" alt="screenshot of Epi Info 2x2 calculator" title="screenshot of Epi Info 2x2 calculator"/></div> 
-
-<div id="screen_row_iphone"><img src="images_iphone/epi_screen3.png" alt="screenshot of Epi Info 2x2 calculator, summary results" title="screenshot of Epi Info 2x2 calculator, summary results"/></div> 
-
-<div id="screen_row_iphone"><img src="images_iphone/epi_screen4.png" alt="screenshot of Epi Info Sample Size Calculation" title="screenshot of Epi Info Sample Size Calculation"/></div> 
+<strong>Screenshots:</strong>
+    <div id="screen_row"><img src="images_iphone/epi-ipad-small-5.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
+    <div id="screen_row"><img src="images_iphone/epi-ipad-small-6.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
+    <div id="screen_row"><img src="images_iphone/epi-ipad-small-7.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
+    <div id="screen_row"><img src="images_iphone/epi-iphone-small-5.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
+    <div id="screen_row"><img src="images_iphone/epi-iphone-small-6.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
+    <div id="screen_row"><img src="images_iphone/epi-iphone-small-7.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
 
 
 
