@@ -152,11 +152,7 @@ Future development plans include adding other Epi Info desktop features such as 
     <div id="screen_row"><img src="images_iphone/epi-iphone-small-5.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
     <div id="screen_row"><img src="images_iphone/epi-iphone-small-6.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
     <div id="screen_row"><img src="images_iphone/epi-iphone-small-7.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
-
-
-
-
-
+    <div id="screen_row"><img src="images_iphone/epi_screen1.png" alt="screenshot of Epi Info statistical calculators" title="screenshot of Epi Info statistical calculators"/></div>
 
 <div id="dotted_line4_iphone"></div>
 <br/>

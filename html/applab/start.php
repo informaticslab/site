@@ -216,8 +216,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 </div>
 
 <div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image32','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image32" width="91" height="20" border="0" id="Image32" /></a></div>
-
-<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to the Apple App Store: 7/6/12</span></div>
 
 
 
