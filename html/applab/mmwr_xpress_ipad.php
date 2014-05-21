@@ -50,7 +50,7 @@ ob_start();
 <img src="images/large_mmwr_x_icon.png" alt="MMWR Express" title="MMWR Express" />
 
 </div><!--end of large_icon-->
-<div id="download_detail_largest"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
+<div id="download_detail_largest"><a id="mmwrexpress-applab-download" href="<?php echo $photon_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
 <div id="stats">
 <strong>Category:</strong> Medical<br/>
     <strong>Released:</strong> <?php echo $photon_release_date ?><br/>

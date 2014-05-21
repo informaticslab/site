@@ -85,6 +85,7 @@ $photon_app_path = "applab/downloads/photon/$photon_version";
 
 $photon_manifest_link = "$ios_manifest_prefix$server_domain/$photon_app_path/manifest.plist";
 $photon_ipa_path = "../$photon_app_path/$photon_ipa";
+$photon_itunes_link = "https://itunes.apple.com/us/app/mmwr-express/id868245971?mt=8";
 
 # PTT Advisor App
 $ptt_version = '1.0.3';
@@ -93,7 +94,7 @@ $ptt_size = '1.3MB';
 $ptt_ipa = '';
 $ptt_app_path = "applab/downloads/ptt/$ptt_version";
 
-$ptt_itunes_link = "http://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1";
+$ptt_itunes_link = "https://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1";
 $ptt_manifest_link = "$ios_manifest_prefix$server_domain/$ptt_app_path/manifest.plist";
 $ptt_ipa_path = "../$ptt_app_path/$ptt_ipa";
 

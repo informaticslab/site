@@ -52,7 +52,7 @@ ob_start();
 <img src="images/large_mmwr_x_icon.png" alt="MMWR Express" title="MMWR Express" />
 
 </div><!--end of large_icon-->
-<div id="download_detail"><a id="mmwrexpress-applab-download" href="<?php echo $photon_ipa_path?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
+<div id="download_detail"><a id="mmwrexpress-applab-download" href="<?php echo $photon_itunes_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/view_itunes_smaller_hover.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" title="View in iTunes" name="Image10" width="91" height="20" border="0" id="Image10" /></a></div><!--end of download_detail-->
 <div id="stats">
 
 <strong>Category:</strong> Medical<br/>

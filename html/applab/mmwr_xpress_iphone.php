@@ -67,7 +67,7 @@ ob_start();
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download_detail_iphone"><a id="mmwrexpress-applab-download" href="<?php echo $photon_itunes_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">
