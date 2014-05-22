@@ -56,7 +56,7 @@
 
 
 
-<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to the Apple App Store: 7/6/12</span></div>
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to the Apple App Store</span></div>
 
 </div><!--end of PTT advisor-->
 </div><!--end of block_border_left-->
@@ -163,7 +163,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="std3-applab-download" href="<?php echo $std3_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
+<div id="download"><a id="std3-applab-download" href="<?php echo $std3_itunes_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image32','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image32" width="79" height="20" border="0" id="Image32" title="Download app" /></a></div>
 
 <div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to Apple App Store and Google Play</span></div>
 
@@ -181,8 +181,8 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 
 </div>
 
-<div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
-<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+<div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_itunes_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image31','','images/download_hover.png',1)"><img src="images/download.png" alt="Download app" name="Image31" width="79" height="20" border="0" id="Image31" title="Download app" /></a></div>
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to the Apple App Store</span></div>
 
 </div><!--end of NIOSH_facepiece-->
 

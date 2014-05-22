@@ -232,7 +232,7 @@ A Reference for clinicians on the identification of and treatment regimen for ST
 <div id="text">Provides fast access to the blue summary boxes in MMWR's weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices. <br/>
 </div>
 <div id="download"><a id="mmwrexpress-applab-download" href="<?php echo $photon_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
-<div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
+<div id="early"><img src="images/graduation_cap.png" alt="Graduation cap icon" title="Graduation cap icon" /> <span class="early_text">Graduated to App Store</span></div>
 
 </div><!--end of block-->
 
