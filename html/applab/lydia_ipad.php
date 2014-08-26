@@ -83,7 +83,7 @@ or later<br/>
 <div id="second_column">
 <div id="top_right_links">
 <a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="https://github.com/informaticslab/lydia">Get source code ></a>
+<a href="https://github.com/informaticslab/lydia-ios">Get source code ></a>
 </div><!--end of top_right_links-->
 
 <div id="text_block">
