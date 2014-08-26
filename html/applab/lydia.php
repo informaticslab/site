@@ -111,8 +111,8 @@ containing the 2014 STD Treatment Guidelines. The application is to serve as a r
 <div id="feedback">
 <?php
 
-$page_id = "std1";
-$reference = "STD Guide, Version 1";
+$page_id = "lydia";
+$reference = "STD Guide, Version 4";
 $path_to_comments_folder = "comments/";
 define ('IN_COMMENTICS', 'true'); //no need to edit this line
 require $path_to_comments_folder . "includes/commentics.php"; //no need to edit this line

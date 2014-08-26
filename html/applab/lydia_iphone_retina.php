@@ -46,7 +46,7 @@ ob_start();
 
 
 <div id="other_links_iphone"><a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="https://github.com/informaticslab/std1">Get source code ></a>
+<a href="https://github.com/informaticslab/lydia">Get source code ></a>
 
 </div>
 
@@ -56,17 +56,17 @@ ob_start();
 
 
 
-<div id="app_name_iphone2">STD Guide, Version 1</div>
+<div id="app_name_iphone2">STD Guide, Version 4</div>
 
 <div id="stats_iphone">
     <strong>Category:</strong> Reference<br/>
-    <strong>Released:</strong> <?php echo $std1_release_date ?><br/>
-    <strong>Version:</strong> <?php echo $std1_version ?><br/>
-    <strong>Size:</strong> <?php echo $std1_size ?><br/>
+    <strong>Released:</strong> <?php echo $lydia_release_date ?><br/>
+    <strong>Version:</strong> <?php echo $lydia_version ?><br/>
+    <strong>Size:</strong> <?php echo $lydia_size ?><br/>
 </div><!--end of stats-->
 
 
-<div id="download_detail_iphone"><a id="std1-applab-download" href="<?php echo $std1_manifest_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download_detail_iphone"><a id="std1-applab-download" href="<?php echo $lydia_manifest_link?>"><img src="images_iphone/download_iphone.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 
 <div id="wrap_requirements">
 <div id="requirements_iphone">
@@ -91,7 +91,7 @@ iPad with iOS 4.3 or later</div>
 <span style="font-size:11px;"><strong>Description:</strong></span>
 
 <p>The goal of this prototype has been to collaborate with CDC's STD team to design a mobile app for the iPhone
-containing the 2010 STD Treatment Guidelines. The application is to serve as a reference for doctors and related parties on the identification of and treatment regimen for STDs.</p>
+containing the 2014 STD Treatment Guidelines. The application is to serve as a reference for doctors and related parties on the identification of and treatment regimen for STDs.</p>
 
 <p>These guidelines for the treatment of persons who have or are at risk for sexually transmitted diseases (STDs) were updated by CDC after consultation with a group of professionals knowledgeable in the field of STDs who met in Atlanta on April 18–30, 2009. The information in this report updates the 2006 Guidelines for Treatment of Sexually Transmitted Diseases (MMWR 2006;55[No. RR–11]).</p>
 
@@ -112,8 +112,8 @@ containing the 2010 STD Treatment Guidelines. The application is to serve as a r
 <div id="feedback_iphone">
 <?php
 
-$page_id = "std1";
-$reference = "STD Guide, Version 1";
+$page_id = "lydia";
+$reference = "STD Guide, Version 4";
 $path_to_comments_folder = "comments/";
 define ('IN_COMMENTICS', 'true'); //no need to edit this line
 require $path_to_comments_folder . "includes/commentics.php"; //no need to edit this line

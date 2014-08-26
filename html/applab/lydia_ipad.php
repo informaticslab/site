@@ -49,7 +49,7 @@ ob_start();
 
 <div id="first_column">
 <div id="large_icon">
-<img src="images/std1_large_icon.png" alt="STD Guide, Version 4" title="STD Guide, Version 1" />
+<img src="images/std1_large_icon.png" alt="STD Guide, Version 4" title="STD Guide, Version 4" />
 
 </div><!--end of large_icon-->
 <div id="download_detail_largest"><a id="std1-applab-download" href="<?php echo $lydia_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/download_largest_hover.png',1)"><img src="images/download_largest.png" alt="Download app" name="Image10" width="119" height="27" border="0" id="Image10" title="Download app" /></a></div><!--end of download_detail-->
@@ -83,7 +83,7 @@ or later<br/>
 <div id="second_column">
 <div id="top_right_links">
 <a href="mailto:informaticslab@cdc.gov">Contact us ></a><br/>
-<a href="https://github.com/informaticslab/std1">Get source code ></a>
+<a href="https://github.com/informaticslab/lydia">Get source code ></a>
 </div><!--end of top_right_links-->
 
 <div id="text_block">
@@ -112,7 +112,7 @@ containing the 2014 STD Treatment Guidelines. The application is to serve as a r
 <div id="feedback">
 <?php
 
-$page_id = "std4";
+$page_id = "lydia";
 $reference = "STD Guide, Version 4";
 $path_to_comments_folder = "comments/";
 define ('IN_COMMENTICS', 'true'); //no need to edit this line
