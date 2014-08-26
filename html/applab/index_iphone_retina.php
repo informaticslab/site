@@ -112,12 +112,12 @@ effects.
 
 <div class="block">
 
-<span class="icons"><a href="std_guide1_iphone_retina.php"><img src="images_iphone/std1_iphone_icon_retina.png" width="59px" height="60px" title="STD Guide, Version 1" alt="STD Guide, Version 1" border="0" /></a></span>
-<div id="app_title"><a href="std_guide1_iphone_retina.php">STD Guide, Version 1</a></div><br/>
-<div id="text">Early mobile application prototype for CDC's 2010 STD Treatment Guidelines. 
+<span class="icons"><a href="lydia_iphone_retina.php"><img src="images_iphone/std1_iphone_icon_retina.png" width="59px" height="60px" title="STD Guide, Version 4" alt="STD Guide, Version 4" border="0" /></a></span>
+<div id="app_title"><a href="lydia_iphone_retina.php">STD Guide, Version 4</a></div><br/>
+<div id="text">Early mobile application prototype for CDC's 2014 STD Treatment Guidelines.
 A Reference for clinicians on the identification of and treatment regimen for STDs. 
 </div>
-<div id="download"><a id="std1-applab-download" href="<?php echo $std1_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
+<div id="download"><a id="std1-applab-download" href="<?php echo $lydia_manifest_link ?>" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images_iphone/download_iphone_hover_retina.png',1)"><img src="images_iphone/download_iphone_retina.png" alt="Download app" title="Download app" name="Image4" width="65" height="20" border="0" id="Image4" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of block-->
