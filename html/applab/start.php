@@ -119,7 +119,7 @@ effects.
 <div class="NIOSH_facepiece">
 
 <span class="icons"><a href="lydia.php"><img src="images/std1_icon.png" title="STD Guide, Version 4" alt="STD Guide, Version 4" border="0" /></a></span>
-<div id="app_title"><a href="std_guide1.php">STD Guide, Version 4</a></div><br/>
+<div id="app_title"><a href="lydia.php">STD Guide, Version 4</a></div><br/>
 <div id="text">Early mobile application prototype for CDC's 2014 STD Treatment Guidelines.
 A Reference for clinicians on the identification of and treatment regimen for STDs. 
 
