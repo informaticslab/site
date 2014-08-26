@@ -36,6 +36,15 @@ $epi_info_app_path = "applab/downloads/epi/$epi_info_version";
 $epi_info_manifest_link = "$ios_manifest_prefix$server_domain/$epi_info_app_path/manifest.plist";
 $epi_info_ipa_path = "../$epi_info_app_path/$epi_info_ipa";
 
+# Lydia settings
+$lydia_version = '0.1.3.3';
+$lydia_release_date = '8/26/2014';
+$lydia_size = '417KB';
+$lydia_ipa = 'StdTxGuide.ipa';
+$lydia_app_path = "applab/downloads/lydia/$lydia_version";
+$lydia_ipa_path = "../$lydia_app_path/$lydia_ipa";
+
+
 # NIOSH Mine Safety Sim App
 $minesim_version = '0.7301.276';
 $minesim_release_date = '6/19/2012';

@@ -118,14 +118,14 @@ effects.
 <div class="block_border_right">
 <div class="NIOSH_facepiece">
 
-<span class="icons"><a href="std_guide1.php"><img src="images/std1_icon.png" title="STD Guide, Version 1" alt="STD Guide, Version 1" border="0" /></a></span>
-<div id="app_title"><a href="std_guide1.php">STD Guide, Version 1</a></div><br/>
-<div id="text">Early mobile application prototype for CDC's 2010 STD Treatment Guidelines. 
+<span class="icons"><a href="lydia.php"><img src="images/std1_icon.png" title="STD Guide, Version 4" alt="STD Guide, Version 4" border="0" /></a></span>
+<div id="app_title"><a href="std_guide1.php">STD Guide, Version 4</a></div><br/>
+<div id="text">Early mobile application prototype for CDC's 2014 STD Treatment Guidelines.
 A Reference for clinicians on the identification of and treatment regimen for STDs. 
 
 </div>
 
-<div id="download"><a id="std1-applab-download" href="<?php echo $std1_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image36','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image36" width="91" height="20" border="0" id="Image36" title="View in iTunes" /></a></div>
+<div id="download"><a id="std1-applab-download" href="<?php echo $lydia_manifest_link?>" onmouseout="MM_swapImgRestore()" onmouseo="MM_swapImage('Image36','','images/view_itunes_smaller_ho.png',1)"><img src="images/view_itunes_smaller.png" alt="View in iTunes" name="Image36" width="91" height="20" border="0" id="Image36" title="View in iTunes" /></a></div>
 <div id="early"><img src="images/early.png" alt="Early-stage prototype icon" title="Early-stage prototype icon" /> <span class="early_text">Early-stage prototype</span></div>
 
 </div><!--end of NIOSH_facepiece-->
