@@ -41,7 +41,7 @@ $lydia_version = '0.1.3.3';
 $lydia_release_date = '8/26/2014';
 $lydia_size = '417KB';
 $lydia_ipa = 'StdTxGuide.ipa';
-$lydia_app_path = "applab/downloads/lydia/$lydia_version";
+$lydia_app_path = "applab/downloads/lydia/ios/$lydia_version";
 $lydia_ipa_path = "../$lydia_app_path/$lydia_ipa";
 $lydia_manifest_link = "$ios_manifest_prefix$server_domain/$lydia_app_path/manifest.plist";
 
