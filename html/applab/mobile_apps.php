@@ -43,6 +43,7 @@ $lydia_size = '417KB';
 $lydia_ipa = 'StdTxGuide.ipa';
 $lydia_app_path = "applab/downloads/lydia/$lydia_version";
 $lydia_ipa_path = "../$lydia_app_path/$lydia_ipa";
+$lydia_manifest_link = "$ios_manifest_prefix$server_domain/$lydia_app_path/manifest.plist";
 
 
 # NIOSH Mine Safety Sim App
