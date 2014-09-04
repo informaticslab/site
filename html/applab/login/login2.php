@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 require '../../configuration.php';
 $joomla_config = new JConfig();
@@ -13,7 +14,7 @@ $usernames = array("", "beaniehat");
 $passwords = array($joomla_config->app_lab_pass, "test");
 $original_location = $_SESSION["original_location"];
 if ($original_location == ''){
-	$page = "../start.php";
+	$page = "../start_bootstrap.php";
 }else{
 	$page = $_SESSION["original_location"];
 }
