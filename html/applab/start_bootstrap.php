@@ -19,6 +19,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        body { padding-top: 70px; }
+     </style>
+
 </head>
 
 <body>
@@ -46,11 +51,10 @@
 
 <!-- Apps displayed in bootstrap panels-->
 <div class="container">
-    <div class="row" >
-            <br />
-            <br />
-            <br />
+    <div class="row-fluid" >
+        <div class="span4">
             <div class="well well-sm" id="active_projects"><h4>Active Mobile Projects</h4></div>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-6">
@@ -124,17 +128,14 @@
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
-
 </div>
 
 <div class="container">
-    <div class="row" >
-        <br />
-        <br />
-        <br />
-        <div class="well well-sm" id="inactive_projects"><h4>Archived Mobile Projects</h4></div>
+    <div class="row-fluid" >
+        <div class="span4">
+            <div class="well well-sm" id="inactive_projects"><h4>Archived Mobile Projects</h4></div>
+        </div>
     </div>
-
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">

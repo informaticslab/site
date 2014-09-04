@@ -40,8 +40,7 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#active_projects">Active Projects</a></li>
-                <li><a href="#inactive_projects">Archived Projects</a></li>
+                <li class="active"><a href="#active_projects">Acknowledgment</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -50,14 +49,14 @@
 
 <div class="container">
         <br/><br/>
-        <p>To use the Informatics R&D Lab's app lab, you must agree with the following statements:</p> <br/>
-        <br/><ul>
-            <li>I acknowledge that I am a member of the <strong>CDC developer and/or testing community</strong>.</li>
-
-            <li>I understand that this app lab is meant for CDC staff, authorized agents of CDC (e.g., contractors), or CDC's community partners <strong>only</strong>.</li>
-            <li>I understand that this app lab does NOT contain production apps, but only <strong>prototype and/or proof-of-concept apps</strong> for collaboration and/or testing purposes.
+        <br/>
+        <br/><ul class="list-group">
+            <li class="list-group-item list-group-item-warning text-center">To use the Informatics R&D Lab's app lab, you must agree with the following statements:</li>
+            <li class="list-group-item">I acknowledge that I am a member of the <strong>CDC developer and/or testing community</strong>.</li>
+            <li class="list-group-item">I understand that this app lab is meant for CDC staff, authorized agents of CDC (e.g., contractors), or CDC's community partners <strong>only</strong>.</li>
+            <li class="list-group-item">I understand that this app lab does NOT contain production apps, but only <strong>prototype and/or proof-of-concept apps</strong> for collaboration and/or testing purposes.
             </li></ul>
-    <p>If you agree with these statements, you may proceed by entering your passcode:</p>
+    <p class="text-center">If you agree with these statements, you may proceed by entering your passcode:</p>
 
 
         <?php
@@ -71,7 +70,7 @@
             <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Sign in</button>
         </form>
 
-        <p>To request a passcode, please e-mail: <a href="mailto:informaticslab@cdc.gov">informaticslab@cdc.gov</a></p>
+        <p class="text-center">To request a passcode, please e-mail: <a href="mailto:informaticslab@cdc.gov">informaticslab@cdc.gov</a></p>
 
     </div><!--end of form_controls-->
 
