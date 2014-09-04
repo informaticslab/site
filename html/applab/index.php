@@ -1,28 +1,9 @@
-<?php require("bsniff.php"); ?>
-<?php require("mobile_apps.php"); ?>
+<?php require("mobile_apps_bootstrap.php"); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php
-/* 
-if(strstr($_SERVER['HTTP_USER_AGENT'],'iPad'))
-{
-	header('Location: agreement_ipad.php');
-	exit();
-}
-?>
-
-<?php 
-if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone'))
-{
-	header('Location: agreement_iphone.php');
-	exit();
-}
-*/
-?>
-
 
 <title>Public Health Prototypes | App Lab | Informatics R&D Lab</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
