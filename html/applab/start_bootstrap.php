@@ -1,3 +1,4 @@
+<?php require("login/login3.php"); ?>
 <?php require("mobile_apps_bootstrap.php"); ?>
 
 
@@ -13,8 +14,7 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <!-- Bootstrap core JavaScript
-================================================== -->
+    <!-- Bootstrap core JavaScript ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -161,6 +161,7 @@
     </div>
 </div>
 </body>
+
 <script type="text/javascript">
 
     $('.nav li a').on('click', function() {
