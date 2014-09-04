@@ -19,7 +19,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -43,6 +42,7 @@
         </div><!--/.nav-collapse -->
     </div>
 </div>
+
 
 <!-- Apps displayed in bootstrap panels-->
 <div class="container">
@@ -161,4 +161,13 @@
     </div>
 </div>
 </body>
+<script type="text/javascript">
+
+    $('.nav li a').on('click', function() {
+        $(this).parent().parent().find('.active').removeClass('active');
+        $(this).parent().addClass('active').css('font-weight', 'bold');
+    });
+</script>
+
+
 </html>
