@@ -55,18 +55,14 @@ class IosApp extends BaseApp {
         if($this->itunes_link) {
             echo '<a href="';
             echo $this->itunes_link;
-            echo '" class="btn btn-info">iTunes Download</a>';
+            echo '" class="btn btn-sm btn-info">iTunes Download</a>';
         }
         if($this->manifest_link) {
             echo '<a href="';
             echo $this->manifest_link;
-            echo '" class="btn btn-info">iOS Download</a>';
+            echo '" class="btn btn-sm btn-info">iOS Download</a>';
         }
-
     }
-
-
-
  }
 
 class AndroidApp extends BaseApp {
@@ -89,15 +85,18 @@ class AndroidApp extends BaseApp {
 
     public function write_download_buttons() {
 
+        echo '<!-- start write_download_buttons() for AndroidApp object  -->';
+
+
         if($this->google_play_link) {
             echo '<a href="';
-            echo $this->$google_play_link;
-            echo '" class="btn btn-success">Google Play Link</a>';
+            echo $this->google_play_link;
+            echo '" class="btn btn-sm btn-success">Google Play Link</a>';
         }
         if($this->apk_path) {
             echo '<a href="';
             echo $this->apk_path;
-            echo '" class="btn btn-success">Android Download</a>';
+            echo '" class="btn btn-sm btn-success">Android Download</a>';
         }
     }
 }

@@ -1,5 +1,3 @@
-<?php //require("login/login3.php"); ?><!-- -->
-<?php //require("bsniff.php"); ?>
 <?php require("mobile_apps_bootstrap.php"); ?>
 
 
@@ -9,18 +7,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Public Health Prototypes | IIU App Lab</title>
+    <title>Public Health Prototypes | IIU App Lab</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -35,19 +37,21 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#iphone_apps">iPhone Apps</a></li>
-                <li><a href="#ipad_apps">iPad Apps</a></li>
-
+                <li class="active"><a href="#active_projects">Active Projects</a></li>
+                <li><a href="#inactive_projects">Archived Projects</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </div>
 
-
-
 <!-- Apps displayed in bootstrap panels-->
 <div class="container">
-    <h1>Mobile Projects and Prototypes</h1>
+    <div class="row" >
+            <br />
+            <br />
+            <br />
+            <div class="well well-sm" id="active_projects"><h4>Active Mobile Projects</h4></div>
+    </div>
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
@@ -55,7 +59,7 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
+            <div class="panel panel-primary">
                 <?php $photon_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -67,7 +71,7 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
+            <div class="panel panel-primary">
                 <?php $clip_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -79,7 +83,7 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
+            <div class="panel panel-primary">
                 <?php $minesim_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -91,7 +95,7 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
+            <div class="panel panel-primary">
                 <?php $mmwr_nav_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -103,8 +107,8 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
-                <?php $respguide_project->write_panel(); ?>
+            <div class="panel panel-primary">
+                <?php $wisqars_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
@@ -115,49 +119,46 @@
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
-            <div class="panel panel-danger">
-                <?php $std1_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $std2_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-danger">
                 <?php $std3_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $tox_guide_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-danger">
-                <?php $wisqars_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
 
 </div>
 
+<div class="container">
+    <div class="row" >
+        <br />
+        <br />
+        <br />
+        <div class="well well-sm" id="inactive_projects"><h4>Archived Mobile Projects</h4></div>
+    </div>
 
-<div id="bottom_line"></div>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
-
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <?php $respguide_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <?php $tox_guide_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <?php $std1_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <?php $std2_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+</div>
 </body>
 </html>
