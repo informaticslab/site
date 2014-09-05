@@ -1,1 +1,0 @@
-/Applications/BetaBuilder for iOS Apps.app/Contents/Resources/README
