@@ -10,7 +10,7 @@
 #$server = 'edemo';
 define('SERVER','www');  # live
 define('SERVER_DOMAIN', SERVER.'.phiresearchlab.org');
-define('DOWNLOADS_PATH_ROOT','applab/downloads/');
+define('DOWNLOADS_PATH_ROOT','/applab/downloads/');
 
 abstract class BaseApp {
     public $version;
@@ -320,7 +320,7 @@ $clip_project->add_ios_app($clip_ios_app);
 # Epi Info (Stat Calc) iPad App
 $epi_short_desc = 'Created by CDC\'s Epi InfoTM team, this app adapts the StatCalc statistical calculators, a feature of Epi Info desktop software, for the iPad and iPhone.';
 $epi_project = new Project('epi', 'Epi Info', $epi_short_desc, 'images/epi_icon.png');
-$epi_ios_app = new IosApp('1.9', '5/14/14', '12.8MB', 'EpiInfo.ipa', null);
+$epi_ios_app = new IosApp('2.0', '9/5/14', '15.7MB', 'EpiInfo.ipa', null);
 $epi_project->add_ios_app($epi_ios_app);
 
 
