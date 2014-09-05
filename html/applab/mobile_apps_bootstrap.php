@@ -66,7 +66,7 @@ class IosApp extends BaseApp {
         if($this->itunes_link) {
             echo '<a href="';
             echo $this->itunes_link;
-            echo '" class="btn btn-sm btn-info">Download to Desktop </a>';
+            echo '" class="btn btn-sm btn-info">Download from App Store</a>';
         }
 
         echo '</div>';
