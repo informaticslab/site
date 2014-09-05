@@ -194,11 +194,7 @@ class Project {
 
     }
 
-
 }
-
-
-
 
 # PTT Advisor App
 $ptt_short_desc = 'Assists clinical providers in their evaluation of patients with an abnormal clinical laboratory blood test, specifically an abnormal PTT (Partial Thromboplastin Time).';
