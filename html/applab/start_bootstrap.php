@@ -128,24 +128,7 @@
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-
-                <div class="panel-heading">
-                    <h3 class="panel-title right-block">Bootstrap Modal Test</h3>
-                </div>
-                <div class="panel-body">
-                    Testing Bootstrap Modal
-
-
-                </div>
-                <div class="panel-footer">
-                </div>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-</div>
+ </div>
 
 <div class="container">
     <div class="row-fluid" >
