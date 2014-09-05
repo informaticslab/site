@@ -252,15 +252,15 @@ class Project {
         echo '<div class="panel-group" id="accordion">';
 
         // Detailed Information panel
-        echo '<div class="panel panel-default">';
-        echo '<div class="panel-heading">';
-
-        echo '<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#';
-        echo $detailPanelId;
-        echo '">Detailed Information</a></h4></div><div id="';
-        echo $detailPanelId;
-        echo '" class="panel-collapse collapse">';
-        echo '<div class="panel-body">Detailed Information goes here.</div></div></div>';
+//        echo '<div class="panel panel-default">';
+//        echo '<div class="panel-heading">';
+//
+//        echo '<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#';
+//        echo $detailPanelId;
+//        echo '">Detailed Information</a></h4></div><div id="';
+//        echo $detailPanelId;
+//        echo '" class="panel-collapse collapse">';
+//        echo '<div class="panel-body">Detailed Information goes here.</div></div></div>';
 
         // Downloads  panel
         echo '<div class="panel panel-default">';
