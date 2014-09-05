@@ -52,16 +52,30 @@ class IosApp extends BaseApp {
 
     public function write_download_buttons() {
 
-        if($this->itunes_link) {
-            echo '<a href="';
-            echo $this->itunes_link;
-            echo '" class="btn btn-sm btn-info">iTunes Download</a>';
-        }
+        echo "Version: $this->version<br />";
+        echo "Released: $this->release_date<br />";
+        echo "Size: $this->size<br />";
+
+        echo '<div class="btn-toolbar">';
+
         if($this->manifest_link) {
             echo '<a href="';
             echo $this->manifest_link;
-            echo '" class="btn btn-sm btn-info">iOS Download</a>';
+            echo '" class="btn btn-sm btn-info">Download on iOS Device</a>';
         }
+        if($this->itunes_link) {
+            echo '<a href="';
+            echo $this->itunes_link;
+            echo '" class="btn btn-sm btn-info">Download to Desktop </a>';
+        }
+
+        echo '</div>';
+
+
+    }
+
+    public function write_platform_label() {
+        echo '<span class="label label-info" style="margin-left:2px; margin-top:5px; display: inline-block">iOS</span>';
     }
  }
 
@@ -86,7 +100,12 @@ class AndroidApp extends BaseApp {
     public function write_download_buttons() {
 
         echo '<!-- start write_download_buttons() for AndroidApp object  -->';
+        echo "Version: $this->version<br />";
+        echo "Released: $this->release_date<br />";
+        echo "Size: $this->size<br />";
 
+
+        echo '<div class="btn-toolbar">';
 
         if($this->google_play_link) {
             echo '<a href="';
@@ -98,7 +117,15 @@ class AndroidApp extends BaseApp {
             echo $this->apk_path;
             echo '" class="btn btn-sm btn-success">Android Download</a>';
         }
+
+        echo '</div>';
+
     }
+
+    public function write_platform_label() {
+        echo '<span class="label label-success" style="margin-left:2px; display: inline-block">Android</span>';
+    }
+
 }
 
 class Project {
@@ -126,7 +153,6 @@ class Project {
 
         echo '<!-- start output from php project->write_download_buttons() function -->';
 
-        echo '<div class="btn-toolbar">';
         if ($this->ios_app) {
             $this->ios_app->write_download_buttons();
         }
@@ -134,9 +160,24 @@ class Project {
             $this->android_app->write_download_buttons();
         }
 
-        echo '</div>';
+        echo '<!-- end output from php project->write_download_buttons() function -->';
+
+    }
+
+    public function write_platform_labels() {
+
+        echo '<div class="platform-labels">';
+
+        echo '<span>Supported Platforms:</span>';
+        if ($this->ios_app) {
+            $this->ios_app->write_platform_label();
+        }
+        if ($this->android_app) {
+            $this->android_app->write_platform_label();
+        }
 
         echo '<!-- end output from php project->write_download_buttons() function -->';
+        echo '</div>';
 
     }
 
@@ -160,8 +201,15 @@ class Project {
         echo '" title="'; echo $title; echo '" alt="'; echo $title; echo '" /></a>';
         echo '<div class="media-body">';
         echo '<p>';echo $this->short_description;echo '</p>';
-        echo '</div></div></div>';
+        $this->write_platform_labels();
+
+        echo '</div><br />';
+
+        $this->write_inner_panels();
+
+        echo '</div></div>';
         echo '<!-- end output from php project->write_panel_body() function -->';
+
 
 
     }
@@ -169,7 +217,9 @@ class Project {
     public function write_panel_footer() {
         echo '<!-- start output from php project->write_panel_footer() function -->';
         echo '<div class="panel-footer">';
-        $this->write_download_buttons();
+        //$this->write_download_buttons();
+        //$this->write_platform_labels();
+
         echo '</div>';
         echo '<!-- end output from php project->write_panel_footer() function -->';
 
@@ -193,6 +243,46 @@ class Project {
         $this->ios_app = $ios_app;
 
     }
+
+    public function write_inner_panels() {
+
+        $detailPanelId = $this->name.'detailPanel';
+        $downloadPanelId = $this->name.'downloadPanel';
+
+        echo '<div class="panel-group" id="accordion">';
+
+        // Detailed Information panel
+        echo '<div class="panel panel-default">';
+        echo '<div class="panel-heading">';
+
+        echo '<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#';
+        echo $detailPanelId;
+        echo '">Detailed Information</a></h4></div><div id="';
+        echo $detailPanelId;
+        echo '" class="panel-collapse collapse">';
+        echo '<div class="panel-body">Detailed Information goes here.</div></div></div>';
+
+        // Downloads  panel
+        echo '<div class="panel panel-default">';
+        echo '<div class="panel-heading">';
+
+        echo '<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#';
+        echo $downloadPanelId;
+
+        echo '">Downloads</a></h4></div><div id="';
+        echo $downloadPanelId;
+        echo'" class="panel-collapse collapse">';
+        echo '<div class="panel-body">';
+
+        $this->write_download_buttons();
+
+        echo '</div></div></div>';
+
+
+        echo'</div>';
+
+    }
+
 
 }
 
