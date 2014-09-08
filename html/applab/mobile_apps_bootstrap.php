@@ -47,26 +47,47 @@ class IosApp extends BaseApp {
 
         $this->ios_dir = "$downloads_path/ios/$this->version/";
         $this->manifest_link = self::MANIFEST_PREFIX.SERVER_DOMAIN.$this->ios_dir.self::MANIFEST_FILE;
+        $this->ipa_path = SERVER_DOMAIN.$this->ios_dir.$this->ipa_file;
 
     }
 
     public function write_download_buttons() {
 
-        echo "Version: $this->version<br />";
+        echo "iOS Version: $this->version<br />";
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
 
         echo '<div class="btn-toolbar">';
 
-        if($this->manifest_link) {
+        //Detect special conditions devices
+        $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+        $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+        $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+
+        if ($iPhone | $iPad | $iPod)
+            $ios_device = true;
+
+        else
+            $ios_device = false;
+
+
+        // manifest links only work for iOS devices and IPA can only be open on desktop
+        if ($ios_device) {
+            if($this->manifest_link) {
+                echo '<a href="';
+                echo $this->manifest_link;
+                echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
+            }
+        } else if ($this->ipa_path) {
             echo '<a href="';
-            echo $this->manifest_link;
-            echo '" class="btn btn-sm btn-info">Download on iOS Device</a>';
+            echo $this->ipa_path;
+            echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
         }
+
         if($this->itunes_link) {
             echo '<a href="';
             echo $this->itunes_link;
-            echo '" class="btn btn-sm btn-info">Download from App Store</a>';
+            echo '" class="btn btn-sm btn-info">iOS Release Download</a>';
         }
 
         echo '</div>';
@@ -100,7 +121,7 @@ class AndroidApp extends BaseApp {
     public function write_download_buttons() {
 
         echo '<!-- start write_download_buttons() for AndroidApp object  -->';
-        echo "Version: $this->version<br />";
+        echo "Android Version: $this->version<br />";
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
 
