@@ -8,15 +8,15 @@
 
 # server setting
 #$server = 'edemo';
-define('SERVER','www');  # live
-define('SERVER_DOMAIN', SERVER.'.phiresearchlab.org');
+define('SERVER_DOMAIN','phiresearchlab.org');
+#define('SERVER','www'.'.'.SERVER_DOMAIN);  # live
+define('SERVER',''.'172.16.4.156:8082');  # live
 define('DOWNLOADS_PATH_ROOT','/applab/downloads/');
 
 abstract class BaseApp {
     public $version;
     public $release_date;
     public $size;
-
 
     function __construct($ver, $rel, $size) {
         $this->version = $ver;
@@ -32,6 +32,7 @@ class IosApp extends BaseApp {
     public $ipa_file;
     public $ios_dir;
     public $ipa_path;
+    public $bundle_id;
 
     # common iOS settings
     const MANIFEST_PREFIX = 'itms-services://?action=download-manifest&url=https://';
@@ -46,12 +47,69 @@ class IosApp extends BaseApp {
     public function set_downloads($downloads_path) {
 
         $this->ios_dir = "$downloads_path/ios/$this->version/";
-        $this->manifest_link = self::MANIFEST_PREFIX.SERVER_DOMAIN.$this->ios_dir.self::MANIFEST_FILE;
-        $this->ipa_path = SERVER_DOMAIN.$this->ios_dir.$this->ipa_file;
+        $this->manifest_link = self::MANIFEST_PREFIX.SERVER.$this->ios_dir.self::MANIFEST_FILE;
+        $this->ipa_path = SERVER.$this->ios_dir.$this->ipa_file;
 
     }
 
-    public function write_download_buttons() {
+    public function manifest_exists() {
+        if (file_exists($this->ios_dir.self::MANIFEST_FILE) )
+            return true;
+        else
+            return false;
+    }
+
+    public function write_manifest($name, $app_title) {
+
+        $manifest_path = "downloads/lydia/ios/0.1.3.3/manifest.plist";
+        $manifest_file = fopen($manifest_path, "w") or die("Can't open file: $manifest_path");
+
+
+        fwrite($manifest_file, '<?xml version="1.0" encoding="UTF-8"?>');
+        fwrite($manifest_file, '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">');
+        fwrite($manifest_file,  '<plist version="1.0">');
+        fwrite($manifest_file,  '    <dict>');
+        fwrite($manifest_file,  '        <key>items</key>');
+        fwrite($manifest_file,  '        <array>');
+        fwrite($manifest_file,  '            <dict>');
+        fwrite($manifest_file,  '                <key>assets</key>');
+        fwrite($manifest_file,  '                <array>');
+        fwrite($manifest_file,  '                    <dict>');
+        fwrite($manifest_file,  '                        <key>kind</key>');
+        fwrite($manifest_file,  '                <string>software-package</string>');
+        fwrite($manifest_file,  '                <key>url</key>');
+        fwrite($manifest_file,  '                <string>');
+        fwrite($manifest_file, $this->manifest_link);
+        fwrite($manifest_file, '                </string>');
+        fwrite($manifest_file,  '            </dict>');
+        fwrite($manifest_file,  '        </array>');
+        fwrite($manifest_file,  '        <key>metadata</key>');
+        fwrite($manifest_file,  '        <dict>');
+        fwrite($manifest_file,  '            <key>bundle-identifier</key>');
+        fwrite($manifest_file,  '            <string>');
+        fwrite($manifest_file, $this->bundle_id);
+        fwrite($manifest_file, '             </string>');
+        fwrite($manifest_file,  '            <key>bundle-version</key>');
+        fwrite($manifest_file,  '            <string>');
+        fwrite($manifest_file, $this->version);
+        fwrite($manifest_file, '            </string>');
+        fwrite($manifest_file,  '            <key>kind</key>');
+        fwrite($manifest_file,  '            <string>software</string>');
+        fwrite($manifest_file,  '            <key>title</key>');
+        fwrite($manifest_file,  '            <string>');
+        fwrite($manifest_file, $app_title);
+        fwrite($manifest_file, ' </string></dict></dict></array></dict></plist>');
+
+        fclose($manifest_file);
+
+    }
+
+
+    public function set_bundle_id($bundle_id) {
+        $this->bundle_id = $bundle_id;
+    }
+
+    public function write_download_buttons($app_name) {
 
         echo "iOS Version: $this->version<br />";
         echo "Released: $this->release_date<br />";
@@ -59,7 +117,7 @@ class IosApp extends BaseApp {
 
         echo '<div class="btn-toolbar">';
 
-        //Detect special conditions devices
+        // detect iOS devices
         $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
         $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
         $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
@@ -75,7 +133,11 @@ class IosApp extends BaseApp {
         if ($ios_device) {
             if($this->manifest_link) {
                 echo '<a href="';
-                echo $this->manifest_link;
+
+                // new dynamic manifest link
+                echo "manifest_loader.php?app=$app_name";
+                // old hard coded manifest link
+                //echo $this->manifest_link;
                 echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
             }
         } else if ($this->ipa_path) {
@@ -91,7 +153,6 @@ class IosApp extends BaseApp {
         }
 
         echo '</div>';
-
 
     }
 
@@ -116,7 +177,6 @@ class AndroidApp extends BaseApp {
         $this->apk_path = "$downloads_path/android/$this->version/$this->apk_file";
 
     }
-
 
     public function write_download_buttons() {
 
@@ -147,6 +207,10 @@ class AndroidApp extends BaseApp {
         echo '<span class="label label-success" style="margin-left:2px; display: inline-block">Android</span>';
     }
 
+    public function find_manifest_file() {
+
+    }
+
 }
 
 class Project {
@@ -159,7 +223,6 @@ class Project {
     public $download_path;
 
 
-
     function __construct($name, $title, $short_desc, $icon) {
         $this->name = $name;
         $this->app_title = $title;
@@ -170,12 +233,30 @@ class Project {
 
     }
 
+    public function get_ios_manifest_link() {
+
+        // make sure manifest.plist file exists first
+        if ($this->ios_app->manifest_exists == false) {
+
+            // if it does not exist then create it
+            $this->ios_app->write_manifest($this->name, $this->app_title);
+        }
+
+        $link = $this->ios_app->manifest_link;
+        //die ("Error with manifest link: $link");
+        return $link;
+    }
+
+
+
+
+
     public function write_download_buttons() {
 
         echo '<!-- start output from php project->write_download_buttons() function -->';
 
         if ($this->ios_app) {
-            $this->ios_app->write_download_buttons();
+            $this->ios_app->write_download_buttons($this->name);
         }
         if ($this->android_app) {
             $this->android_app->write_download_buttons();
@@ -327,6 +408,7 @@ $photon_project->add_ios_app($photon_ios_app);
 $lydia_short_desc = 'Provides fast access to the blue summary boxes in MMWR\'s weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices.';
 $lydia_project = new Project('lydia', 'STD Tx Guide 2014', $lydia_short_desc, 'images/std1_icon.png');
 $lydia_ios_app = new IosApp('0.1.3.3', '8/26/14', '417KB', 'StdTxGuide.ipa', null);
+$lydia_ios_app->set_bundle_id('gov.cdc.StdTxGuide');
 $lydia_project->add_ios_app($lydia_ios_app);
 $lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.apk', null);
 $lydia_project->add_android_app($lydia_android_app);
@@ -368,6 +450,7 @@ $mmwr_nav_project->add_ios_app($mmwr_nav_ios_app);
 $pedigree_short_desc = 'Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one\'s family health history with a clinician. For iPhone.';
 $pedigree_project = new Project('pedigree', 'Family Heath History', $pedigree_short_desc, 'images/family_hx_icon.png');
 $pedigree_ios_app = new IosApp('0.4.10.1', '4/15/14', '925KB', 'FamilyHistory.ipa', null);
+$photon_ios_app->set_bundle_id('gov.cdc.FamilyHistory');
 $pedigree_project->add_ios_app($pedigree_ios_app);
 
 # NIOSH Respirator App
@@ -415,5 +498,7 @@ $wisqars_project = new Project('wisqars', 'WISQARS Mobile', $wisqars_short_desc,
 $wisqars_ios_app = new IosApp('0.2.7', '9/13/13', '18.5MB', 'WisqarsMobile.ipa', null);
 $wisqars_project->add_ios_app($wisqars_ios_app);
 
-#
-?>
+$ios_projects = array (
+    $lydia_project->name => $lydia_project,
+    $pedigree_project->name => $pedigree_project
+);
