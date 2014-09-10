@@ -332,7 +332,7 @@ $lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.a
 $lydia_project->add_android_app($lydia_android_app);
 
 # Bluebird settings
-$bluebird_short_desc = 'Created in collaboration with National Healthcare Safety Network (NHSN), this app brings the Central Line Insertion Practices Adherence Monitoring form to the iPad.';
+$bluebird_short_desc = 'This project will test allowing Twitter users to respond to public health questions and share their answers using Twitter as a platform.';
 $bluebird_project = new Project('bluebird', 'Bluebird', $bluebird_short_desc, 'images/std1_icon.png');
 $bluebird_ios_app = new IosApp('0.1.5.1', '9/10/2014', '1.1MB', 'bluebird.ipa', null);
 $bluebird_project->add_ios_app($bluebird_ios_app);
