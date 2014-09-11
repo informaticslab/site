@@ -117,38 +117,39 @@ class IosApp extends BaseApp {
 
         echo '<div class="btn-toolbar">';
 
-        // detect iOS devices
-        $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
-        $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-        $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
-
-        if ($iPhone | $iPad | $iPod)
-            $ios_device = true;
-
-        else
-            $ios_device = false;
-
-
-        // manifest links only work for iOS devices and IPA can only be open on desktop
-        if ($ios_device) {
-            if($this->manifest_link) {
-                echo '<a href="';
-
-                // set manifest link
-                echo $this->manifest_link;
-                echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
-            }
-        } else if ($this->ipa_path) {
-            echo '<a href="';
-            echo $this->ipa_path;
-            echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
-        }
-
         if($this->itunes_link) {
             echo '<a href="';
             echo $this->itunes_link;
             echo '" class="btn btn-sm btn-info">iOS Release Download</a>';
+        } else {
+            // detect iOS devices
+            $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+            $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+            $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+
+            if ($iPhone | $iPad | $iPod)
+                $ios_device = true;
+
+            else
+                $ios_device = false;
+
+            // manifest links only work for iOS devices and IPA can only be open on desktop
+            if ($ios_device) {
+                if($this->manifest_link) {
+                    echo '<a href="';
+
+                    // set manifest link
+                    echo $this->manifest_link;
+                    echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
+                }
+            } else if ($this->ipa_path) {
+                echo '<a href="';
+                echo $this->ipa_path;
+                echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
+            }
+
         }
+
 
         echo '</div>';
 
