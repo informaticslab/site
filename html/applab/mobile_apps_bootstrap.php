@@ -10,7 +10,8 @@
 #$server = 'edemo';
 define('SERVER_DOMAIN','phiresearchlab.org');
 #define('SERVER','www'.'.'.SERVER_DOMAIN);  # live
-define('SERVER',''.'172.16.4.156:8082');  # live
+define('SERVER','edemo'.'.'.SERVER_DOMAIN);  # edemo
+#define('SERVER',''.'172.16.4.156:8082');  # local
 define('APP_ROOT','/applab/');
 define('DOWNLOADS_RELATIVE_PATH','downloads/');
 
@@ -233,7 +234,7 @@ class Project {
     public function write_ios_manifest_file() {
 
         // make sure manifest.plist file exists first
-        if ($this->ios_app->manifest_exists == false) {
+        if ($this->ios_app->manifest_exists() == false) {
 
             // if it does not exist then create it
             $this->ios_app->write_manifest($this->app_title);
