@@ -88,7 +88,7 @@ class IosApp extends BaseApp {
         fwrite($manifest_file,  '              <key>kind</key>'."\n");
         fwrite($manifest_file,  '              <string>software-package</string>'."\n");
         fwrite($manifest_file,  '              <key>url</key>'."\n");
-        fwrite($manifest_file,  '              <string>'.$this->manifest_link."</string>\n");
+        fwrite($manifest_file,  '              <string>https://'.SERVER.$this->ipa_path."</string>\n");
         fwrite($manifest_file,  '            </dict>'."\n");
         fwrite($manifest_file,  '          </array>'."\n");
         fwrite($manifest_file,  '          <key>metadata</key>'."\n");
