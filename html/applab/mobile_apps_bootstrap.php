@@ -133,10 +133,8 @@ class IosApp extends BaseApp {
             if($this->manifest_link) {
                 echo '<a href="';
 
-                // new dynamic manifest link
-                echo "manifest_loader.php?app=$app_name";
-                // old hard coded manifest link
-                //echo $this->manifest_link;
+                // set manifest link
+                echo $this->manifest_link;
                 echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
             }
         } else if ($this->ipa_path) {
