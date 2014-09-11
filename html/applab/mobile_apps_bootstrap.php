@@ -20,11 +20,18 @@ abstract class BaseApp {
     public $version;
     public $release_date;
     public $size;
+    public $github_link;
 
     function __construct($ver, $rel, $size) {
         $this->version = $ver;
         $this->release_date = $rel;
         $this->size = $size;
+    }
+
+    public function set_github_link($link) {
+
+        $this->github_link = $link;
+
     }
 
 }
@@ -115,6 +122,12 @@ class IosApp extends BaseApp {
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
 
+        if ($this->github_link != null) {
+            echo '<a href="';
+            echo $this->github_link;
+            echo '" class="btn btn-sm btn-warning">Code on GitHub</a>';
+        }
+
         echo '<div class="btn-toolbar">';
 
         if($this->itunes_link) {
@@ -147,6 +160,8 @@ class IosApp extends BaseApp {
                 echo $this->ipa_path;
                 echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
             }
+
+
 
         }
 
@@ -388,6 +403,7 @@ $ptt_short_desc = 'Assists clinical providers in their evaluation of patients wi
 $ptt_project = new Project('ptt-advisor', 'PTT Advisor', $ptt_short_desc, 'images/ptt_icon.png');
 $ptt_itunes_link = "https://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1";
 $ptt_ios_app = new IosApp('1.0.3.001', '7/6/12', '1.3MB', 'PTTAdvisor.ipa', $ptt_itunes_link);
+$ptt_ios_app->set_github_link('https://github.com/informaticslab/ptt-advisor');
 $ptt_project->add_ios_app($ptt_ios_app);
 
 # Photon (MMWR Express) App  settings
@@ -395,12 +411,14 @@ $photon_short_desc = 'Provides fast access to the blue summary boxes in MMWR\'s 
 $photon_project = new Project('photon', 'MMWR Express', $photon_short_desc, 'images/mmwr_express_icon.png');
 $photon_itunes_link = "https://itunes.apple.com/us/app/mmwr-express/id868245971?mt=8";
 $photon_ios_app = new IosApp('1.0.0','5/6/14', '3.2MB', 'photon.ipa', $photon_itunes_link);
+$photon_ios_app->set_github_link('https://github.com/informaticslab/photon');
 $photon_project->add_ios_app($photon_ios_app);
 
 # Lydia settings
 $lydia_short_desc = 'Provides fast access to the blue summary boxes in MMWR\'s weekly report. Summaries are searchable by specific article, or by specific subject (e.g., salmonella). For iOS devices.';
 $lydia_project = new Project('lydia', 'STD Tx Guide 2014', $lydia_short_desc, 'images/std1_icon.png');
 $lydia_ios_app = new IosApp('0.1.3.3', '8/26/14', '417KB', 'StdTxGuide.ipa', null);
+$lydia_ios_app->set_github_link('https://github.com/informaticslab/lydia-ios');
 $lydia_ios_app->set_bundle_id('gov.cdc.StdTxGuide');
 $lydia_project->add_ios_app($lydia_ios_app);
 $lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.apk', null);
@@ -410,6 +428,7 @@ $lydia_project->add_android_app($lydia_android_app);
 $clip_short_desc = 'Created in collaboration with National Healthcare Safety Network (NHSN), this app brings the Central Line Insertion Practices Adherence Monitoring form to the iPad.';
 $clip_project = new Project('clip', 'NHSN CLIP', $clip_short_desc, 'images/clip_icon.png');
 $clip_ios_app = new IosApp('0.5.12.001', '6/1/2012', '1.9MB', 'clipam.ipa', null);
+$clip_ios_app->set_github_link('https://github.com/informaticslab/clip');
 $clip_ios_app->set_bundle_id('gov.cdc.clipam');
 $clip_project->add_ios_app($clip_ios_app);
 
@@ -426,6 +445,7 @@ $epi_project->add_ios_app($epi_ios_app);
 $minesim_short_desc = 'Designed in collaboration with NIOSH (CDC\'s National Institute for Occupational Safety and Health), this proof-of-concept prototype trains mine workers on safety issues.';
 $minesim_project = new Project('minesim', 'NIOSH Mine Safety Training', $minesim_short_desc, 'images/mine_safety_icon.png');
 $minesim_ios_app = new IosApp('0.7301.276', '6/19/2012', '38.8MB', 'mine_sim.ipa', null);
+$minesim_ios_app->set_github_link('https://github.com/informaticslab/vrminesim');
 $minesim_ios_app->set_bundle_id('gov.cdc.MineSim');
 $minesim_project->add_ios_app($minesim_ios_app);
 
@@ -433,12 +453,15 @@ $minesim_project->add_ios_app($minesim_ios_app);
 $mmwr_map_short_desc = 'The MMWR brought to the iPad via a map-based navigation interface. The geographic areas relating to MMWR articles are indicated. There are a variety of filtering options.';
 $mmwr_map_project = new Project('mapapp', 'MMWR Map Navigator', $mmwr_map_short_desc, 'images/mmwr_map_icon.png');
 $mmwr_map_ios_app = new IosApp('1.3.5.001', '9/11/14', '328KB', 'MapApp.ipa', null);
+$mmwr_map_ios_app->set_github_link('https://github.com/informaticslab/mmwr-map');
+$mmwr_map_ios_app->set_bundle_id('gov.cdc.MmwrMapApp');
 $mmwr_map_project->add_ios_app($mmwr_map_ios_app);
 
 # MMWR Navigator App
 $mmwr_nav_short_desc = 'Utilizes the iPad\'s split screen interface to display MMWR content in a user-friendly way. Articles are organized into intuitive categories, making them easy to find.';
 $mmwr_nav_project = new Project('mmwr-navigator', 'MMWR Navigator', $mmwr_nav_short_desc, 'images/mmwr_nav_icon.png');
 $mmwr_nav_ios_app = new IosApp('0.8.11.1', '5/5/14', '10.9MB', 'mmwr-navigator.ipa', null);
+$mmwr_nav_ios_app->set_github_link('https://github.com/informaticslab/mmwr-nav');
 $mmwr_nav_ios_app->set_bundle_id('gov.cdc.mmwr-navigator');
 $mmwr_nav_project->add_ios_app($mmwr_nav_ios_app);
 
@@ -447,6 +470,7 @@ $mmwr_nav_project->add_ios_app($mmwr_nav_ios_app);
 $pedigree_short_desc = 'Allows users to record their family health history in one easy-to-reference, centralized place. This app makes it easy to share one\'s family health history with a clinician. For iPhone.';
 $pedigree_project = new Project('pedigree', 'Family Heath History', $pedigree_short_desc, 'images/family_hx_icon.png');
 $pedigree_ios_app = new IosApp('0.4.10.1', '4/15/14', '925KB', 'FamilyHistory.ipa', null);
+$pedigree_ios_app->set_github_link('https://github.com/informaticslab/pedigree');
 $pedigree_ios_app->set_bundle_id('gov.cdc.FamilyHistory');
 $pedigree_project->add_ios_app($pedigree_ios_app);
 
@@ -454,6 +478,7 @@ $pedigree_project->add_ios_app($pedigree_ios_app);
 $respguide_short_desc = 'Built in collaboration with The National Institute for Occupational Safety and Health (NIOSH). For quickly exploring the database of NIOSH-approved particulate filtering facepiece respirators.';
 $respguide_project = new Project('respguide', 'NIOSH Facepiece Respirator Guide', $respguide_short_desc, 'images/niosh_face_icon.png');
 $respguide_ios_app = new IosApp('1.2.8.001', '6/4/2012', '321KB', 'Respirator%20Guide.ipa', null);
+$respguide_ios_app->set_github_link('');
 $respguide_ios_app->set_bundle_id('gov.CDC.Respirator-Guide');
 $respguide_project->add_ios_app($respguide_ios_app);
 
@@ -461,6 +486,7 @@ $respguide_project->add_ios_app($respguide_ios_app);
 $retro_short_desc = 'Focuses on HIV Risk Assessment — specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.';
 $retro_project = new Project('retro', 'ARCH-Couples', $retro_short_desc, 'images/retro_icon.png');
 $retro_ios_app = new IosApp('0.2.1.1', '5/5/14', '957KB', 'retro.ipa', null);
+$retro_ios_app->set_github_link('https://github.com/informaticslab/respguide');
 $retro_ios_app->set_bundle_id('gov.cdc.retro');
 $retro_project->add_ios_app($retro_ios_app);
 
@@ -468,6 +494,7 @@ $retro_project->add_ios_app($retro_ios_app);
 $std1_short_desc = 'Early mobile application prototype for CDC\'s 2010 STD Treatment Guidelines. A Reference for clinicians on the identification of and treatment regimen for STDs.';
 $std1_project = new Project('stdguide', 'STD Guide, Version 1', $std1_short_desc, 'images/std1_icon.png');
 $std1_ios_app = new IosApp('0.4.4.001', '6/4/2012', '1.73MB', 'Std-Guide.ipa', null);
+$std1_ios_app->set_github_link('https://github.com/informaticslab/std1');
 $std1_ios_app->set_bundle_id('gov.cdc.Std-Guide');
 $std1_project->add_ios_app($std1_ios_app);
 
@@ -475,6 +502,7 @@ $std1_project->add_ios_app($std1_ios_app);
 $std2_short_desc = 'Enhanced prototype for CDC\'s 2010 STD Treatment Guidelines. A Reference for clinicians on the identification of and treatment regimen for STDs. Version 2 has a more "portal" feel than v1.';
 $std2_project = new Project('std2', 'STD Guide, Version 2', $std2_short_desc, 'images/std2_icon.png');
 $std2_ios_app = new IosApp('0.9.3.001', '6/4/2012', '2.36MB', 'STD%20Guide%202.ipa', null);
+$std2_ios_app->set_github_link('https://github.com/informaticslab/std2');
 $std2_ios_app->set_bundle_id('gov.CDC.STD-Guide-2');
 $std2_project->add_ios_app($std2_ios_app);
 
@@ -483,6 +511,7 @@ $std2_project->add_ios_app($std2_ios_app);
 $std3_short_desc = 'The goal of this unique prototype has been to collaborate with CDC\'s STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.';
 $std3_project = new Project('std3', 'STD Guide, Version 3', $std3_short_desc, 'images/std3_icon.png');
 $std3_ios_app = new IosApp('1.0.9', '6/5/2013', '8.1MB', 'StdGuide3.ipa', 'https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8');
+$std3_ios_app->set_github_link('https://github.com/informaticslab/shirly');
 $std3_project->add_ios_app($std3_ios_app);
 $std3_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'StdGuide.apk', 'https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide');
 $std3_project->add_android_app($std3_android_app);
@@ -491,6 +520,7 @@ $std3_project->add_android_app($std3_android_app);
 $tox_guide_short_desc = 'Quick reference guide provides information such as chemical and physical properties, sources of exposure, minimal risk levels, children\'s health, and health effects.';
 $tox_guide_project = new Project('toxguide', 'ATSDR ToxGuide', $tox_guide_short_desc, 'images/tox_icon.png');
 $tox_guide_ios_app = new IosApp('0.6.2.001', '6/1/2012', '254KB', 'mToxGuide.ipa', null);
+$tox_guide_ios_app->set_github_link('https://github.com/informaticslab/toxguide');
 $tox_guide_ios_app->set_bundle_id('gov.cdc.mToxGuide');
 $tox_guide_project->add_ios_app($tox_guide_ios_app);
 
