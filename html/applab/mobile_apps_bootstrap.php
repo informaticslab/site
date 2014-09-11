@@ -504,5 +504,16 @@ $wisqars_project->add_ios_app($wisqars_ios_app);
 $ios_projects = array (
     $lydia_project,
     $pedigree_project,
-    $clip_project
+    $clip_project,
+    $epi_project,
+    $minesim_project,
+    $mmwr_map_project,
+    $mmwr_nav_project,
+    $pedigree_project,
+    $respguide_project,
+    $retro_project,
+    $std1_project,
+    $std2_project,
+    $tox_guide_project,
+    $wisqars_project
 );
