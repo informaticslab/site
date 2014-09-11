@@ -248,13 +248,8 @@ class Project {
     }
 
     public function write_ios_manifest_file() {
-
-        // make sure manifest.plist file exists first
-        if ($this->ios_app->manifest_exists() == false) {
-
-            // if it does not exist then create it
-            $this->ios_app->write_manifest($this->app_title);
-        }
+        // if it does not exist then create it
+        $this->ios_app->write_manifest($this->app_title);
     }
 
 
