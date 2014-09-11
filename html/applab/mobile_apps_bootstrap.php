@@ -52,7 +52,7 @@ class IosApp extends BaseApp {
 
         $this->ios_dir = $downloads_rel_path.'/ios/'.$this->version.'/';
         $this->manifest_link = self::MANIFEST_PREFIX.SERVER.APP_ROOT.$this->ios_dir.self::MANIFEST_FILE;
-        $this->ipa_path = SERVER.APP_ROOT.$this->ios_dir.$this->ipa_file;
+        $this->ipa_path = APP_ROOT.$this->ios_dir.$this->ipa_file;
 
     }
 
