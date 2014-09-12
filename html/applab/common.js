@@ -33,6 +33,11 @@ mixpanel.track_links('#Sencha-test-applab-sourcecode', 'downloaded Sencha mobile
 mixpanel.track_links('#Appcelerator-test-applab-download', 'downloaded Appcelerator mobile framework iOS app from applab');
 mixpanel.track_links('#Appcelerator-test-applab-sourcecode', 'downloaded Appcelerator mobile framework sourcecode iOS app from applab');
 mixpanel.track_links('#mmwrexpress-applab-download', 'downloaded MMWR Express iOS app from applab');
+mixpanel.track_links('#lydia-android-applab-download', 'downloaded Lydia Android app from applab');
+mixpanel.track_links('#lydia-ios-applab-download', 'downloaded Lydia iOS app from applab');
+mixpanel.track_links('#bluebird-ios-applab-download', 'downloaded Bluebird iOS app from applab');
+mixpanel.track_links('#pedigree-ios-applab-download', 'downloaded Pedigree iOS app from applab');
+
 
 /*end mixpanel*/
 
