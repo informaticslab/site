@@ -122,13 +122,7 @@ class IosApp extends BaseApp {
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
 
-        if ($this->github_link != null) {
-            echo '<a href="';
-            echo $this->github_link;
-            echo '" class="btn btn-sm btn-warning">Code on GitHub</a>';
-        }
-
-        echo '<div class="btn-toolbar">';
+         echo '<div class="btn-toolbar">';
 
         if($this->itunes_link) {
             echo '<a href="';
@@ -163,6 +157,12 @@ class IosApp extends BaseApp {
 
 
 
+        }
+
+        if ($this->github_link != null) {
+            echo '<a href="';
+            echo $this->github_link;
+            echo '" class="btn btn-sm btn-warning">Code on GitHub</a>';
         }
 
 
