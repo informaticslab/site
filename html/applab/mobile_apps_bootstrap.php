@@ -551,7 +551,7 @@ $tox_guide_project = new Project('toxguide', 'ATSDR ToxGuide', $tox_guide_short_
 $tox_guide_ios_app = new IosApp('0.6.2.001', '6/1/2012', '254KB', 'mToxGuide.ipa', null);
 $tox_guide_ios_app->set_github_link('https://github.com/informaticslab/toxguide');
 $tox_guide_ios_app->set_bundle_id('gov.cdc.mToxGuide');
-$tox_guide_project->set_mixpanel_link('tox-applab-download');
+$tox_guide_ios_app->set_mixpanel_id('tox-applab-download');
 $tox_guide_project->add_ios_app($tox_guide_ios_app);
 
 # Wisqars App
