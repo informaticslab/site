@@ -203,7 +203,7 @@ class AndroidApp extends BaseApp {
 
     public function write_download_buttons() {
 
-        echo '<!-- start write_download_buttons() for AndroidApp object  -->';
+        //echo '<!-- start write_download_buttons() for AndroidApp object  -->';
         echo "Android Version: $this->version<br />";
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
@@ -270,7 +270,7 @@ class Project {
 
     public function write_download_buttons() {
 
-        echo '<!-- start output from php project->write_download_buttons() function -->';
+        //echo '<!-- start output from php project->write_download_buttons() function -->';
 
         if ($this->ios_app) {
             $this->ios_app->write_download_buttons($this->name);
@@ -279,7 +279,7 @@ class Project {
             $this->android_app->write_download_buttons();
         }
 
-        echo '<!-- end output from php project->write_download_buttons() function -->';
+        //echo '<!-- end output from php project->write_download_buttons() function -->';
 
     }
 
@@ -295,17 +295,17 @@ class Project {
             $this->android_app->write_platform_label();
         }
 
-        echo '<!-- end output from php project->write_download_buttons() function -->';
+       // echo '<!-- end output from php project->write_download_buttons() function -->';
         echo '</div>';
 
     }
 
     public function write_panel_heading() {
-        echo '<!-- start output from php project->write_panel_heading() function -->';
+        //echo '<!-- start output from php project->write_panel_heading() function -->';
         echo '<div class="panel-heading"><h3 class="panel-title right-block">';
         echo $this->app_title;
         echo '</h3></div>';
-        echo '<!-- end output from php project->write_panel_heading() function -->';
+        //echo '<!-- end output from php project->write_panel_heading() function -->';
 
     }
 
@@ -313,7 +313,7 @@ class Project {
 
         $title = $this->title;
 
-        echo '<!-- start output from php project->write_panel_body() function -->';
+        //echo '<!-- start output from php project->write_panel_body() function -->';
         echo '<div class="panel-body"><div class="media"><a class="pull-left" href="#">';
         echo '<img class="pull-left" src="';
         echo $this->icon;
@@ -327,20 +327,20 @@ class Project {
         $this->write_inner_panels();
 
         echo '</div></div>';
-        echo '<!-- end output from php project->write_panel_body() function -->';
+        //echo '<!-- end output from php project->write_panel_body() function -->';
 
 
 
     }
 
     public function write_panel_footer() {
-        echo '<!-- start output from php project->write_panel_footer() function -->';
+        //echo '<!-- start output from php project->write_panel_footer() function -->';
         echo '<div class="panel-footer">';
         //$this->write_download_buttons();
         //$this->write_platform_labels();
 
         echo '</div>';
-        echo '<!-- end output from php project->write_panel_footer() function -->';
+        //echo '<!-- end output from php project->write_panel_footer() function -->';
 
     }
 
