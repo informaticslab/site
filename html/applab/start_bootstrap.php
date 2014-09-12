@@ -177,6 +177,6 @@
         $(this).parent().addClass('active').css('font-weight', 'bold');
     });
 </script>
-
+<script type="text/javascript" src="common.js"></script>
 
 </html>

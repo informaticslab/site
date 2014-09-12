@@ -21,6 +21,7 @@ abstract class BaseApp {
     public $release_date;
     public $size;
     public $github_link;
+    public $mixpanel_id;
 
     function __construct($ver, $rel, $size) {
         $this->version = $ver;
@@ -31,6 +32,12 @@ abstract class BaseApp {
     public function set_github_link($link) {
 
         $this->github_link = $link;
+
+    }
+
+    public function set_mixpanel_id($link) {
+
+        $this->mixpanel_id = $link;
 
     }
 
@@ -122,10 +129,12 @@ class IosApp extends BaseApp {
         echo "Released: $this->release_date<br />";
         echo "Size: $this->size<br />";
 
-         echo '<div class="btn-toolbar">';
+        echo '<div class="btn-toolbar">';
+
+        $anchor_start = '<a '.$this->mixpanel_id.'href="';
 
         if($this->itunes_link) {
-            echo '<a href="';
+            echo $anchor_start;
             echo $this->itunes_link;
             echo '" class="btn btn-sm btn-info">iOS Release Download</a>';
         } else {
@@ -143,14 +152,14 @@ class IosApp extends BaseApp {
             // manifest links only work for iOS devices and IPA can only be open on desktop
             if ($ios_device) {
                 if($this->manifest_link) {
-                    echo '<a href="';
+                    echo $anchor_start;
 
                     // set manifest link
                     echo $this->manifest_link;
                     echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
                 }
             } else if ($this->ipa_path) {
-                echo '<a href="';
+                echo $anchor_start;
                 echo $this->ipa_path;
                 echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
             }
@@ -173,7 +182,7 @@ class IosApp extends BaseApp {
     public function write_platform_label() {
         echo '<span class="label label-info" style="margin-left:2px; margin-top:5px; display: inline-block">iOS</span>';
     }
- }
+}
 
 class AndroidApp extends BaseApp {
     public $apk_file;
@@ -202,13 +211,15 @@ class AndroidApp extends BaseApp {
 
         echo '<div class="btn-toolbar">';
 
+        $anchor_start = '<a '.$this->mixpanel_id.'href="';
+
         if($this->google_play_link) {
-            echo '<a href="';
+            echo $anchor_start;
             echo $this->google_play_link;
             echo '" class="btn btn-sm btn-success">Google Play Link</a>';
         }
         if($this->apk_path) {
-            echo '<a href="';
+            echo $anchor_start;
             echo $this->apk_path;
             echo '" class="btn btn-sm btn-success">Android Download</a>';
         }
@@ -399,6 +410,7 @@ $ptt_project = new Project('ptt-advisor', 'PTT Advisor', $ptt_short_desc, 'image
 $ptt_itunes_link = "https://itunes.apple.com/us/app/ptt-advisor/id537989131?mt=8&ls=1";
 $ptt_ios_app = new IosApp('1.0.3.001', '7/6/12', '1.3MB', 'PTTAdvisor.ipa', $ptt_itunes_link);
 $ptt_ios_app->set_github_link('https://github.com/informaticslab/ptt-advisor');
+$ptt_ios_app->set_mixpanel_id('ptt-applab-download');
 $ptt_project->add_ios_app($ptt_ios_app);
 
 # Photon (MMWR Express) App  settings
@@ -407,6 +419,7 @@ $photon_project = new Project('photon', 'MMWR Express', $photon_short_desc, 'ima
 $photon_itunes_link = "https://itunes.apple.com/us/app/mmwr-express/id868245971?mt=8";
 $photon_ios_app = new IosApp('1.0.0','5/6/14', '3.2MB', 'photon.ipa', $photon_itunes_link);
 $photon_ios_app->set_github_link('https://github.com/informaticslab/photon');
+$photon_ios_app->set_mixpanel_id('mmwrexpress-applab-download');
 $photon_project->add_ios_app($photon_ios_app);
 
 # Lydia settings
@@ -415,14 +428,17 @@ $lydia_project = new Project('lydia', 'STD Tx Guide 2014', $lydia_short_desc, 'i
 $lydia_ios_app = new IosApp('0.1.3.3', '8/26/14', '417KB', 'StdTxGuide.ipa', null);
 $lydia_ios_app->set_github_link('https://github.com/informaticslab/lydia-ios');
 $lydia_ios_app->set_bundle_id('gov.cdc.StdTxGuide');
+$lydia_ios_app->set_mixpanel_id('lydia-ios-applab-download');
 $lydia_project->add_ios_app($lydia_ios_app);
 $lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.apk', null);
+$lydia_android_app->set_mixpanel_id('lydia-android-applab-download');
 $lydia_project->add_android_app($lydia_android_app);
 
 # Bluebird settings
 $bluebird_short_desc = 'This project will test allowing Twitter users to respond to public health questions and share their answers using Twitter as a platform.';
 $bluebird_project = new Project('bluebird', 'Bluebird', $bluebird_short_desc, 'images/std1_icon.png');
 $bluebird_ios_app = new IosApp('0.1.5.1', '9/10/2014', '1.1MB', 'bluebird.ipa', null);
+$bluebird_ios_app->set_mixpanel_id('bluebird-ios-applab-download');
 $bluebird_project->add_ios_app($bluebird_ios_app);
 
 # CLIP settings
@@ -431,6 +447,7 @@ $clip_project = new Project('clip', 'NHSN CLIP', $clip_short_desc, 'images/clip_
 $clip_ios_app = new IosApp('0.5.12.001', '6/1/2012', '1.9MB', 'clipam.ipa', null);
 $clip_ios_app->set_github_link('https://github.com/informaticslab/clip');
 $clip_ios_app->set_bundle_id('gov.cdc.clipam');
+$clip_ios_app->set_mixpanel_id('clip-applab-download');
 $clip_project->add_ios_app($clip_ios_app);
 
 
@@ -439,6 +456,7 @@ $epi_short_desc = 'Created by CDC\'s Epi InfoTM team, this app adapts the StatCa
 $epi_project = new Project('epi', 'Epi Info', $epi_short_desc, 'images/epi_icon.png');
 $epi_ios_app = new IosApp('2.0', '9/5/14', '15.7MB', 'EpiInfo.ipa', null);
 $epi_ios_app->set_bundle_id('gov.cdc.csels.EpiInfo');
+$epi_ios_app->set_mixpanel_id('epi-applab-download');
 $epi_project->add_ios_app($epi_ios_app);
 
 
@@ -448,6 +466,7 @@ $minesim_project = new Project('minesim', 'NIOSH Mine Safety Training', $minesim
 $minesim_ios_app = new IosApp('0.7301.276', '6/19/2012', '38.8MB', 'mine_sim.ipa', null);
 $minesim_ios_app->set_github_link('https://github.com/informaticslab/vrminesim');
 $minesim_ios_app->set_bundle_id('gov.cdc.MineSim');
+$minesim_ios_app->set_mixpanel_id('niosh-mine-applab-download');
 $minesim_project->add_ios_app($minesim_ios_app);
 
 # MMWR Map App
@@ -456,6 +475,7 @@ $mmwr_map_project = new Project('mapapp', 'MMWR Map Navigator', $mmwr_map_short_
 $mmwr_map_ios_app = new IosApp('1.3.5.001', '9/11/14', '328KB', 'MapApp.ipa', null);
 $mmwr_map_ios_app->set_github_link('https://github.com/informaticslab/mmwr-map');
 $mmwr_map_ios_app->set_bundle_id('gov.cdc.MmwrMapApp');
+$mmwr_map_ios_app->set_mixpanel_id('mmwr-map-applab-download');
 $mmwr_map_project->add_ios_app($mmwr_map_ios_app);
 
 # MMWR Navigator App
@@ -464,6 +484,7 @@ $mmwr_nav_project = new Project('mmwr-navigator', 'MMWR Navigator', $mmwr_nav_sh
 $mmwr_nav_ios_app = new IosApp('0.8.11.1', '5/5/14', '10.9MB', 'mmwr-navigator.ipa', null);
 $mmwr_nav_ios_app->set_github_link('https://github.com/informaticslab/mmwr-nav');
 $mmwr_nav_ios_app->set_bundle_id('gov.cdc.mmwr-navigator');
+$mmwr_nav_ios_app->set_mixpanel_id('mmwr-nav-applab-download');
 $mmwr_nav_project->add_ios_app($mmwr_nav_ios_app);
 
 
@@ -473,6 +494,7 @@ $pedigree_project = new Project('pedigree', 'Family Heath History', $pedigree_sh
 $pedigree_ios_app = new IosApp('0.4.10.1', '4/15/14', '925KB', 'FamilyHistory.ipa', null);
 $pedigree_ios_app->set_github_link('https://github.com/informaticslab/pedigree');
 $pedigree_ios_app->set_bundle_id('gov.cdc.FamilyHistory');
+$pedigree_ios_app->set_mixpanel_id('pedigree-ios-applab-download');
 $pedigree_project->add_ios_app($pedigree_ios_app);
 
 # NIOSH Respirator App
@@ -481,6 +503,7 @@ $respguide_project = new Project('respguide', 'NIOSH Facepiece Respirator Guide'
 $respguide_ios_app = new IosApp('1.2.8.001', '6/4/2012', '321KB', 'Respirator%20Guide.ipa', null);
 $respguide_ios_app->set_github_link('');
 $respguide_ios_app->set_bundle_id('gov.CDC.Respirator-Guide');
+$respguide_ios_app->set_mixpanel_id('niosh-face-applab-download');
 $respguide_project->add_ios_app($respguide_ios_app);
 
 # Retro iPad App
@@ -489,6 +512,7 @@ $retro_project = new Project('retro', 'ARCH-Couples', $retro_short_desc, 'images
 $retro_ios_app = new IosApp('0.2.1.1', '5/5/14', '957KB', 'retro.ipa', null);
 $retro_ios_app->set_github_link('https://github.com/informaticslab/respguide');
 $retro_ios_app->set_bundle_id('gov.cdc.retro');
+$retro_ios_app->set_mixpanel_id('retro-applab-download');
 $retro_project->add_ios_app($retro_ios_app);
 
 # STD 1 settings
@@ -497,6 +521,7 @@ $std1_project = new Project('stdguide', 'STD Guide, Version 1', $std1_short_desc
 $std1_ios_app = new IosApp('0.4.4.001', '6/4/2012', '1.73MB', 'Std-Guide.ipa', null);
 $std1_ios_app->set_github_link('https://github.com/informaticslab/std1');
 $std1_ios_app->set_bundle_id('gov.cdc.Std-Guide');
+$std1_ios_app->set_mixpanel_id('std1-applab-download');
 $std1_project->add_ios_app($std1_ios_app);
 
 # STD 2 settings
@@ -505,6 +530,7 @@ $std2_project = new Project('std2', 'STD Guide, Version 2', $std2_short_desc, 'i
 $std2_ios_app = new IosApp('0.9.3.001', '6/4/2012', '2.36MB', 'STD%20Guide%202.ipa', null);
 $std2_ios_app->set_github_link('https://github.com/informaticslab/std2');
 $std2_ios_app->set_bundle_id('gov.CDC.STD-Guide-2');
+$std2_ios_app->set_mixpanel_id('std2-applab-download');
 $std2_project->add_ios_app($std2_ios_app);
 
 
@@ -513,8 +539,10 @@ $std3_short_desc = 'The goal of this unique prototype has been to collaborate wi
 $std3_project = new Project('std3', 'STD Guide, Version 3', $std3_short_desc, 'images/std3_icon.png');
 $std3_ios_app = new IosApp('1.0.9', '6/5/2013', '8.1MB', 'StdGuide3.ipa', 'https://itunes.apple.com/us/app/std-tx-guide/id655206856?mt=8');
 $std3_ios_app->set_github_link('https://github.com/informaticslab/shirly');
+$std3_ios_app->set_mixpanel_id('std3-applab-download');
 $std3_project->add_ios_app($std3_ios_app);
 $std3_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'StdGuide.apk', 'https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide');
+$std3_android_app->set_mixpanel_id('std3-android-applab-download');
 $std3_project->add_android_app($std3_android_app);
 
 # Tox Guide iPhone App
@@ -523,6 +551,7 @@ $tox_guide_project = new Project('toxguide', 'ATSDR ToxGuide', $tox_guide_short_
 $tox_guide_ios_app = new IosApp('0.6.2.001', '6/1/2012', '254KB', 'mToxGuide.ipa', null);
 $tox_guide_ios_app->set_github_link('https://github.com/informaticslab/toxguide');
 $tox_guide_ios_app->set_bundle_id('gov.cdc.mToxGuide');
+$tox_guide_project->set_mixpanel_link('tox-applab-download');
 $tox_guide_project->add_ios_app($tox_guide_ios_app);
 
 # Wisqars App
@@ -530,6 +559,7 @@ $wisqars_short_desc = 'Allows for sharing injury-related information on a tablet
 $wisqars_project = new Project('wisqars', 'WISQARS Mobile', $wisqars_short_desc, 'images/WISQARSMobileApp72.png');
 $wisqars_ios_app = new IosApp('0.2.7', '9/13/13', '18.5MB', 'WisqarsMobile.ipa', null);
 $wisqars_ios_app->set_bundle_id('gov.cdc.mToxGuide');
+$wisqars_ios_app->set_mixpanel_id('wisqars-applab-download');
 $wisqars_project->add_ios_app($wisqars_ios_app);
 
 $ios_projects = array (
@@ -548,3 +578,4 @@ $ios_projects = array (
     $tox_guide_project,
     $wisqars_project
 );
+
