@@ -131,7 +131,7 @@ class IosApp extends BaseApp {
 
         echo '<div class="btn-toolbar">';
 
-        $anchor_start = '<a '.$this->mixpanel_id.'href="';
+        $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
 
         if($this->itunes_link) {
             echo $anchor_start;
@@ -211,7 +211,8 @@ class AndroidApp extends BaseApp {
 
         echo '<div class="btn-toolbar">';
 
-        $anchor_start = '<a '.$this->mixpanel_id.'href="';
+        $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
+
 
         if($this->google_play_link) {
             echo $anchor_start;
