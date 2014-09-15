@@ -217,12 +217,11 @@ class AndroidApp extends BaseApp {
         if($this->google_play_link) {
             echo $anchor_start;
             echo $this->google_play_link;
-            echo '" class="btn btn-sm btn-success">Google Play Link</a>';
-        }
-        if($this->apk_path) {
+            echo '" class="btn btn-sm btn-success">Android Release Download</a>';
+        } else if($this->apk_path) {
             echo $anchor_start;
             echo $this->apk_path;
-            echo '" class="btn btn-sm btn-success">Android Download</a>';
+            echo '" class="btn btn-sm btn-success">Android Beta Download</a>';
         }
 
         echo '</div>';
