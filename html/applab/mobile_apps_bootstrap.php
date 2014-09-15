@@ -7,11 +7,16 @@
  */
 
 # server setting
-#$server = 'edemo';
+$host_name = gethostname();
+
 define('SERVER_DOMAIN','phiresearchlab.org');
-#define('SERVER','www'.'.'.SERVER_DOMAIN);  # live
-define('SERVER','edemo'.'.'.SERVER_DOMAIN);  # edemo
-#define('SERVER',''.'172.16.4.156:8082');  # local
+
+// see if we are running on edemo, if so use it in manifest, otherwise use live domain name
+if ($host_name == 'plvsirduedemo2.lab.local')
+    define('SERVER','edemo'.'.'.SERVER_DOMAIN);  # edemo
+else
+    define('SERVER','www'.'.'.SERVER_DOMAIN);  # live
+
 define('APP_ROOT','/applab/');
 define('DOWNLOADS_RELATIVE_PATH','downloads/');
 
@@ -87,14 +92,6 @@ class IosApp extends BaseApp {
 
     public function write_manifest($app_title) {
 
-        $host_name = gethostname();
-
-        // see if we are running on edemo, if so use it in manifest, otherwise use live domain name
-        if ($host_name == 'plvsirduedemo2.lab.local')
-            $server = 'edemo.phiresearchlab.org';
-        else
-            $server = 'www.phiresearchlab.org';
-
         $manifest_file = fopen($this->ios_dir.self::MANIFEST_FILE, "w") or die("Can't open file: ".$this->ios_dir.self::MANIFEST_FILE);
 
 
@@ -111,7 +108,7 @@ class IosApp extends BaseApp {
         fwrite($manifest_file,  '              <key>kind</key>'."\n");
         fwrite($manifest_file,  '              <string>software-package</string>'."\n");
         fwrite($manifest_file,  '              <key>url</key>'."\n");
-        fwrite($manifest_file,  '              <string>https://'.$server.$this->ipa_path."</string>\n");
+        fwrite($manifest_file,  '              <string>https://'.SERVER.$this->ipa_path."</string>\n");
         fwrite($manifest_file,  '            </dict>'."\n");
         fwrite($manifest_file,  '          </array>'."\n");
         fwrite($manifest_file,  '          <key>metadata</key>'."\n");
