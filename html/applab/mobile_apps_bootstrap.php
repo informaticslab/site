@@ -22,11 +22,14 @@ abstract class BaseApp {
     public $size;
     public $github_link;
     public $mixpanel_id;
+    public $app_is_archived;
 
     function __construct($ver, $rel, $size) {
         $this->version = $ver;
         $this->release_date = $rel;
         $this->size = $size;
+        $this->app_is_archived = false;
+
     }
 
     public function set_github_link($link) {
@@ -38,6 +41,11 @@ abstract class BaseApp {
     public function set_mixpanel_id($link) {
 
         $this->mixpanel_id = $link;
+
+    }
+
+    public function archive_app() {
+        $this->app_is_archived = true;
 
     }
 
@@ -59,10 +67,10 @@ class IosApp extends BaseApp {
         parent::__construct($ver, $rel, $size);
         $this->ipa_file = $ipa_file;
         $this->itunes_link = $itunes_link;
+
     }
 
     public function set_downloads($downloads_rel_path) {
-
 
         $this->ios_dir = $downloads_rel_path.'/ios/'.$this->version.'/';
         $this->manifest_link = self::MANIFEST_PREFIX.SERVER.APP_ROOT.$this->ios_dir.self::MANIFEST_FILE;
@@ -78,6 +86,14 @@ class IosApp extends BaseApp {
     }
 
     public function write_manifest($app_title) {
+
+        $host_name = gethostname();
+
+        // see if we are running on edemo, if so use it in manifest, otherwise use live domain name
+        if ($host_name == 'plvsirduedemo2.lab.local')
+            $server = 'edemo.phiresearchlab.org';
+        else
+            $server = 'www.phiresearchlab.org';
 
         $manifest_file = fopen($this->ios_dir.self::MANIFEST_FILE, "w") or die("Can't open file: ".$this->ios_dir.self::MANIFEST_FILE);
 
@@ -95,7 +111,7 @@ class IosApp extends BaseApp {
         fwrite($manifest_file,  '              <key>kind</key>'."\n");
         fwrite($manifest_file,  '              <string>software-package</string>'."\n");
         fwrite($manifest_file,  '              <key>url</key>'."\n");
-        fwrite($manifest_file,  '              <string>https://'.SERVER.$this->ipa_path."</string>\n");
+        fwrite($manifest_file,  '              <string>https://'.$server.$this->ipa_path."</string>\n");
         fwrite($manifest_file,  '            </dict>'."\n");
         fwrite($manifest_file,  '          </array>'."\n");
         fwrite($manifest_file,  '          <key>metadata</key>'."\n");
@@ -125,49 +141,58 @@ class IosApp extends BaseApp {
 
     public function write_download_buttons($app_name) {
 
-        echo "iOS Version: $this->version<br />";
-        echo "Released: $this->release_date<br />";
-        echo "Size: $this->size<br />";
+
+        // do not display app metadata if app is archived
+        if ($this->app_is_archived == false) {
+
+            echo "iOS Version: $this->version<br />";
+            echo "Released: $this->release_date<br />";
+            echo "Size: $this->size<br />";
+        }
+
 
         echo '<div class="btn-toolbar">';
 
-        $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
+        // do not display any download app buttons if app is archived
+        if ($this->app_is_archived == false) {
 
-        if($this->itunes_link) {
-            echo $anchor_start;
-            echo $this->itunes_link;
-            echo '" class="btn btn-sm btn-info">iOS Release Download</a>';
-        } else {
-            // detect iOS devices
-            $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
-            $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-            $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+            $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
 
-            if ($iPhone | $iPad | $iPod)
-                $ios_device = true;
+            if($this->itunes_link) {
+                echo $anchor_start;
+                echo $this->itunes_link;
+                echo '" class="btn btn-sm btn-info">iOS Release Download</a>';
+            } else {
+                // detect iOS devices
+                $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+                $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+                $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
 
-            else
-                $ios_device = false;
+                if ($iPhone | $iPad | $iPod)
+                    $ios_device = true;
 
-            // manifest links only work for iOS devices and IPA can only be open on desktop
-            if ($ios_device) {
-                if($this->manifest_link) {
+                else
+                    $ios_device = false;
+
+                // manifest links only work for iOS devices and IPA can only be open on desktop
+                if ($ios_device) {
+                    if($this->manifest_link) {
+                        echo $anchor_start;
+
+                        // set manifest link
+                        echo $this->manifest_link;
+                        echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
+                    }
+                } else if ($this->ipa_path) {
                     echo $anchor_start;
-
-                    // set manifest link
-                    echo $this->manifest_link;
+                    echo $this->ipa_path;
                     echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
                 }
-            } else if ($this->ipa_path) {
-                echo $anchor_start;
-                echo $this->ipa_path;
-                echo '" class="btn btn-sm btn-info">iOS Beta Download</a>';
+
             }
-
-
-
         }
 
+        // GitHub links are displayed for all projects, even archived ones
         if ($this->github_link != null) {
             echo '<a href="';
             echo $this->github_link;
@@ -197,31 +222,51 @@ class AndroidApp extends BaseApp {
     }
 
     public function set_downloads($downloads_path) {
-        $this->apk_path = "$downloads_path/android/$this->version/$this->apk_file";
 
+        // if no APK file then archived project and no app downloads
+        if ($this->apk_file != null) {
+
+            $this->apk_path = "$downloads_path/android/$this->version/$this->apk_file";
+        }
     }
 
     public function write_download_buttons() {
 
-        //echo '<!-- start write_download_buttons() for AndroidApp object  -->';
-        echo "Android Version: $this->version<br />";
-        echo "Released: $this->release_date<br />";
-        echo "Size: $this->size<br />";
+        // do not display app metadata if app is archived
+        if ($this->app_is_archived == false) {
 
 
+            //echo '<!-- start write_download_buttons() for AndroidApp object  -->';
+            echo "Android Version: $this->version<br />";
+            echo "Released: $this->release_date<br />";
+            echo "Size: $this->size<br />";
+
+        }
         echo '<div class="btn-toolbar">';
 
-        $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
+        // do not display any download app buttons if app is archived
+        if ($this->app_is_archived == false) {
 
 
-        if($this->google_play_link) {
-            echo $anchor_start;
-            echo $this->google_play_link;
-            echo '" class="btn btn-sm btn-success">Android Release Download</a>';
-        } else if($this->apk_path) {
-            echo $anchor_start;
-            echo $this->apk_path;
-            echo '" class="btn btn-sm btn-success">Android Beta Download</a>';
+            $anchor_start = '<a id="'.$this->mixpanel_id.'" href="';
+
+
+            if($this->google_play_link) {
+                echo $anchor_start;
+                echo $this->google_play_link;
+                echo '" class="btn btn-sm btn-success">Android Release Download</a>';
+            } else if($this->apk_path) {
+                echo $anchor_start;
+                echo $this->apk_path;
+                echo '" class="btn btn-sm btn-success">Android Beta Download</a>';
+            }
+
+        }
+        // GitHub links are displayed for all projects, even archived ones
+        if ($this->github_link != null) {
+            echo '<a href="';
+            echo $this->github_link;
+            echo '" class="btn btn-sm btn-warning">Code on GitHub</a>';
         }
 
         echo '</div>';
@@ -232,9 +277,6 @@ class AndroidApp extends BaseApp {
         echo '<span class="label label-success" style="margin-left:2px; display: inline-block">Android</span>';
     }
 
-    public function find_manifest_file() {
-
-    }
 
 }
 
@@ -294,7 +336,7 @@ class Project {
             $this->android_app->write_platform_label();
         }
 
-       // echo '<!-- end output from php project->write_download_buttons() function -->';
+        // echo '<!-- end output from php project->write_download_buttons() function -->';
         echo '</div>';
 
     }
@@ -431,6 +473,7 @@ $lydia_ios_app->set_bundle_id('gov.cdc.StdTxGuide');
 $lydia_ios_app->set_mixpanel_id('lydia-ios-applab-download');
 $lydia_project->add_ios_app($lydia_ios_app);
 $lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.apk', null);
+$lydia_android_app->set_github_link('https://github.com/informaticslab/lydia-droid');
 $lydia_android_app->set_mixpanel_id('lydia-android-applab-download');
 $lydia_project->add_android_app($lydia_android_app);
 
@@ -438,6 +481,7 @@ $lydia_project->add_android_app($lydia_android_app);
 $bluebird_short_desc = 'This project will test allowing Twitter users to respond to public health questions and share their answers using Twitter as a platform.';
 $bluebird_project = new Project('bluebird', 'Bluebird', $bluebird_short_desc, 'images/std1_icon.png');
 $bluebird_ios_app = new IosApp('0.1.5.1', '9/10/2014', '1.1MB', 'bluebird.ipa', null);
+$bluebird_ios_app->set_github_link('https://github.com/informaticslab/bluebird');
 $bluebird_ios_app->set_mixpanel_id('bluebird-ios-applab-download');
 $bluebird_project->add_ios_app($bluebird_ios_app);
 
@@ -501,16 +545,17 @@ $pedigree_project->add_ios_app($pedigree_ios_app);
 $respguide_short_desc = 'Built in collaboration with The National Institute for Occupational Safety and Health (NIOSH). For quickly exploring the database of NIOSH-approved particulate filtering facepiece respirators.';
 $respguide_project = new Project('respguide', 'NIOSH Facepiece Respirator Guide', $respguide_short_desc, 'images/niosh_face_icon.png');
 $respguide_ios_app = new IosApp('1.2.8.001', '6/4/2012', '321KB', 'Respirator%20Guide.ipa', null);
-$respguide_ios_app->set_github_link('');
+$respguide_ios_app->set_github_link('https://github.com/informaticslab/respguide');
 $respguide_ios_app->set_bundle_id('gov.CDC.Respirator-Guide');
 $respguide_ios_app->set_mixpanel_id('niosh-face-applab-download');
+$respguide_ios_app->archive_app();
 $respguide_project->add_ios_app($respguide_ios_app);
 
 # Retro iPad App
 $retro_short_desc = 'Focuses on HIV Risk Assessment — specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.';
 $retro_project = new Project('retro', 'ARCH-Couples', $retro_short_desc, 'images/retro_icon.png');
 $retro_ios_app = new IosApp('0.2.1.1', '5/5/14', '957KB', 'retro.ipa', null);
-$retro_ios_app->set_github_link('https://github.com/informaticslab/respguide');
+$retro_ios_app->set_github_link('https://github.com/informaticslab/retro');
 $retro_ios_app->set_bundle_id('gov.cdc.retro');
 $retro_ios_app->set_mixpanel_id('retro-applab-download');
 $retro_project->add_ios_app($retro_ios_app);
@@ -522,6 +567,7 @@ $std1_ios_app = new IosApp('0.4.4.001', '6/4/2012', '1.73MB', 'Std-Guide.ipa', n
 $std1_ios_app->set_github_link('https://github.com/informaticslab/std1');
 $std1_ios_app->set_bundle_id('gov.cdc.Std-Guide');
 $std1_ios_app->set_mixpanel_id('std1-applab-download');
+$std1_ios_app->archive_app();
 $std1_project->add_ios_app($std1_ios_app);
 
 # STD 2 settings
@@ -531,6 +577,7 @@ $std2_ios_app = new IosApp('0.9.3.001', '6/4/2012', '2.36MB', 'STD%20Guide%202.i
 $std2_ios_app->set_github_link('https://github.com/informaticslab/std2');
 $std2_ios_app->set_bundle_id('gov.CDC.STD-Guide-2');
 $std2_ios_app->set_mixpanel_id('std2-applab-download');
+$std2_ios_app->archive_app();
 $std2_project->add_ios_app($std2_ios_app);
 
 
@@ -552,6 +599,7 @@ $tox_guide_ios_app = new IosApp('0.6.2.001', '6/1/2012', '254KB', 'mToxGuide.ipa
 $tox_guide_ios_app->set_github_link('https://github.com/informaticslab/toxguide');
 $tox_guide_ios_app->set_bundle_id('gov.cdc.mToxGuide');
 $tox_guide_ios_app->set_mixpanel_id('tox-applab-download');
+$tox_guide_ios_app->archive_app();
 $tox_guide_project->add_ios_app($tox_guide_ios_app);
 
 # Wisqars App
