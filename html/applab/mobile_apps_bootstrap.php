@@ -608,10 +608,10 @@ $wisqars_ios_app->set_mixpanel_id('wisqars-applab-download');
 $wisqars_project->add_ios_app($wisqars_ios_app);
 
 $ios_projects = array (
-    $lydia_project,
-    $pedigree_project,
+    $bluebird_project,
     $clip_project,
     $epi_project,
+    $lydia_project,
     $minesim_project,
     $mmwr_map_project,
     $mmwr_nav_project,
