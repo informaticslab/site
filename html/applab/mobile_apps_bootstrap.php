@@ -590,7 +590,7 @@ $std3_android_app->set_mixpanel_id('std3-android-applab-download');
 $std3_project->add_android_app($std3_android_app);
 
 # Temp Monitor settings
-$tempmon_short_desc = 'The goal of this unique prototype has been to collaborate with CDC\'s STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.';
+$tempmon_short_desc = 'Enables travelers arriving into the United States to transmit daily self-reported body temperature measurements to the CDC.';
 $tempmon_project = new Project('tempmon', 'Temp Monitor', $tempmon_short_desc, 'images/tempmon_icon.png');
 $tempmon_ios_app = new IosApp('0.2.1.1', '10/9/2014', '107KB', 'TempMonitor.ipa', null);
 $tempmon_ios_app->set_github_link('https://github.com/informaticslab/ebolocatemp-ios');
