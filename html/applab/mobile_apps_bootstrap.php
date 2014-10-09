@@ -589,6 +589,17 @@ $std3_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'StdGuide.apk', '
 $std3_android_app->set_mixpanel_id('std3-android-applab-download');
 $std3_project->add_android_app($std3_android_app);
 
+# Temp Monitor settings
+$tempmon_short_desc = 'The goal of this unique prototype has been to collaborate with CDC\'s STD team to design mobile apps for the iOS and Android operating systems based on the 2010 STD Treatment Guidelines.';
+$tempmon_project = new Project('tempmon', 'Temp Monitor', $tempmon_short_desc, 'images/tempmon_icon.png');
+$tempmon_ios_app = new IosApp('0.2.1.1', '10/9/2014', '107KB', 'TempMonitor.ipa', null);
+$tempmon_ios_app->set_github_link('https://github.com/informaticslab/ebolocatemp-ios');
+$tempmon_ios_app->set_mixpanel_id('tempmon-applab-download');
+$tempmon_project->add_ios_app($tempmon_ios_app);
+$tempmon_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'StdGuide.apk', 'https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide');
+$tempmon_android_app->set_mixpanel_id('tempmon-android-applab-download');
+$tempmon_project->add_android_app($tempmon_android_app);
+
 # Tox Guide iPhone App
 $tox_guide_short_desc = 'Quick reference guide provides information such as chemical and physical properties, sources of exposure, minimal risk levels, children\'s health, and health effects.';
 $tox_guide_project = new Project('toxguide', 'ATSDR ToxGuide', $tox_guide_short_desc, 'images/tox_icon.png');
@@ -620,6 +631,7 @@ $ios_projects = array (
     $retro_project,
     $std1_project,
     $std2_project,
+    $tempmon_project,
     $tox_guide_project,
     $wisqars_project
 );

@@ -37,6 +37,8 @@ mixpanel.track_links('#lydia-android-applab-download', 'downloaded Lydia Android
 mixpanel.track_links('#lydia-ios-applab-download', 'downloaded Lydia iOS app from applab');
 mixpanel.track_links('#bluebird-ios-applab-download', 'downloaded Bluebird iOS app from applab');
 mixpanel.track_links('#pedigree-ios-applab-download', 'downloaded Pedigree iOS app from applab');
+mixpanel.track_links('#tempmon-applab-download', 'downloaded Temp Monitor iOS app from applab');
+mixpanel.track_links('#tempmon-android-applab-download', 'downloaded Temp Monitor Android app from applab');
 
 
 /*end mixpanel*/
