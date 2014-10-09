@@ -134,6 +134,11 @@
                 <?php $bluebird_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $tempmon_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
     </div>
  </div>
 

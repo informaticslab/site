@@ -596,7 +596,7 @@ $tempmon_ios_app = new IosApp('0.2.1.1', '10/9/2014', '107KB', 'TempMonitor.ipa'
 $tempmon_ios_app->set_github_link('https://github.com/informaticslab/ebolocatemp-ios');
 $tempmon_ios_app->set_mixpanel_id('tempmon-applab-download');
 $tempmon_project->add_ios_app($tempmon_ios_app);
-$tempmon_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'StdGuide.apk', 'https://play.google.com/store/apps/details?id=gov.cdc.oid.nchhstp.stdguide');
+$tempmon_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'tempmon.apk', null);
 $tempmon_android_app->set_mixpanel_id('tempmon-android-applab-download');
 $tempmon_project->add_android_app($tempmon_android_app);
 
