@@ -592,7 +592,7 @@ $std3_project->add_android_app($std3_android_app);
 # Temp Monitor settings
 $tempmon_short_desc = 'Enables travelers arriving into the United States to transmit daily self-reported body temperature measurements to the CDC.';
 $tempmon_project = new Project('tempmon', 'Temp Monitor', $tempmon_short_desc, 'images/tempmon_icon.png');
-$tempmon_ios_app = new IosApp('0.2.2.1', '10/10/2014', '367KB', 'TempMonitor.ipa', null);
+$tempmon_ios_app = new IosApp('0.2.3.1', '10/10/2014', '370KB', 'TempMonitor.ipa', null);
 $tempmon_ios_app->set_github_link('https://github.com/informaticslab/ebolocatemp-ios');
 $tempmon_ios_app->set_mixpanel_id('tempmon-applab-download');
 $tempmon_project->add_ios_app($tempmon_ios_app);
