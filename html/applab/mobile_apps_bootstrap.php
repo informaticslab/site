@@ -632,7 +632,7 @@ $ios_projects = array (
     $bluebird_project,
     $clip_project,
     $epi_project,
-    $everydose,
+    $everydose_project,
     $lydia_project,
     $minesim_project,
     $mmwr_map_project,
