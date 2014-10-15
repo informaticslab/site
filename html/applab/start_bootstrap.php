@@ -71,12 +71,12 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $everydose_project->write_panel(); ?>
+                <?php $epi_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $epi_project->write_panel(); ?>
+                <?php $everydose_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
@@ -119,7 +119,7 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-\               <?php $std3_project->write_panel(); ?>
+               <?php $std3_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
@@ -140,14 +140,6 @@
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-        </div><!-- /.col-sm-4 -->
-    </div>
  </div>
 
 <div class="container">
@@ -164,20 +156,19 @@
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <?php $clip_project->write_panel(); ?>
+                <?php $respguide_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <?php $respguide_project->write_panel(); ?>
+                <?php $clip_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-default">
                 <?php $std1_project->write_panel(); ?>
-                <?php $std2_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
