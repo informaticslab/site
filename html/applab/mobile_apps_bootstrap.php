@@ -489,6 +489,7 @@ $clip_ios_app = new IosApp('0.5.12.001', '6/1/2012', '1.9MB', 'clipam.ipa', null
 $clip_ios_app->set_github_link('https://github.com/informaticslab/clip');
 $clip_ios_app->set_bundle_id('gov.cdc.clipam');
 $clip_ios_app->set_mixpanel_id('clip-applab-download');
+$clip_ios_app->archive_app();
 $clip_project->add_ios_app($clip_ios_app);
 
 
@@ -532,7 +533,7 @@ $mmwr_map_project->add_ios_app($mmwr_map_ios_app);
 # MMWR Navigator App
 $mmwr_nav_short_desc = 'Utilizes the iPad\'s split screen interface to display MMWR content in a user-friendly way. Articles are organized into intuitive categories, making them easy to find.';
 $mmwr_nav_project = new Project('mmwr-navigator', 'MMWR Navigator', $mmwr_nav_short_desc, 'images/mmwr_nav_icon.png');
-$mmwr_nav_ios_app = new IosApp('0.8.11.1', '5/5/14', '10.9MB', 'mmwr-navigator.ipa', null);
+$mmwr_nav_ios_app = new IosApp('0.8.12.1', '10/15/14', '10.9MB', 'mmwr-navigator.ipa', null);
 $mmwr_nav_ios_app->set_github_link('https://github.com/informaticslab/mmwr-nav');
 $mmwr_nav_ios_app->set_bundle_id('gov.cdc.mmwr-navigator');
 $mmwr_nav_ios_app->set_mixpanel_id('mmwr-nav-applab-download');
