@@ -59,36 +59,36 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
+                <?php $retro_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $bluebird_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $everydose_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
                 <?php $epi_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $pedigree_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $photon_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $lydia_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $clip_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $ptt_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $minesim_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
@@ -107,7 +107,31 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $pedigree_project->write_panel(); ?>
+                <?php $minesim_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $ptt_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+\               <?php $std3_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $lydia_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $tempmon_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
@@ -119,31 +143,6 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $retro_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $std3_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $bluebird_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $tempmon_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <?php $everydose_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
@@ -160,27 +159,35 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <?php $respguide_project->write_panel(); ?>
+                <?php $tox_guide_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <?php $tox_guide_project->write_panel(); ?>
+                <?php $clip_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <?php $std1_project->write_panel(); ?>
+                <?php $respguide_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-default">
+                <?php $std1_project->write_panel(); ?>
                 <?php $std2_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+           <?php $std2_project->write_panel(); ?>
+        </div>
+    </div><!-- /.col-sm-4 -->
 </div>
 </body>
 
