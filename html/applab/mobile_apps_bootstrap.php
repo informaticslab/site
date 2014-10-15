@@ -562,7 +562,7 @@ $respguide_project->add_ios_app($respguide_ios_app);
 # Retro iPad App
 $retro_short_desc = 'Focuses on HIV Risk Assessment — specifically, Assessing your Risk of Contracting HIV (ARCH). This tool is the first in the ARCH suite to be delivered on a mobile platform.';
 $retro_project = new Project('retro', 'ARCH-Couples', $retro_short_desc, 'images/retro_icon.png');
-$retro_ios_app = new IosApp('0.2.1.2', '5/5/14', '957KB', 'retro.ipa', null);
+$retro_ios_app = new IosApp('0.2.2.1', '10/15/14', '957KB', 'retro.ipa', null);
 $retro_ios_app->set_github_link('https://github.com/informaticslab/retro');
 $retro_ios_app->set_bundle_id('gov.cdc.retro');
 $retro_ios_app->set_mixpanel_id('retro-applab-download');
