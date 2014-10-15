@@ -523,7 +523,7 @@ $minesim_project->add_ios_app($minesim_ios_app);
 # MMWR Map App
 $mmwr_map_short_desc = 'The MMWR brought to the iPad via a map-based navigation interface. The geographic areas relating to MMWR articles are indicated. There are a variety of filtering options.';
 $mmwr_map_project = new Project('mapapp', 'MMWR Map Navigator', $mmwr_map_short_desc, 'images/mmwr_map_icon.png');
-$mmwr_map_ios_app = new IosApp('1.3.5.001', '9/11/14', '328KB', 'MapApp.ipa', null);
+$mmwr_map_ios_app = new IosApp('1.3.6.1', '10/16/14', '328KB', 'MapApp.ipa', null);
 $mmwr_map_ios_app->set_github_link('https://github.com/informaticslab/mmwr-map');
 $mmwr_map_ios_app->set_bundle_id('gov.cdc.MmwrMapApp');
 $mmwr_map_ios_app->set_mixpanel_id('mmwr-map-applab-download');
