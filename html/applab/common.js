@@ -39,6 +39,8 @@ mixpanel.track_links('#bluebird-ios-applab-download', 'downloaded Bluebird iOS a
 mixpanel.track_links('#pedigree-ios-applab-download', 'downloaded Pedigree iOS app from applab');
 mixpanel.track_links('#tempmon-applab-download', 'downloaded Temp Monitor iOS app from applab');
 mixpanel.track_links('#tempmon-android-applab-download', 'downloaded Temp Monitor Android app from applab');
+mixpanel.track_links('#everydose-applab-download', 'downloaded Every Dose iOS app from applab');
+mixpanel.track_links('#everydose-android-applab-download', 'downloaded Every Dose Android app from applab');
 
 
 /*end mixpanel*/
