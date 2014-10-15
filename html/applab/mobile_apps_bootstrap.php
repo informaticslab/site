@@ -477,7 +477,7 @@ $lydia_project->add_android_app($lydia_android_app);
 # Bluebird settings
 $bluebird_short_desc = 'This project will test allowing Twitter users to respond to public health questions and share their answers using Twitter as a platform.';
 $bluebird_project = new Project('bluebird', 'Bluebird', $bluebird_short_desc, 'images/std1_icon.png');
-$bluebird_ios_app = new IosApp('0.1.5.1', '9/10/2014', '1.1MB', 'bluebird.ipa', null);
+$bluebird_ios_app = new IosApp('0.1.6.1', '10/15/14', '1.1MB', 'bluebird.ipa', null);
 $bluebird_ios_app->set_github_link('https://github.com/informaticslab/bluebird');
 $bluebird_ios_app->set_mixpanel_id('bluebird-ios-applab-download');
 $bluebird_project->add_ios_app($bluebird_ios_app);
@@ -503,10 +503,10 @@ $epi_project->add_ios_app($epi_ios_app);
 # EveryDose settings
 $everydose_short_desc = 'An easy-to-use app created by Centers for Disease Control (CDC) that reminds you to take your medications, helps keep track of your refills and appointments, and motivates you to stick to you regimen.';
 $everydose_project = new Project('everydose', 'EveryDose', $everydose_short_desc, 'images/tempmon_icon.png');
-$everydose_ios_app = new IosApp('1.0.0', '10/24/14', '12.1MB', 'EveryDose.ipa', null);
+$everydose_ios_app = new IosApp('1.0.0', '10/15/14', '12.1MB', 'EveryDose.ipa', null);
 $everydose_ios_app->set_mixpanel_id('everydose-applab-download');
 $everydose_project->add_ios_app($everydose_ios_app);
-$everydose_android_app = new AndroidApp('1.0.0','10/24/14', '7MB', 'EveryDose.apk', null);
+$everydose_android_app = new AndroidApp('1.0.0','10/15/14', '7MB', 'EveryDose.apk', null);
 $everydose_android_app->set_mixpanel_id('everydose-android-applab-download');
 $everydose_project->add_android_app($everydose_android_app);
 
