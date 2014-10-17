@@ -479,6 +479,7 @@ $bluebird_short_desc = 'This project will test allowing Twitter users to respond
 $bluebird_project = new Project('bluebird', 'Bluebird', $bluebird_short_desc, 'images/std1_icon.png');
 $bluebird_ios_app = new IosApp('0.1.6.1', '10/15/14', '1.1MB', 'bluebird.ipa', null);
 $bluebird_ios_app->set_github_link('https://github.com/informaticslab/bluebird');
+$bluebird_ios_app->set_bundle_id('gov.cdc.bluebird');
 $bluebird_ios_app->set_mixpanel_id('bluebird-ios-applab-download');
 $bluebird_project->add_ios_app($bluebird_ios_app);
 
@@ -502,9 +503,10 @@ $epi_ios_app->set_mixpanel_id('epi-applab-download');
 $epi_project->add_ios_app($epi_ios_app);
 
 # EveryDose settings
-$everydose_short_desc = 'An easy-to-use app created by Centers for Disease Control (CDC) that reminds you to take your medications, helps keep track of your refills and appointments, and motivates you to stick to you regimen.';
+$everydose_short_desc = 'An easy-to-use app created by Centers for Disease Control (CDC) that reminds you to take your medications, helps keep track of your refills and appointments, and motivates you to stick to your regimen.';
 $everydose_project = new Project('everydose', 'EveryDose', $everydose_short_desc, 'images/tempmon_icon.png');
 $everydose_ios_app = new IosApp('1.0.0', '10/15/14', '12.1MB', 'EveryDose.ipa', null);
+$everydose_ios_app->set_bundle_id('com.egen.BAApp');
 $everydose_ios_app->set_mixpanel_id('everydose-applab-download');
 $everydose_project->add_ios_app($everydose_ios_app);
 $everydose_android_app = new AndroidApp('1.0.0','10/15/14', '7MB', 'EveryDose.apk', null);
@@ -604,6 +606,7 @@ $std3_project->add_android_app($std3_android_app);
 $tempmon_short_desc = 'This is a proof of concept app that would enable travelers arriving into the United States to transmit daily self-reported body temperature measurements to the CDC.';
 $tempmon_project = new Project('tempmon', 'Temp Monitor', $tempmon_short_desc, 'images/tempmon_icon.png');
 $tempmon_ios_app = new IosApp('0.2.3.1', '10/10/2014', '370KB', 'TempMonitor.ipa', null);
+$tempmon_ios_app->set_bundle_id('gov.cdc.iiu.TempMonitor');
 $tempmon_ios_app->set_github_link('https://github.com/informaticslab/ebolocatemp-ios');
 $tempmon_ios_app->set_mixpanel_id('tempmon-applab-download');
 $tempmon_project->add_ios_app($tempmon_ios_app);
