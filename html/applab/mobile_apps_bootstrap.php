@@ -469,7 +469,7 @@ $lydia_ios_app->set_github_link('https://github.com/informaticslab/lydia-ios');
 $lydia_ios_app->set_bundle_id('gov.cdc.StdTxGuide');
 $lydia_ios_app->set_mixpanel_id('lydia-ios-applab-download');
 $lydia_project->add_ios_app($lydia_ios_app);
-$lydia_android_app = new AndroidApp('0.3.1','8/26/14', '732KB', 'lydia-release.apk', null);
+$lydia_android_app = new AndroidApp('0.3.4','10/20/14', '732KB', 'lydia-release.apk', null);
 $lydia_android_app->set_github_link('https://github.com/informaticslab/lydia-droid');
 $lydia_android_app->set_mixpanel_id('lydia-android-applab-download');
 $lydia_project->add_android_app($lydia_android_app);
