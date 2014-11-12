@@ -83,11 +83,6 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $pedigree_project->write_panel(); ?>
-            </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
                 <?php $photon_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -162,17 +157,22 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $pedigree_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
             <div class="panel panel-default">
                 <?php $respguide_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
                 <?php $std1_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-default">
                 <?php $std2_project->write_panel(); ?>
