@@ -549,6 +549,7 @@ $pedigree_ios_app = new IosApp('0.4.10.1', '4/15/14', '925KB', 'FamilyHistory.ip
 $pedigree_ios_app->set_github_link('https://github.com/informaticslab/pedigree');
 $pedigree_ios_app->set_bundle_id('gov.cdc.FamilyHistory');
 $pedigree_ios_app->set_mixpanel_id('pedigree-ios-applab-download');
+$pedigree_ios_app->archive_app();
 $pedigree_project->add_ios_app($pedigree_ios_app);
 
 # NIOSH Respirator App
