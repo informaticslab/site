@@ -1,5 +1,9 @@
-<?php require("login/login3.php"); ?>
-<?php require("mobile_apps_bootstrap.php"); ?>
+<?php
+
+require("login/login3.php");
+require("mobile_apps_bootstrap.php");
+
+?>
 
 
 <!DOCTYPE html>
@@ -56,6 +60,8 @@
             <div class="well well-sm" id="active_projects"><h4>Active Mobile Projects</h4></div>
         </div>
     </div>
+
+
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
@@ -86,52 +92,56 @@
                 <?php $photon_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $mmwr_map_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $mmwr_nav_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $minesim_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $ptt_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
-    </div>
-    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $std3_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
+    </div>
+    <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
                 <?php $lydia_project->write_panel(); ?>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <?php $tempmon_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
     <div class="row">
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $tempmon_project->write_panel(); ?>
+                <?php $wisqars_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
         <div class="col-sm-6">
             <div class="panel panel-primary">
-                <?php $wisqars_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
     </div>
