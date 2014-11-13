@@ -642,7 +642,6 @@ $ios_projects = array (
     $minesim_project,
     $mmwr_map_project,
     $mmwr_nav_project,
-    $pedigree_project,
     $respguide_project,
     $retro_project,
     $std1_project,

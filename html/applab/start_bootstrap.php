@@ -167,7 +167,7 @@ require("mobile_apps_bootstrap.php");
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <div class="panel panel-primary">
+            <div class="panel panel-default">
                 <?php $pedigree_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
