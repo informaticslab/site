@@ -140,10 +140,6 @@ require("mobile_apps_bootstrap.php");
                 <?php $wisqars_project->write_panel(); ?>
             </div>
         </div><!-- /.col-sm-4 -->
-        <div class="col-sm-6">
-            <div class="panel panel-primary">
-            </div>
-        </div><!-- /.col-sm-4 -->
     </div>
 </div>
 
