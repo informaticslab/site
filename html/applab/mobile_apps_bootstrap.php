@@ -502,7 +502,7 @@ $epi_project->add_ios_app($epi_ios_app);
 # EveryDose settings
 $everydose_short_desc = 'An easy-to-use app created by the CDC that reminds you to take your medications, helps keep track of your refills and appointments, and motivates you to stick to your regimen.';
 $everydose_project = new Project('everydose', 'EveryDose', $everydose_short_desc, 'images/tempmon_icon.png');
-$everydose_android_app = new AndroidApp('1.0.0','10/15/14', '7MB', 'EveryDose.apk', null);
+$everydose_android_app = new AndroidApp('1.1.0','12/03/14', '7MB', 'EveryDose.apk', null);
 $everydose_android_app->set_mixpanel_id('everydose-android-applab-download');
 $everydose_project->add_android_app($everydose_android_app);
 
